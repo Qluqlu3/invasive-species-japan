@@ -1,0 +1,18 @@
+# 依存関係・ビルド成果物
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+
+# 環境変数
+.env*
+
+# Git
+.git/
+.gitignore
+
+# ドキュメント（ビルド不要）
+*.md
+
+# Docker 自身
+Dockerfile
+.dockerignore
