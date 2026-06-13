@@ -20,18 +20,16 @@ invasive/
 │   ├── scrape-nies.ts     # NIES 侵入生物 DB から分布データを取得
 │   ├── scrape-nies-map.ts # NIES GIF 分布マップをピクセル解析して分布を補完
 │   └── types.ts           # 型定義・定数
-└── web/                   # Next.js アプリ（本ディレクトリ）
-    ├── app/               # App Router ページ
-    ├── components/        # React コンポーネント
-    └── lib/               # データアクセス・型定義
+├── app/                   # App Router ページ
+├── components/            # React コンポーネント
+└── lib/                   # データアクセス・型定義
 ```
 
 ## 開発サーバーの起動
 
 ```bash
-cd web
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 [http://localhost:3000](http://localhost:3000) で確認できます。
@@ -41,7 +39,7 @@ npm run dev
 ルートディレクトリで実行します（外部サイトへのリクエストがあるため数分かかります）:
 
 ```bash
-npm run build:data
+pnpm build:data
 ```
 
 以下の順でデータを収集・統合して `data/species.json` を更新します:
@@ -72,7 +70,7 @@ pip install Pillow
 docker compose up
 ```
 
-`compose.yml` に従って Web アプリが起動します。`DATA_DIR` 環境変数でデータディレクトリのパスを変更できます（デフォルト: `../data`）。
+`compose.yml` に従って Web アプリが起動します。
 
 ## データの品質について
 
