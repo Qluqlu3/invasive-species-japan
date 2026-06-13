@@ -47,7 +47,7 @@ export default function SpeciesList({ species }: Props) {
         <select
           value={category}
           onChange={(e) => setCategory(e.target.value)}
-          className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500"
         >
           <option value="">すべての分類群</option>
           {CATEGORIES.map((c) => (
@@ -59,7 +59,7 @@ export default function SpeciesList({ species }: Props) {
         <select
           value={conditional}
           onChange={(e) => setConditional(e.target.value as typeof conditional)}
-          className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500"
         >
           <option value="all">条件付き: すべて</option>
           <option value="no">特定外来生物のみ</option>
