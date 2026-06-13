@@ -1,0 +1,3723 @@
+[
+  {
+    "id": "trichosurus-vulpecula",
+    "jaName": "フクロギツネ",
+    "scientificName": "Trichosurus vulpecula",
+    "category": "哺乳類",
+    "order": "カンガルー目 Marsupialia",
+    "family": "クスクス科Phalangeridae",
+    "genus": "フクロギツネ属Trichosurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new4t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new3t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10370.html"
+  },
+  {
+    "id": "erinaceus-amurensis",
+    "jaName": "アムールハリネズミ",
+    "scientificName": "Erinaceus amurensis",
+    "category": "哺乳類",
+    "order": "モグラ目 Insectivora",
+    "family": "ハリネズミ科Erinaceidae",
+    "genus": "ハリネズミ属Erinaceus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "erinaceus",
+    "jaName": "その他のハリネズミ属",
+    "scientificName": "Erinaceus",
+    "category": "哺乳類",
+    "order": "モグラ目 Insectivora",
+    "family": "ハリネズミ科Erinaceidae",
+    "genus": "ハリネズミ属Erinaceus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "macaca-cyclopis",
+    "jaName": "タイワンザル",
+    "scientificName": "Macaca cyclopis",
+    "category": "哺乳類",
+    "order": "霊長目 （サル目） Primates",
+    "family": "オナガザル科Cercopithecidae",
+    "genus": "マカカ属Macaca",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwan_zaru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new4t.jpg"
+    ],
+    "prefectures": [
+      "静岡",
+      "和歌山",
+      "青森"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html"
+  },
+  {
+    "id": "macaca-fascicularis",
+    "jaName": "カニクイザル",
+    "scientificName": "Macaca fascicularis",
+    "category": "哺乳類",
+    "order": "霊長目 （サル目） Primates",
+    "family": "オナガザル科Cercopithecidae",
+    "genus": "マカカ属Macaca",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru03t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10380.html"
+  },
+  {
+    "id": "macaca-mulatta",
+    "jaName": "アカゲザル",
+    "scientificName": "Macaca mulatta",
+    "category": "哺乳類",
+    "order": "霊長目 （サル目） Primates",
+    "family": "オナガザル科Cercopithecidae",
+    "genus": "マカカ属Macaca",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru02t.jpg"
+    ],
+    "prefectures": [
+      "千葉",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html"
+  },
+  {
+    "id": "macaca-cyclopis-m-fuscata",
+    "jaName": "タイワンザル×ニホンザル",
+    "scientificName": "Macaca cyclopis×M fuscata",
+    "category": "哺乳類",
+    "order": "霊長目 （サル目） Primates",
+    "family": "オナガザル科Cercopithecidae",
+    "genus": "マカカ属Macaca",
+    "status": "近年生息情報なし",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwan_zaru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new4t.jpg"
+    ],
+    "prefectures": [
+      "青森",
+      "静岡",
+      "和歌山"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html"
+  },
+  {
+    "id": "macaca-mulatta-m-fuscata",
+    "jaName": "アカゲザル×ニホンザル",
+    "scientificName": "Macaca mulatta×M fuscata",
+    "category": "哺乳類",
+    "order": "霊長目 （サル目） Primates",
+    "family": "オナガザル科Cercopithecidae",
+    "genus": "マカカ属Macaca",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru02t.jpg"
+    ],
+    "prefectures": [
+      "千葉",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html"
+  },
+  {
+    "id": "myocastor-coypus",
+    "jaName": "ヌートリア",
+    "scientificName": "Myocastor coypus",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "ヌートリア科Myocastoridae",
+    "genus": "ヌートリア属Myocastor",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nu-toria1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nu-toria2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nutria01t.jpg"
+    ],
+    "prefectures": [
+      "福島",
+      "埼玉",
+      "福井",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "奈良",
+      "京都",
+      "大阪",
+      "兵庫",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "香川",
+      "愛媛"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10140.html"
+  },
+  {
+    "id": "callosciurus-erythraeus",
+    "jaName": "クリハラリス",
+    "scientificName": "Callosciurus erythraeus",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "リス科Sciuridae",
+    "genus": "ハイガシラリス属Callosciurus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kurihararisu1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/taiwan_risu01t.jpg"
+    ],
+    "prefectures": [
+      "神奈川",
+      "静岡",
+      "埼玉",
+      "東京",
+      "岐阜",
+      "京都",
+      "大阪",
+      "兵庫",
+      "和歌山",
+      "長崎",
+      "熊本",
+      "大分"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10060.html"
+  },
+  {
+    "id": "callosciurus-finlaysonii",
+    "jaName": "フィンレイソンリス",
+    "scientificName": "Callosciurus finlaysonii",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "リス科Sciuridae",
+    "genus": "ハイガシラリス属Callosciurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finrenisonrisu_new3t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finreisonrisu_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finreisonrisu_new6t.JPG"
+    ],
+    "prefectures": [
+      "静岡"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10540.html"
+  },
+  {
+    "id": "pteromys-volans",
+    "jaName": "タイリクモモンガ",
+    "scientificName": "Pteromys volans",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "リス科Sciuridae",
+    "genus": "プテロミュス属Pteromys",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new3t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10400.html"
+  },
+  {
+    "id": "sciurus-carolinensis",
+    "jaName": "トウブハイイロリス",
+    "scientificName": "Sciurus carolinensis",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "リス科Sciuridae",
+    "genus": "リス属Sciurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu03t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10410.html"
+  },
+  {
+    "id": "sciurus-vulgaris",
+    "jaName": "キタリス",
+    "scientificName": "Sciurus vulgaris",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "リス科Sciuridae",
+    "genus": "リス属Sciurus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "山梨",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10420.html"
+  },
+  {
+    "id": "ondratra-zibethicus",
+    "jaName": "マスクラット",
+    "scientificName": "Ondratra zibethicus",
+    "category": "哺乳類",
+    "order": "ネズミ目Rodentia",
+    "family": "ネズミ科Muridae",
+    "genus": "マスクラット属Ondratra",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/masukuratto_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/masukuratto_new2t.JPG"
+    ],
+    "prefectures": [
+      "埼玉",
+      "千葉",
+      "東京",
+      "京都"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10090.html"
+  },
+  {
+    "id": "procyon-cancrivorus",
+    "jaName": "カニクイアライグマ",
+    "scientificName": "Procyon cancrivorus",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "アライグマ科Procyonidae",
+    "genus": "アライグマ属Procyon",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma4t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10430.html"
+  },
+  {
+    "id": "procyon-lotor",
+    "jaName": "アライグマ",
+    "scientificName": "Procyon lotor",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "アライグマ科Procyonidae",
+    "genus": "アライグマ属Procyon",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma4t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma01t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10150.html"
+  },
+  {
+    "id": "mustela-vison",
+    "jaName": "アメリカミンク",
+    "scientificName": "Mustela vison",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "イタチ科Mustelidae",
+    "genus": "イタチ属Mustela",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_minku01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_minku02t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "宮城",
+      "福島",
+      "群馬",
+      "長野"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10190.html"
+  },
+  {
+    "id": "herpestes-auropunctatus",
+    "jaName": "フイリマングース",
+    "scientificName": "Herpestes auropunctatus",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "マングース科Herpestidae",
+    "genus": "エジプトマングース属Herpestes",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose3t.png"
+    ],
+    "prefectures": [
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10210.html"
+  },
+  {
+    "id": "herpestes-javanicus",
+    "jaName": "ジャワマングース",
+    "scientificName": "Herpestes javanicus",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "マングース科Herpestidae",
+    "genus": "エジプトマングース属Herpestes",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10530.html"
+  },
+  {
+    "id": "mungos-mungo",
+    "jaName": "シママングース",
+    "scientificName": "Mungos mungo",
+    "category": "哺乳類",
+    "order": "食肉目（ネコ目）Carnivora",
+    "family": "マングース科Herpestidae",
+    "genus": "シママングース属Mungos",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10470.html"
+  },
+  {
+    "id": "axis",
+    "jaName": "アキシスジカ属の全種",
+    "scientificName": "Axis",
+    "category": "哺乳類",
+    "order": "偶蹄目 （ウシ目） Artiodactyla",
+    "family": "シカ科Cervidae",
+    "genus": "アキシスジカ属Axis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akishisujika01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akishisujika02t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10440.html"
+  },
+  {
+    "id": "dama",
+    "jaName": "ダマシカ属の全種",
+    "scientificName": "Dama",
+    "category": "哺乳類",
+    "order": "偶蹄目 （ウシ目） Artiodactyla",
+    "family": "シカ科Cervidae",
+    "genus": "ダマシカ属Dama",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/damashika_new2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/damashika_new1t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10450.html"
+  },
+  {
+    "id": "elaphurus-davidianus",
+    "jaName": "シフゾウ",
+    "scientificName": "Elaphurus davidianus",
+    "category": "哺乳類",
+    "order": "偶蹄目 （ウシ目） Artiodactyla",
+    "family": "シカ科Cervidae",
+    "genus": "シフゾウ属Elaphurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new4t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10460.html"
+  },
+  {
+    "id": "muntiacus-reevesi",
+    "jaName": "キョン",
+    "scientificName": "Muntiacus reevesi",
+    "category": "哺乳類",
+    "order": "偶蹄目 （ウシ目） Artiodactyla",
+    "family": "シカ科Cervidae",
+    "genus": "ホエジカ属Muntiacus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon_new1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon_new2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon01t.jpg"
+    ],
+    "prefectures": [
+      "千葉"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10250.html"
+  },
+  {
+    "id": "branta-canadensis",
+    "jaName": "カナダガン",
+    "scientificName": "Branta canadensis",
+    "category": "鳥類",
+    "order": "カモ目Anseriformes",
+    "family": "カモ科Anatidae",
+    "genus": "ブランタ属Branta",
+    "status": "根絶",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/canadagoose1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/canadagoose2t.jpg"
+    ],
+    "prefectures": [
+      "山梨",
+      "静岡",
+      "宮城",
+      "茨城",
+      "神奈川",
+      "長野"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20430.html"
+  },
+  {
+    "id": "pycnonotus-cafer",
+    "jaName": "シリアカヒヨドリ",
+    "scientificName": "Pycnonotus cafer",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "ヒヨドリ科Pyconotidae",
+    "genus": "シロガシラ属Pycnonotus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "神奈川"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20450.html"
+  },
+  {
+    "id": "garrulax-canorus",
+    "jaName": "ガビチョウ",
+    "scientificName": "Garrulax canorus",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "チメドリ科Timaliidae",
+    "genus": "ガビチョウ属Garrulax",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho01t.jpg"
+    ],
+    "prefectures": [
+      "宮城",
+      "福島",
+      "千葉",
+      "大阪",
+      "兵庫",
+      "鳥取",
+      "島根",
+      "山口",
+      "高知",
+      "鹿児島"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20150.html"
+  },
+  {
+    "id": "garrulax-cineraceus",
+    "jaName": "ヒゲガビチョウ",
+    "scientificName": "Garrulax cineraceus",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "チメドリ科Timaliidae",
+    "genus": "ガビチョウ属Garrulax",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho01t.jpg"
+    ],
+    "prefectures": [
+      "香川",
+      "愛媛",
+      "高知"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20470.html"
+  },
+  {
+    "id": "garrulax-perspicillatus",
+    "jaName": "カオグロガビチョウ",
+    "scientificName": "Garrulax perspicillatus",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "チメドリ科Timaliidae",
+    "genus": "ガビチョウ属Garrulax",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kaoguro_gabicho01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kaoguro_gabicho02t.jpg"
+    ],
+    "prefectures": [
+      "岩手",
+      "群馬",
+      "埼玉",
+      "東京",
+      "神奈川"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20130.html"
+  },
+  {
+    "id": "garrulax-sannio",
+    "jaName": "カオジロガビチョウ",
+    "scientificName": "Garrulax sannio",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "チメドリ科Timaliidae",
+    "genus": "ガビチョウ属Garrulax",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabi1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabi2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabityou_new1t.jpg"
+    ],
+    "prefectures": [
+      "千葉"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20420.html"
+  },
+  {
+    "id": "leiothrix-lutea",
+    "jaName": "ソウシチョウ",
+    "scientificName": "Leiothrix lutea",
+    "category": "鳥類",
+    "order": "スズメ目 Passeriformes",
+    "family": "チメドリ科Timaliidae",
+    "genus": "ソウシチョウ属Leiothrix",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho03t.jpg"
+    ],
+    "prefectures": [
+      "茨城",
+      "東京",
+      "神奈川",
+      "山梨",
+      "静岡",
+      "愛知",
+      "大阪",
+      "奈良",
+      "和歌山",
+      "山形",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "福井",
+      "長野",
+      "岐阜",
+      "三重",
+      "兵庫",
+      "福岡",
+      "熊本",
+      "大分",
+      "宮崎"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20160.html"
+  },
+  {
+    "id": "chelydra-serpentina",
+    "jaName": "カミツキガメ",
+    "scientificName": "Chelydra serpentina",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "カミツキガメ科Chelydridae",
+    "genus": "カミツキガメ属Chelydra",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame02t.jpg"
+    ],
+    "prefectures": [
+      "千葉",
+      "東京",
+      "静岡",
+      "京都",
+      "福島",
+      "茨城",
+      "群馬",
+      "埼玉",
+      "神奈川",
+      "新潟",
+      "石川",
+      "山梨",
+      "長野",
+      "鳥取",
+      "岡山",
+      "広島",
+      "山口",
+      "香川",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30010.html"
+  },
+  {
+    "id": "trachemys-scripta",
+    "jaName": "アカミミガメ",
+    "scientificName": "Trachemys scripta",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "ヌマガメ科Emydidae",
+    "genus": "アカミミガメ属Trachemys",
+    "status": "定着",
+    "isConditional": true,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akamimit.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akamimigame2t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30050.html"
+  },
+  {
+    "id": "mauremys-mutica",
+    "jaName": "ハナガメ",
+    "scientificName": "Mauremys mutica",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "イシガメ科Geoemydidae",
+    "genus": "イシガメ属Mauremys",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new2t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+  },
+  {
+    "id": "mauremys-sinensis-m-japonica",
+    "jaName": "ハナガメ×ニホンイシガメ",
+    "scientificName": "Mauremys sinensis×M japonica",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "イシガメ科Geoemydidae",
+    "genus": "イシガメ属Mauremys",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+  },
+  {
+    "id": "mauremys-sinensis-m-mutica",
+    "jaName": "ハナガメ×ミナミイシガメ",
+    "scientificName": "Mauremys sinensis×M mutica",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "イシガメ科Geoemydidae",
+    "genus": "イシガメ属Mauremys",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+  },
+  {
+    "id": "mauremys-sinensis-m-reevesii",
+    "jaName": "ハナガメ×クサガメ",
+    "scientificName": "Mauremys sinensis×M reevesii",
+    "category": "爬虫類",
+    "order": "カメ目 Testudinata",
+    "family": "イシガメ科Geoemydidae",
+    "genus": "イシガメ属Mauremys",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/hanagame_kusagame_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/hanagame_kusagame_new2t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+  },
+  {
+    "id": "japalura-swinhonis",
+    "jaName": "スウィンホーキノボリトカゲ",
+    "scientificName": "Japalura swinhonis",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "アガマ科Agamidae",
+    "genus": "キノボリトカゲ属Japalura",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new3t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new4t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new5t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new6t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new7t.JPG"
+    ],
+    "prefectures": [
+      "神奈川",
+      "静岡",
+      "宮崎"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30410.html"
+  },
+  {
+    "id": "a-allogus",
+    "jaName": "アノリス・アルログス",
+    "scientificName": "A allogus",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30420.html"
+  },
+  {
+    "id": "anolis-alutaceus",
+    "jaName": "アノリス・アルタケウス",
+    "scientificName": "Anolis alutaceus",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30430.html"
+  },
+  {
+    "id": "anolis-angusticeps",
+    "jaName": "アノリス・アングスティケプス",
+    "scientificName": "Anolis angusticeps",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/anolisangusticeps1t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30330.html"
+  },
+  {
+    "id": "anolis-carolinensis",
+    "jaName": "グリーンアノール",
+    "scientificName": "Anolis carolinensis",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/greenanole1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/greenanole2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/green_anole01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30100.html"
+  },
+  {
+    "id": "anolis-equestris",
+    "jaName": "ナイトアノール",
+    "scientificName": "Anolis equestris",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30220.html"
+  },
+  {
+    "id": "anolis-garmanni",
+    "jaName": "ガーマンアノール",
+    "scientificName": "Anolis garmanni",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30230.html"
+  },
+  {
+    "id": "anolis-homolechis",
+    "jaName": "アノリス・ホモレキス",
+    "scientificName": "Anolis homolechis",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30440.html"
+  },
+  {
+    "id": "anolis-sagrei",
+    "jaName": "ブラウンアノール",
+    "scientificName": "Anolis sagrei",
+    "category": "爬虫類",
+    "order": "トカゲ亜目 Squamata",
+    "family": "タテガミトカゲ科（イグアナ）Iguanidae（Polychrotidae）",
+    "genus": "アノール属Anolis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/brownanole2t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30200.html"
+  },
+  {
+    "id": "boiga-cyanea",
+    "jaName": "ミドリオオガシラ",
+    "scientificName": "Boiga cyanea",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "オオガシラ属Boiga",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30240.html"
+  },
+  {
+    "id": "boiga-cynodon",
+    "jaName": "イヌバオオガシラ",
+    "scientificName": "Boiga cynodon",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "オオガシラ属Boiga",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30250.html"
+  },
+  {
+    "id": "boiga-dendrophila",
+    "jaName": "マングローブヘビ",
+    "scientificName": "Boiga dendrophila",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "オオガシラ属Boiga",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/mangrovehebi1t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30260.html"
+  },
+  {
+    "id": "boiga-irregularis",
+    "jaName": "ミナミオオガシラ",
+    "scientificName": "Boiga irregularis",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "オオガシラ属Boiga",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/minamioogashira1t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30210.html"
+  },
+  {
+    "id": "boiga-nigriceps",
+    "jaName": "ボウシオオガシラ",
+    "scientificName": "Boiga nigriceps",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "オオガシラ属Boiga",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/boushioogashira1t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30270.html"
+  },
+  {
+    "id": "elaphe-taeniura-friesi",
+    "jaName": "タイワンスジオ",
+    "scientificName": "Elaphe taeniura friesi",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "ナミヘビ科 Colubridae",
+    "genus": "ナメラ属Elaphe",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new3t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30120.html"
+  },
+  {
+    "id": "protobothrops-mucrosquamatus",
+    "jaName": "タイワンハブ",
+    "scientificName": "Protobothrops mucrosquamatus",
+    "category": "爬虫類",
+    "order": "へビ亜目",
+    "family": "クサリヘビ科Viperidae",
+    "genus": "ハブ属Protobothrops",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new3t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new4t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30130.html"
+  },
+  {
+    "id": "bufo-cognatus",
+    "jaName": "プレーンズヒキガエル",
+    "scientificName": "Bufo cognatus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40160.html"
+  },
+  {
+    "id": "bufo-guttatus",
+    "jaName": "キンイロヒキガエル",
+    "scientificName": "Bufo guttatus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40170.html"
+  },
+  {
+    "id": "bufo-marinus",
+    "jaName": "オオヒキガエル",
+    "scientificName": "Bufo marinus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru02t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40010.html"
+  },
+  {
+    "id": "bufo-melanostictus",
+    "jaName": "ヘリグロヒキガエル",
+    "scientificName": "Bufo melanostictus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new2t.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40360.html"
+  },
+  {
+    "id": "bufo-punctatus",
+    "jaName": "アカボシヒキガエル",
+    "scientificName": "Bufo punctatus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40180.html"
+  },
+  {
+    "id": "bufo-quercicus",
+    "jaName": "オークヒキガエル",
+    "scientificName": "Bufo quercicus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40190.html"
+  },
+  {
+    "id": "bufo-regularis",
+    "jaName": "アフリカヒキガエル",
+    "scientificName": "Bufo regularis",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40370.html"
+  },
+  {
+    "id": "bufo-speciosus",
+    "jaName": "テキサスヒキガエル",
+    "scientificName": "Bufo speciosus",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40200.html"
+  },
+  {
+    "id": "bufo-typhonius",
+    "jaName": "コノハヒキガエル",
+    "scientificName": "Bufo typhonius",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ヒキガエル科 Bufonidae",
+    "genus": "ヒキガエル属Bufo",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/konohahikigaeru1t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40210.html"
+  },
+  {
+    "id": "osteopilus-septentrionalis",
+    "jaName": "キューバズツキガエル",
+    "scientificName": "Osteopilus septentrionalis",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "アマガエル科Hylidae",
+    "genus": "ズツキガエル属Osteopilus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40140.html"
+  },
+  {
+    "id": "eleutherodactylus-coqui",
+    "jaName": "コキーコヤスガエル",
+    "scientificName": "Eleutherodactylus coqui",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ユビナガガエル科Leptodactylidae",
+    "genus": "コヤスガエル属Eleutherodactylus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40150.html"
+  },
+  {
+    "id": "eleutherodactylus-johnstonei",
+    "jaName": "ジョンストンコヤスガエル",
+    "scientificName": "Eleutherodactylus johnstonei",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ユビナガガエル科Leptodactylidae",
+    "genus": "コヤスガエル属Eleutherodactylus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40340.html"
+  },
+  {
+    "id": "eleutherodactylus-planirostris",
+    "jaName": "オンシツガエル",
+    "scientificName": "Eleutherodactylus planirostris",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ユビナガガエル科Leptodactylidae",
+    "genus": "コヤスガエル属Eleutherodactylus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40350.html"
+  },
+  {
+    "id": "kaloula-pulchra",
+    "jaName": "アジアジムグリガエル",
+    "scientificName": "Kaloula pulchra",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "ジムグリガエル科Microhylidae",
+    "genus": "ジムグリガエル属Kaloula",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new3t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40330.html"
+  },
+  {
+    "id": "rana-catesbeiana",
+    "jaName": "ウシガエル",
+    "scientificName": "Rana catesbeiana",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "アカガエル科Ranidae",
+    "genus": "アカガエル属Rana",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru02t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40020.html"
+  },
+  {
+    "id": "polypedates-leucomystax",
+    "jaName": "シロアゴガエル",
+    "scientificName": "Polypedates leucomystax",
+    "category": "両生類",
+    "order": "無尾目（カエル目） Anura",
+    "family": "アオガエル科Rhacorhoridae",
+    "genus": "シロアゴガエル属Polypedates",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new3t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new7t.JPG"
+    ],
+    "prefectures": [
+      "沖縄",
+      "鹿児島"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40030.html"
+  },
+  {
+    "id": "andrias",
+    "jaName": "オオサンショウウオ属に属する種間の交雑により生じた生物",
+    "scientificName": "Andrias",
+    "category": "両生類",
+    "order": "有尾目Caudata",
+    "family": "オオサンショウウオ科Cryptobranchidae",
+    "genus": "オオサンショウウオ属Andrias",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "atractosteus-lepisosteus-lepisosteidae-spp",
+    "jaName": "ガー科の全種",
+    "scientificName": "Atractosteus Lepisosteus Lepisosteidae spp.",
+    "category": "魚類",
+    "order": "ガー目 Lepisosteiformes",
+    "family": "ガー科Lepisosteidae",
+    "genus": "ガー属 Atractosteus Lepisosteus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/spottd_gat.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51090.html"
+  },
+  {
+    "id": "atractosteus-lepisosteus",
+    "jaName": "ガー科に属する種間の交雑により生じた生物",
+    "scientificName": "Atractosteus Lepisosteus",
+    "category": "魚類",
+    "order": "ガー目 Lepisosteiformes",
+    "family": "ガー科Lepisosteidae",
+    "genus": "ガー属 Atractosteus Lepisosteus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "acheilognathus-macropterus",
+    "jaName": "オオタナゴ",
+    "scientificName": "Acheilognathus macropterus",
+    "category": "魚類",
+    "order": "コイ目 Cypriniformes",
+    "family": "コイ科Cyprinidae",
+    "genus": "タナゴ属Acheilognathus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/ootanago_new1_malet.JPG"
+    ],
+    "prefectures": [
+      "茨城",
+      "栃木",
+      "埼玉",
+      "千葉",
+      "東京",
+      "京都"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50010.html"
+  },
+  {
+    "id": "tachysurus-fulvidraco",
+    "jaName": "コウライギギ",
+    "scientificName": "Tachysurus fulvidraco",
+    "category": "魚類",
+    "order": "ナマズ目 Siluriformes",
+    "family": "ギギ科Bagridae",
+    "genus": "ギバチ属Tachysurus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "茨城",
+      "千葉",
+      "東京",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51100.html"
+  },
+  {
+    "id": "ameiurus-nebulosus",
+    "jaName": "ブラウンブルヘッド",
+    "scientificName": "Ameiurus nebulosus",
+    "category": "魚類",
+    "order": "ナマズ目 Siluriformes",
+    "family": "イクタルルス科Ictaluridae",
+    "genus": "アメイウルス属 Ameiurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51110.html"
+  },
+  {
+    "id": "ictalurus-punctatus",
+    "jaName": "チャネルキャットフィッシュ",
+    "scientificName": "Ictalurus punctatus",
+    "category": "魚類",
+    "order": "ナマズ目 Siluriformes",
+    "family": "イクタルルス科Ictaluridae",
+    "genus": "イクタルルス属Ictalurus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/chanelcatfisht.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "茨城",
+      "栃木",
+      "埼玉",
+      "千葉",
+      "福島",
+      "群馬",
+      "東京",
+      "神奈川",
+      "新潟",
+      "長野",
+      "岐阜",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "奈良",
+      "熊本"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50120.html"
+  },
+  {
+    "id": "pylodictis-olivaris",
+    "jaName": "フラットヘッドキャットフィッシュ",
+    "scientificName": "Pylodictis olivaris",
+    "category": "魚類",
+    "order": "ナマズ目 Siluriformes",
+    "family": "イクタルルス科Ictaluridae",
+    "genus": "ピロディクティス属Pylodictis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51120.html"
+  },
+  {
+    "id": "silurus-glanis",
+    "jaName": "ヨーロッパナマズ",
+    "scientificName": "Silurus glanis",
+    "category": "魚類",
+    "order": "ナマズ目 Siluriformes",
+    "family": "ナマズ科Siluridae",
+    "genus": "ナマズ属Silurus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "滋賀"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51070.html"
+  },
+  {
+    "id": "esox-esocidae-spp",
+    "jaName": "カワカマス科の全種",
+    "scientificName": "Esox Esocidae spp.",
+    "category": "魚類",
+    "order": "カワカマス（パイク）目 Esociformes",
+    "family": "カワカマス（パイク）科 Esocidae",
+    "genus": "カワカマス（パイク）属Esox",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51130.html"
+  },
+  {
+    "id": "esox",
+    "jaName": "カワカマス科に属する種間の交雑により生じた生物",
+    "scientificName": "Esox",
+    "category": "魚類",
+    "order": "カワカマス（パイク）目 Esociformes",
+    "family": "カワカマス（パイク）科 Esocidae",
+    "genus": "カワカマス（パイク）属Esox",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "gambusia-affinis",
+    "jaName": "カダヤシ",
+    "scientificName": "Gambusia affinis",
+    "category": "魚類",
+    "order": "カダヤシ目 Cyprinodontiformes",
+    "family": "カダヤシ科Poeciliidae",
+    "genus": "カダヤシ属Gambusia",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayasi_new1_femalet.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayashi_new2_malet.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayasi_new3t.JPG"
+    ],
+    "prefectures": [
+      "福島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50230.html"
+  },
+  {
+    "id": "gambusia-holbrooki",
+    "jaName": "ガンブスィア・ホルブロオキ",
+    "scientificName": "Gambusia holbrooki",
+    "category": "魚類",
+    "order": "カダヤシ目 Cyprinodontiformes",
+    "family": "カダヤシ科Poeciliidae",
+    "genus": "カダヤシ属Gambusia",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/g_holbrooki_left_mesy_right_osut.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51140.html"
+  },
+  {
+    "id": "lepomis-macrochirus",
+    "jaName": "ブルーギル",
+    "scientificName": "Lepomis macrochirus",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "サンフィッシュ科Centrarchidae",
+    "genus": "ブルーギル属Lepomis",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill03t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50310.html"
+  },
+  {
+    "id": "micropterus-dolomieu",
+    "jaName": "コクチバス",
+    "scientificName": "Micropterus dolomieu",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "サンフィッシュ科Centrarchidae",
+    "genus": "オオクチバス属Micropterus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kokuchibasu01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kokuchibasu02t.jpg"
+    ],
+    "prefectures": [
+      "福島",
+      "栃木",
+      "長野",
+      "滋賀",
+      "奈良"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50320.html"
+  },
+  {
+    "id": "micropterus-salmoides",
+    "jaName": "オオクチバス",
+    "scientificName": "Micropterus salmoides",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "サンフィッシュ科Centrarchidae",
+    "genus": "オオクチバス属Micropterus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu03t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50330.html"
+  },
+  {
+    "id": "neogobius-melanostomus",
+    "jaName": "ラウンドゴビー",
+    "scientificName": "Neogobius melanostomus",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "ハゼ科Gobiidae",
+    "genus": "ネオゴビウス属Neogobius",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51150.html"
+  },
+  {
+    "id": "lates-niloticus",
+    "jaName": "ナイルパーチ",
+    "scientificName": "Lates niloticus",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "アカメ科Latidae",
+    "genus": "アカメ属Lates",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/nairupa-tit.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51060.html"
+  },
+  {
+    "id": "morone-americana",
+    "jaName": "ホワイトパーチ",
+    "scientificName": "Morone americana",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "モロネ科（狭義）Moronidae",
+    "genus": "モロネ属Morone",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51160.html"
+  },
+  {
+    "id": "morone-chrysops",
+    "jaName": "ホワイトバス",
+    "scientificName": "Morone chrysops",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "モロネ科（狭義）Moronidae",
+    "genus": "モロネ属Morone",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "東京"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50980.html"
+  },
+  {
+    "id": "morone-saxatilis",
+    "jaName": "ストライプトバス",
+    "scientificName": "Morone saxatilis",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "モロネ科（狭義）Moronidae",
+    "genus": "モロネ属Morone",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/sutoraiputpbasst.JPG"
+    ],
+    "prefectures": [
+      "東京"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50970.html"
+  },
+  {
+    "id": "morone-saxatilis-m-chrysops",
+    "jaName": "ホワイトバス×ストライプトバス",
+    "scientificName": "Morone saxatilis×M chrysops",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "モロネ科（狭義）Moronidae",
+    "genus": "モロネ属Morone",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/fish/sutoraiputpbasst.JPG"
+    ],
+    "prefectures": []
+  },
+  {
+    "id": "gymnocephalus-cernua",
+    "jaName": "ラッフ",
+    "scientificName": "Gymnocephalus cernua",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "パーチ科Percidae",
+    "genus": "ギュムノケファルス属Gymnocephalus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51170.html"
+  },
+  {
+    "id": "perca-fluviatilis",
+    "jaName": "ヨーロピアンパーチ",
+    "scientificName": "Perca fluviatilis",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "パーチ科Percidae",
+    "genus": "ペルカ属Perca",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50990.html"
+  },
+  {
+    "id": "sander-lucioperca",
+    "jaName": "パイクパーチ",
+    "scientificName": "Sander lucioperca",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "パーチ科Percidae",
+    "genus": "サンデル属Sander（Stizostedion）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51000.html"
+  },
+  {
+    "id": "siniperca-chuatsi",
+    "jaName": "ケツギョ",
+    "scientificName": "Siniperca chuatsi",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "ケツギョ科Sinipercidae",
+    "genus": "ケツギョ属Siniperca",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kourai_ketsugyo01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51010.html"
+  },
+  {
+    "id": "siniperca-scherzeri",
+    "jaName": "コウライケツギョ",
+    "scientificName": "Siniperca scherzeri",
+    "category": "魚類",
+    "order": "スズキ目 Perciformes (Percoidei)",
+    "family": "ケツギョ科Sinipercidae",
+    "genus": "ケツギョ属Siniperca",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kourai_ketsugyo01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51020.html"
+  },
+  {
+    "id": "hestina-assimillis",
+    "jaName": "アカボシゴマダラ",
+    "scientificName": "Hestina assimillis",
+    "category": "昆虫類",
+    "order": "チョウ目 Lepidoptera",
+    "family": "タテハチョウ科Nymphalidae",
+    "genus": "ゴマダラチョウ属Hestina",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new3_teionkigatat.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new2t.JPG"
+    ],
+    "prefectures": [
+      "神奈川",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "石川",
+      "山梨",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "京都"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60400.html"
+  },
+  {
+    "id": "anoplophora-glabripennis",
+    "jaName": "ツヤハダゴマダラカミキリ",
+    "scientificName": "Anoplophora glabripennis",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "カミキリムシ科Cerambycidae",
+    "genus": "ゴマダラカミキリ属Anoplophora",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "宮城",
+      "福島",
+      "茨城",
+      "埼玉",
+      "神奈川",
+      "富山",
+      "愛知",
+      "兵庫",
+      "山口",
+      "熊本"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60310.html"
+  },
+  {
+    "id": "apriona-swainsoni",
+    "jaName": "サビイロクワカミキリ",
+    "scientificName": "Apriona swainsoni",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "カミキリムシ科Cerambycidae",
+    "genus": "クワカミキリ属Apriona",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60590.html"
+  },
+  {
+    "id": "aromia-bungii",
+    "jaName": "クビアカツヤカミキリ",
+    "scientificName": "Aromia bungii",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "カミキリムシ科Cerambycidae",
+    "genus": "ジャコウカミキリ属Aromia",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiakahidari_osu_migi_mesut.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiaka_new3t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiaka_new1t.JPG"
+    ],
+    "prefectures": [
+      "群馬",
+      "埼玉",
+      "東京",
+      "愛知",
+      "京都",
+      "茨城",
+      "栃木",
+      "千葉",
+      "神奈川",
+      "岐阜",
+      "三重",
+      "滋賀",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "徳島"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60560.html"
+  },
+  {
+    "id": "neolucanus-angulatus",
+    "jaName": "アングラートゥスマルバネクワガタ",
+    "scientificName": "Neolucanus angulatus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-baladeva",
+    "jaName": "バラデバマルバネクワガタ",
+    "scientificName": "Neolucanus baladeva",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-giganteus",
+    "jaName": "ギガンテウスマルバネクワガタ",
+    "scientificName": "Neolucanus giganteus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-katsuraorum",
+    "jaName": "カツラマルバネクワガタ",
+    "scientificName": "Neolucanus katsuraorum",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-maedai",
+    "jaName": "マエダマルバネクワガタ",
+    "scientificName": "Neolucanus maedai",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-maximus",
+    "jaName": "マキシムスマルバネクワガタ",
+    "scientificName": "Neolucanus maximus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-perarmatus",
+    "jaName": "ペラルマトゥスマルバネクワガタ",
+    "scientificName": "Neolucanus perarmatus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-saundersii",
+    "jaName": "サンダースマルバネクワガタ",
+    "scientificName": "Neolucanus saundersii",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-tanakai",
+    "jaName": "タナカマルバネクワガタ",
+    "scientificName": "Neolucanus tanakai",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "neolucanus-waterhousei",
+    "jaName": "ウォーターハウスマルバネクワガタ",
+    "scientificName": "Neolucanus waterhousei",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "クワガタムシ科Lucanidae",
+    "genus": "マルバネクワガタ属Neolucanus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+  },
+  {
+    "id": "euchirus",
+    "jaName": "クモテナガコガネ属の全種",
+    "scientificName": "Euchirus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "コガネムシ科Scarabaeidae",
+    "genus": "クモテナガコガネ属Euchirus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/chairo_kumotenagakogane_osu01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60370.html"
+  },
+  {
+    "id": "propomacrus",
+    "jaName": "ヒメテナガコガネ属の全種",
+    "scientificName": "Propomacrus",
+    "category": "昆虫類",
+    "order": "コウチュウ目 Coleoptera",
+    "family": "コガネムシ科Scarabaeidae",
+    "genus": "ヒメテナガコガネ属Propomacrus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/jansoni_tenagakogane01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60380.html"
+  },
+  {
+    "id": "bombus-terrestris",
+    "jaName": "セイヨウオオマルハナバチ",
+    "scientificName": "Bombus terrestris",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "ミツバチ科Apidae",
+    "genus": "マルハナバチ属Bombus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/seiyoumaru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/seiyoumaru2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/seiyou_oomaruhanabachi01t.jpg"
+    ],
+    "prefectures": [
+      "北海道"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60080.html"
+  },
+  {
+    "id": "lepisiota-frauenfeldi",
+    "jaName": "ハヤトゲフシアリ",
+    "scientificName": "Lepisiota frauenfeldi",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トゲフシアリ属Lepisiota",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari1t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari3t.JPG"
+    ],
+    "prefectures": [
+      "愛知",
+      "大阪",
+      "兵庫",
+      "福岡",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60580.html"
+  },
+  {
+    "id": "linepithema-humile",
+    "jaName": "アルゼンチンアリ",
+    "scientificName": "Linepithema humile",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "アルゼンチンアリ属Linepithema",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/argentinari1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/argentinari2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/argentine_ari01t.jpg"
+    ],
+    "prefectures": [
+      "東京",
+      "神奈川",
+      "静岡",
+      "岐阜",
+      "愛知",
+      "三重",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60090.html"
+  },
+  {
+    "id": "solenopsis-geminata",
+    "jaName": "アカカミアリ",
+    "scientificName": "Solenopsis geminata",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/akakamiari_worker01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/akakamiari_queen01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60390.html"
+  },
+  {
+    "id": "solenopsis",
+    "jaName": "その他のソレノプスィス・ゲミナタ種群",
+    "scientificName": "Solenopsis",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "solenopsis",
+    "jaName": "ソレノプスィス・サエヴィスィマ種群の全種",
+    "scientificName": "Solenopsis",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60290.html"
+  },
+  {
+    "id": "solenopsis",
+    "jaName": "ソレノプスィス・トゥリデンス種群の全種",
+    "scientificName": "Solenopsis",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "solenopsis",
+    "jaName": "ソレノプスィス・ヴィルレンス種群の全種",
+    "scientificName": "Solenopsis",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "solenopsis",
+    "jaName": "上記4種群に属する種間の交雑により生じた生物",
+    "scientificName": "Solenopsis",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "トフシアリ属Solenopsis",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "wasmannia-auropunctata",
+    "jaName": "コカミアリ",
+    "scientificName": "Wasmannia auropunctata",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "アリ科Formicidae",
+    "genus": "ワスマンニア属Wasmannia",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60280.html"
+  },
+  {
+    "id": "vespa-v-velutina",
+    "jaName": "ツマアカスズメバチ",
+    "scientificName": "Vespa V.velutina",
+    "category": "昆虫類",
+    "order": "ハチ目 Hymenoptera",
+    "family": "スズメバチ科Vespidae",
+    "genus": "ベスパ属Vespa",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/tsumaaka01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/tsumaaka02t.jpg"
+    ],
+    "prefectures": [
+      "長崎"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60550.html"
+  },
+  {
+    "id": "dikerogammarus-villosus",
+    "jaName": "ディケロガンマルス・ヴィルロスス",
+    "scientificName": "Dikerogammarus villosus",
+    "category": "甲殻類",
+    "order": "ヨコエビ目 Amphipoda",
+    "family": "ヨコエビ科Gammaridae",
+    "genus": "ディケロガンマルス属Dikerogammarus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "pacifastacus-leniusculus",
+    "jaName": "ウチダザリガニ",
+    "scientificName": "Pacifastacus leniusculus",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "ザリガニ科Astacidae",
+    "genus": "ザリガニ科の全属",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani03t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "福島",
+      "栃木",
+      "千葉",
+      "長野",
+      "滋賀"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70050.html"
+  },
+  {
+    "id": "species-126",
+    "jaName": "その他のザリガニ科",
+    "scientificName": "",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "ザリガニ科Astacidae",
+    "genus": "ザリガニ科の全属",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "procambarus-clarkii",
+    "jaName": "アメリカザリガニ",
+    "scientificName": "Procambarus clarkii",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "アメリカザリガニ科Cambaridae",
+    "genus": "アメリカザリガニ科の全属",
+    "status": "定着",
+    "isConditional": true,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_zarigani01t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70320.html"
+  },
+  {
+    "id": "species-128",
+    "jaName": "ミステリークレイフィッシュ",
+    "scientificName": "",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "アメリカザリガニ科Cambaridae",
+    "genus": "アメリカザリガニ科の全属",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "species-129",
+    "jaName": "その他のアメリカザリガニ科",
+    "scientificName": "",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "アメリカザリガニ科Cambaridae",
+    "genus": "アメリカザリガニ科の全属",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "species-130",
+    "jaName": "ミナミザリガニ科の全種",
+    "scientificName": "",
+    "category": "甲殻類",
+    "order": "エビ目 Decapoda",
+    "family": "ミナミザリガニ科Parastacidae",
+    "genus": "ミナミザリガニ科の全属",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70180.html"
+  },
+  {
+    "id": "species-131",
+    "jaName": "キョクトウサソリ科の全種",
+    "scientificName": "",
+    "category": "クモ・サソリ類",
+    "order": "サソリ目 Scorpiones",
+    "family": "キョクトウサソリ科Buthidae",
+    "genus": "キョクトウサソリ科の全属",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/scorpion01t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70070.html"
+  },
+  {
+    "id": "atrax",
+    "jaName": "アトラクス属の全種",
+    "scientificName": "Atrax",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ジョウゴグモ科Hexathelidae",
+    "genus": "アトラクス属Atrax",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70080.html"
+  },
+  {
+    "id": "hadronyche",
+    "jaName": "ハドロニュケ属の全種",
+    "scientificName": "Hadronyche",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ジョウゴグモ科Hexathelidae",
+    "genus": "ハドロニュケ属Hadronyche",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70090.html"
+  },
+  {
+    "id": "loxosceles-gaucho",
+    "jaName": "ロクソスケレス・ガウコ",
+    "scientificName": "Loxosceles gaucho",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "イトグモ科Loxoscelidae",
+    "genus": "イトグモ属Loxosceles",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70120.html"
+  },
+  {
+    "id": "loxosceles-laeta",
+    "jaName": "ロクソスケレス・ラエタ",
+    "scientificName": "Loxosceles laeta",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "イトグモ科Loxoscelidae",
+    "genus": "イトグモ属Loxosceles",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70110.html"
+  },
+  {
+    "id": "loxosceles-reclusa",
+    "jaName": "ロクソスケレス・レクルサ",
+    "scientificName": "Loxosceles reclusa",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "イトグモ科Loxoscelidae",
+    "genus": "イトグモ属Loxosceles",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70100.html"
+  },
+  {
+    "id": "latrodectus-geometricus",
+    "jaName": "ハイイロゴケグモ",
+    "scientificName": "Latrodectus geometricus",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ヒメグモ科Theridiidae",
+    "genus": "ゴケグモ属Latrodectus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "東京",
+      "神奈川",
+      "愛知",
+      "京都",
+      "大阪",
+      "兵庫",
+      "岡山",
+      "山口",
+      "福岡",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70130.html"
+  },
+  {
+    "id": "latrodectus-hasseltii",
+    "jaName": "セアカゴケグモ",
+    "scientificName": "Latrodectus hasseltii",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ヒメグモ科Theridiidae",
+    "genus": "ゴケグモ属Latrodectus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "北海道",
+      "岩手",
+      "宮城",
+      "山形",
+      "福島",
+      "群馬",
+      "茨城",
+      "栃木",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70020.html"
+  },
+  {
+    "id": "latrodectus-mactans",
+    "jaName": "クロゴケグモ",
+    "scientificName": "Latrodectus mactans",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ヒメグモ科Theridiidae",
+    "genus": "ゴケグモ属Latrodectus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "山口"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70140.html"
+  },
+  {
+    "id": "latrodectus",
+    "jaName": "その他のゴケグモ属",
+    "scientificName": "Latrodectus",
+    "category": "クモ・サソリ類",
+    "order": "クモ目 Araneae",
+    "family": "ヒメグモ科Theridiidae",
+    "genus": "ゴケグモ属Latrodectus",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70150.html"
+  },
+  {
+    "id": "limnoperna-fortunei",
+    "jaName": "カワヒバリガイ",
+    "scientificName": "Limnoperna fortunei",
+    "category": "軟体動物等",
+    "order": "イガイ目 Mytiloida",
+    "family": "イガイ科Mytilidae",
+    "genus": "カワヒバリガイ属Limnoperna",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai03t.jpg"
+    ],
+    "prefectures": [
+      "茨城",
+      "埼玉",
+      "千葉",
+      "東京",
+      "京都",
+      "群馬",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "大阪"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70200.html"
+  },
+  {
+    "id": "limnoperna",
+    "jaName": "その他のカワヒバリガイ属",
+    "scientificName": "Limnoperna",
+    "category": "軟体動物等",
+    "order": "イガイ目 Mytiloida",
+    "family": "イガイ科Mytilidae",
+    "genus": "カワヒバリガイ属Limnoperna",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "dreissena-bugensis",
+    "jaName": "クワッガガイ",
+    "scientificName": "Dreissena bugensis",
+    "category": "軟体動物等",
+    "order": "マルスダレガイ目 Veneroida",
+    "family": "カワホトトギス科Dreissenidae",
+    "genus": "ドレイセナ属Dreissena",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70210.html"
+  },
+  {
+    "id": "dreissena-polymorpha",
+    "jaName": "カワホトトギスガイ",
+    "scientificName": "Dreissena polymorpha",
+    "category": "軟体動物等",
+    "order": "マルスダレガイ目 Veneroida",
+    "family": "カワホトトギス科Dreissenidae",
+    "genus": "ドレイセナ属Dreissena",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70220.html"
+  },
+  {
+    "id": "euglandina-rosea",
+    "jaName": "ヤマヒタチオビ",
+    "scientificName": "Euglandina rosea",
+    "category": "軟体動物等",
+    "order": "マイマイ目 Stylommatophora",
+    "family": "スピラクスィダエ科Spiraxidae",
+    "genus": "エウグランディナ属Euglandina",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/yamahitachiobi/yamahitatiobi_youtait.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/yamahitachiobi/yamahitatiobit.JPG"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70230.html"
+  },
+  {
+    "id": "platydemus-manokwari",
+    "jaName": "ニューギニアヤリガタリクウズムシ",
+    "scientificName": "Platydemus manokwari",
+    "category": "軟体動物等",
+    "order": "三岐腸目 Tricladida",
+    "family": "ヤリガタリクウズムシ科Rhynchodemidae",
+    "genus": "プラテュデムス属Platydemus",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/newguineayarigatarikut.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/new_guinea_yarigatarikuuzumushi01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/new_guinea_yarigatarikuuzumushi02t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70240.html"
+  },
+  {
+    "id": "alternanthera-philoxeroides",
+    "jaName": "ナガエツルノゲイトウ",
+    "scientificName": "Alternanthera philoxeroides",
+    "category": "植物",
+    "order": "ヒユ科 Amaranthaceae",
+    "family": "ツルノゲイトウ属 Alternanthera",
+    "genus": "ナガエツルノゲイトウ (A. philoxeroides) （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsuru1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsurunogeitou01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsurunogeitou02t.jpg"
+    ],
+    "prefectures": [
+      "福島",
+      "茨城",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "山梨",
+      "静岡",
+      "福井",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "鳥取",
+      "島根",
+      "岡山",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81140.html"
+  },
+  {
+    "id": "hydrocotyle-ranunculoides",
+    "jaName": "ブラジルチドメグサ",
+    "scientificName": "Hydrocotyle ranunculoides",
+    "category": "植物",
+    "order": "セリ科Apiaceae",
+    "family": "チドメグサ属Hydrocotyle",
+    "genus": "ブラジルチドメグサ（H. ranunculoides） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome3t.jpg"
+    ],
+    "prefectures": [
+      "岡山",
+      "福岡",
+      "熊本",
+      "大分"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81150.html"
+  },
+  {
+    "id": "pistia-stratiotes",
+    "jaName": "ボタンウキクサ",
+    "scientificName": "Pistia stratiotes",
+    "category": "植物",
+    "order": "サトイモ科Araceae",
+    "family": "ボタンウキクサ属Pistia",
+    "genus": "ボタンウキクサ（P. stratiotes） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa3t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80790.html"
+  },
+  {
+    "id": "azolla-cristata",
+    "jaName": "アゾラ・クリスタータ",
+    "scientificName": "Azolla cristata",
+    "category": "植物",
+    "order": "アカウキクサ科Azollaceae",
+    "family": "アカウキクサ属Azolla",
+    "genus": "アゾラ・クリスタータ（A. cristata） （茎を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/azorakurisuta-ta01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/azorakurisuta-ta02t.jpg"
+    ],
+    "prefectures": [
+      "宮城",
+      "茨城",
+      "群馬",
+      "埼玉",
+      "東京",
+      "岐阜",
+      "愛知",
+      "三重",
+      "滋賀",
+      "神奈川",
+      "京都",
+      "大阪",
+      "兵庫",
+      "和歌山",
+      "岡山",
+      "広島",
+      "徳島",
+      "香川",
+      "愛媛",
+      "福岡",
+      "佐賀"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81070.html"
+  },
+  {
+    "id": "coreopsis-lanceolata",
+    "jaName": "オオキンケイギク",
+    "scientificName": "Coreopsis lanceolata",
+    "category": "植物",
+    "order": "キク科Compositae",
+    "family": "ハルシャギク属Coreopsis",
+    "genus": "オオキンケイギク（C. lanceolata） （根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku02t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80490.html"
+  },
+  {
+    "id": "gymnocoronis-spilanthoides",
+    "jaName": "ミズヒマワリ",
+    "scientificName": "Gymnocoronis spilanthoides",
+    "category": "植物",
+    "order": "キク科Compositae",
+    "family": "ミズヒマワリ属Gymnocoronis",
+    "genus": "ミズヒマワリ（G. spilanthoides） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/mizuhimawari1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/mizuhimawari01t.jpg"
+    ],
+    "prefectures": [
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "愛知",
+      "滋賀",
+      "和歌山",
+      "大阪",
+      "兵庫",
+      "高知",
+      "福岡",
+      "大分"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81120.html"
+  },
+  {
+    "id": "mikania-micrantha",
+    "jaName": "ツルヒヨドリ",
+    "scientificName": "Mikania micrantha",
+    "category": "植物",
+    "order": "キク科Compositae",
+    "family": "ツルギク属Mikania",
+    "genus": "ツルヒヨドリ（M. micrantha） （根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/turuhiyo/turuhiyo4t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/plant/turuhiyo_nnew2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/plant/turuhiyo_nnew3t.jpg"
+    ],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81530.html"
+  },
+  {
+    "id": "rudbeckia-laciniata",
+    "jaName": "オオハンゴンソウ",
+    "scientificName": "Rudbeckia laciniata",
+    "category": "植物",
+    "order": "キク科Compositae",
+    "family": "オオハンゴンソウ属Rudbeckia",
+    "genus": "オオハンゴンソウ（通称：ルドベキア、ハナガサギク、ヤエザキハンゴンソウ等） （R. laciniata） （根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon3t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80580.html"
+  },
+  {
+    "id": "senecio-madagascariensis",
+    "jaName": "ナルトサワギク",
+    "scientificName": "Senecio madagascariensis",
+    "category": "植物",
+    "order": "キク科Compositae",
+    "family": "キオン（サワギク）属Senecio",
+    "genus": "ナルトサワギク（S. madagascariensis） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku02t.jpg"
+    ],
+    "prefectures": [
+      "福島",
+      "千葉",
+      "静岡",
+      "三重",
+      "滋賀",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "岡山",
+      "徳島",
+      "香川",
+      "高知",
+      "福岡",
+      "佐賀"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81060.html"
+  },
+  {
+    "id": "sicyos-angulatus",
+    "jaName": "アレチウリ",
+    "scientificName": "Sicyos angulatus",
+    "category": "植物",
+    "order": "ウリ科Cucurbitaceae",
+    "family": "アレチウリ属Sicyos",
+    "genus": "アレチウリ（S. angulatus）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/arechiuri2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/aretiuri01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/aretiuri02t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80220.html"
+  },
+  {
+    "id": "drosera-intermedia",
+    "jaName": "ナガエモウセンゴケ",
+    "scientificName": "Drosera intermedia",
+    "category": "植物",
+    "order": "モウセンゴケ科Droseraceae",
+    "family": "モウセンゴケ属Drosera",
+    "genus": "ナガエモウセンゴケ（D. intermedia） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/plant/nagaemousengoke_2t.JPG",
+      "https://www.env.go.jp/nature/intro/4document/asimg/plant/nagaemousengoke1t.JPG"
+    ],
+    "prefectures": [
+      "千葉",
+      "岡山"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81540.html"
+  },
+  {
+    "id": "myriophyllum-aquaticum",
+    "jaName": "オオフサモ",
+    "scientificName": "Myriophyllum aquaticum",
+    "category": "植物",
+    "order": "アリノトウグサ科Haloragaceae",
+    "family": "フサモ属Myriophyllum",
+    "genus": "オオフサモ（M. aquaticum） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/oofusamo01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/oofusamo02t.jpg"
+    ],
+    "prefectures": [
+      "北海道",
+      "青森",
+      "岩手",
+      "宮城",
+      "秋田",
+      "山形",
+      "福島",
+      "茨城",
+      "栃木",
+      "群馬",
+      "埼玉",
+      "千葉",
+      "東京",
+      "神奈川",
+      "新潟",
+      "富山",
+      "石川",
+      "福井",
+      "山梨",
+      "長野",
+      "岐阜",
+      "静岡",
+      "愛知",
+      "三重",
+      "滋賀",
+      "京都",
+      "大阪",
+      "兵庫",
+      "奈良",
+      "和歌山",
+      "鳥取",
+      "島根",
+      "岡山",
+      "広島",
+      "山口",
+      "徳島",
+      "香川",
+      "愛媛",
+      "高知",
+      "福岡",
+      "佐賀",
+      "長崎",
+      "熊本",
+      "大分",
+      "宮崎",
+      "鹿児島",
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80250.html"
+  },
+  {
+    "id": "utricularia-inflata",
+    "jaName": "エフクレタヌキモ",
+    "scientificName": "Utricularia inflata",
+    "category": "植物",
+    "order": "タヌキモ科Lentibulariaceae",
+    "family": "タヌキモ属Utricularia",
+    "genus": "エフクレタヌキモ（Utricularia cf. platensis）（茎を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "静岡",
+      "愛知",
+      "大阪",
+      "兵庫"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81100.html"
+  },
+  {
+    "id": "utricularia-inflata",
+    "jaName": "ウトゥリクラリア・インフラタ",
+    "scientificName": "Utricularia inflata",
+    "category": "植物",
+    "order": "タヌキモ科Lentibulariaceae",
+    "family": "タヌキモ属Utricularia",
+    "genus": "ウトゥリクラリア・インフラタ（Utricularia inflata）（茎を含む）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "utricularia-platensis",
+    "jaName": "ウトゥリクラリア・プラテンスィス",
+    "scientificName": "Utricularia platensis",
+    "category": "植物",
+    "order": "タヌキモ科Lentibulariaceae",
+    "family": "タヌキモ属Utricularia",
+    "genus": "ウトゥリクラリア・プラテンスィス（Utricularia platensis）（茎を含む）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "ludwigia-grandiflora",
+    "jaName": "ルドウィギア・グランディフロラ",
+    "scientificName": "Ludwigia grandiflora",
+    "category": "植物",
+    "order": "アカバナ科Onagraceae",
+    "family": "チョウジタデ属Ludwigia",
+    "genus": "ルドウィギア・グランディフロラ（オオバナミズキンバイ等）（L. grandiflora） （茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "滋賀",
+      "兵庫",
+      "和歌山"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81560.html"
+  },
+  {
+    "id": "ammophila-arenaria",
+    "jaName": "ビーチグラス",
+    "scientificName": "Ammophila arenaria",
+    "category": "植物",
+    "order": "イネ科Poaceae",
+    "family": "オオハマガヤ属Ammophila",
+    "genus": "ビーチグラス（A. arenaria） （根を含む）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81550.html"
+  },
+  {
+    "id": "spartina-alterniflora",
+    "jaName": "スパルティナ・アルテルニフロラ",
+    "scientificName": "Spartina alterniflora",
+    "category": "植物",
+    "order": "イネ科Poaceae",
+    "family": "スパルティナ属Spartina",
+    "genus": "スパルティナ属全種（茎・根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/suparu1t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/suparu2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/suparu3t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/suparu_aruteru_2t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/suparu_aruteru_1t.jpg"
+    ],
+    "prefectures": [
+      "愛知",
+      "熊本"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81490.html"
+  },
+  {
+    "id": "spartina-anglica",
+    "jaName": "スパルティナ・アングリカ",
+    "scientificName": "Spartina anglica",
+    "category": "植物",
+    "order": "イネ科Poaceae",
+    "family": "スパルティナ属Spartina",
+    "genus": "スパルティナ属全種（茎・根を含む）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": [
+      "沖縄"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81160.html"
+  },
+  {
+    "id": "species-166",
+    "jaName": "その他のスパルティナ属",
+    "scientificName": "",
+    "category": "植物",
+    "order": "イネ科Poaceae",
+    "family": "スパルティナ属Spartina",
+    "genus": "スパルティナ属全種（茎・根を含む）",
+    "status": "未定着",
+    "isConditional": false,
+    "photos": [],
+    "prefectures": []
+  },
+  {
+    "id": "veronica-anagallis-aquatica",
+    "jaName": "オオカワヂシャ",
+    "scientificName": "Veronica anagallis-aquatica",
+    "category": "植物",
+    "order": "ゴマノハグサ科Scrophulariaceae",
+    "family": "クワガタソウ属 Veronica",
+    "genus": "オオカワヂシャ（V. anagallis-aquatica）（根を含む）",
+    "status": "定着",
+    "isConditional": false,
+    "photos": [
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya01t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya02t.jpg",
+      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya03t.jpg"
+    ],
+    "prefectures": [
+      "岩手",
+      "秋田",
+      "山形",
+      "石川",
+      "徳島",
+      "愛媛",
+      "佐賀",
+      "大分"
+    ],
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81130.html"
+  }
+]
