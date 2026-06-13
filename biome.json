@@ -21,16 +21,20 @@
     "formatter": { "quoteStyle": "single", "jsxQuoteStyle": "double" }
   },
   "css": {
-    "parser": { "tailwindDirectives": true }
+    "linter": { "enabled": true }
   },
   "linter": {
     "enabled": true,
     "rules": {
       "preset": "none",
-      "complexity": { "noUselessTypeConstraint": "error" },
+      "complexity": {
+        "noExtraBooleanCast": "error",
+        "noUselessTypeConstraint": "error"
+      },
       "correctness": {
         "noBeforeInteractiveScriptOutsideDocument": "warn",
         "noNextAsyncClientComponent": "warn",
+        "noUnusedImports": "error",
         "noUnusedVariables": "error",
         "useInlineScriptId": "error"
       },
@@ -45,9 +49,12 @@
         "noHeadElement": "warn",
         "noNamespace": "error",
         "useArrayLiterals": "error",
-        "useAsConstAssertion": "error"
+        "useAsConstAssertion": "error",
+        "useTemplate": "warn"
       },
       "suspicious": {
+        "noConsole": "warn",
+        "noDoubleEquals": "error",
         "noDuplicateEnumValues": "error",
         "noExplicitAny": "error",
         "noExtraNonNullAssertion": "error",
@@ -62,6 +69,14 @@
     }
   },
   "overrides": [
+    {
+      "includes": ["scripts/**"],
+      "linter": {
+        "rules": {
+          "suspicious": { "noConsole": "off" }
+        }
+      }
+    },
     {
       "includes": ["**/*.{js,jsx,mjs,ts,tsx,mts,cts}"],
       "linter": {
@@ -90,7 +105,11 @@
             "useGoogleFontPreconnect": "warn"
           },
           "security": { "noDangerouslySetInnerHtmlWithChildren": "error" },
-          "style": { "noHeadElement": "warn" },
+          "style": {
+            "noHeadElement": "warn",
+            "useFragmentSyntax": "warn",
+            "useSelfClosingElements": "warn"
+          },
           "suspicious": {
             "noCommentText": "error",
             "noDocumentImportInPage": "error",
