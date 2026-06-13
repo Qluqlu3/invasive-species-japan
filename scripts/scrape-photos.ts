@@ -8,13 +8,14 @@
 import * as cheerio from 'cheerio';
 
 const PHOTO_URL = 'https://www.env.go.jp/nature/intro/4document/asimg.html';
-const BASE_URL = 'https://www.env.go.jp';
 
 /** 環境省写真集から 和名 → 画像URL配列 のマップを返す */
 export async function scrapePhotos(): Promise<Map<string, string[]>> {
   console.log('[scrape-photos] フェッチ中:', PHOTO_URL);
   const res = await fetch(PHOTO_URL, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)' },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
+    },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const html = await res.text();

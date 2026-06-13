@@ -8,15 +8,6 @@ import { spawnSync } from 'child_process';
 const DELAY_MS = 500;
 const RADIUS = 8; // ±ピクセル検索半径
 
-// 座標変換: GIF画像内の直交投影座標
-// 経度: 122°E〜154°E (32°) → 0〜301px
-// 緯度: 46°N〜24°N  (22°) → 0〜337px
-function coord(lat: number, lon: number, w = 301, h = 337): [number, number] {
-  const x = Math.max(0, Math.min(Math.round(((lon - 122.0) / 32.0) * w), w - 1));
-  const y = Math.max(0, Math.min(Math.round(((46.0 - lat) / 22.0) * h), h - 1));
-  return [x, y];
-}
-
 // 都道府県 → 主要サンプル点 [lat, lon][]
 const PREF_POINTS: Record<string, [number, number][]> = {
   北海道: [
@@ -195,7 +186,9 @@ export async function scrapeGifPrefectures(
 
   for (let start = 0; start < total; start += BATCH) {
     const batch = entries.slice(start, start + BATCH);
-    console.log(`[scrape-gif] (${start + 1}〜${Math.min(start + BATCH, total)}/${total})`);
+    console.log(
+      `[scrape-gif] (${start + 1}〜${Math.min(start + BATCH, total)}/${total})`,
+    );
 
     // tasks: { gifUrl: { pref: [[lat,lon], ...] } }
     const tasks: Record<string, Record<string, [number, number][]>> = {};
@@ -219,8 +212,14 @@ export async function scrapeGifPrefectures(
 // 単体実行（検証用）
 if (require.main === module) {
   const testUrls = new Map([
-    ['アライグマ', 'https://www.nies.go.jp/biodiversity/invasive/DB/detail/10060.html'],
-    ['タイワンザル', 'https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html'],
+    [
+      'アライグマ',
+      'https://www.nies.go.jp/biodiversity/invasive/DB/detail/10060.html',
+    ],
+    [
+      'タイワンザル',
+      'https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html',
+    ],
   ]);
   scrapeGifPrefectures(testUrls).then((map) => {
     for (const [name, prefs] of map) {

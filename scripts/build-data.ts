@@ -7,9 +7,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { scrapeList } from './scrape-list';
-import { scrapePhotos } from './scrape-photos';
 import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
+import { scrapePhotos } from './scrape-photos';
 import type { Species } from './types';
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'species.json');
@@ -107,7 +107,8 @@ async function main() {
     seen.add(item.jaName);
 
     // 写真マッチング（完全一致 → 正規化一致）
-    let photos = photoMap.get(item.jaName) ?? photoMap.get(normalize(item.jaName)) ?? [];
+    let photos =
+      photoMap.get(item.jaName) ?? photoMap.get(normalize(item.jaName)) ?? [];
     // 部分マッチ（キョン, アライグマ など短い名前のため）
     if (photos.length === 0) {
       for (const [key, urls] of photoMap) {
@@ -119,11 +120,13 @@ async function main() {
     }
 
     // NIES マッチング
-    const niesEntry = niesMap.get(item.jaName) ?? niesMap.get(normalize(item.jaName)) ?? null;
+    const niesEntry =
+      niesMap.get(item.jaName) ?? niesMap.get(normalize(item.jaName)) ?? null;
 
     const prefectures = niesEntry?.prefectures ?? [];
     const niesUrl = item.niesUrl ?? niesEntry?.niesDetailUrl;
-    const scientificName = SCIENTIFIC_NAME_CORRECTIONS[item.jaName] ?? item.scientificName;
+    const scientificName =
+      SCIENTIFIC_NAME_CORRECTIONS[item.jaName] ?? item.scientificName;
 
     species.push({
       id: makeId(item.jaName, scientificName, i),
@@ -142,9 +145,13 @@ async function main() {
   }
 
   // 5. NIES詳細ページから都道府県データを補完
-  const niesUrls = [...new Set(species.filter((s) => s.niesUrl).map((s) => s.niesUrl!))];
+  const niesUrls = [
+    ...new Set(species.filter((s) => s.niesUrl).map((s) => s.niesUrl!)),
+  ];
   if (niesUrls.length > 0) {
-    console.log(`\n=== NIES詳細ページから都道府県データを補完中 (${niesUrls.length}件) ===\n`);
+    console.log(
+      `\n=== NIES詳細ページから都道府県データを補完中 (${niesUrls.length}件) ===\n`,
+    );
     const detailPrefMap = await scrapeNiesDetails(niesUrls);
 
     let improved = 0;
@@ -162,9 +169,13 @@ async function main() {
   }
 
   // 6. NIESのGIF分布マップから都道府県データを補完（都道府県が未取得の種）
-  const speciesForGif = species.filter((s) => s.niesUrl && s.prefectures.length === 0);
+  const speciesForGif = species.filter(
+    (s) => s.niesUrl && s.prefectures.length === 0,
+  );
   if (speciesForGif.length > 0) {
-    console.log(`\n=== GIF分布マップから都道府県データを補完中 (${speciesForGif.length}件) ===\n`);
+    console.log(
+      `\n=== GIF分布マップから都道府県データを補完中 (${speciesForGif.length}件) ===\n`,
+    );
     const gifUrlMap = new Map<string, string>();
     for (const s of speciesForGif) {
       gifUrlMap.set(s.jaName, s.niesUrl!);
@@ -192,7 +203,9 @@ async function main() {
   console.log(`出力: ${OUTPUT_PATH}`);
   console.log(`総種数: ${species.length}`);
   console.log(`写真あり: ${species.filter((s) => s.photos.length > 0).length}`);
-  console.log(`都道府県データあり: ${species.filter((s) => s.prefectures.length > 0).length}`);
+  console.log(
+    `都道府県データあり: ${species.filter((s) => s.prefectures.length > 0).length}`,
+  );
   console.log(`NIESリンクあり: ${species.filter((s) => s.niesUrl).length}`);
 }
 

@@ -9,7 +9,6 @@ import { CATEGORIES, type Category } from './types';
 
 const LIST_URL = 'https://www.env.go.jp/nature/intro/2outline/list.html';
 const BASE_URL = 'https://www.env.go.jp';
-const DELAY_MS = 1500;
 
 export interface SpeciesBasic {
   jaName: string;
@@ -30,7 +29,11 @@ function parseTableRows(
 ): { cells: string[]; links: string[] }[] {
   const rows: { cells: string[]; links: string[] }[] = [];
   // spanContext[colIdx] = { value, linksForCell, remaining }
-  const spanCtx: Array<{ value: string; link: string; remaining: number } | null> = [];
+  const spanCtx: Array<{
+    value: string;
+    link: string;
+    remaining: number;
+  } | null> = [];
 
   $('tr', table).each((_, tr) => {
     const cells: string[] = [];
@@ -89,14 +92,16 @@ function parseSpeciesCell(text: string): { jaName: string; sciAbbrev: string } {
   if (fullIdx >= 0 && (halfIdx < 0 || fullIdx < halfIdx)) {
     const endIdx = text.indexOf('）', fullIdx);
     const jaName = text.slice(0, fullIdx).trim();
-    const inside = endIdx > fullIdx ? text.slice(fullIdx + 1, endIdx).trim() : '';
+    const inside =
+      endIdx > fullIdx ? text.slice(fullIdx + 1, endIdx).trim() : '';
     const sciAbbrev = inside.match(/^[A-Z]/) ? inside : '';
     return { jaName, sciAbbrev };
   }
   if (halfIdx >= 0) {
     const endIdx = text.indexOf(')', halfIdx);
     const jaName = text.slice(0, halfIdx).trim();
-    const inside = endIdx > halfIdx ? text.slice(halfIdx + 1, endIdx).trim() : '';
+    const inside =
+      endIdx > halfIdx ? text.slice(halfIdx + 1, endIdx).trim() : '';
     const sciAbbrev = inside.match(/^[A-Z]/) ? inside : '';
     return { jaName, sciAbbrev };
   }
@@ -125,7 +130,9 @@ function buildScientificName(sciAbbrev: string, latinGenus: string): string {
 export async function scrapeList(): Promise<SpeciesBasic[]> {
   console.log('[scrape-list] フェッチ中:', LIST_URL);
   const res = await fetch(LIST_URL, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)' },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
+    },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const html = await res.text();
@@ -200,19 +207,24 @@ export async function scrapeList(): Promise<SpeciesBasic[]> {
             }
           }
 
-          if (!speciesText || speciesText === '目' || speciesText === '科' || speciesText === '属')
+          if (
+            !speciesText ||
+            speciesText === '目' ||
+            speciesText === '科' ||
+            speciesText === '属'
+          )
             continue;
 
           const { jaName, sciAbbrev } = parseSpeciesCell(speciesText);
           if (!jaName || jaName.length > 40) continue;
 
           // 学名略称が "(ただし、次のものを除く)" のような注記の場合はスキップ
-          if (jaName.includes('ただし') || jaName.includes('のものを除く')) continue;
-          // グループ名（"〇〇科の全種"など）はスキップ（次行で個別種が来る）
-          // ただしそのままエントリにする場合もある
-          const isGroupEntry = jaName.includes('の全種') || jaName.includes('属の全');
-
-          const scientificName = buildScientificName(sciAbbrev, currentLatinGenus);
+          if (jaName.includes('ただし') || jaName.includes('のものを除く'))
+            continue;
+          const scientificName = buildScientificName(
+            sciAbbrev,
+            currentLatinGenus,
+          );
           const isConditional = speciesText.includes('条件付特定外来生物');
 
           // NIES URLはsecondLastのリンクから

@@ -1,7 +1,11 @@
 # 依存関係・ビルド成果物
 node_modules/
 .next/
-tsconfig.tsbuildinfo
+dist/
+*.tsbuildinfo
+
+# データ収集スクリプト（Web アプリ実行に不要）
+scripts/
 
 # 環境変数
 .env*

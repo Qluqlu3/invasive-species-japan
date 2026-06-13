@@ -55,7 +55,9 @@ async function scrapeTocPage(path: string): Promise<NiesEntry[]> {
   console.log(`[scrape-nies] フェッチ中: ${url}`);
 
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)' },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
+    },
   });
   if (!res.ok) {
     console.warn(`  → HTTP ${res.status}, スキップ`);
@@ -85,7 +87,9 @@ async function scrapeTocPage(path: string): Promise<NiesEntry[]> {
 
     // 和名と学名を分離: "アライグマ [Procyon lotor]" or "アライグマ   [Procyon lotor]"
     const nameParts = nameText.match(/^(.+?)\s*[\[【]([^\]】]+)[\]】]/);
-    const jaName = nameParts ? nameParts[1].trim() : nameText.replace(/\[.+?\]/g, '').trim();
+    const jaName = nameParts
+      ? nameParts[1].trim()
+      : nameText.replace(/\[.+?\]/g, '').trim();
     const sciName = nameParts ? nameParts[2].trim() : '';
 
     // 詳細ページURL
@@ -137,7 +141,9 @@ export async function scrapeNies(): Promise<Map<string, NiesEntry>> {
 }
 
 /** NIES詳細ページを個別にフェッチして「国内移入分布」テキストから都道府県を取得 */
-export async function scrapeNiesDetails(urls: string[]): Promise<Map<string, string[]>> {
+export async function scrapeNiesDetails(
+  urls: string[],
+): Promise<Map<string, string[]>> {
   const result = new Map<string, string[]>();
   const total = urls.length;
 
@@ -147,7 +153,9 @@ export async function scrapeNiesDetails(urls: string[]): Promise<Map<string, str
 
     try {
       const res = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)' },
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
+        },
       });
       if (!res.ok) {
         console.warn(`  → HTTP ${res.status}`);

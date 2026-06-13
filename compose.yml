@@ -1,20 +1,16 @@
 services:
   web:
     build:
-      context: ./web
+      context: .
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
     volumes:
       # ソースコードをホットリロード対応でマウント
-      - ./web:/app
+      - .:/app
       # node_modules はコンテナ内のものを優先
       - /app/node_modules
       # .next キャッシュもコンテナ内を優先
       - /app/.next
-      # data/species.json をコンテナから参照できるようにマウント
-      - ./data:/data:ro
     environment:
       - NODE_ENV=development
-      # Next.js に data の場所を伝える（lib/data.ts で参照）
-      - DATA_DIR=/data

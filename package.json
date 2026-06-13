@@ -1,21 +1,35 @@
 {
   "name": "invasive",
   "version": "1.0.0",
-  "description": "Japan invasive species viewer - data collection scripts",
+  "private": true,
   "scripts": {
-    "build:data": "ts-node scripts/build-data.ts",
-    "scrape:list": "ts-node scripts/scrape-list.ts",
-    "scrape:photos": "ts-node scripts/scrape-photos.ts",
-    "scrape:nies": "ts-node scripts/scrape-nies.ts"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "build:data": "ts-node --project tsconfig.scripts.json scripts/build-data.ts",
+    "scrape:list": "ts-node --project tsconfig.scripts.json scripts/scrape-list.ts",
+    "scrape:photos": "ts-node --project tsconfig.scripts.json scripts/scrape-photos.ts",
+    "scrape:nies": "ts-node --project tsconfig.scripts.json scripts/scrape-nies.ts"
   },
   "dependencies": {
-    "@types/jimp": "^0.2.1",
-    "cheerio": "^1.0.0",
-    "jimp": "^1.6.1"
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
+    "@biomejs/biome": "^2.5.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/jimp": "^0.2.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cheerio": "^1.0.0",
+    "jimp": "^1.6.1",
+    "tailwindcss": "^4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.0"
+    "typescript": "^5"
   }
 }
