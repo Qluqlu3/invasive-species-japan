@@ -1,5 +1,8 @@
+'use client';
+
+import { Badge, Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
 import Image from 'next/image';
-import Link from 'next/link';
+import NextLink from 'next/link';
 import type { Species } from '@/lib/types';
 
 interface Props {
@@ -8,37 +11,64 @@ interface Props {
 
 export default function SpeciesCard({ species: s }: Props) {
   return (
-    <Link
-      href={`/species/${s.id}`}
-      className="group rounded-xl overflow-hidden border border-gray-200 hover:border-green-400 hover:shadow-md transition-all bg-white"
+    <LinkBox
+      as="article"
+      rounded="xl"
+      overflow="hidden"
+      borderWidth="1px"
+      borderColor="gray.200"
+      bg="white"
+      transition="all 0.2s"
+      _hover={{ borderColor: 'green.400', shadow: 'md' }}
     >
-      <div className="relative aspect-square bg-gray-100">
+      <Box position="relative" aspectRatio="1 / 1" bg="gray.100">
         {s.photos[0] ? (
           <Image
             src={s.photos[0]}
             alt={s.jaName}
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 17vw"
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
+            style={{ objectFit: 'cover' }}
           />
         ) : (
-          <div className="flex items-center justify-center h-full text-gray-300 text-3xl">
+          <Box
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            h="full"
+            color="gray.300"
+            fontSize="3xl"
+          >
             ?
-          </div>
+          </Box>
         )}
         {s.isConditional && (
-          <span className="absolute top-1 right-1 bg-amber-500 text-white text-[10px] px-1 rounded">
+          <Badge
+            position="absolute"
+            top={1}
+            right={1}
+            colorPalette="orange"
+            size="sm"
+          >
             条件付
-          </span>
+          </Badge>
         )}
-      </div>
-      <div className="p-2">
-        <p className="text-sm font-medium text-gray-900 truncate">{s.jaName}</p>
-        <p className="text-[11px] text-gray-400 truncate italic">
+      </Box>
+      <Box p={2}>
+        <LinkOverlay asChild>
+          <NextLink href={`/species/${s.id}`}>
+            <Text fontSize="sm" fontWeight="medium" color="gray.900" truncate>
+              {s.jaName}
+            </Text>
+          </NextLink>
+        </LinkOverlay>
+        <Text fontSize="xs" color="gray.400" truncate fontStyle="italic">
           {s.scientificName}
-        </p>
-        <p className="text-[11px] text-gray-500 mt-0.5">{s.category}</p>
-      </div>
-    </Link>
+        </Text>
+        <Text fontSize="xs" color="gray.500" mt={0.5}>
+          {s.category}
+        </Text>
+      </Box>
+    </LinkBox>
   );
 }
