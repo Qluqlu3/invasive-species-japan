@@ -1,46 +1,76 @@
+'use client';
+
+import { Box, Flex, Heading, Link, Separator, Text } from '@chakra-ui/react';
 import type { Species } from '@/lib/types';
 
 interface Props {
   species: Species;
 }
 
+const rows = (s: Species): [string, string | undefined][] => [
+  ['分類群', s.category],
+  ['目', s.order],
+  ['科', s.family],
+  ['属', s.genus],
+  ['定着状況', s.status],
+];
+
 export default function SpeciesInfoTable({ species: s }: Props) {
   return (
-    <section className="bg-white rounded-xl border border-gray-200 overflow-hidden">
-      <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide px-5 py-3 border-b border-gray-100">
+    <Box
+      bg="white"
+      rounded="xl"
+      borderWidth="1px"
+      borderColor="gray.200"
+      overflow="hidden"
+    >
+      <Heading
+        size="xs"
+        fontWeight="semibold"
+        color="gray.500"
+        textTransform="uppercase"
+        letterSpacing="wide"
+        px={5}
+        py={3}
+        borderBottomWidth="1px"
+        borderColor="gray.100"
+      >
         基本情報
-      </h2>
-      <dl className="divide-y divide-gray-100">
-        {(
-          [
-            ['分類群', s.category],
-            ['目', s.order],
-            ['科', s.family],
-            ['属', s.genus],
-            ['定着状況', s.status],
-          ] as [string, string | undefined][]
-        ).map(([label, value]) => (
-          <div key={label} className="flex px-5 py-3 gap-4">
-            <dt className="w-24 text-sm text-gray-500 shrink-0">{label}</dt>
-            <dd className="text-sm text-gray-900">{value || '—'}</dd>
-          </div>
-        ))}
-        {s.niesUrl && (
-          <div className="flex px-5 py-3 gap-4">
-            <dt className="w-24 text-sm text-gray-500 shrink-0">NIESリンク</dt>
-            <dd className="text-sm">
-              <a
-                href={s.niesUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-green-700 hover:underline"
-              >
-                NIES詳細ページ ↗
-              </a>
-            </dd>
-          </div>
-        )}
-      </dl>
-    </section>
+      </Heading>
+      {rows(s).map(([label, value], i) => (
+        <Box key={label}>
+          {i > 0 && <Separator />}
+          <Flex px={5} py={3} gap={4}>
+            <Text as="dt" w={24} fontSize="sm" color="gray.500" flexShrink={0}>
+              {label}
+            </Text>
+            <Text as="dd" fontSize="sm" color="gray.900">
+              {value || '—'}
+            </Text>
+          </Flex>
+        </Box>
+      ))}
+      {s.niesUrl && (
+        <Box>
+          <Separator />
+          <Flex px={5} py={3} gap={4}>
+            <Text as="dt" w={24} fontSize="sm" color="gray.500" flexShrink={0}>
+              NIESリンク
+            </Text>
+            <Link
+              as="dd"
+              href={s.niesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              fontSize="sm"
+              color="green.700"
+              _hover={{ textDecoration: 'underline' }}
+            >
+              NIES詳細ページ ↗
+            </Link>
+          </Flex>
+        </Box>
+      )}
+    </Box>
   );
 }
