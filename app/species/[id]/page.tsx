@@ -1,3 +1,4 @@
+import { Box } from '@chakra-ui/react';
 import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
 import PhotoGallery from '@/components/species/PhotoGallery';
@@ -26,7 +27,7 @@ export default async function SpeciesPage({ params }: Props) {
   if (!s) notFound();
 
   return (
-    <main className="min-h-screen bg-gray-50">
+    <Box minH="100vh" bg="gray.50">
       <PageHeader
         title={s.jaName}
         subtitle={s.scientificName}
@@ -34,19 +35,26 @@ export default async function SpeciesPage({ params }: Props) {
         backLabel="← 一覧に戻る"
         badge={s.isConditional ? '条件付特定外来生物' : undefined}
       />
-
-      <div className="max-w-4xl mx-auto px-4 py-6 space-y-6">
+      <Box maxW="4xl" mx="auto" px={4} py={6} spaceY={6}>
         {s.photos.length > 0 && (
-          <section>
-            <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+          <Box as="section">
+            <Box
+              as="h2"
+              fontSize="xs"
+              fontWeight="semibold"
+              color="gray.500"
+              textTransform="uppercase"
+              letterSpacing="wide"
+              mb={3}
+            >
               写真
-            </h2>
+            </Box>
             <PhotoGallery photos={s.photos} name={s.jaName} />
-          </section>
+          </Box>
         )}
         <SpeciesInfoTable species={s} />
         <PrefectureList prefectures={s.prefectures} />
-      </div>
-    </main>
+      </Box>
+    </Box>
   );
 }
