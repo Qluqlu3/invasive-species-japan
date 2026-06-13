@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import PhotoGallery from '@/components/PhotoGallery';
 import { notFound } from 'next/navigation';
+import PhotoGallery from '@/components/PhotoGallery';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
 import { ALL_PREFECTURES } from '@/lib/types';
 
