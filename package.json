@@ -1,0 +1,21 @@
+{
+  "name": "invasive",
+  "version": "1.0.0",
+  "description": "Japan invasive species viewer - data collection scripts",
+  "scripts": {
+    "build:data": "ts-node scripts/build-data.ts",
+    "scrape:list": "ts-node scripts/scrape-list.ts",
+    "scrape:photos": "ts-node scripts/scrape-photos.ts",
+    "scrape:nies": "ts-node scripts/scrape-nies.ts"
+  },
+  "dependencies": {
+    "@types/jimp": "^0.2.1",
+    "cheerio": "^1.0.0",
+    "jimp": "^1.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
