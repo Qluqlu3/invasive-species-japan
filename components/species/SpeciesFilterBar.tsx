@@ -1,5 +1,6 @@
 'use client';
 
+import { Box, Flex, Input, NativeSelect, Text } from '@chakra-ui/react';
 import { CATEGORIES } from '@/lib/types';
 
 interface Props {
@@ -12,9 +13,6 @@ interface Props {
   onConditionalChange: (v: 'all' | 'yes' | 'no') => void;
 }
 
-const selectClass =
-  'border border-gray-300 rounded-lg px-3 py-1.5 text-sm bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500';
-
 export default function SpeciesFilterBar({
   query,
   category,
@@ -25,38 +23,60 @@ export default function SpeciesFilterBar({
   onConditionalChange,
 }: Props) {
   return (
-    <div className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-gray-200 px-4 py-3 flex flex-wrap gap-3 items-center">
-      <input
-        type="search"
-        placeholder="和名・学名・科・目で検索"
-        value={query}
-        onChange={(e) => onQueryChange(e.target.value)}
-        className="border border-gray-300 rounded-lg px-3 py-1.5 text-sm w-64 focus:outline-none focus:ring-2 focus:ring-green-500"
-      />
-      <select
-        value={category}
-        onChange={(e) => onCategoryChange(e.target.value)}
-        className={selectClass}
-      >
-        <option value="">すべての分類群</option>
-        {CATEGORIES.map((c) => (
-          <option key={c} value={c}>
-            {c}
-          </option>
-        ))}
-      </select>
-      <select
-        value={conditional}
-        onChange={(e) =>
-          onConditionalChange(e.target.value as 'all' | 'yes' | 'no')
-        }
-        className={selectClass}
-      >
-        <option value="all">条件付き: すべて</option>
-        <option value="no">特定外来生物のみ</option>
-        <option value="yes">条件付特定外来生物のみ</option>
-      </select>
-      <span className="text-sm text-gray-500 ml-auto">{count} 件</span>
-    </div>
+    <Box
+      position="sticky"
+      top={0}
+      zIndex={10}
+      bg="white/90"
+      backdropFilter="blur(8px)"
+      borderBottomWidth="1px"
+      borderColor="gray.200"
+      px={4}
+      py={3}
+    >
+      <Flex wrap="wrap" gap={3} align="center">
+        <Input
+          type="search"
+          placeholder="和名・学名・科・目で検索"
+          value={query}
+          onChange={(e) => onQueryChange(e.target.value)}
+          size="sm"
+          w={64}
+          rounded="lg"
+        />
+        <NativeSelect.Root size="sm" w="auto">
+          <NativeSelect.Field
+            value={category}
+            onChange={(e) => onCategoryChange(e.target.value)}
+            rounded="lg"
+          >
+            <option value="">すべての分類群</option>
+            {CATEGORIES.map((c) => (
+              <option key={c} value={c}>
+                {c}
+              </option>
+            ))}
+          </NativeSelect.Field>
+          <NativeSelect.Indicator />
+        </NativeSelect.Root>
+        <NativeSelect.Root size="sm" w="auto">
+          <NativeSelect.Field
+            value={conditional}
+            onChange={(e) =>
+              onConditionalChange(e.target.value as 'all' | 'yes' | 'no')
+            }
+            rounded="lg"
+          >
+            <option value="all">条件付き: すべて</option>
+            <option value="no">特定外来生物のみ</option>
+            <option value="yes">条件付特定外来生物のみ</option>
+          </NativeSelect.Field>
+          <NativeSelect.Indicator />
+        </NativeSelect.Root>
+        <Text fontSize="sm" color="gray.500" ml="auto">
+          {count} 件
+        </Text>
+      </Flex>
+    </Box>
   );
 }

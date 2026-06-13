@@ -1,5 +1,6 @@
 'use client';
 
+import { Box, Grid, Text } from '@chakra-ui/react';
 import { useMemo, useState } from 'react';
 import type { Species } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
@@ -33,7 +34,7 @@ export default function SpeciesList({ species }: Props) {
   }, [species, query, category, conditional]);
 
   return (
-    <div>
+    <Box>
       <SpeciesFilterBar
         query={query}
         category={category}
@@ -43,16 +44,26 @@ export default function SpeciesList({ species }: Props) {
         onCategoryChange={setCategory}
         onConditionalChange={setConditional}
       />
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 p-4">
+      <Grid
+        templateColumns={{
+          base: 'repeat(2, 1fr)',
+          sm: 'repeat(3, 1fr)',
+          md: 'repeat(4, 1fr)',
+          lg: 'repeat(5, 1fr)',
+          xl: 'repeat(6, 1fr)',
+        }}
+        gap={4}
+        p={4}
+      >
         {filtered.map((s) => (
           <SpeciesCard key={s.id} species={s} />
         ))}
-      </div>
+      </Grid>
       {filtered.length === 0 && (
-        <div className="text-center py-20 text-gray-400">
+        <Text textAlign="center" py={20} color="gray.400">
           該当する種が見つかりません
-        </div>
+        </Text>
       )}
-    </div>
+    </Box>
   );
 }
