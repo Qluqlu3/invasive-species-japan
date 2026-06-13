@@ -39,3 +39,6 @@ __pycache__/
 
 # dist (scripts build output)
 dist/
+
+# Claude Code ローカル設定（個人設定）
+.claude/settings.local.json
