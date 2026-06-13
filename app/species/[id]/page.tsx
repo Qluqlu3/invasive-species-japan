@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import PhotoGallery from '@/components/PhotoGallery';
 import { notFound } from 'next/navigation';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
 import { ALL_PREFECTURES } from '@/lib/types';
@@ -49,22 +49,7 @@ export default async function SpeciesPage({ params }: Props) {
             <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
               写真
             </h2>
-            <div className="flex flex-wrap gap-3">
-              {s.photos.map((url, i) => (
-                <div
-                  key={i}
-                  className="relative w-40 h-40 rounded-lg overflow-hidden border border-gray-200 bg-gray-100"
-                >
-                  <Image
-                    src={url}
-                    alt={`${s.jaName} ${i + 1}`}
-                    fill
-                    sizes="160px"
-                    className="object-cover"
-                  />
-                </div>
-              ))}
-            </div>
+            <PhotoGallery photos={s.photos} name={s.jaName} />
           </section>
         )}
 
