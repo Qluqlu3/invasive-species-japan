@@ -61,7 +61,6 @@ export default async function SpeciesPage({ params }: Props) {
                     fill
                     sizes="160px"
                     className="object-cover"
-                    unoptimized
                   />
                 </div>
               ))}

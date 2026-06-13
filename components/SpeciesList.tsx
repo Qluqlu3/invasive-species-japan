@@ -86,7 +86,6 @@ export default function SpeciesList({ species }: Props) {
                   fill
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 17vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  unoptimized
                 />
               ) : (
                 <div className="flex items-center justify-center h-full text-gray-300 text-3xl">
