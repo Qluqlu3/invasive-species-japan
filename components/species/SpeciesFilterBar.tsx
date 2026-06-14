@@ -31,7 +31,7 @@ export default function SpeciesFilterBar({
       position="sticky"
       top={0}
       zIndex={10}
-      bg="white/90"
+      bg="gray.100/90"
       backdropFilter="blur(8px)"
       borderBottomWidth="1px"
       borderColor="gray.200"
