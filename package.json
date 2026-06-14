@@ -13,7 +13,8 @@
     "build:data": "ts-node --project tsconfig.scripts.json scripts/build-data.ts",
     "scrape:list": "ts-node --project tsconfig.scripts.json scripts/scrape-list.ts",
     "scrape:photos": "ts-node --project tsconfig.scripts.json scripts/scrape-photos.ts",
-    "scrape:nies": "ts-node --project tsconfig.scripts.json scripts/scrape-nies.ts"
+    "scrape:nies": "ts-node --project tsconfig.scripts.json scripts/scrape-nies.ts",
+    "download:images": "ts-node --project tsconfig.scripts.json scripts/download-images.ts"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.0",
@@ -29,6 +30,7 @@
     "@types/react-dom": "^19",
     "cheerio": "^1.0.0",
     "jimp": "^1.6.1",
+    "sharp": "^0.35.1",
     "ts-node": "^10.9.2",
     "typescript": "^5"
   }

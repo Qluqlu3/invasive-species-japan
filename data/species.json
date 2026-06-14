@@ -10,10 +10,10 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new4t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/fukurogitune/hukurogitune_new3t.JPG"
+      "/images/species/trichosurus-vulpecula/0.webp",
+      "/images/species/trichosurus-vulpecula/1.webp",
+      "/images/species/trichosurus-vulpecula/2.webp",
+      "/images/species/trichosurus-vulpecula/3.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -57,10 +57,10 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwan_zaru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new4t.jpg"
+      "/images/species/macaca-cyclopis/0.webp",
+      "/images/species/macaca-cyclopis/1.webp",
+      "/images/species/macaca-cyclopis/2.webp",
+      "/images/species/macaca-cyclopis/3.webp"
     ],
     "prefectures": [
       "静岡",
@@ -80,9 +80,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kanikuizaru03t.jpg"
+      "/images/species/macaca-fascicularis/0.webp",
+      "/images/species/macaca-fascicularis/1.webp",
+      "/images/species/macaca-fascicularis/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -100,9 +100,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru02t.jpg"
+      "/images/species/macaca-mulatta/0.webp",
+      "/images/species/macaca-mulatta/1.webp",
+      "/images/species/macaca-mulatta/2.webp"
     ],
     "prefectures": [
       "千葉",
@@ -121,10 +121,10 @@
     "status": "近年生息情報なし",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwan_zaru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/taiwanzaru_new4t.jpg"
+      "/images/species/macaca-cyclopis-m-fuscata/0.webp",
+      "/images/species/macaca-cyclopis-m-fuscata/1.webp",
+      "/images/species/macaca-cyclopis-m-fuscata/2.webp",
+      "/images/species/macaca-cyclopis-m-fuscata/3.webp"
     ],
     "prefectures": [
       "青森",
@@ -144,9 +144,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akagezaru02t.jpg"
+      "/images/species/macaca-mulatta-m-fuscata/0.webp",
+      "/images/species/macaca-mulatta-m-fuscata/1.webp",
+      "/images/species/macaca-mulatta-m-fuscata/2.webp"
     ],
     "prefectures": [
       "千葉",
@@ -165,9 +165,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nu-toria1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nu-toria2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/nutria01t.jpg"
+      "/images/species/myocastor-coypus/0.webp",
+      "/images/species/myocastor-coypus/1.webp",
+      "/images/species/myocastor-coypus/2.webp"
     ],
     "prefectures": [
       "福島",
@@ -203,8 +203,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kurihararisu1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/taiwan_risu01t.jpg"
+      "/images/species/callosciurus-erythraeus/0.webp",
+      "/images/species/callosciurus-erythraeus/1.webp"
     ],
     "prefectures": [
       "神奈川",
@@ -233,9 +233,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finrenisonrisu_new3t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finreisonrisu_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/finreisonrisu/finreisonrisu_new6t.JPG"
+      "/images/species/callosciurus-finlaysonii/0.webp",
+      "/images/species/callosciurus-finlaysonii/1.webp",
+      "/images/species/callosciurus-finlaysonii/2.webp"
     ],
     "prefectures": [
       "静岡"
@@ -253,9 +253,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/tairikumomonga_new3t.jpg"
+      "/images/species/pteromys-volans/0.webp",
+      "/images/species/pteromys-volans/1.webp",
+      "/images/species/pteromys-volans/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -275,9 +275,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/toubu_haiirorisu03t.jpg"
+      "/images/species/sciurus-carolinensis/0.webp",
+      "/images/species/sciurus-carolinensis/1.webp",
+      "/images/species/sciurus-carolinensis/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -318,8 +318,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/masukuratto_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/masukuratto_new2t.JPG"
+      "/images/species/ondratra-zibethicus/0.webp",
+      "/images/species/ondratra-zibethicus/1.webp"
     ],
     "prefectures": [
       "埼玉",
@@ -340,9 +340,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma4t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma01t.jpg"
+      "/images/species/procyon-cancrivorus/0.webp",
+      "/images/species/procyon-cancrivorus/1.webp",
+      "/images/species/procyon-cancrivorus/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -360,9 +360,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma4t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/araiguma01t.jpg"
+      "/images/species/procyon-lotor/0.webp",
+      "/images/species/procyon-lotor/1.webp",
+      "/images/species/procyon-lotor/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -426,8 +426,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_minku01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_minku02t.jpg"
+      "/images/species/mustela-vison/0.webp",
+      "/images/species/mustela-vison/1.webp"
     ],
     "prefectures": [
       "北海道",
@@ -449,9 +449,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/huirimongoose3t.png"
+      "/images/species/herpestes-auropunctatus/0.webp",
+      "/images/species/herpestes-auropunctatus/1.webp",
+      "/images/species/herpestes-auropunctatus/2.webp"
     ],
     "prefectures": [
       "鹿児島",
@@ -502,8 +502,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akishisujika01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akishisujika02t.jpg"
+      "/images/species/axis/0.webp",
+      "/images/species/axis/1.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -521,8 +521,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/damashika_new2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/damashika_new1t.JPG"
+      "/images/species/dama/0.webp",
+      "/images/species/dama/1.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -540,9 +540,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/shifuzo/shihuzou_new4t.jpg"
+      "/images/species/elaphurus-davidianus/0.webp",
+      "/images/species/elaphurus-davidianus/1.webp",
+      "/images/species/elaphurus-davidianus/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -560,9 +560,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon_new1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon_new2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mammal/kyon01t.jpg"
+      "/images/species/muntiacus-reevesi/0.webp",
+      "/images/species/muntiacus-reevesi/1.webp",
+      "/images/species/muntiacus-reevesi/2.webp"
     ],
     "prefectures": [
       "千葉"
@@ -580,8 +580,8 @@
     "status": "根絶",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/canadagoose1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/canadagoose2t.jpg"
+      "/images/species/branta-canadensis/0.webp",
+      "/images/species/branta-canadensis/1.webp"
     ],
     "prefectures": [
       "山梨",
@@ -620,8 +620,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho01t.jpg"
+      "/images/species/garrulax-canorus/0.webp",
+      "/images/species/garrulax-canorus/1.webp"
     ],
     "prefectures": [
       "宮城",
@@ -648,8 +648,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/gabicho01t.jpg"
+      "/images/species/garrulax-cineraceus/0.webp",
+      "/images/species/garrulax-cineraceus/1.webp"
     ],
     "prefectures": [
       "香川",
@@ -669,8 +669,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kaoguro_gabicho01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kaoguro_gabicho02t.jpg"
+      "/images/species/garrulax-perspicillatus/0.webp",
+      "/images/species/garrulax-perspicillatus/1.webp"
     ],
     "prefectures": [
       "岩手",
@@ -692,9 +692,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabi1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabi2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/bird/kaojirogabityou_new1t.jpg"
+      "/images/species/garrulax-sannio/0.webp",
+      "/images/species/garrulax-sannio/1.webp",
+      "/images/species/garrulax-sannio/2.webp"
     ],
     "prefectures": [
       "千葉"
@@ -712,9 +712,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/soushicho03t.jpg"
+      "/images/species/leiothrix-lutea/0.webp",
+      "/images/species/leiothrix-lutea/1.webp",
+      "/images/species/leiothrix-lutea/2.webp"
     ],
     "prefectures": [
       "茨城",
@@ -753,9 +753,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/kamitsukigame02t.jpg"
+      "/images/species/chelydra-serpentina/0.webp",
+      "/images/species/chelydra-serpentina/1.webp",
+      "/images/species/chelydra-serpentina/2.webp"
     ],
     "prefectures": [
       "千葉",
@@ -798,8 +798,8 @@
     "status": "定着",
     "isConditional": true,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akamimit.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/akamimigame2t.jpg"
+      "/images/species/trachemys-scripta/0.webp",
+      "/images/species/trachemys-scripta/1.webp"
     ],
     "prefectures": [
       "北海道",
@@ -863,9 +863,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hanagame/hanagame_new2t.JPG"
+      "/images/species/mauremys-mutica/0.webp",
+      "/images/species/mauremys-mutica/1.webp",
+      "/images/species/mauremys-mutica/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -915,8 +915,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/hanagame_kusagame_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/hanagame_kusagame_new2t.JPG"
+      "/images/species/mauremys-sinensis-m-reevesii/0.webp",
+      "/images/species/mauremys-sinensis-m-reevesii/1.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -934,13 +934,13 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new3t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new4t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new5t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new6t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/suwinho-kinobori_new7t.JPG"
+      "/images/species/japalura-swinhonis/0.webp",
+      "/images/species/japalura-swinhonis/1.webp",
+      "/images/species/japalura-swinhonis/2.webp",
+      "/images/species/japalura-swinhonis/3.webp",
+      "/images/species/japalura-swinhonis/4.webp",
+      "/images/species/japalura-swinhonis/5.webp",
+      "/images/species/japalura-swinhonis/6.webp"
     ],
     "prefectures": [
       "神奈川",
@@ -992,7 +992,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/anolisangusticeps1t.jpg"
+      "/images/species/anolis-angusticeps/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1010,9 +1010,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/greenanole1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/greenanole2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/green_anole01t.jpg"
+      "/images/species/anolis-carolinensis/0.webp",
+      "/images/species/anolis-carolinensis/1.webp",
+      "/images/species/anolis-carolinensis/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1078,7 +1078,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/brownanole2t.jpg"
+      "/images/species/anolis-sagrei/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1128,7 +1128,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/mangrovehebi1t.jpg"
+      "/images/species/boiga-dendrophila/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1146,7 +1146,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/minamioogashira1t.jpg"
+      "/images/species/boiga-irregularis/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1164,7 +1164,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/boushioogashira1t.jpg"
+      "/images/species/boiga-nigriceps/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1182,9 +1182,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwansujio_new3t.JPG"
+      "/images/species/elaphe-taeniura-friesi/0.webp",
+      "/images/species/elaphe-taeniura-friesi/1.webp",
+      "/images/species/elaphe-taeniura-friesi/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1202,10 +1202,10 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new3t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hachu_rui/taiwanhabu_new4t.JPG"
+      "/images/species/protobothrops-mucrosquamatus/0.webp",
+      "/images/species/protobothrops-mucrosquamatus/1.webp",
+      "/images/species/protobothrops-mucrosquamatus/2.webp",
+      "/images/species/protobothrops-mucrosquamatus/3.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1255,9 +1255,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohikigaeru02t.jpg"
+      "/images/species/bufo-marinus/0.webp",
+      "/images/species/bufo-marinus/1.webp",
+      "/images/species/bufo-marinus/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1275,9 +1275,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/heriguro_new2t.JPG"
+      "/images/species/bufo-melanostictus/0.webp",
+      "/images/species/bufo-melanostictus/1.webp",
+      "/images/species/bufo-melanostictus/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1359,7 +1359,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/konohahikigaeru1t.jpg"
+      "/images/species/bufo-typhonius/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1441,9 +1441,9 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ryosei_rui/ajiajimuguri_new3t.jpg"
+      "/images/species/kaloula-pulchra/0.webp",
+      "/images/species/kaloula-pulchra/1.webp",
+      "/images/species/kaloula-pulchra/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1461,9 +1461,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ushigaeru02t.jpg"
+      "/images/species/rana-catesbeiana/0.webp",
+      "/images/species/rana-catesbeiana/1.webp",
+      "/images/species/rana-catesbeiana/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -1482,9 +1482,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new3t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/shiroago/siroago_new7t.JPG"
+      "/images/species/polypedates-leucomystax/0.webp",
+      "/images/species/polypedates-leucomystax/1.webp",
+      "/images/species/polypedates-leucomystax/2.webp"
     ],
     "prefectures": [
       "沖縄",
@@ -1516,7 +1516,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/spottd_gat.jpg"
+      "/images/species/atractosteus-lepisosteus-lepisosteidae-spp/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1547,7 +1547,7 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/ootanago_new1_malet.JPG"
+      "/images/species/acheilognathus-macropterus/0.webp"
     ],
     "prefectures": [
       "茨城",
@@ -1605,7 +1605,7 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/chanelcatfisht.jpg"
+      "/images/species/ictalurus-punctatus/0.webp"
     ],
     "prefectures": [
       "北海道",
@@ -1702,9 +1702,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayasi_new1_femalet.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayashi_new2_malet.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/kadayasi_new3t.JPG"
+      "/images/species/gambusia-affinis/0.webp",
+      "/images/species/gambusia-affinis/1.webp",
+      "/images/species/gambusia-affinis/2.webp"
     ],
     "prefectures": [
       "福島",
@@ -1723,7 +1723,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/g_holbrooki_left_mesy_right_osut.jpg"
+      "/images/species/gambusia-holbrooki/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1741,9 +1741,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/blue_gill03t.jpg"
+      "/images/species/lepomis-macrochirus/0.webp",
+      "/images/species/lepomis-macrochirus/1.webp",
+      "/images/species/lepomis-macrochirus/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -1807,8 +1807,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kokuchibasu01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kokuchibasu02t.jpg"
+      "/images/species/micropterus-dolomieu/0.webp",
+      "/images/species/micropterus-dolomieu/1.webp"
     ],
     "prefectures": [
       "福島",
@@ -1830,9 +1830,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/ookuchibasu03t.jpg"
+      "/images/species/micropterus-salmoides/0.webp",
+      "/images/species/micropterus-salmoides/1.webp",
+      "/images/species/micropterus-salmoides/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -1912,7 +1912,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/nairupa-tit.jpg"
+      "/images/species/lates-niloticus/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -1962,7 +1962,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/sutoraiputpbasst.JPG"
+      "/images/species/morone-saxatilis/0.webp"
     ],
     "prefectures": [
       "東京"
@@ -1980,7 +1980,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/fish/sutoraiputpbasst.JPG"
+      "/images/species/morone-saxatilis-m-chrysops/0.webp"
     ],
     "prefectures": []
   },
@@ -2043,7 +2043,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kourai_ketsugyo01t.jpg"
+      "/images/species/siniperca-chuatsi/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2061,7 +2061,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kourai_ketsugyo01t.jpg"
+      "/images/species/siniperca-scherzeri/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2079,9 +2079,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new3_teionkigatat.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/akabosigomadara/akabosigomadara_new2t.JPG"
+      "/images/species/hestina-assimillis/0.webp",
+      "/images/species/hestina-assimillis/1.webp",
+      "/images/species/hestina-assimillis/2.webp"
     ],
     "prefectures": [
       "神奈川",
@@ -2152,9 +2152,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiakahidari_osu_migi_mesut.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiaka_new3t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kubiaka/kubiaka_new1t.JPG"
+      "/images/species/aromia-bungii/0.webp",
+      "/images/species/aromia-bungii/1.webp",
+      "/images/species/aromia-bungii/2.webp"
     ],
     "prefectures": [
       "群馬",
@@ -2348,7 +2348,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/chairo_kumotenagakogane_osu01t.jpg"
+      "/images/species/euchirus/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2366,7 +2366,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/jansoni_tenagakogane01t.jpg"
+      "/images/species/propomacrus/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2384,9 +2384,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/seiyoumaru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/seiyoumaru2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/seiyou_oomaruhanabachi01t.jpg"
+      "/images/species/bombus-terrestris/0.webp",
+      "/images/species/bombus-terrestris/1.webp",
+      "/images/species/bombus-terrestris/2.webp"
     ],
     "prefectures": [
       "北海道"
@@ -2404,9 +2404,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari1t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/hayatoge/hayatogehusiari3t.JPG"
+      "/images/species/lepisiota-frauenfeldi/0.webp",
+      "/images/species/lepisiota-frauenfeldi/1.webp",
+      "/images/species/lepisiota-frauenfeldi/2.webp"
     ],
     "prefectures": [
       "愛知",
@@ -2428,9 +2428,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/argentinari1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/argentinari2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/argentine_ari01t.jpg"
+      "/images/species/linepithema-humile/0.webp",
+      "/images/species/linepithema-humile/1.webp",
+      "/images/species/linepithema-humile/2.webp"
     ],
     "prefectures": [
       "東京",
@@ -2461,8 +2461,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/akakamiari_worker01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/akakamiari_queen01t.jpg"
+      "/images/species/solenopsis-geminata/0.webp",
+      "/images/species/solenopsis-geminata/1.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2564,8 +2564,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/tsumaaka01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/tsumaaka02t.jpg"
+      "/images/species/vespa-v-velutina/0.webp",
+      "/images/species/vespa-v-velutina/1.webp"
     ],
     "prefectures": [
       "長崎"
@@ -2596,9 +2596,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/uchidazarigani03t.jpg"
+      "/images/species/pacifastacus-leniusculus/0.webp",
+      "/images/species/pacifastacus-leniusculus/1.webp",
+      "/images/species/pacifastacus-leniusculus/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -2634,7 +2634,7 @@
     "status": "定着",
     "isConditional": true,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/trimed_old/america_zarigani01t.jpg"
+      "/images/species/procambarus-clarkii/0.webp"
     ],
     "prefectures": [
       "北海道",
@@ -2740,7 +2740,7 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/scorpion01t.jpg"
+      "/images/species/species-131/0.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -2957,9 +2957,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/kawahibarigai03t.jpg"
+      "/images/species/limnoperna-fortunei/0.webp",
+      "/images/species/limnoperna-fortunei/1.webp",
+      "/images/species/limnoperna-fortunei/2.webp"
     ],
     "prefectures": [
       "茨城",
@@ -3033,8 +3033,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/yamahitachiobi/yamahitatiobi_youtait.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/yamahitachiobi/yamahitatiobit.JPG"
+      "/images/species/euglandina-rosea/0.webp",
+      "/images/species/euglandina-rosea/1.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -3052,9 +3052,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/newguineayarigatarikut.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/new_guinea_yarigatarikuuzumushi01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/new_guinea_yarigatarikuuzumushi02t.jpg"
+      "/images/species/platydemus-manokwari/0.webp",
+      "/images/species/platydemus-manokwari/1.webp",
+      "/images/species/platydemus-manokwari/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -3072,9 +3072,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsuru1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsurunogeitou01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/nagaetsurunogeitou02t.jpg"
+      "/images/species/alternanthera-philoxeroides/0.webp",
+      "/images/species/alternanthera-philoxeroides/1.webp",
+      "/images/species/alternanthera-philoxeroides/2.webp"
     ],
     "prefectures": [
       "福島",
@@ -3122,9 +3122,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/brazilchidome3t.jpg"
+      "/images/species/hydrocotyle-ranunculoides/0.webp",
+      "/images/species/hydrocotyle-ranunculoides/1.webp",
+      "/images/species/hydrocotyle-ranunculoides/2.webp"
     ],
     "prefectures": [
       "岡山",
@@ -3145,9 +3145,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/botanukikusa3t.jpg"
+      "/images/species/pistia-stratiotes/0.webp",
+      "/images/species/pistia-stratiotes/1.webp",
+      "/images/species/pistia-stratiotes/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -3165,8 +3165,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/azorakurisuta-ta01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/azorakurisuta-ta02t.jpg"
+      "/images/species/azolla-cristata/0.webp",
+      "/images/species/azolla-cristata/1.webp"
     ],
     "prefectures": [
       "宮城",
@@ -3204,9 +3204,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookinkeigiku02t.jpg"
+      "/images/species/coreopsis-lanceolata/0.webp",
+      "/images/species/coreopsis-lanceolata/1.webp",
+      "/images/species/coreopsis-lanceolata/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -3270,8 +3270,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/mizuhimawari1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/mizuhimawari01t.jpg"
+      "/images/species/gymnocoronis-spilanthoides/0.webp",
+      "/images/species/gymnocoronis-spilanthoides/1.webp"
     ],
     "prefectures": [
       "茨城",
@@ -3302,9 +3302,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/turuhiyo/turuhiyo4t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/plant/turuhiyo_nnew2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/plant/turuhiyo_nnew3t.jpg"
+      "/images/species/mikania-micrantha/0.webp",
+      "/images/species/mikania-micrantha/1.webp",
+      "/images/species/mikania-micrantha/2.webp"
     ],
     "prefectures": [
       "沖縄"
@@ -3322,9 +3322,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/oohangon3t.jpg"
+      "/images/species/rudbeckia-laciniata/0.webp",
+      "/images/species/rudbeckia-laciniata/1.webp",
+      "/images/species/rudbeckia-laciniata/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -3388,9 +3388,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/narutosawagiku02t.jpg"
+      "/images/species/senecio-madagascariensis/0.webp",
+      "/images/species/senecio-madagascariensis/1.webp",
+      "/images/species/senecio-madagascariensis/2.webp"
     ],
     "prefectures": [
       "福島",
@@ -3422,9 +3422,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/arechiuri2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/aretiuri01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/aretiuri02t.jpg"
+      "/images/species/sicyos-angulatus/0.webp",
+      "/images/species/sicyos-angulatus/1.webp",
+      "/images/species/sicyos-angulatus/2.webp"
     ],
     "prefectures": [
       "北海道",
@@ -3488,8 +3488,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/plant/nagaemousengoke_2t.JPG",
-      "https://www.env.go.jp/nature/intro/4document/asimg/plant/nagaemousengoke1t.JPG"
+      "/images/species/drosera-intermedia/0.webp",
+      "/images/species/drosera-intermedia/1.webp"
     ],
     "prefectures": [
       "千葉",
@@ -3508,8 +3508,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/oofusamo01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/oofusamo02t.jpg"
+      "/images/species/myriophyllum-aquaticum/0.webp",
+      "/images/species/myriophyllum-aquaticum/1.webp"
     ],
     "prefectures": [
       "北海道",
@@ -3652,11 +3652,11 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/suparu1t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/suparu2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/suparu3t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/suparu_aruteru_2t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/suparu_aruteru_1t.jpg"
+      "/images/species/spartina-alterniflora/0.webp",
+      "/images/species/spartina-alterniflora/1.webp",
+      "/images/species/spartina-alterniflora/2.webp",
+      "/images/species/spartina-alterniflora/3.webp",
+      "/images/species/spartina-alterniflora/4.webp"
     ],
     "prefectures": [
       "愛知",
@@ -3704,9 +3704,9 @@
     "status": "定着",
     "isConditional": false,
     "photos": [
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya01t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya02t.jpg",
-      "https://www.env.go.jp/nature/intro/4document/asimg/ookawajisya03t.jpg"
+      "/images/species/veronica-anagallis-aquatica/0.webp",
+      "/images/species/veronica-anagallis-aquatica/1.webp",
+      "/images/species/veronica-anagallis-aquatica/2.webp"
     ],
     "prefectures": [
       "岩手",
