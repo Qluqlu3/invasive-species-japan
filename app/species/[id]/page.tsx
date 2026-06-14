@@ -1,4 +1,3 @@
-import { Box } from '@chakra-ui/react';
 import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
 import DesignationBadge from '@/components/species/DesignationBadge';
@@ -28,7 +27,7 @@ export default async function SpeciesPage({ params }: Props) {
   if (!s) notFound();
 
   return (
-    <Box minH="100vh" bg="gray.50">
+    <main>
       <PageHeader
         title={s.jaName}
         subtitle={s.scientificName}
@@ -37,27 +36,28 @@ export default async function SpeciesPage({ params }: Props) {
         badge={s.isConditional ? '条件付特定外来生物' : '特定外来生物'}
         badgeColorPalette={s.isConditional ? 'orange' : 'red'}
       />
-      <Box maxW="4xl" mx="auto" px={4} py={6} spaceY={6}>
+      <div className="page-content">
         <DesignationBadge isConditional={s.isConditional} />
         {s.photos.length > 0 && (
-          <Box as="section">
-            <Box
-              as="h2"
-              fontSize="xs"
-              fontWeight="semibold"
-              color="gray.500"
-              textTransform="uppercase"
-              letterSpacing="wide"
-              mb={3}
+          <section>
+            <h2
+              style={{
+                fontSize: '0.75rem',
+                fontWeight: 600,
+                color: '#6b7280',
+                textTransform: 'uppercase',
+                letterSpacing: '0.05em',
+                marginBottom: '0.75rem',
+              }}
             >
               写真
-            </Box>
+            </h2>
             <PhotoGallery photos={s.photos} name={s.jaName} />
-          </Box>
+          </section>
         )}
         <SpeciesInfoTable species={s} />
         <PrefectureList prefectures={s.prefectures} />
-      </Box>
-    </Box>
+      </div>
+    </main>
   );
 }

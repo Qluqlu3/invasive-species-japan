@@ -67,15 +67,31 @@ function normalize(name: string): string {
 }
 
 /** 和名からURL-safe なスラッグを生成 */
-function makeId(jaName: string, scientificName: string, index: number): string {
-  // 学名ベースのID（小文字ハイフン）
-  if (scientificName) {
-    return scientificName
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-|-$/g, '');
+function makeId(
+  jaName: string,
+  scientificName: string,
+  index: number,
+  usedIds: Set<string>,
+): string {
+  const base = scientificName
+    ? scientificName
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '')
+    : `species-${index}`;
+
+  if (!usedIds.has(base)) {
+    usedIds.add(base);
+    return base;
   }
-  return `species-${index}`;
+
+  let n = 2;
+  let candidate = `${base}-${n}`;
+  while (usedIds.has(candidate)) {
+    candidate = `${base}-${++n}`;
+  }
+  usedIds.add(candidate);
+  return candidate;
 }
 
 async function main() {
@@ -98,6 +114,7 @@ async function main() {
   const species: Species[] = [];
   // 重複除去のため和名セット
   const seen = new Set<string>();
+  const usedIds = new Set<string>();
 
   for (let i = 0; i < listData.length; i++) {
     const item = listData[i];
@@ -129,7 +146,7 @@ async function main() {
       SCIENTIFIC_NAME_CORRECTIONS[item.jaName] ?? item.scientificName;
 
     species.push({
-      id: makeId(item.jaName, scientificName, i),
+      id: makeId(item.jaName, scientificName, i, usedIds),
       jaName: item.jaName,
       scientificName,
       category: item.category,

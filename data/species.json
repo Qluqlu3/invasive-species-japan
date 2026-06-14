@@ -2483,7 +2483,7 @@
     "prefectures": []
   },
   {
-    "id": "solenopsis",
+    "id": "solenopsis-2",
     "jaName": "ソレノプスィス・サエヴィスィマ種群の全種",
     "scientificName": "Solenopsis",
     "category": "昆虫類",
@@ -2499,7 +2499,7 @@
     "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60290.html"
   },
   {
-    "id": "solenopsis",
+    "id": "solenopsis-3",
     "jaName": "ソレノプスィス・トゥリデンス種群の全種",
     "scientificName": "Solenopsis",
     "category": "昆虫類",
@@ -2512,7 +2512,7 @@
     "prefectures": []
   },
   {
-    "id": "solenopsis",
+    "id": "solenopsis-4",
     "jaName": "ソレノプスィス・ヴィルレンス種群の全種",
     "scientificName": "Solenopsis",
     "category": "昆虫類",
@@ -2525,7 +2525,7 @@
     "prefectures": []
   },
   {
-    "id": "solenopsis",
+    "id": "solenopsis-5",
     "jaName": "上記4種群に属する種間の交雑により生じた生物",
     "scientificName": "Solenopsis",
     "category": "昆虫類",
@@ -3582,7 +3582,7 @@
     "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81100.html"
   },
   {
-    "id": "utricularia-inflata",
+    "id": "utricularia-inflata-2",
     "jaName": "ウトゥリクラリア・インフラタ",
     "scientificName": "Utricularia inflata",
     "category": "植物",
