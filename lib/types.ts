@@ -28,6 +28,9 @@ export const CATEGORIES = [
 
 export type Category = (typeof CATEGORIES)[number];
 
+export const STATUSES = ['定着', '未定着', '根絶', '近年生息情報なし'] as const;
+export type Status = (typeof STATUSES)[number];
+
 export const ALL_PREFECTURES = [
   '北海道',
   '青森',

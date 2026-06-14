@@ -14,12 +14,14 @@ export default function SpeciesList({ species }: Props) {
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const [conditional, setConditional] = useState<'all' | 'yes' | 'no'>('all');
+  const [status, setStatus] = useState('');
 
   const filtered = useMemo(() => {
     return species.filter((s) => {
       if (category && s.category !== category) return false;
       if (conditional === 'yes' && !s.isConditional) return false;
       if (conditional === 'no' && s.isConditional) return false;
+      if (status && s.status !== status) return false;
       if (query) {
         const q = query.toLowerCase();
         return (
@@ -31,7 +33,7 @@ export default function SpeciesList({ species }: Props) {
       }
       return true;
     });
-  }, [species, query, category, conditional]);
+  }, [species, query, category, conditional, status]);
 
   return (
     <Box>
@@ -39,10 +41,12 @@ export default function SpeciesList({ species }: Props) {
         query={query}
         category={category}
         conditional={conditional}
+        status={status}
         count={filtered.length}
         onQueryChange={setQuery}
         onCategoryChange={setCategory}
         onConditionalChange={setConditional}
+        onStatusChange={setStatus}
       />
       <Grid
         templateColumns={{

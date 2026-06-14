@@ -1,26 +1,30 @@
 'use client';
 
 import { Box, Flex, Input, NativeSelect, Text } from '@chakra-ui/react';
-import { CATEGORIES } from '@/lib/types';
+import { CATEGORIES, STATUSES } from '@/lib/types';
 
 interface Props {
   query: string;
   category: string;
   conditional: 'all' | 'yes' | 'no';
+  status: string;
   count: number;
   onQueryChange: (v: string) => void;
   onCategoryChange: (v: string) => void;
   onConditionalChange: (v: 'all' | 'yes' | 'no') => void;
+  onStatusChange: (v: string) => void;
 }
 
 export default function SpeciesFilterBar({
   query,
   category,
   conditional,
+  status,
   count,
   onQueryChange,
   onCategoryChange,
   onConditionalChange,
+  onStatusChange,
 }: Props) {
   return (
     <Box
@@ -50,7 +54,7 @@ export default function SpeciesFilterBar({
             onChange={(e) => onCategoryChange(e.target.value)}
             rounded="lg"
           >
-            <option value="">すべての分類群</option>
+            <option value="">分類群: すべて</option>
             {CATEGORIES.map((c) => (
               <option key={c} value={c}>
                 {c}
@@ -67,9 +71,24 @@ export default function SpeciesFilterBar({
             }
             rounded="lg"
           >
-            <option value="all">条件付き: すべて</option>
+            <option value="all">指定区分: すべて</option>
             <option value="no">特定外来生物のみ</option>
             <option value="yes">条件付特定外来生物のみ</option>
+          </NativeSelect.Field>
+          <NativeSelect.Indicator />
+        </NativeSelect.Root>
+        <NativeSelect.Root size="sm" w="auto">
+          <NativeSelect.Field
+            value={status}
+            onChange={(e) => onStatusChange(e.target.value)}
+            rounded="lg"
+          >
+            <option value="">定着状況: すべて</option>
+            {STATUSES.map((s) => (
+              <option key={s} value={s}>
+                {s}
+              </option>
+            ))}
           </NativeSelect.Field>
           <NativeSelect.Indicator />
         </NativeSelect.Root>
