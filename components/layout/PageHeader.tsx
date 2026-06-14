@@ -9,6 +9,7 @@ interface Props {
   backHref?: string;
   backLabel?: string;
   badge?: string;
+  badgeColorPalette?: string;
 }
 
 export default function PageHeader({
@@ -17,6 +18,7 @@ export default function PageHeader({
   backHref,
   backLabel,
   badge,
+  badgeColorPalette = 'orange',
 }: Props) {
   return (
     <Box as="header" bg="green.700" color="white" px={6} py={4}>
@@ -43,7 +45,13 @@ export default function PageHeader({
           )}
         </Box>
         {badge && (
-          <Badge ml="auto" colorPalette="orange" flexShrink={0} px={2} py={1}>
+          <Badge
+            ml="auto"
+            colorPalette={badgeColorPalette}
+            flexShrink={0}
+            px={2}
+            py={1}
+          >
             {badge}
           </Badge>
         )}

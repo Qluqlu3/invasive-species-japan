@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
+import DesignationBadge from '@/components/species/DesignationBadge';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
 import SpeciesInfoTable from '@/components/species/SpeciesInfoTable';
@@ -33,9 +34,11 @@ export default async function SpeciesPage({ params }: Props) {
         subtitle={s.scientificName}
         backHref="/"
         backLabel="← 一覧に戻る"
-        badge={s.isConditional ? '条件付特定外来生物' : undefined}
+        badge={s.isConditional ? '条件付特定外来生物' : '特定外来生物'}
+        badgeColorPalette={s.isConditional ? 'orange' : 'red'}
       />
       <Box maxW="4xl" mx="auto" px={4} py={6} spaceY={6}>
+        <DesignationBadge isConditional={s.isConditional} />
         {s.photos.length > 0 && (
           <Box as="section">
             <Box
