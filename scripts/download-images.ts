@@ -24,7 +24,9 @@ function sleep(ms: number) {
 
 async function fetchImage(url: string): Promise<Buffer> {
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'Mozilla/5.0 (compatible; invasive-species-viewer)' },
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (compatible; invasive-species-viewer)',
+    },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return Buffer.from(await res.arrayBuffer());
@@ -108,7 +110,9 @@ async function main() {
 
   fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2));
 
-  console.log(`\n完了: ${total} 件処理, ${skipped} 件スキップ, ${errors} 件エラー`);
+  console.log(
+    `\n完了: ${total} 件処理, ${skipped} 件スキップ, ${errors} 件エラー`,
+  );
 }
 
 main().catch((e) => {
