@@ -1,7 +1,8 @@
 'use client';
 
 import { Box, Grid, Text } from '@chakra-ui/react';
-import { useMemo, useState } from 'react';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useCallback, useMemo } from 'react';
 import type { Species } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
@@ -11,10 +12,31 @@ interface Props {
 }
 
 export default function SpeciesList({ species }: Props) {
-  const [query, setQuery] = useState('');
-  const [category, setCategory] = useState('');
-  const [conditional, setConditional] = useState<'all' | 'yes' | 'no'>('all');
-  const [status, setStatus] = useState('');
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const query = searchParams.get('q') ?? '';
+  const category = searchParams.get('category') ?? '';
+  const conditional = (searchParams.get('conditional') ?? 'all') as
+    | 'all'
+    | 'yes'
+    | 'no';
+  const status = searchParams.get('status') ?? '';
+
+  const setParam = useCallback(
+    (key: string, value: string) => {
+      const params = new URLSearchParams(searchParams.toString());
+      if (value && value !== 'all') {
+        params.set(key, value);
+      } else {
+        params.delete(key);
+      }
+      const qs = params.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    },
+    [router, pathname, searchParams],
+  );
 
   const filtered = useMemo(() => {
     return species.filter((s) => {
@@ -43,10 +65,10 @@ export default function SpeciesList({ species }: Props) {
         conditional={conditional}
         status={status}
         count={filtered.length}
-        onQueryChange={setQuery}
-        onCategoryChange={setCategory}
-        onConditionalChange={setConditional}
-        onStatusChange={setStatus}
+        onQueryChange={(v) => setParam('q', v)}
+        onCategoryChange={(v) => setParam('category', v)}
+        onConditionalChange={(v) => setParam('conditional', v)}
+        onStatusChange={(v) => setParam('status', v)}
       />
       <Grid
         templateColumns={{
