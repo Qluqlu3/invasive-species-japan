@@ -3,7 +3,13 @@
 import { Box, Grid, Text } from '@chakra-ui/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useMemo } from 'react';
-import type { Species } from '@/lib/types';
+import {
+  CATEGORIES,
+  type Category,
+  type Species,
+  STATUSES,
+  type Status,
+} from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
 
@@ -24,6 +30,7 @@ export default function SpeciesList({ species }: Props) {
     | 'no';
   const status = searchParams.get('status') ?? '';
   const prefecture = searchParams.get('prefecture') ?? '';
+  const sort = searchParams.get('sort') ?? '';
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -40,7 +47,7 @@ export default function SpeciesList({ species }: Props) {
   );
 
   const filtered = useMemo(() => {
-    return species.filter((s) => {
+    const result = species.filter((s) => {
       if (category && s.category !== category) return false;
       if (conditional === 'yes' && !s.isConditional) return false;
       if (conditional === 'no' && s.isConditional) return false;
@@ -58,7 +65,25 @@ export default function SpeciesList({ species }: Props) {
       }
       return true;
     });
-  }, [species, query, category, conditional, status, prefecture]);
+
+    if (sort === 'name') {
+      result.sort((a, b) => a.jaName.localeCompare(b.jaName, 'ja'));
+    } else if (sort === 'category') {
+      result.sort(
+        (a, b) =>
+          CATEGORIES.indexOf(a.category as Category) -
+          CATEGORIES.indexOf(b.category as Category),
+      );
+    } else if (sort === 'status') {
+      result.sort(
+        (a, b) =>
+          STATUSES.indexOf(a.status as Status) -
+          STATUSES.indexOf(b.status as Status),
+      );
+    }
+
+    return result;
+  }, [species, query, category, conditional, status, prefecture, sort]);
 
   return (
     <Box>
@@ -68,12 +93,14 @@ export default function SpeciesList({ species }: Props) {
         conditional={conditional}
         status={status}
         prefecture={prefecture}
+        sort={sort}
         count={filtered.length}
         onQueryChange={(v) => setParam('q', v)}
         onCategoryChange={(v) => setParam('category', v)}
         onConditionalChange={(v) => setParam('conditional', v)}
         onStatusChange={(v) => setParam('status', v)}
         onPrefectureChange={(v) => setParam('prefecture', v)}
+        onSortChange={(v) => setParam('sort', v)}
       />
       <Grid
         templateColumns={{

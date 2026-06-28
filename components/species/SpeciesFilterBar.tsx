@@ -9,12 +9,14 @@ interface Props {
   conditional: 'all' | 'yes' | 'no';
   status: string;
   prefecture: string;
+  sort: string;
   count: number;
   onQueryChange: (v: string) => void;
   onCategoryChange: (v: string) => void;
   onConditionalChange: (v: 'all' | 'yes' | 'no') => void;
   onStatusChange: (v: string) => void;
   onPrefectureChange: (v: string) => void;
+  onSortChange: (v: string) => void;
 }
 
 export default function SpeciesFilterBar({
@@ -23,12 +25,14 @@ export default function SpeciesFilterBar({
   conditional,
   status,
   prefecture,
+  sort,
   count,
   onQueryChange,
   onCategoryChange,
   onConditionalChange,
   onStatusChange,
   onPrefectureChange,
+  onSortChange,
 }: Props) {
   return (
     <Box
@@ -108,6 +112,19 @@ export default function SpeciesFilterBar({
                 {p}
               </option>
             ))}
+          </NativeSelect.Field>
+          <NativeSelect.Indicator />
+        </NativeSelect.Root>
+        <NativeSelect.Root size="sm" w="auto">
+          <NativeSelect.Field
+            value={sort}
+            onChange={(e) => onSortChange(e.target.value)}
+            rounded="lg"
+          >
+            <option value="">並び順: デフォルト</option>
+            <option value="name">名前順</option>
+            <option value="category">分類群順</option>
+            <option value="status">定着状況順</option>
           </NativeSelect.Field>
           <NativeSelect.Indicator />
         </NativeSelect.Root>
