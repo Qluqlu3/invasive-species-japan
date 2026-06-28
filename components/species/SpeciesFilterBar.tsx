@@ -1,18 +1,20 @@
 'use client';
 
 import { Box, Flex, Input, NativeSelect, Text } from '@chakra-ui/react';
-import { CATEGORIES, STATUSES } from '@/lib/types';
+import { ALL_PREFECTURES, CATEGORIES, STATUSES } from '@/lib/types';
 
 interface Props {
   query: string;
   category: string;
   conditional: 'all' | 'yes' | 'no';
   status: string;
+  prefecture: string;
   count: number;
   onQueryChange: (v: string) => void;
   onCategoryChange: (v: string) => void;
   onConditionalChange: (v: 'all' | 'yes' | 'no') => void;
   onStatusChange: (v: string) => void;
+  onPrefectureChange: (v: string) => void;
 }
 
 export default function SpeciesFilterBar({
@@ -20,11 +22,13 @@ export default function SpeciesFilterBar({
   category,
   conditional,
   status,
+  prefecture,
   count,
   onQueryChange,
   onCategoryChange,
   onConditionalChange,
   onStatusChange,
+  onPrefectureChange,
 }: Props) {
   return (
     <Box
@@ -87,6 +91,21 @@ export default function SpeciesFilterBar({
             {STATUSES.map((s) => (
               <option key={s} value={s}>
                 {s}
+              </option>
+            ))}
+          </NativeSelect.Field>
+          <NativeSelect.Indicator />
+        </NativeSelect.Root>
+        <NativeSelect.Root size="sm" w="auto">
+          <NativeSelect.Field
+            value={prefecture}
+            onChange={(e) => onPrefectureChange(e.target.value)}
+            rounded="lg"
+          >
+            <option value="">都道府県: すべて</option>
+            {ALL_PREFECTURES.map((p) => (
+              <option key={p} value={p}>
+                {p}
               </option>
             ))}
           </NativeSelect.Field>

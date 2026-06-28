@@ -23,6 +23,7 @@ export default function SpeciesList({ species }: Props) {
     | 'yes'
     | 'no';
   const status = searchParams.get('status') ?? '';
+  const prefecture = searchParams.get('prefecture') ?? '';
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -44,6 +45,7 @@ export default function SpeciesList({ species }: Props) {
       if (conditional === 'yes' && !s.isConditional) return false;
       if (conditional === 'no' && s.isConditional) return false;
       if (status && s.status !== status) return false;
+      if (prefecture && !s.prefectures.includes(prefecture)) return false;
       if (query) {
         const q = query.toLowerCase();
         return (
@@ -55,7 +57,7 @@ export default function SpeciesList({ species }: Props) {
       }
       return true;
     });
-  }, [species, query, category, conditional, status]);
+  }, [species, query, category, conditional, status, prefecture]);
 
   return (
     <Box>
@@ -64,11 +66,13 @@ export default function SpeciesList({ species }: Props) {
         category={category}
         conditional={conditional}
         status={status}
+        prefecture={prefecture}
         count={filtered.length}
         onQueryChange={(v) => setParam('q', v)}
         onCategoryChange={(v) => setParam('category', v)}
         onConditionalChange={(v) => setParam('conditional', v)}
         onStatusChange={(v) => setParam('status', v)}
+        onPrefectureChange={(v) => setParam('prefecture', v)}
       />
       <Grid
         templateColumns={{
