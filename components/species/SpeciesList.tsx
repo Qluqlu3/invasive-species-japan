@@ -52,7 +52,8 @@ export default function SpeciesList({ species }: Props) {
           s.jaName.includes(q) ||
           s.scientificName.toLowerCase().includes(q) ||
           s.family.includes(q) ||
-          s.order.includes(q)
+          s.order.includes(q) ||
+          s.genus.includes(q)
         );
       }
       return true;
