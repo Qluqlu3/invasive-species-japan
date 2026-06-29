@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Grid, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Grid, Text } from '@chakra-ui/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useMemo } from 'react';
 import {
@@ -12,6 +12,8 @@ import {
 } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
+
+const PAGE_SIZE = 48;
 
 interface Props {
   species: Species[];
@@ -31,6 +33,7 @@ export default function SpeciesList({ species }: Props) {
   const status = searchParams.get('status') ?? '';
   const prefecture = searchParams.get('prefecture') ?? '';
   const sort = searchParams.get('sort') ?? '';
+  const page = Math.max(1, parseInt(searchParams.get('page') ?? '1', 10));
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -40,13 +43,17 @@ export default function SpeciesList({ species }: Props) {
       } else {
         params.delete(key);
       }
+      // フィルター・ソート変更時はページを先頭にリセット
+      if (key !== 'page') {
+        params.delete('page');
+      }
       const qs = params.toString();
       router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
     },
     [router, pathname, searchParams],
   );
 
-  const filtered = useMemo(() => {
+  const { paginated, totalPages, totalCount } = useMemo(() => {
     const result = species.filter((s) => {
       if (category && s.category !== category) return false;
       if (conditional === 'yes' && !s.isConditional) return false;
@@ -82,8 +89,16 @@ export default function SpeciesList({ species }: Props) {
       );
     }
 
-    return result;
-  }, [species, query, category, conditional, status, prefecture, sort]);
+    const totalCount = result.length;
+    const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
+    const clampedPage = Math.min(page, totalPages);
+    const paginated = result.slice(
+      (clampedPage - 1) * PAGE_SIZE,
+      clampedPage * PAGE_SIZE,
+    );
+
+    return { paginated, totalPages, totalCount };
+  }, [species, query, category, conditional, status, prefecture, sort, page]);
 
   return (
     <Box>
@@ -94,7 +109,7 @@ export default function SpeciesList({ species }: Props) {
         status={status}
         prefecture={prefecture}
         sort={sort}
-        count={filtered.length}
+        count={totalCount}
         onQueryChange={(v) => setParam('q', v)}
         onCategoryChange={(v) => setParam('category', v)}
         onConditionalChange={(v) => setParam('conditional', v)}
@@ -113,14 +128,37 @@ export default function SpeciesList({ species }: Props) {
         gap={4}
         p={4}
       >
-        {filtered.map((s) => (
+        {paginated.map((s) => (
           <SpeciesCard key={s.id} species={s} />
         ))}
       </Grid>
-      {filtered.length === 0 && (
+      {totalCount === 0 && (
         <Text textAlign="center" py={20} color="gray.400">
           該当する種が見つかりません
         </Text>
+      )}
+      {totalPages > 1 && (
+        <Flex justify="center" align="center" gap={3} py={6}>
+          <Button
+            size="sm"
+            variant="outline"
+            disabled={page <= 1}
+            onClick={() => setParam('page', String(page - 1))}
+          >
+            ← 前へ
+          </Button>
+          <Text fontSize="sm" color="gray.600">
+            {page} / {totalPages} ページ
+          </Text>
+          <Button
+            size="sm"
+            variant="outline"
+            disabled={page >= totalPages}
+            onClick={() => setParam('page', String(page + 1))}
+          >
+            次へ →
+          </Button>
+        </Flex>
       )}
     </Box>
   );
