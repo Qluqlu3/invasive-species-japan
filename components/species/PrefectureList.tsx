@@ -2,6 +2,7 @@
 
 import { Badge, Box, Flex, Heading, Text } from '@chakra-ui/react';
 import { ALL_PREFECTURES } from '@/lib/types';
+import JapanMap from './JapanMap';
 
 interface Props {
   prefectures: string[];
@@ -29,18 +30,51 @@ export default function PrefectureList({ prefectures }: Props) {
       >
         国内分布 ({prefectures.length} 都道府県)
       </Heading>
+
+      <Box px={3} pt={3} pb={1}>
+        <JapanMap highlightedPrefectures={prefectures} />
+        <Flex gap={4} px={2} py={2} align="center">
+          <Flex align="center" gap={1.5}>
+            <Box w={3} h={3} bg="#16a34a" rounded="sm" />
+            <Text fontSize="xs" color="gray.500">
+              生息確認
+            </Text>
+          </Flex>
+          <Flex align="center" gap={1.5}>
+            <Box
+              w={3}
+              h={3}
+              bg="#e5e7eb"
+              rounded="sm"
+              borderWidth="1px"
+              borderColor="gray.300"
+            />
+            <Text fontSize="xs" color="gray.500">
+              記録なし
+            </Text>
+          </Flex>
+        </Flex>
+      </Box>
+
       {prefectures.length > 0 ? (
-        <Flex px={5} py={4} wrap="wrap" gap={2}>
+        <Flex
+          px={5}
+          py={3}
+          wrap="wrap"
+          gap={1.5}
+          borderTopWidth="1px"
+          borderColor="gray.100"
+        >
           {ALL_PREFECTURES.filter((p) => prefectures.includes(p)).map((p) => (
             <Badge
               key={p}
               colorPalette="green"
               variant="subtle"
-              size="lg"
-              px={3}
-              py={1.5}
+              size="sm"
+              px={2}
+              py={1}
               rounded="full"
-              fontSize="sm"
+              fontSize="xs"
             >
               {p}
             </Badge>
