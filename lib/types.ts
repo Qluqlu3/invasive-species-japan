@@ -1,3 +1,10 @@
+export interface SpeciesDescription {
+  morphology?: string; // 形態
+  habitat?: string; // 生息環境
+  impact?: string; // 影響
+  control?: string; // 防除方法
+}
+
 export interface Species {
   id: string;
   jaName: string;
@@ -10,6 +17,7 @@ export interface Species {
   isConditional: boolean;
   photos: string[];
   prefectures: string[];
+  description?: SpeciesDescription;
   niesUrl?: string;
 }
 

@@ -18,7 +18,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10370.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10370.html",
+    "description": {
+      "morphology": "頭胴長32～61cm，尾長24～38cm．体重1.4～4.5kg．毛は灰褐色，鼻がピンク色，指は５本で鋭い．",
+      "habitat": "森林性であるが，人を恐れないため民家に入り込むことがある．温度選好性：乾燥地帯に住む．",
+      "impact": "小動物（鳥類とその卵，昆虫など）・植物の捕食，寄生虫や病原菌の伝播．ニュージーランドでは毛皮用にオーストラリアから持ち込まれた個体が野生化し，ウシの結核を伝搬したため駆除対象種となっている．ニュージーランドでは農作物への被害も報告されている．影響を受ける在来生物：雑食性で，鳥類や昆虫類・植物を捕食．牛結核や線虫を伝搬する，他の在来哺乳類にも感染する可能性等．",
+      "control": "輸入しない，逃がさない，"
+    }
   },
   {
     "id": "erinaceus-amurensis",
@@ -67,7 +73,13 @@
       "和歌山",
       "青森"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html",
+    "description": {
+      "morphology": "ニホンザルと同程度のサイズのサル．雄40～55cm，雌35～45cm，体重は6～10kg，尾長はニホンザルよりはるかに長く，頭胴長の7割ほど（25～35cm）．毛色は，背面は灰色～褐色で腹面は白っぽい．四肢の先は黒い．顔面と臀部は無毛で赤い．",
+      "habitat": "平地から亜高山帯までの樹林に生息するが，暖温帯以下に多い．",
+      "impact": "ニホンザルとの交雑，農業被害影響を受ける在来生物：ニホンザル，農作物（和歌山ではミカン，タケノコなど．伊豆大島ではサツマイモ，トウモロコシ，アシタバ，ツバキなど）",
+      "control": "和歌山では，避妊手術を施し発信機を装着した個体の追跡による行動圏の特定，大型オリによる捕獲が行われ，効果があがっている．"
+    }
   },
   {
     "id": "macaca-fascicularis",
@@ -87,7 +99,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10380.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10380.html",
+    "description": {
+      "morphology": "体長40～50cm程度，尾長40～60cm程度，体重3～6kg程度のサル．全身の毛は灰色～黄色．顔面に灰色のほおひげがある．",
+      "habitat": "海岸林．特にマングローブ林．温度選好性：亜熱帯～暖温帯",
+      "impact": "潜在的には，ニホンザルとの競合，交雑，寄生虫や病原菌の伝播，農作物への被害等が起こりうる．影響を受ける在来生物：ニホンザル，鳥類など小動物，在来植生，農林業作物等",
+      "control": "逃がさない，捕獲等"
+    }
   },
   {
     "id": "macaca-mulatta",
@@ -108,7 +126,13 @@
       "千葉",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html",
+    "description": {
+      "morphology": "ニホンザルと同程度のサイズのサル．頭胴長は雄で45～62cm，雌で40～55cm程度，体重4～10kg程度．尾長には地理的変異があるが，ニホンザルより明らかに長く，頭胴長の30～45％ほど．毛色には地理的変異があるが，概ね背面は灰褐色で腰部はやや赤褐色，腹面は白っぽく，四肢の先は黒い．体長47～64cm，尾長19～31cm．上半身は灰褐色，下半身は赤黄褐色．尾が長いことでニホンザルと区別可能．",
+      "habitat": "湿地林～半乾燥地まで様々な森林．房総では常緑広葉樹林と耕作地が混在した丘陵地．温度選好性：",
+      "impact": "ニホンザルとの競合，交雑，寄生虫や病原菌の伝播，農作物への被害等．影響を受ける在来生物：ニホンザル，在来植生，農林業作物",
+      "control": "房総では2001年から全頭捕獲が開始され，発信機を装着した個体の追跡により行動圏を特定し，ニホンザル生息域への侵入防止と捕獲オリによる駆除が行われている．"
+    }
   },
   {
     "id": "macaca-cyclopis-m-fuscata",
@@ -131,7 +155,13 @@
       "静岡",
       "和歌山"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10030.html",
+    "description": {
+      "morphology": "ニホンザルと同程度のサイズのサル．雄40～55cm，雌35～45cm，体重は6～10kg，尾長はニホンザルよりはるかに長く，頭胴長の7割ほど（25～35cm）．毛色は，背面は灰色～褐色で腹面は白っぽい．四肢の先は黒い．顔面と臀部は無毛で赤い．",
+      "habitat": "平地から亜高山帯までの樹林に生息するが，暖温帯以下に多い．",
+      "impact": "ニホンザルとの交雑，農業被害影響を受ける在来生物：ニホンザル，農作物（和歌山ではミカン，タケノコなど．伊豆大島ではサツマイモ，トウモロコシ，アシタバ，ツバキなど）",
+      "control": "和歌山では，避妊手術を施し発信機を装着した個体の追跡による行動圏の特定，大型オリによる捕獲が行われ，効果があがっている．"
+    }
   },
   {
     "id": "macaca-mulatta-m-fuscata",
@@ -152,7 +182,13 @@
       "千葉",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10390.html",
+    "description": {
+      "morphology": "ニホンザルと同程度のサイズのサル．頭胴長は雄で45～62cm，雌で40～55cm程度，体重4～10kg程度．尾長には地理的変異があるが，ニホンザルより明らかに長く，頭胴長の30～45％ほど．毛色には地理的変異があるが，概ね背面は灰褐色で腰部はやや赤褐色，腹面は白っぽく，四肢の先は黒い．体長47～64cm，尾長19～31cm．上半身は灰褐色，下半身は赤黄褐色．尾が長いことでニホンザルと区別可能．",
+      "habitat": "湿地林～半乾燥地まで様々な森林．房総では常緑広葉樹林と耕作地が混在した丘陵地．温度選好性：",
+      "impact": "ニホンザルとの競合，交雑，寄生虫や病原菌の伝播，農作物への被害等．影響を受ける在来生物：ニホンザル，在来植生，農林業作物",
+      "control": "房総では2001年から全頭捕獲が開始され，発信機を装着した個体の追跡により行動圏を特定し，ニホンザル生息域への侵入防止と捕獲オリによる駆除が行われている．"
+    }
   },
   {
     "id": "myocastor-coypus",
@@ -190,7 +226,13 @@
       "香川",
       "愛媛"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10140.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10140.html",
+    "description": {
+      "morphology": "大きなドブネズミのような体つきで，目や耳は小さく，尾は扁平でなく円筒状である．後ろ足は前足より長く，第1指から第4指までの間には水かきがある．第5指は離れていて，毛づくろいに使われる．前足に水かきはなく，第1指は痕跡的であるが，他の指は長く曲がりやすい形をしている．頭胴長647mm，尾長387mm，後足長130mm，耳長27mm，頭骨基底全長118mm（香川県産の標本）．雄の方がやや大きい．乳頭式2+2+0=8．",
+      "habitat": "流れの緩やかな河川，湖，沼沢地．温度選好性：寒さに弱く，冬季には流産の確率が高くなる．また，北欧・北米の寒冷地では定着後に自然に絶滅した地域もある．国内では，鳥取県・兵庫県北部山間部でも分布拡大しつつあることから，少なくとも西日本のほとんどの地域では定着可能と考えられる．",
+      "impact": "水生植物に対する食害．巣穴による堤防・水田の畦・ため池の破壊．農業被害影響を受ける在来生物：水生植物．農作物（イネを中心に，様々な品目に被害あり）．",
+      "control": "田畑周辺・巣穴周辺の草の狩り払い．ネット・金網・電気柵による侵入防止．箱ワナ・銃器による捕獲．海外では，ワナによる計画的な捕獲で根絶に成功した事例もある．"
+    }
   },
   {
     "id": "callosciurus-erythraeus",
@@ -220,7 +262,13 @@
       "熊本",
       "大分"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10060.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10060.html",
+    "description": {
+      "morphology": "雄成獣で頭胴長20～26cm，尾長17～20cm，体重300～440g前後になるリス．毛の色彩には地理的変異があるが，国内に定着している個体群では，背面は黒と黄土色毛が混じって生え，腹面は栗色．染色体数 2n=40",
+      "habitat": "主に常緑広葉樹林．市街地・造林地でも生息可．温度選好性：本来の分布域が広く，さまざまな気候や植生に適応",
+      "impact": "捕食，樹皮剥離による樹木の枯死，種子を未熟の内から樹上で捕食してしまう等．人家に対する破壊・侵入．電線噛害等生活被害，樹皮剥離なども引き起こす．また，寄生虫の持ち込みも指摘されている．農業被害．森林地域へ分布拡大すると，在来リス科（ニホンリスなど）と競合する可能性あり．影響を受ける在来生物：リス科，野鳥，昆虫類，スダジイ，ヤブツバキなど主要な植生，農作物など．",
+      "control": "箱ワナなどによる捕獲．神奈川県などで捕獲事業が行われている．"
+    }
   },
   {
     "id": "callosciurus-finlaysonii",
@@ -240,7 +288,13 @@
     "prefectures": [
       "静岡"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10540.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10540.html",
+    "description": {
+      "morphology": "頭胴長21-22cm，尾長22-24cm，体重約250gとされるが，個体差が大きい．体色は黒，赤，白，部分的に色が違うなど変異が大きい．原産地では13-17の亜種が確認されている．",
+      "habitat": "森林，公園",
+      "impact": "樹皮剥ぎによる樹木の枯死，林業・果樹などへの農業被害，ケーブルをかじるなどの被害，在来リス類（ニホンリスなど）との競合．",
+      "control": "かごわな等，クリハラリスと同じ手法が利用できる．"
+    }
   },
   {
     "id": "pteromys-volans",
@@ -262,7 +316,13 @@
       "青森",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10400.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10400.html",
+    "description": {
+      "morphology": "全長14～20cm，顔に対する目の占める割合が大きい．滑空するための皮膜がある．",
+      "habitat": "平地から山地の森林に棲息し，夜行性で樹上で行動する．樹洞内に巣を作る．温度選好性：飼育下では死亡率が高いとされる．",
+      "impact": "在来種との競合，交雑影響を受ける在来生物：エゾモモンガ，ニホンモモンガ",
+      "control": "逃がさない，捕獲等．"
+    }
   },
   {
     "id": "sciurus-carolinensis",
@@ -282,7 +342,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10410.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10410.html",
+    "description": {
+      "morphology": "体長43～50cm，尾長21～24cm，灰褐色で大型のリス．",
+      "habitat": "温帯地域の森林，公園等．温度選好性：温帯域．北米東部は日本の気候帯と類似するため，定着は十分可能と思われる．",
+      "impact": "競合，駆逐，鳥の卵などの捕食，リスポックスウイルスの媒介，樹皮の剥ぎ取り等による樹木への被害，生態系改変等．影響を受ける在来生物：エゾリス，ニホンリス，他の在来リス科小動物，鳥類，森林植生",
+      "control": "捕獲"
+    }
   },
   {
     "id": "sciurus-vulgaris",
@@ -305,7 +371,13 @@
       "山梨",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10420.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10420.html",
+    "description": {
+      "morphology": "体長22～27cm，尾長15～21cm，体重300～410g程度．耳に房毛が生える．",
+      "habitat": "常緑の針葉樹林．",
+      "impact": "交雑による遺伝的撹乱，競合，駆逐，生態系改変等．家畜伝染病（ペスト等）を媒介する．ダニによる回帰熱も媒介する．影響を受ける在来生物：遺伝的に近縁の北海道固有亜種エゾリス（Sciurus vulgaris orientis）や，生息環境が重なるエゾシマリス，エゾモモンガ，本州ではニホンリス，ニホンモモンガが影響を受ける可能性が高い．",
+      "control": "ペットは逃がさない．捕獲．"
+    }
   },
   {
     "id": "ondratra-zibethicus",
@@ -327,7 +399,13 @@
       "東京",
       "京都"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10090.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10090.html",
+    "description": {
+      "morphology": "茶・黒褐・黒が一般的な毛色で，毛は短く密でやわらかい．後ろ足には指のふちにそって短い毛が密生する．縦に平たい尾はほとんど毛がない．肛門腺の分泌物に由来するジャコウのにおいがあり，雄の腺は大きく陰茎の前側に開口する．頭胴長約320mm，尾長は頭胴長の約2/3，後足長約70mm，乳頭式1+0+2=6，頭骨全長は50mm以上で，成体は歯根をもち，口蓋後端部はヤチネズミ型で中央の突起は短い．上顎第３臼歯は単純型．",
+      "habitat": "河川や湿地，沼地など．温度選好性：北アメリカ原産のため寒さには強い．",
+      "impact": "千葉県市川市では，かつてハス（レンコン）への食害があった．ヨーロッパでは，摂餌による水生植物へのダメージ，営巣による堤防・ダム・鉄道築堤・灌漑施設の破壊．影響を受ける在来生物：（海外）水生植物",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "procyon-cancrivorus",
@@ -347,7 +425,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10430.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10430.html",
+    "description": {
+      "morphology": "頭胴長45～90cm，尾長20～56cm，体重4～10kg．アライグマに似るが，黄色味を帯び，毛が粗く短い．尾に暗色のリング模様が7～8本ある．",
+      "habitat": "水辺の森林など",
+      "impact": "アライグマと同様，在来生物に対する競合・捕食・感染症（アライグマ回虫等）の持込，農業被害などの可能性がある．影響を受ける在来生物：在来動植物の多くの種が生態学的被害を受けると思われるが不明．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "procyon-lotor",
@@ -413,7 +497,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10150.html",
+    "description": {
+      "morphology": "頭胴長40～60cm，尾長20～40cm，体重4～10kg稀に20kg，雄は雌よりやや大型，毛色は灰色から明るい茶褐色で尾に黒い輪が4～10本ある．目を覆うように黒い帯がある．蹠行性で臼歯が上下とも2対ある．蹠行性（爪先からかかとまで地面につける）ため，足跡が他の哺乳類と異なる．",
+      "habitat": "都市部から森林・湿地帯までの水辺に生息．巣は木のうろや岩穴，人家や畜舎．温度選好性：冷帯湿澗気候，西岸海洋性気候，温暖温澗気候，地中海性気候，ステップ気候，サバナ気候，熱帯モンスーン気候",
+      "impact": "在来中型哺乳類との競合，鳥類への営巣妨害・営巣放棄，野生生物の捕食，食性や営巣場所の競合，農業被害（特にトウモロコシ被害が深刻．ナス・トマト・エンドウなどの野菜類，メロン・スイカ・イチゴなどの果実類，コイなどの養殖魚，家畜飼料，ビニールハウスの破壊など）．文化財を含む建造物への侵入・損壊，人獣共通感染症を含む病原体の媒介（狂犬病，ジステンパー，アライグマ糞線虫 Stronglyloides procyonis，アライグマ蛔虫 Baylisascaris procyonis，インフルエンザ，日本脳炎，レプトスピラ，紅斑熱群リケッチア，サルモネラ など）影響を受ける在来生物：タヌキ・キツネなどの中型哺乳類（競合），サギ類などの鳥類（営巣妨害），爬虫両生類，昆虫，甲殻類（捕食）",
+      "control": "箱ワナ・エッグトラップによる捕獲．捕獲時期・対象個体の齢などによって実質的な効果が異なり，十分な事前調査と計画的な対策が必要．"
+    }
   },
   {
     "id": "mustela-vison",
@@ -436,7 +526,13 @@
       "群馬",
       "長野"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10190.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10190.html",
+    "description": {
+      "morphology": "養殖個体には白色から褐色，青灰色，黒色のものまで様々な毛色の変異があるが，脱柵して野生化した個体には褐色のものが多い．頭胴長：雄45cm，雌36cm，尾長：雄36cm，雌30cm，体重：雄1kg，雌0.7kgが記録されている．",
+      "habitat": "海岸部，河川や湖沼沿い．",
+      "impact": "在来種に対する競合，捕食の可能性．寄生虫の持ち込みの可能性（トウホクサンショウウオへの感染が近年見られるメタセルカリアの終宿主の一つ）． 養魚，養鶏への被害あり．影響を受ける在来生物：在来イタチ科（競合），トウホクサンショウウオ（寄生虫），在来小動物・家畜・養殖魚（捕食）など",
+      "control": "ワナ捕獲"
+    }
   },
   {
     "id": "herpestes-auropunctatus",
@@ -457,7 +553,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10210.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10210.html",
+    "description": {
+      "morphology": "頭胴長250-370mm，尾長192-290mm，体重：オス600-1000g，メス400-600g．オスの方が大きい．腹部を除いて黒～褐色と黄白色の毛に覆われる．細長い体型で前後肢は短い．頭部は細長く，鼻先はとがる．尾は根元で太く，先端に行くほど細くなる．耳は短く丸い．前後肢とも指は5本．雌雄とも肛門近くに臭腺があり，悪臭を放つ．染色体数 2n=36(♀),35(♂)",
+      "habitat": "海岸から標高2000m程度までの森林，草原，農地など",
+      "impact": "様々な小型の陸上動物を捕食．鶏・農作物の被害．人獣共通感染症の媒介．沖縄でレプトスピラの保菌が知られ，西インド諸島では狂犬病ウイルスも検出されている．影響を受ける在来生物：小型哺乳類，鳥類，爬虫両生類，昆虫類．多数の希少種・固有種の捕食が確認されている（アマミノクロウサギ，ケナガネズミ，オキナワトゲネズミ，アマミトゲネズミ，ワタセジネズミ，ヤンバルクイナ，ルリカケス，アカヒゲ，ヘリグロヒメトカゲ，ハナサキガエル類，イシカワガエル類，ホルストガエル，オットンガエル，ナミエガエルなど）．これらのうちのいくつかは，駆除事業によるマングースの減少後に回復傾向がみられている．一方，ハブ退治としての効果はほとんど無かったと考えられている．農業では，養鶏への被害，バナナ・マンゴー・柑橘類などへの食害も知られる．",
+      "control": "ワナによる捕獲など．捕獲ワナ・捕殺ワナが使用されている．新たな防除技術開発も進められており，毒餌・誘引源などの検討，探索犬・ヘアトラップ・足跡トラップなど低密度化したマングースに対するモニタリング手段も研究されている．なお、奄美大島の定着集団については、2024年根絶が達成されたことが環境省から宣言された。"
+    }
   },
   {
     "id": "herpestes-javanicus",
@@ -473,7 +575,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10530.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10530.html",
+    "description": {
+      "morphology": "頭胴長300-415mm，尾長210-315mm，体重は1,800gまで． 毛色は赤茶色や灰黄色，オリーブがかった茶色などさまざま．鼻はとがり，耳は比較的大きく，四肢は短い．尾は基部が厚く，先端に向かって細くなる．",
+      "habitat": "標高1200mまでの森林，低木林，草原，農耕地",
+      "impact": "近縁種フイリマングースHerpestes auropunctatusと同様に，幅広い分類群の在来種の捕食，農業被害，鶏卵や雛の捕食による家禽被害が考えられる．",
+      "control": "箱わなや毒えさなど，フイリマングースの防除対策が利用できる．"
+    }
   },
   {
     "id": "mungos-mungo",
@@ -489,7 +597,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10470.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10470.html",
+    "description": {
+      "morphology": "頭胴長30～45cm，尾長18～25cm，体重0.9～2.3㎏．毛皮の色は灰褐色，胴体背面から尾基部にかけて連続した暗褐色の縞模様が入り，四肢・尾の先端は黒褐色．耳は小さく，丸みを帯びる．前肢・後肢ともに指は5本．",
+      "habitat": "幅広いハビタットに生息．",
+      "impact": "在来の地表性昆虫類を中心に捕食し得る．鶏卵，鶏雛に対する養鶏被害や農作物への被害のおそれがある．影響を受ける在来生物：地表性昆虫類，鶏卵，鶏雛，農作物など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "axis",
@@ -508,7 +622,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10440.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10440.html",
+    "description": {
+      "morphology": "体長110～140cm，褐色の胴体に白い斑点があり，斑点は年間を通して見られる．オスには1m近くにもなる角が毎年生えかわる．",
+      "habitat": "森林および草原．",
+      "impact": "在来シカ類との交雑・競合，樹木の食害，土壌流失等影響を受ける在来生物：ニホンジカ",
+      "control": "捕獲，銃殺等"
+    }
   },
   {
     "id": "dama",
@@ -527,7 +647,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10450.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10450.html",
+    "description": {
+      "morphology": "頭胴長130～235cm，肩高72～105cm，体重30～100kgのシカ．白色個体など体色には様々な変異がある．一般的には，夏は黒みを帯びた籍褐色の地に白斑，冬は灰褐色で白斑が無い．雄は掌状に広がった63～94cmの角を持つ．",
+      "habitat": "森林とその周辺の草原",
+      "impact": "潜在的には，在来のシカとの競合，農業被害の可能性がある．米国のセントサイモンズ島では，在来種オジロジカを駆逐した．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "elaphurus-davidianus",
@@ -547,7 +673,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10460.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10460.html",
+    "description": {
+      "morphology": "頭胴長183～216cm，肩高105～137cm，体重150～214kgになるシカ．赤褐色の毛に覆われ，雄は70～88cmの角を持つ．蹄は大きく，二股に割れる．尾は22～50cm程度．",
+      "habitat": "沼地・湿地など",
+      "impact": "飼育下では，シカ属との交雑の例が報告されている．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "muntiacus-reevesi",
@@ -567,7 +699,13 @@
     "prefectures": [
       "千葉"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10250.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/10250.html",
+    "description": {
+      "morphology": "体色は茶褐色で，腹面は黄色がかる．目の上から頭頂にかけて黒い線が走る．雄は角を持つ．角長は15cm以下で2ポイントになる．雄の上顎犬歯はよく発達し牙となる．頭胴長1m以下，尾長15cm，肩高：雄48cm，雌45cm，体重：雄成体14kg，雌成体12kg．性的二型は顕著であるが，特に首周りは雄33cm，雌26cm．雄では眼下腺，前頭腺がよく発達し，頻繁にマーキングを行う．",
+      "habitat": "主に森林やヤブの多い環境．",
+      "impact": "農業被害影響を受ける在来生物：農作物，自然植生",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "branta-canadensis",
@@ -591,7 +729,13 @@
       "神奈川",
       "長野"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20430.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20430.html",
+    "description": {
+      "morphology": "全長最大110cm，体重2.3-6.8kg．頭部-首は黒く，喉-頬に白斑．背面は褐色，胸-腹は白色～灰褐色．在来の冬鳥シジュウカラガン (B. hitchinsii leucopareia) とは，体が大きい，首が長い，くちばしが長い，首の根元に白い輪状模様を持たないなどの点で異なる．",
+      "habitat": "湖沼，水田などさまざまな水辺環境",
+      "impact": "在来の近縁種シジュウカラガン B. hutchinsii leucopareia と交雑する可能性あり．農業被害（穀物・野菜の食害），糞害，植生の破壊などが想定される．",
+      "control": "池周辺の茂みを刈り払う（営巣場所をなくす），池の上にワイヤー・テグスを張る，大きな風船を上げる，音で追い払うなどによる個体数管理が都市公園で行われている．米国では，避妊薬の投与が一定の効果をあげている．"
+    }
   },
   {
     "id": "pycnonotus-cafer",
@@ -607,7 +751,13 @@
     "prefectures": [
       "神奈川"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20450.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20450.html",
+    "description": {
+      "morphology": "全長19-20cm，体重28-40g．全体は暗褐色でうろこ状の模様がある．虹彩は茶色，くちばしと足は黒．腰に白色の羽毛を持ち，尾羽は先端が白くあとは黒い．尻・下尾筒が赤い．",
+      "habitat": "乾いた森林，果樹園，都市公園など",
+      "impact": "日本に導入すれば定着し，在来のヒヨドリなどと競合する可能性がある．海外では，果実などの農業被害が出ている．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "garrulax-canorus",
@@ -635,7 +785,13 @@
       "高知",
       "鹿児島"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20150.html",
+    "description": {
+      "morphology": "全長20～25cm．全体に黄褐色で，目のまわりとその後方の帯は白い．腹の中央は灰色で，喉と上胸に細いすじが入る．尾羽はやや黒い．嘴は黄色．",
+      "habitat": "丘陵地，平野部の低木林に生息し，藪を好む．積雪量の多いところには分布しないのは，地上採食性であること，渡りをしないことが原因と考えられる．",
+      "impact": "ハワイでは，ガビチョウが侵入してから在来種が減少している．影響を受ける在来生物：在来鳥類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "garrulax-cineraceus",
@@ -656,7 +812,13 @@
       "愛媛",
       "高知"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20470.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20470.html",
+    "description": {
+      "morphology": "全長24cm程度．全身の地色は赤褐色，目の前方～下方に白斑，その前部～頬にかけて細い黒斑，前頭部～頭頂部～後頭部は黒，風切羽は黒く，三列風切と尾羽は黒白の模様，脚・嘴は黄褐色．雌雄同色．",
+      "habitat": "アカマツ林，スギ林，落葉広葉樹林などの下層のやぶが適度に発達した林",
+      "impact": "不明．2007年時点までの調査によれば，侵入初期と考えられ影響は軽微と考えられている．影響を受ける在来生物：",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "garrulax-perspicillatus",
@@ -679,7 +841,13 @@
       "東京",
       "神奈川"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20130.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20130.html",
+    "description": {
+      "morphology": "全長30～40cm．目のまわりが大きく黒い．頭頂，粽，喉，上胸は灰褐色で，背は鈍い褐色．オリーブ褐色の尾は円筒で長く，下尾筒は明るい茶褐色．",
+      "habitat": "低標高の山地，平野部の低木林や竹林，農地など",
+      "impact": "在来鳥類との競合，農業被害が懸念されている．ハワイの在来鳥類衰退の一因として，本種の定着・増加が挙げられている．影響を受ける在来生物：在来鳥類，農作物",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "garrulax-sannio",
@@ -699,7 +867,13 @@
     "prefectures": [
       "千葉"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20420.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20420.html",
+    "description": {
+      "morphology": "全長23cm程度でヒヨドリとほぼ同サイズ．全体が地味な焦げ茶色-灰褐色で目の周りから喉にかけて三角形状の白い模様がある．ピシャー等変わった大きな声で鳴く．",
+      "habitat": "低木層の発達した低地林，里山，樹林地，樹木の多い住宅地，公園等．温度選好性：温帯域-亜熱帯",
+      "impact": "競合，駆逐影響を受ける在来生物：地上性ツグミ類などのヒタキ科鳥類など，生息空間が重なる在来種．",
+      "control": "在来種に配慮しながらの防鳥網使用等"
+    }
   },
   {
     "id": "leiothrix-lutea",
@@ -740,7 +914,13 @@
       "大分",
       "宮崎"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20160.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/20160.html",
+    "description": {
+      "morphology": "全長約15cm．体色は暗緑色で，眉斑から頬は薄い黄色，のどは黄色で胸は濃いオレンジ色，翼に黄色と濃い赤の斑紋があり，嘴は赤色．",
+      "habitat": "スズタケなど1mを越えるササ類の繁茂する標高1000m以上の落葉広葉樹林で繁殖する．越冬期は標高の低い地域に移動し，主に竹林や笹藪に生息する．",
+      "impact": "営巣場所に捕食者を誘引する．近年の爆発的な個体数の増加は在来種に影響を与えている可能性がある．1910～1920年代に導入されたハワイでは，在来鳥類減少の一因と考えられている．影響を受ける在来生物：メジロ，コマドリ，コルリ，ウグイスなどの在来鳥類．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "chelydra-serpentina",
@@ -785,7 +965,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30010.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30010.html",
+    "description": {
+      "morphology": "背甲長49cmに達する大型種．背甲には３本の隆条があり，後端はぎざぎざ．腹甲は小さい．四肢は強靱で頭部が大きい．尾は長く雄の方がより長くなる．在来種に比べて尾が長いため，尾跡の最大幅/左右の足跡が1/5を超える（在来種では1/10以下）という特徴で，軌跡から生息を確認できるという報告がある．",
+      "habitat": "水生傾向が強く，生涯水辺に生息する．緩やかな流れや止水中の水生植物，岩，沈水木などが多い場所を特に好む．渓流では見られない．温度選好性：原産地の緯度に日本の緯度が全て含まれてしまうため，温度耐性の面からは，国内のほとんどの地域で越冬，繁殖が可能と思われる．",
+      "impact": "捕食による淡水生物相への影響，競合による在来の淡水カメ類への影響．漁具の損壊．ヒトへの咬傷．影響を受ける在来生物：水草や水生昆虫，ザリガニ，カニ，エビ貝類，ミミズ，ヒル，淡水カイメン，魚類，カエル，ヘビ，小型のカメ類などさまざまなものを採食するため，淡水生物相に広く影響が及ぶ．",
+      "control": "トラップによく掛かるため，魚のアラなどをエサにした頑丈なトラップを多数設置することが現実的．水域を仕切るなどして，区画毎に根絶させる方法が効率的と思われる．"
+    }
   },
   {
     "id": "trachemys-scripta",
@@ -850,7 +1036,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30050.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30050.html",
+    "description": {
+      "morphology": "背甲長28cmに達する中型種．雌の方が大型になる．体重は背甲長20cmの雌で1,400g前後．甲はゆるやかなドーム状で，背甲には弱い1本の隆条がある．背甲の後縁には弱い鋸歯がある．頭部の両側に橙赤色の斑紋が目立つ．雄はしばしば黒化し，全身がまっ黒になる．",
+      "habitat": "多様な水域．底質が柔らかく，水生植物が繁茂する，日光浴に適した陸場の多い穏やかな流れを特に好む．塩分への抵抗力も高く，しばしば汽水域にも進出する．温度選好性：寒冷地や山地をのぞく国内のほぼ全域で越冬，繁殖可能．イギリスでは夏期の積算温度が不足するため，生存，産卵できても孵化できないとされ，北海道でもおそらく同様と考えられる．",
+      "impact": "競合，捕食．在来のカメ類とは亜科もしくは科のレベルで異なるため，交雑のおそれはほぼない．ヒトへのサルモネラ菌の感染例がある．影響を受ける在来生物：競合及び卵の捕食にさらされる在来淡水カメ類，及び食物となるさまざまな水動植物が影響を受ける．農業被害：観賞用ハス、ジュンサイ、ヒシの食害",
+      "control": "水域に広く分散して生息するため，効率よく駆除することは困難．魚のアラ等をエサとしたトラップを多数設置することである程度の捕獲が可能とみられる．また，淡水魚の捕獲に用いられるえりに入ることもある．"
+    }
   },
   {
     "id": "mauremys-mutica",
@@ -870,7 +1062,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html",
+    "description": {
+      "morphology": "最大背甲長24cm．背甲は細長く，赤褐色～黒褐色で，幼時には黄色みが強い．背甲に3本のキールがあり，左右2本は老熟すると目立たなくなる．側頭部には黒く縁取られた白線が走る．",
+      "habitat": "平野の河川・池沼・水路など．",
+      "impact": "在来の淡水カメ類との競合，在来イシガメ科との交雑影響を受ける在来生物：淡水カメ類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "mauremys-sinensis-m-japonica",
@@ -886,7 +1084,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html",
+    "description": {
+      "morphology": "最大背甲長24cm．背甲は細長く，赤褐色～黒褐色で，幼時には黄色みが強い．背甲に3本のキールがあり，左右2本は老熟すると目立たなくなる．側頭部には黒く縁取られた白線が走る．",
+      "habitat": "平野の河川・池沼・水路など．",
+      "impact": "在来の淡水カメ類との競合，在来イシガメ科との交雑影響を受ける在来生物：淡水カメ類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "mauremys-sinensis-m-mutica",
@@ -902,7 +1106,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html",
+    "description": {
+      "morphology": "最大背甲長24cm．背甲は細長く，赤褐色～黒褐色で，幼時には黄色みが強い．背甲に3本のキールがあり，左右2本は老熟すると目立たなくなる．側頭部には黒く縁取られた白線が走る．",
+      "habitat": "平野の河川・池沼・水路など．",
+      "impact": "在来の淡水カメ類との競合，在来イシガメ科との交雑影響を受ける在来生物：淡水カメ類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "mauremys-sinensis-m-reevesii",
@@ -921,7 +1131,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30340.html",
+    "description": {
+      "morphology": "最大背甲長24cm．背甲は細長く，赤褐色～黒褐色で，幼時には黄色みが強い．背甲に3本のキールがあり，左右2本は老熟すると目立たなくなる．側頭部には黒く縁取られた白線が走る．",
+      "habitat": "平野の河川・池沼・水路など．",
+      "impact": "在来の淡水カメ類との競合，在来イシガメ科との交雑影響を受ける在来生物：淡水カメ類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "japalura-swinhonis",
@@ -947,7 +1163,13 @@
       "静岡",
       "宮崎"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30410.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30410.html",
+    "description": {
+      "morphology": "全長20～30cm程度の中程度のサイズのトカゲ．尾長は頭胴長の2～2.4倍程度．雄は最大30cm程になり，雌ややや小さく最大25cm程度．頭部・胴部・背面に凹凸のある鱗が並び，鼓膜は露出しない．四肢は細長く，指にはかぎ爪が発達．背中部の鱗は中央の隆起を中心に側扁し，胴体部では鋸歯状になる．背面～体側は灰褐色で，背面にやや不明瞭な横縞模様，雄は肩～腰に明色の帯状模様を持つ．口の中は暗色．尾は濃淡の横縞模様．",
+      "habitat": "低標高地域の森林～林縁．人為撹乱された環境でも生息可能で，市街地・公園・果樹園などにも出現する．",
+      "impact": "不明",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "a-allogus",
@@ -963,7 +1185,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30420.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30420.html",
+    "description": {
+      "morphology": "平均頭胴長は雄54.8mm，雌42.6mm程度の小型のトカゲ．灰褐色で，デュラップは赤色．",
+      "habitat": "森林性．おもに樹幹から地上部を生息場所とする．木の幹や低木，地上付近の茂みや岩の上などに定位．日光浴はあまりしない．",
+      "impact": "在来昆虫などの捕食，在来トカゲ類や鳥類との競合が予想される影響を受ける在来生物：在来の昆虫類（捕食），トカゲ類・鳥類（競合）",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-alutaceus",
@@ -979,7 +1207,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30430.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30430.html",
+    "description": {
+      "morphology": "平均頭胴長は雄34.1mm，雌32.9mm程度の小型のトカゲ．体色は褐色で，淡褐色の背中線が入る．体色には多くの場合，同一個体群内に２タイプがみられる（背中線が明瞭なタイプと不明瞭なタイプ）．",
+      "habitat": "低木，藪，草むらなど．日光浴はあまりしない．",
+      "impact": "在来昆虫などの捕食，在来トカゲ類や鳥類との競合が予想される影響を受ける在来生物：在来の昆虫類（捕食），トカゲ類・鳥類（競合）",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-angusticeps",
@@ -997,7 +1231,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30330.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30330.html",
+    "description": {
+      "morphology": "頭胴長50～70mmの小型のアノールトカゲ．手足がやや短い．体表に樹皮状の模様．",
+      "habitat": "樹上性．",
+      "impact": "在来昆虫の捕食などが予想される．影響を受ける在来生物：アブラムシ等の小型昆虫．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-carolinensis",
@@ -1017,7 +1257,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30100.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30100.html",
+    "description": {
+      "morphology": "雄の方が大型で，特に頭部ががっしりしている．雄は全長180～200mm，体重7g程度．雌は全長120～180mm，体重3g程度．ヤモリ類と同様，指の下面には指下薄板があり，滑らかな垂直面を登ることができる．胴部の背色は鮮やかな緑色のことが多いが，黒褐色から黄緑色まで変化する．また，同種を威嚇する時など，眼の後ろの部分が黒みがかることがある．染色体数2n=36．",
+      "habitat": "樹上性．森林の林縁部や民家の庭木，灌木林．農耕地の周辺など．温度選好性：不明であるが，原産地ではかなり北まで分布することから，低温耐性の点からは，本州中部以以南に広く定着できると考えられる．関東地方南部で飼育する場合，無加温の室内で越冬させられる．",
+      "impact": "在来昆虫の捕食，在来トカゲとの競合．影響を受ける在来生物：食物となる樹上性かつ昼行性の昆虫．オガサワラシジミはおそらくグリーンアノールによる捕食のために絶滅かそれに近い状態となった．オガサワライトトンボ，オガサワラトンボ，シマアカネ等の固有のトンボ類も父島と母島ではほぼ絶滅し，グリーンアノールの侵入していない属島に残るのみとなった．オガサワラゼミなどの大型の昆虫も捕食され，種によっては著しく数を減らしている．在来のオガサワラトカゲは食物を巡る競合にさらされ，かつ幼体がグリーンアノールに捕食されている．ただし，アノールの密度が高い地域においても絶滅には至っていない．",
+      "control": "樹上に広く分散して生息するため，効率よく駆除することは困難．釣りやヌーズ(竿の先に取り付けたテグスで個体を縛って捕獲する方法)を組み合わせて見つけ捕りをくり返すことが現実的．根絶のためには，アノールが越えられないフェンス等で生息域を分断し，1区画ずつ根絶させていく方法が考えられる．たたし指下薄板を持ち登はん能力が高いため，特殊なフェンスを用いる必要がある．捕獲に際して粘着トラップが効率的と考えられるが，昆虫や鳥類，在来爬虫類などを錯誤捕獲する可能性が高いため，慎重に適用する必要がある．また，本種は夜間に物陰に潜んで休息するため，これを利用したネストトラップ(例えば切り揃えた竹筒を束ねて樹幹に設置する等)は有望である．"
+    }
   },
   {
     "id": "anolis-equestris",
@@ -1033,7 +1279,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30220.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30220.html",
+    "description": {
+      "morphology": "グリーンアノールよりかなり大型",
+      "habitat": "高木の林冠に生息．",
+      "impact": "捕食，競合など．影響を受ける在来生物：捕食される無脊椎動物，競合するトカゲ類など．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-garmanni",
@@ -1049,7 +1301,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30230.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30230.html",
+    "description": {
+      "morphology": "20-25cm，黄緑色でイグアナに似ている．",
+      "habitat": "ナイトアノールと同じく，中秋～中春は林冠，夏は樹幹部．孵化幼体は草本植物に住む．",
+      "impact": "捕食・競合影響を受ける在来生物：捕食される無脊椎動物など．競合するトカゲ類．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-homolechis",
@@ -1065,7 +1323,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30440.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30440.html",
+    "description": {
+      "morphology": "平均頭胴長は雄53.8mm，雌40.5mm程度の小型のトカゲ．暗褐色で，デュラップは赤色．",
+      "habitat": "森林性．おもに樹幹から地上部を生息場所とする．木の幹や低木，地上付近の茂みや岩の上などに定位．日光浴はあまりしない．",
+      "impact": "在来昆虫などの捕食，在来トカゲ類や鳥類との競合が予想される影響を受ける在来生物：在来の昆虫類（捕食），トカゲ類・鳥類（競合）",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "anolis-sagrei",
@@ -1083,7 +1347,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30200.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30200.html",
+    "description": {
+      "morphology": "オス60～70mm，メス50～55mm，茶褐色でオスは橙色に膨らむ咽頭垂（デュラップ）を持つ．",
+      "habitat": "樹上性．森林の林縁部や民家の庭木，灌木林．農耕地の周辺など．温度選好性：北米（移入分布）の分布から，温帯でも生息可能．",
+      "impact": "在来昆虫などの捕食が予想される影響を受ける在来生物：昆虫類",
+      "control": "粘着トラップ等"
+    }
   },
   {
     "id": "boiga-cyanea",
@@ -1099,7 +1369,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30240.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30240.html",
+    "description": {
+      "morphology": "185cm程に達する．幼体の体はオレンジがかった色．体の幅が狭く，頭が大きい．瞳が縦長である．",
+      "habitat": "植林地など．",
+      "impact": "捕食，競合．影響を受ける在来生物：捕食される小動物．競合するヘビ類など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "boiga-cynodon",
@@ -1115,7 +1391,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30250.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30250.html",
+    "description": {
+      "morphology": "2.5mに達する．大型で細長い．",
+      "habitat": "主に自然林に生息し，人為的環境ではほとんど見られないが，養鶏場には出没する．",
+      "impact": "捕食，競合．影響を受ける在来生物：捕食される小動物．競合するヘビ類など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "boiga-dendrophila",
@@ -1133,7 +1415,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30260.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30260.html",
+    "description": {
+      "morphology": "全長1.7～2m，最大2.5mに達する大型のヘビ．黒地に黄色い縞模様が入る．あごの下面は黄色い．",
+      "habitat": "熱帯の低地林．樹上性．温度選好性：飼育下では25℃から30℃程度と言われる",
+      "impact": "在来種に対する捕食・競合が予想される．影響を受ける在来生物：捕食される小動物．競合するヘビ類など．",
+      "control": "ペットは逃がさない，輸入しない．"
+    }
   },
   {
     "id": "boiga-irregularis",
@@ -1151,7 +1439,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30210.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30210.html",
+    "description": {
+      "morphology": "体長1.4～2mのヘビ．最大3mになる．頭部が大きく，瞳孔は縦長．胴は側扁．口の奥に毒牙を持つ後牙蛇．体色は赤褐色～黄色，背面に黒い斑紋．",
+      "habitat": "森林．低地～海岸の林に生息．樹上性だが，地上でも活動する．",
+      "impact": "在来小動物の捕食，在来ヘビ類との競合などが予想される．グアムでは，多数の鳥類を絶滅させる，トカゲ類の種組成を変化させるなどの影響を引き起こした．影響を受ける在来生物：鳥類・爬虫類など在来小動物．競合するヘビ類など．",
+      "control": "蛇用トラップ等"
+    }
   },
   {
     "id": "boiga-nigriceps",
@@ -1169,7 +1463,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30270.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30270.html",
+    "description": {
+      "morphology": "体長175cmに達し，茶褐色または緑がかった灰色を帯び，成体になると頭が黒っぽくなる．顎はクリーム色をおびる．",
+      "habitat": "熱帯雨林の低地から低山地に分布．",
+      "impact": "小型脊椎動物に対する捕食・在来ヘビ類との競合などが予想される影響を受ける在来生物：小哺乳類，鳥類，ヘビ・トカゲ類，カエル類など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "elaphe-taeniura-friesi",
@@ -1189,7 +1489,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30120.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30120.html",
+    "description": {
+      "morphology": "全長2mを超え，尾の側面に黒色の太い筋が目立つ無毒蛇．6亜種ほどに分けられている．沖縄島移入個体群が属すると考えられているタイワンスジオは，全長は標準で220cm，最大270cm．腹板数243～262枚，尾下板数101～122対，体鱗列数23か25列．腹板の両側に稜が発達する．",
+      "habitat": "人里から森林まで幅広い環境．温度選好性：不明であるが，種の分布域を考えると，本州中部以南に分布できる可能性がある．",
+      "impact": "捕食・競合．影響を受ける在来生物：中・小型の哺乳類，鳥類（捕食）．ヘビ類（競合）．Elaphe属のヘビ（沖縄島には自然分布しない）は主に日中，探索と待ち伏せを交えて小型の哺乳類・鳥類を捕食する．沖縄島中部で分布を広げている本亜種がもし島北部のやんばる地域に侵入すると，ヤンバルクイナ，ノグチゲラ，ホントウアカヒゲ，ケナガネズミ，オキナワトゲネズミといった固有種に多大な影響が及ぶことが懸念される．",
+      "control": "無毒であるため，自治体による防除は最近まで行われていなかった．近年になって，環境省により，本種に合わせたトラップの実験・開発など防除法の検討が進められている．"
+    }
   },
   {
     "id": "protobothrops-mucrosquamatus",
@@ -1210,7 +1516,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30130.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/30130.html",
+    "description": {
+      "morphology": "サキシマハブと類似の毒蛇．体長60～130cmほど．頭部は三角形で，眼と鼻孔の間にピット器官を持つ．頭部背面は小さな鱗で覆われる．灰褐色の地色に暗褐色の楕円形の斑紋が背面中央・体側に並ぶ．胴体中央の体鱗列数は25．腹板200～219枚程度，尾下板72～96対程度．染色体数2n=36．",
+      "habitat": "低地から標高1500mほどの間の森林から集落内まで幅広い環境に生息．温度選好性：不明．",
+      "impact": "捕食，競合，交雑．毒蛇のため人への咬傷の可能性もある．影響を受ける在来生物：在来の各種小型動物の捕食，在来ヘビ類との競合，在来ハブ P. flavoviridis との交雑．ヒトなどへの咬傷．",
+      "control": "ハブ捕獲器と拡散防止フェンスによる対策が取られているが，密度低下は認められていない．恩納村の小学校では防蛇フェンスを設置し，ヘビ類侵入低減が認められている．本種および交雑個体による咬傷には，既存のハブ用抗毒素が効くことが確認されている．"
+    }
   },
   {
     "id": "bufo-cognatus",
@@ -1226,7 +1538,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40160.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40160.html",
+    "description": {
+      "morphology": "全長4.8～11cm程度のヒキガエル．地色は灰色ないし緑～黄色で，緑色ないしオリーブ色・暗灰色で明色に縁取られた大きな斑点に覆われる．頭頂部の隆起は後部で耳腺に接し，前部は吻部に向かって斜めに伸び，左右のものが吻端付近で接する．耳腺は楕円形．",
+      "habitat": "草地・砂地・農耕地で，穴を掘って棲んでいる．",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-guttatus",
@@ -1242,7 +1560,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40170.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40170.html",
+    "description": {
+      "morphology": "体長100mm-180mmになる大型のヒキガエル．耳腺は楕円形で大型．眼は大きく，虹彩は暗色．体色は明褐色で，赤褐色の斑点がある場合もある．体表は滑らかで疣は顕著でない．体側・四肢・腹面は暗褐色～赤褐色．",
+      "habitat": "森林性で，林床を好む．コロンビア・エクアドルでは海抜500m以下の地域に分布．",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-marinus",
@@ -1262,7 +1586,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40010.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40010.html",
+    "description": {
+      "morphology": "体長9～15cm程度，24.1cm（体重1.36kg）の個体も記録されている．体重60～400g．鼻孔から眼，上瞼の内縁と後縁に骨質隆起を持つ．耳腺は菱形で巨大．染色体数2n=22．",
+      "habitat": "サトウキビ畑など，人里近くの開けた場所．温度選好性：幼生の高温に対する耐性がきわめて高く，42.5度程度までの高温で変態できるとされる．一方，低温耐性はそれほど高くないと見なされる．原産地の北限がアメリカ合衆国テキサス州であることから，ウシガエル等に比べるとずっと熱帯に適応した種であると考えられる．小笠原諸島，八重山諸島とも，人為分布域のほぼ北限に相当する．ただし，成体は短期間であれば7.5度程度の低温でも死亡しない．",
+      "impact": "捕食，競合，毒による上位捕食者への影響．鳩間島で起きた，池で飼われていた家禽の大量死が，本種の毒に起因する可能性も指摘されている．小笠原諸島ではオタマジャクシの大量発生による飲料水汚染が指摘されたことがある．影響を受ける在来生物：(1)昆虫類を始めとする地表性の小動物が捕食の影響を受ける．(2)他のカエル類やトカゲ類が食物等を巡る競合により影響を受けうる．(3)耳腺からの毒液のため，カエルの捕食者に影響が生じうる．オオヒキガエルの侵入が危惧されている西表島では，イリオモテヤマネコ，カンムリワシ等への影響が懸念されている．サキシママダラが本種を呑み込んでいる最中に死亡した例が，実際に野外で観察されている．",
+      "control": "繁殖場を中心とした成体，卵，幼生の除去が現実的で効果の高い方法と見られる．海外ではウイルスや病原菌を用いた生物学的防除方法が検討されたことがある．"
+    }
   },
   {
     "id": "bufo-melanostictus",
@@ -1282,7 +1612,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40360.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40360.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．"
+    }
   },
   {
     "id": "bufo-punctatus",
@@ -1298,7 +1633,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40180.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40180.html",
+    "description": {
+      "morphology": "体長40mm-70mmのヒキガエル．灰色～褐色の地色に赤～淡黄色の斑点がある．耳腺はほぼ円形で眼と同程度以下の大きさ．",
+      "habitat": "草原，砂漠のオアシス，峡谷の岩場など．",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-quercicus",
@@ -1314,7 +1655,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40190.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40190.html",
+    "description": {
+      "morphology": "体長19-33mmの小型のヒキガエル．背面は黒・灰色・淡褐色・橙などのまだら模様で，多数の橙～赤色の疣がある．白色～橙黄色の背中線を持つ．鳴のうはソーセージ型．",
+      "habitat": "マツ林で草本の多い場所に生息する．",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-regularis",
@@ -1330,7 +1677,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40370.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40370.html",
+    "description": {
+      "morphology": "大きさ：オスは62~91mm，メスは70~130mm． 体色：背面は暗いブラウン色で腹部に向かって明るくなる．上唇・瞼・背側面の末端部にかけて多数の黒い斑点がある．若い個体には体軸に沿って背面に縞模様が目立つが，成長に伴い消える．腹部は白からベージュ色．稀に背側面・腹部に斑点模様がある個体もいる．オスは喉が黒い． 形態：耳の後ろの耳下腺が平行で，この部位のイボが平らめなことで比較的滑らかな外見をする．鼓膜は眼球の0.7~1.5倍と大きめ．オスは顎の下に鳴嚢を1つ持つ．",
+      "habitat": "サバンナ，低木の林，草原，内陸の湿地",
+      "impact": "旧ヒキガエル属（Bufo 属）のカエル類は中大型の種が多く，共通して比較的乾燥に強く，食性の幅が広く，多産であり，皮膚に毒を持つという性質のためさまざまな環境に適応・定着する可能性が高く，国内に定着した場合には，捕食や在来ヒキガエル類との競合により生態系への被害を及ぼすおそれがある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-speciosus",
@@ -1346,7 +1699,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40200.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40200.html",
+    "description": {
+      "morphology": "全長5～9cm程度のヒキガエル．全体の体型は丸い．耳腺は卵形．頭頂部の隆起は無いか，あっても弱い．地色は灰色で黄緑色ないし褐色の斑点，ピンク～オレンジないし緑がかった疣がある．後足の下面に特徴的な2個の結節があり，外側のものは黒色で尖り，内側のものは鎌形．",
+      "habitat": "草原，農地，砂地など乾燥地帯に生息．",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が起こりうる．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "bufo-typhonius",
@@ -1364,7 +1723,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40210.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40210.html",
+    "description": {
+      "morphology": "体色：褐色から明褐色で，正中線上に明色の条線が入る場合が多い． 形態：四肢は細長い．吻端は突出する．成熟するとオスのみ目の上に突起が，頭部両側に耳上の隆起が，背部正中線に刺状突起がそれぞれ生じる．",
+      "habitat": "低山帯から低地の森林など",
+      "impact": "捕食，競合，体表から分泌する毒による捕食者への影響が予想される．影響を受ける在来生物：捕食される小型無脊椎動物，競合するカエル類，カエルを捕食するヘビ類などが影響を受ける可能性がある．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "osteopilus-septentrionalis",
@@ -1380,7 +1745,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40140.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40140.html",
+    "description": {
+      "morphology": "成体オス40～90mm，成体メス50～140mm，樹上性としては大型のカエル．吸盤が発達し，水かきは退化している．背面は赤褐色で表面は粗雑で多数の小隆起がある．頭上の皮膚は頭蓋骨に接着している．",
+      "habitat": "主に樹上だが，ため池などにも出現する．移入されたフロリダでは，人為的環境に多い．温度選好性：分布限界気温10℃，18-31℃で飼育されている．",
+      "impact": "在来小動物（昆虫，爬虫両生類）などの捕食．皮膚粘液による上位捕食者への影響．捕食性が強いため，侵入した場合，在来生態系に大きな影響を与えると思われる．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "eleutherodactylus-coqui",
@@ -1396,7 +1767,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40150.html",
+    "description": {
+      "morphology": "体長は雄は34mm程度，雌は41mm程度の，やや小型の樹上性のカエル．指先に吸盤を持つ．体色には様々なバリエーションがあり，背面はふつう一面灰色～褐色だが，肩付近にM字型の暗色模様を持つ場合，吻端～後肢つけねの体側に黒点のある明色帯を持つ場合，細い明色の背中線を持つ場合など，様々な変異がある．",
+      "habitat": "非常に幅広い環境で生息．主に樹上性だが，林床も利用する．水辺でなくとも湿度が十分であれば繁殖できる．温度選好性：不明だが，低温には弱い．",
+      "impact": "競合，駆逐．繁殖力が強いため在来カエル類の生息空間を占領したり駆逐する可能性がある．また，外来ヘビ類・肉食哺乳類の餌となって食物網を変化させる可能性も指摘されている．",
+      "control": "手で捕まえる等．ハワイでは甲状腺機能を阻害する薬剤による駆除も試みられている．"
+    }
   },
   {
     "id": "eleutherodactylus-johnstonei",
@@ -1412,7 +1789,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40340.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40340.html",
+    "description": {
+      "morphology": "大きさ：オスは17～25mm，メスが17～35㎜． 体色：背側面は褐色から灰褐色，通常背面に一つか二つの暗色のV字模様がある．中胸に細い縞模様か一対の幅広な縞模様がある．クリーム色の服側面には大理石模様・点刻・斑点がある．虹彩は上は金色，下面は褐色を帯びる． 形態：背面は滑らかだが弱いしこり状の模様がある．頭部は長さより幅がやや広い．吻端は上から切り詰められる．目は大きく，瞼は小さく丸みのある突起を多く持つ．四肢の指は丸みを帯び，小さい．",
+      "habitat": "伐採された森林・市街地など自然または人為的に攪乱された場所に生息する．",
+      "impact": "在来の地表性無脊椎動物の捕食。在来カエル類との競合の可能性がある。"
+    }
   },
   {
     "id": "eleutherodactylus-planirostris",
@@ -1428,7 +1810,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40350.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40350.html",
+    "description": {
+      "morphology": "大きさ：オスは19mm，メスは32㎜程度の小型のカエル． 形態：鼻が尖っている． 体色：全体的に赤みを帯びた褐色．鼻先は眼の間に黒い斑点を持ち，赤みが強い．四肢は褐色で帯模様がある．眼は赤い．腹面は白い．縦に明るい縞模様がある縞模様型・不規則な濃淡の斑紋がある斑紋型の二種類の模様が知られる．",
+      "habitat": "森林，洞窟，庭園，市街地など様々な場所で見られる．樹上に生息するケースも知られる．",
+      "impact": "在来の地表性無脊椎動物の捕食，在来ヒキガエル類との競合の可能性がある．"
+    }
   },
   {
     "id": "kaloula-pulchra",
@@ -1448,7 +1835,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40330.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40330.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来の地表性無脊椎動物の捕食，在来ヒキガエル類との競合の可能性がある． 影響を受ける在来生物：陸生・淡水性無脊椎動物，在来カエル類．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "rana-catesbeiana",
@@ -1469,7 +1862,13 @@
       "北海道",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40020.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40020.html",
+    "description": {
+      "morphology": "体長111～183mm．体重139～183g．大型でみずかきが良く発達する．鼓膜は明瞭で，直径は眼の0.9～1.7倍と大きい．染色体数2n=26．",
+      "habitat": "池沼などの止水，穏やかな流れの周辺．在来のカエル類に比べ水生傾向が強く，成体は１年中池で見られる．温度選好性：原産地がカナダまで達していること，北海道南部にも定着していることから，本州産のカエルと同程度には低温耐性があると見なされる．",
+      "impact": "在来生物に対する捕食・競合影響を受ける在来生物：(1)昆虫類や他のカエルをはじめとする多くの小動物が捕食の影響を受ける．(2)水辺に生息するトノサマガエル，ダルマガエル等の種が食物等を巡る競合の影響を受けうる．",
+      "control": "個体を取り除く方法が現実的．成体は警戒心が強く捕獲しにくいが，夜間の方が効率よく捕獲できる．幼生や卵の除去も効果的である．幼生越冬し，変態までに約１年間を要するため，繁殖期が終わってから翌春までの間に池の干し上げを行えば幼生を全滅させうる．"
+    }
   },
   {
     "id": "polypedates-leucomystax",
@@ -1490,7 +1889,13 @@
       "沖縄",
       "鹿児島"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40030.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/40030.html",
+    "description": {
+      "morphology": "体長47～73mm．体色は褐色で背中に黒すじを数本持つことがある．全肢指間の水掻きは非常に発達が悪い．染色体数2n=26．",
+      "habitat": "住宅地や灌木林，二次林など比較的開けた環境によく見られる．自然林内にも生息．温度選好性：南アジアから東南アジアの低緯度地方に広く分布することから，高温に対する耐性は強いと考えられる．低温耐性は不明である．",
+      "impact": "食物や産卵場所を巡る競争．鳴き声による繁殖活動への干渉等．在来でない寄生虫（蠕虫類）が確認されており，在来両生類への感染が懸念されている．．影響を受ける在来生物：在来カエル類．特に，生活様式が類似しているオキナワアオガエルなど",
+      "control": "繁殖場所における卵塊や幼生の除去が考えられる．成体は目立たず，まとまって捕獲することが困難である．繁殖場所を頻繁に見回り，発見された成体，泡巣，幼生をこまめに除去する方法が現実的と思われる．"
+    }
   },
   {
     "id": "andrias",
@@ -1521,7 +1926,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51090.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51090.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "atractosteus-lepisosteus",
@@ -1557,7 +1967,13 @@
       "東京",
       "京都"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50010.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50010.html",
+    "description": {
+      "morphology": "全長20cm．在来のタナゴ類より大型．雌雄ともに婚姻色が不明瞭．",
+      "habitat": "平野部の池や河川の淀み．霞ヶ浦では沿岸～沖合までいるが，冬は水深4m程度の場所で越冬している．",
+      "impact": "在来タナゴ類との産卵母貝をめぐる競合，交雑のおそれあり．影響を受ける在来生物：在来タナゴ類",
+      "control": "池干し"
+    }
   },
   {
     "id": "tachysurus-fulvidraco",
@@ -1576,7 +1992,12 @@
       "東京",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51100.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51100.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食．在来の同属種との交雑．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "ameiurus-nebulosus",
@@ -1592,7 +2013,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51110.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51110.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "ictalurus-punctatus",
@@ -1628,7 +2054,13 @@
       "奈良",
       "熊本"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50120.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50120.html",
+    "description": {
+      "morphology": "尾叉長25～50cm．大きいものは100cmを越える．4対のヒゲがあり，上顎の1対は扁平で幅広く長く，鼻孔近くのヒゲの3倍より長い．腹鰭より後方は側扁している．尾鰭は深く二叉する．眼径は大きく頭長の10～20%．吻は長く頭長の35～50%．鰓耙数は7～9本．明瞭な骨質の隆起が頭骨の後端から背鰭の基部の間にある．",
+      "habitat": "池や湖，河に生息し比較的深い水底で生活するが時折浅いところに出て餌を食べる．温度選好性：卵は水温15～28の時，5～10日で孵化する",
+      "impact": "霞ヶ浦では，魚類やエビ類を多数捕食影響を受ける在来生物：小型魚類，スジエビなど",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "pylodictis-olivaris",
@@ -1644,7 +2076,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51120.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51120.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "silurus-glanis",
@@ -1660,7 +2097,13 @@
     "prefectures": [
       "滋賀"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51070.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51070.html",
+    "description": {
+      "morphology": "ふつう1-2m，最大5m．下あごが上あごより突き出る．上あごのヒゲ1対は長く，下あごのヒゲ2対は短い．背びれは小さい．尻びれの基底は長く，体の半分以上．体色は茶褐色～オリーブ色．背部は暗色，側面はまだら模様．",
+      "habitat": "大きな河川，湖沼．汽水域に入ることも．温度選好性：生息地の水温は4～20℃．",
+      "impact": "在来生物の捕食．在来の同属種との交雑．影響を受ける在来生物：餌となる魚類・甲殻類など．同属の在来種．",
+      "control": "一部の観賞魚店では，大型の水槽が必要であることの説明，大型個体の買取などを行っている．"
+    }
   },
   {
     "id": "esox-esocidae-spp",
@@ -1676,7 +2119,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51130.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51130.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "esox",
@@ -1710,7 +2158,13 @@
       "福島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50230.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50230.html",
+    "description": {
+      "morphology": "体長は雌5cm雄3cm．雄の尻鰭は変形して交尾器となり，前後に動かすことができる．メダカに似るが，体がもっと青っぽく尾鰭が丸い．グッピーの雌よりもカダヤシの雌の方が尻鰭に対して背鰭が後方に位置する．",
+      "habitat": "流れの緩い河川下流や灌漑用水．塩分や水の汚れに比較的強く、産卵に水草などを必要としない．温度選好性：北米の半砂漠地帯では42℃の温泉中にも生息する．低温には弱く，水温18℃以下では活動が鈍る．",
+      "impact": "メダカとの競合，仔魚・稚魚の捕食．影響を受ける在来生物：メダカ Oryzias latipes",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "gambusia-holbrooki",
@@ -1728,7 +2182,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51140.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51140.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "lepomis-macrochirus",
@@ -1794,7 +2254,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50310.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50310.html",
+    "description": {
+      "morphology": "全長25cm．背鰭の棘条部と軟条部は広く膜で連なっている．背鰭軟条部の基底の長さは，尻鰭軟条部の基底より長い．上顎の後端は眼の中央の直下には達しない．体高は高い．体形及び体色は，生後約1年目までの幼魚ではやや細く，7～10本の暗色横帯のある体側は青みがかった黄緑色に光る．成長するにつれ体高は高くなり体色は濃灰褐色から暗褐色に黒ずみ，横帯はやや不明瞭になってくる．雌雄とも，鰓蓋後端のやや突出した部分の色が濃紺ないし黒である．産卵期に雄は顎に淡青色の帯と腹部に黄色からさび朱色の鮮やかな婚姻色を呈する．",
+      "habitat": "止水環境や流れの緩やかな河川の下流域に生息．",
+      "impact": "捕食や競争により在来種に影響を与えている可能性がある．影響を受ける在来生物：多くの在来魚種，水生植物",
+      "control": "特定の生活史段階や季節に集合する習性の利用，様々な種類の刺激など，捕獲対象を積極的におびき寄せる方法の開発が望まれる．モンドリでの捕獲も効果がある"
+    }
   },
   {
     "id": "micropterus-dolomieu",
@@ -1817,7 +2283,13 @@
       "滋賀",
       "奈良"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50320.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50320.html",
+    "description": {
+      "morphology": "オオクチバスに類似．識別点は，1)背鰭最長棘の長さと最短棘の長さの比が2倍以下，2)成魚でも上顎の後端が眼の後縁よりも後にならない，3)体色は黄褐色で十数本の背～腹方向の暗色横帯，4）側線上部鱗数11～13でオオクチバスの8より多い．",
+      "habitat": "原産地ではオオクチバスよりも寒冷な水域に分布する傾向がある．",
+      "impact": "捕食や競争を通じ，様々な在来生物に直接的または間接的な影響を及ぼす．オオクチバスよりも河川上流部で定着する可能性あり．影響を受ける在来生物：淡水魚，淡水無脊椎動物．漁業対象種．",
+      "control": "ヤス，水中銃，延縄，刺し網などによる駆除．人工産卵床を設置して親魚を誘引して駆除を行うことも検討されている．"
+    }
   },
   {
     "id": "micropterus-salmoides",
@@ -1883,7 +2355,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50330.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50330.html",
+    "description": {
+      "morphology": "全長30～50cm．上顎の後端が眼の後縁の直下よりも後方に達する．背鰭の軟条部と棘条部は僅かにつながる．背鰭棘条部・尻鰭・尾鰭の基底は鱗で覆われていない．側線鱗数は59～68．",
+      "habitat": "山上湖，ダム湖，平地の天然湖沼，小規模なため池から河川中～下流域，汽水域に至る多様な水域．",
+      "impact": "捕食や競争を通じ，様々な在来生物に直接的または間接的な影響を及ぼす．影響を受ける在来生物：在来生物群集",
+      "control": "稚魚のすくい取り，産卵床の破壊，人工産卵床の設置，地引き網等"
+    }
   },
   {
     "id": "neogobius-melanostomus",
@@ -1899,7 +2377,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51150.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "lates-niloticus",
@@ -1917,7 +2401,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51060.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51060.html",
+    "description": {
+      "morphology": "最大約2m，200kg．スズキ型の体型で，下あごが上あごより突出．尾びれは丸い．背側が暗青灰色で腹側は銀灰色．",
+      "habitat": "河川，湖，水路など．湖では沿岸部．",
+      "impact": "定着すれば，在来生物に対する捕食・競合などが起こりうる．アフリカのビクトリア湖では，1950年代に本種が導入され，1980年代には魚類バイオマスの80%を占めるほどになった．また，輸出向けの加工のための燃料として周辺の森林伐採が進み，ビクトリア湖と周辺の生態系の激変を招いた．影響を受ける在来生物：魚類，甲殻類，その他在来の生物群集",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "morone-americana",
@@ -1933,7 +2423,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51160.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51160.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "morone-chrysops",
@@ -1949,7 +2445,13 @@
     "prefectures": [
       "東京"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50980.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50980.html",
+    "description": {
+      "morphology": "体長45cm．銀白色で体側には4～7本の黒い縦縞がある．体高がやや高く，体長は頭長の3倍以下である点でストライプトバスと異なる．ストライプトバスとの雑種「サンシャインバス」では，縦縞が途切れる．",
+      "habitat": "湖沼，池，河川の止水域．透明で，やや流れのある水草の少ない砂泥底の水域．温度選好性：産卵期は水温が16度まで上がった時期（通常5月)に産卵する．",
+      "impact": "在来水生生物に対する捕食，競合影響を受ける在来生物：在来魚類，甲殻類等",
+      "control": "キャッチアンドリリースをせず釣り上げた場合は駆除する．"
+    }
   },
   {
     "id": "morone-saxatilis",
@@ -1967,7 +2469,13 @@
     "prefectures": [
       "東京"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50970.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50970.html",
+    "description": {
+      "morphology": "体長～200cmに達する．銀白色で体側には6～9本の黒い縦縞がある．体高がやや低く，体長は頭長の3倍以上になる点でホワイトバスと異なる．ホワイトバスとの雑種「サンシャインバス」では，縦縞が途切れる．",
+      "habitat": "河川内淡水域から沿岸海域まで広い．",
+      "impact": "在来水生生物に対する捕食，競合影響を受ける在来生物：在来魚類，甲殻類等",
+      "control": "逃がさない，釣った魚は食べる"
+    }
   },
   {
     "id": "morone-saxatilis-m-chrysops",
@@ -1998,7 +2506,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51170.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51170.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来生物の捕食・競合のおそれがある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "perca-fluviatilis",
@@ -2014,7 +2528,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50990.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/50990.html",
+    "description": {
+      "morphology": "全長～最大51ｃｍ．体色は薄い黄緑色に太い黒の横縞が入る．北米大陸のイエローパーチ（Perca fluviatilis）とよく似ている．",
+      "habitat": "湖沼，河川の緩流域．イエローパーチよりも高温に弱いとされる．温度選好性：10～22℃",
+      "impact": "捕食，競合，駆逐の可能性あり．サケ科魚類の稚魚を捕食するため，漁業被害が生じる可能性もある．影響を受ける在来生物：在来魚類",
+      "control": "ニュージーランドでは，刺し網，カゴわな，定置網による防除が効果をあげ，在来魚個体群の回復も確認されている．"
+    }
   },
   {
     "id": "sander-lucioperca",
@@ -2030,7 +2550,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51000.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51000.html",
+    "description": {
+      "morphology": "全長30～70cm，最大130cm．体はスズキ型で細長く，牙状の歯を持つ．淡い灰褐色～銀白色で体側には不定形の黒い斑紋～横帯がある．背びれは前後2部に分かれ，互いに接近する．",
+      "habitat": "原産地では湖沼，河川，貯水池，運河など．温度選好性：卵は水温約10～15℃だと3～11日間で孵化する．",
+      "impact": "在来水生生物に対する捕食・競合．同属のウォールアイ (S. vitreus，外来生物法では未判定外来生物) は，北米で分布拡大し，在来生物群集に影響を与えている．西ヨーロッパや北アフリカでは在来のパパイク類やコイ科魚類が激減するなどの被害が確認されている．影響を受ける在来生物：魚類，淡水無脊椎動物等",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "siniperca-chuatsi",
@@ -2048,7 +2574,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51010.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51010.html",
+    "description": {
+      "morphology": "全長70cm．体系はスズキ型で，口は大きく，後端が眼の後ろに達する．尾びれ後端は丸い．体は黄褐色で黒褐色のまだら模様がある．吻端～眼～背びれ基部に暗帯があり，背びれ・知りびれ・尾びれにも暗色の斑紋が散在．",
+      "habitat": "湖沼，河川の緩流域．温度選好性：耐寒性がある．",
+      "impact": "捕食圧・競争圧により在来生態系に影響を与える可能性がある．コイ種苗に紛れ込んで養殖場に侵入した例では，多大な食害を引き起している．影響を受ける在来生物：魚類，甲殻類など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "siniperca-scherzeri",
@@ -2066,7 +2598,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51020.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/51020.html",
+    "description": {
+      "morphology": "体長30cm．スズキ型の体系．下顎が上顎よりも突出．尾びれの後端は丸い．ケツギョに似るが，体高が低く，頭部に黒斑があり，体側に縁取りのある不規則なヒョウ柄の小黒斑がある点で異なる．",
+      "habitat": "湖沼，河川（ある程度流れのある水のきれいな水域）に生息する．",
+      "impact": "不明．捕食圧・競争圧により在来生態系に影響を与える可能性あり．影響を受ける在来生物：魚類，甲殻類など",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "hestina-assimillis",
@@ -2098,7 +2636,13 @@
       "愛知",
       "京都"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60400.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60400.html",
+    "description": {
+      "morphology": "成虫の前翅長40～53mmになる大型のタテハチョウ．翅は黒地に白の斑紋があり，白黒の縞模様に見える．夏型成虫は後翅後部に赤い斑紋を持つが，発達がやや弱くリング状になりにくい．春型は赤い斑紋を持たず，黒色部分が少なく全体に白っぽく見える（特に雌）．奄美諸島と台湾の別亜種は，翅の斑紋，白化型が出現しないことで区別される．日本本土の在来種ゴマダラチョウ H. japonica は，後翅に赤い斑紋が無いこと，アカボシゴマダラ白化型より黒い部分が多いことで区別される．",
+      "habitat": "都市～里山．温度選好性：冷温帯から温帯域，亜熱帯",
+      "impact": "在来蝶類との競合影響を受ける在来生物：オオムラサキ・ゴマダラチョウ・テングチョウなど，幼虫期にエノキを利用する蝶類（競合）",
+      "control": "捕獲，啓蒙・啓発活動による移入・拡散防止"
+    }
   },
   {
     "id": "anoplophora-glabripennis",
@@ -2123,7 +2667,13 @@
       "山口",
       "熊本"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60310.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60310.html",
+    "description": {
+      "morphology": "成虫の体長20～35mmのカミキリムシ．体幅は7～12mm．11節の触角を有し，触角は雄で体長の約1.5倍，雌で約1.3倍．触角の節に明瞭な白黒縞を持つ．外皮は光沢のある黒色で，上翅に不規則な白色～黄色の斑紋を有する．卵は乳白色で長さ5.5～7.0mmの長楕円形で両端がやや湾曲．幼虫は体長50mm程度で，孵化直後乳白色で摂食すると淡紅色，頭部は褐色に．老熟幼虫は黄色を帯びる．蛹は長さ30～37mm，幅11mmほどで乳白色～白色．在来の同属種ゴマダラカミキリに類似するが，前胸背前縁，後縁付近にあるくびれは弱く背面中央は隆起せず，背面の2紋を欠き，上翅の肩部に数個の平圧された小さな顆粒状点刻を持つのみで，基部全体に顆粒状点刻を有しないことなどで区別できる．",
+      "habitat": "植林地，果樹園，街路樹など．様々な樹木に寄生．樹冠など安全な場所に留まる．",
+      "impact": "さまざまな樹種を食害．本種の原産国である中国では植林した木の40％が被害を受けている．侵入先のニューヨーク，シカゴ，オーストラリアでも被害．影響を受ける在来生物：カエデ属，トチノキ属，カバノキ属，ハコヤナギ属（ポプラ），ヤナギ属，ハンノキ属，ネムノキ属，ニレ属，グミ属，センダン属，クワ属，スズカケノキ属（プラタナス），リンゴ属，サクラ属，ナシ属，ナナカマド属など多数の樹種",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "apriona-swainsoni",
@@ -2139,7 +2689,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60590.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60590.html",
+    "description": {
+      "morphology": "工事中",
+      "habitat": "工事中",
+      "impact": "工事中",
+      "control": "工事中"
+    }
   },
   {
     "id": "aromia-bungii",
@@ -2175,7 +2731,13 @@
       "和歌山",
       "徳島"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60560.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60560.html",
+    "description": {
+      "morphology": "体長22-38mm．体全体は光沢のある黒色．前胸背板は明赤色で側面に頑丈なとげ状の瘤を一対もつ．触角は黒色で体調と同じ長さもしくは若干長い．オスの方が体は小さく，触角の比率が大きい．",
+      "habitat": "公園や市街地の街路樹",
+      "impact": "サクラ，ウメ，カキ，モモ，ポプラなどの樹木に寄生して弱らせたり，枯死の原因となる．",
+      "control": "宿主となった樹木の伐採．成虫には殺虫剤も効果的．原産地の中国では，昆虫病原性線虫を利用した生物的防除が行われている．"
+    }
   },
   {
     "id": "neolucanus-angulatus",
@@ -2191,7 +2753,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-baladeva",
@@ -2207,7 +2775,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-giganteus",
@@ -2223,7 +2797,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-katsuraorum",
@@ -2239,7 +2819,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-maedai",
@@ -2255,7 +2841,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-maximus",
@@ -2271,7 +2863,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-perarmatus",
@@ -2287,7 +2885,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-saundersii",
@@ -2303,7 +2907,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-tanakai",
@@ -2319,7 +2929,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "neolucanus-waterhousei",
@@ -2335,7 +2951,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60570.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "南西諸島に侵入した場合、これらの地域に固有分布する在来マルバネクワガタとの競合や交雑の可能性がある",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "euchirus",
@@ -2353,7 +2975,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60370.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60370.html",
+    "description": {
+      "morphology": "雄47～80mm，雌43～67mmの大型の甲虫．雄の前脚は非常に大型で長く，前笘節に突起は無い．前胸は半円形で微細な顆粒点刻を持つ．",
+      "habitat": "不明．成虫がヤシの樹液に集まること，灯火に飛来すること以外にはほとんど記録が無い．",
+      "impact": "幼虫の餌・生息場所をめぐって在来昆虫と競合の可能性あり．影響を受ける在来生物：ヤンバルテナガコガネ（絶滅危惧I類，国の天然記念物）などの在来昆虫",
+      "control": "放虫しない"
+    }
   },
   {
     "id": "propomacrus",
@@ -2371,7 +2999,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60380.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60380.html",
+    "description": {
+      "morphology": "雄32～44mm，雌25～37mm程度の甲虫．テナガコガネ亜科の中では最も小型の属．褐色～黒褐色で金属光沢は無い．雄の前笘節下縁に褐色の長毛を密生．",
+      "habitat": "温帯域の森林．温度選好性：温帯域原産．南西諸島のみならず，日本本土に定着する可能性も高い．",
+      "impact": "幼虫の餌・生息場所をめぐる在来昆虫との競合が予想される．影響を受ける在来生物：沖縄県ではヤンバルテナガコガネ（絶滅危惧I類，国の天然記念物），本土ではオオチャイロハナムグリなど，樹洞性の昆虫",
+      "control": "逸出させない．"
+    }
   },
   {
     "id": "bombus-terrestris",
@@ -2391,7 +3025,13 @@
     "prefectures": [
       "北海道"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60080.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60080.html",
+    "description": {
+      "morphology": "体長10～20mmのハナバチ．全身に毛を持ち，頭部は黒，胸部は黒・黄色・黒の横縞模様，腹部は黒・黄色・黒・白の横縞模様．この模様は，女王，働きバチ，雄バチでほぼ同じ．在来種ノサップマルハナバチ（道東に生息）の働きバチには，腹部後端が白い変異個体がおり，本種と似る．",
+      "habitat": "ネズミなどの古い巣穴を利用して地中で営巣・繁殖する．温度選好性：主に15℃～25℃の範囲で活動する．長時間32度以上の環境に曝された場合，花粉で作られた巣が溶け出し，幼虫が死亡する．",
+      "impact": "交雑による在来種の不妊化に伴う繁殖阻害．利用植物の40～70％が在来のマルハナバチ属と競合する．飼育下において，在来種の女王を刺殺して巣の乗っ取りを行う例が確認されている．盗蜜による植物の種子生産の失敗．寄生虫（マルハナバチポリプダニ）の持ち込み．影響を受ける在来生物：北海道には数種のマルハナバチ類が自然分布する．在来マルハナバチに送粉を依存している野生植物（エゾエンゴサクなど）．",
+      "control": "これまで本種の駆除に成功した例は海外ではない．国内では使用にあたってハウスにネットを展張すること，および使用済みの巣箱を適正に処分することによって逃亡防止が図られている．"
+    }
   },
   {
     "id": "lepisiota-frauenfeldi",
@@ -2415,7 +3055,13 @@
       "福岡",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60580.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60580.html",
+    "description": {
+      "morphology": "体長2.5～4 mm．大きな複眼と11節から成る長い触角を持つ，中胸部は細くくびれる，腹柄節背面に一対の刺状突起を持つ．",
+      "habitat": "乾燥した裸地や街路．廃材下やコンクリートブロックの隙間に明確な形状を有さない巣を作る．",
+      "impact": "捕食，競合",
+      "control": "殺虫剤"
+    }
   },
   {
     "id": "linepithema-humile",
@@ -2448,7 +3094,13 @@
       "山口",
       "徳島"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60090.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60090.html",
+    "description": {
+      "morphology": "体長約2.5 mm．体色は黒褐色.複眼はやや大きく，頭部背面前方よりに位置する．胸部は前中胸が多少隆起し側方からみて緩やかなアーチを描く．腹柄節は扁平なコブ状でその頂部は前伸腹節の気門より低いところに位置する．外皮は柔らかい．日本には同属種が生息していない．",
+      "habitat": "温度選好性：働きアリの活動温度帯は5～35℃",
+      "impact": "住宅や建造物に大量に侵入し、食品に群がったり、電気製品に侵入して不具合を生じさせたりするなど、日常生活に著しい障害をもたらす。アブラムシ類，カイガラムシ類など農業害虫を保護することで病害を広げる．種子の加害による農業被害．ミツバチの巣箱の蜜を食害． 影響を受ける在来生物：在来のアリ類および地表徘徊性節足動物類",
+      "control": "殺アリ剤を利用した化学的防除"
+    }
   },
   {
     "id": "solenopsis-geminata",
@@ -2467,7 +3119,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60390.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60390.html",
+    "description": {
+      "morphology": "体長3～8 mm，赤褐色で頭部は褐色．働きアリの頭部は大型で四角形状．",
+      "habitat": "亜熱帯地域の裸地や草地などの開けた環境に生息し，土中に営巣する．温度選好性：亜熱帯?暖温帯",
+      "impact": "捕食，競合，駆逐．人・各地への刺咬被害，カイガラムシ保護による農業被害．影響を受ける在来生物：在来アリ類など生物相．人・家畜・農作物．",
+      "control": "殺虫剤"
+    }
   },
   {
     "id": "solenopsis",
@@ -2496,7 +3154,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60290.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60290.html",
+    "description": {
+      "morphology": "ワーカーは多型で，体長2.5mm～6mm．体色は赤褐色，腹部が暗色．日本には同属の在来種トフシアリが生息する．",
+      "habitat": "草地など比較的開けた環境．温度選好性：亜熱帯～暖温帯",
+      "impact": "捕食，競合，駆逐．農業被害，刺傷による人の健康被害等．日本にはまだ侵入が確認されていないが，侵入・定着した場合は甚大な被害をもたらすと考えられる．影響を受ける在来生物：在来アリ類など生物相",
+      "control": "殺虫剤"
+    }
   },
   {
     "id": "solenopsis-3",
@@ -2551,7 +3215,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60280.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60280.html",
+    "description": {
+      "morphology": "体長1.5mm．日本には同属種が生息していない．",
+      "habitat": "情報整理中",
+      "impact": "潜在的影響：捕食，競合，駆逐．殺傷による人体への影響，ニューカレドニアでは爬虫類の個体群を減少させている例がある．影響を受ける在来生物：在来アリ類など生物相",
+      "control": "殺虫剤"
+    }
   },
   {
     "id": "vespa-v-velutina",
@@ -2570,7 +3240,13 @@
     "prefectures": [
       "長崎"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60550.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/60550.html",
+    "description": {
+      "morphology": "女王は30mmに達する．オスは24mm，ワーカーは平均20mmの中型のスズメバチ．体は全体に黒っぽく，腹部の先端が赤褐色．",
+      "habitat": "田園地域．都市にも生息域を拡大",
+      "impact": "ミツバチを捕食するため，養蜂業に被害がある．侵入した韓国では，在来スズメバチ類と競合し激減させている．在来昆虫類の捕食による送粉系サービスへの被害が懸念される．",
+      "control": "巣の撤去"
+    }
   },
   {
     "id": "dikerogammarus-villosus",
@@ -2608,7 +3284,13 @@
       "長野",
       "滋賀"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70050.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70050.html",
+    "description": {
+      "morphology": "最大体長150mmになる淡水性ザリガニ．主に暗緑色でハサミの付け根に青白色の大きな斑点がある．",
+      "habitat": "冷水性の河川や湖沼に生息．原産地コロンビア川では汽水域にも生息が確認されている．高温耐性：32℃-33℃まで生存可能であることが実験的に確認されている．本来冷水域に適応した種とされるが日本国内の比較的高温の水域においても本種は定着可能と推定される．",
+      "impact": "在来水生生物の捕食，隠れ家をめぐる競争，ミズカビ病（ザリガニペスト）の媒介，水生植物の切断，大きな巣穴を掘ることによる河岸侵食・土手の決壊等．影響を受ける在来生物：ニホンザリガニ，モクズガニ，マルタニシ等巻貝類，両生類，底棲魚類（卵を含む）といった在来水生生物，水生植物，マリモ等．",
+      "control": "カゴ罠（ドウ，カニカゴ）：一般的に用いられる駆除法だが，大型個体に捕獲が偏る．カゴ罠に用いる餌は生魚が効果的．欧州では性フェロモンを用いた誘引トラップの開発が進められている．素手による捕獲（個体サイズが偏らない）．世界的に本種の駆除に成功した例はない．"
+    }
   },
   {
     "id": "species-126",
@@ -2685,7 +3367,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70320.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70320.html",
+    "description": {
+      "morphology": "体長最大15cm程度のザリガニ．若齢個体は淡褐色-黄褐色，成熟すると赤色-赤褐色．",
+      "habitat": "湿地，水田とその周辺など",
+      "impact": "水草，淡水底生生物に対する捕食・競合．ザリガニカビ病（ザリガニ類特有の病気）を媒介．影響を受ける在来生物：淡水の底生生物，小型魚類，水生植物，在来のザリガニなど．",
+      "control": "トラップの設置による捕獲（大型・生体向き：アナゴカゴ，小型・幼体向き：しばづけ等）．"
+    }
   },
   {
     "id": "species-128",
@@ -2727,7 +3415,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70180.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70180.html",
+    "description": {
+      "morphology": "大型のザリガニ．色彩は種によって様々（写真はレッドクロウ C. quadricarinatus）",
+      "habitat": "情報整理中",
+      "impact": "在来甲殻類との競合，在来水生動植物の捕食，水生植生破壊などが予想される影響を受ける在来生物：淡水生物",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "species-131",
@@ -2745,7 +3439,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70070.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70070.html",
+    "description": {
+      "morphology": "約89属950種の小型～中型種（20mm～120mm程度）からなるサソリ類最大の科．腹板は三角形または五角形．多くの属で，触肢（ハサミ）は細長い．一部の属は，特に雄で付属肢が長い．後腹部（尾部）先端に毒針を持つ．体色は黄色～褐色系ないし黒色．一部の種は複雑な斑紋を持つ．",
+      "habitat": "森林，林縁",
+      "impact": "尾端に毒針があり，一部の種（Androctonus，Centruroides，Hottentotta，Leiurus，Parabuthus，Tityusなどの一部）は人間に対する致死性の毒性を持つ．影響を受ける在来生物：",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "atrax",
@@ -2761,7 +3461,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70080.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70080.html",
+    "description": {
+      "morphology": "足を除いても4cm級になるものがいる．漏斗状のクモの巣を張る．",
+      "habitat": "情報整理中",
+      "impact": "人の生命・身体にも被害を及ぼすおそれがある．シドニージョウゴグモの毒の主成分は神経毒のロブストキシン（Robustoxin），血清が1950年代に開発されるまでは死者が出ていた．",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "hadronyche",
@@ -2777,7 +3483,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70090.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70090.html",
+    "description": {
+      "habitat": "Hadronyche infensa と H. formidabilisはクイーンスランド南東部の人口密度の高い地域周辺にも生息する．",
+      "impact": "不明",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "loxosceles-gaucho",
@@ -2793,7 +3504,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70120.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70120.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "イトグモ刺咬症",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "loxosceles-laeta",
@@ -2809,7 +3526,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70110.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70110.html",
+    "description": {
+      "morphology": "足を含めて8～30mm，薄い褐色",
+      "habitat": "野外では石の下など．",
+      "impact": "イトグモ刺咬症，人の生命・身体に被害を及ぼし，毒はロクソセレス属中で最も致死的である．"
+    }
   },
   {
     "id": "loxosceles-reclusa",
@@ -2825,7 +3547,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70100.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70100.html",
+    "description": {
+      "morphology": "体長約1.5cm，茶色をしており，頭胸部にバイオリンのような模様がある．",
+      "habitat": "民家周辺，石の下，納屋，屋内など．温度選好性：サバンナ気候に適応．",
+      "impact": "イトグモ刺咬症影響を受ける在来生物：現地では害虫を捕食する益虫ではあるが，1984年には少なくとも５人が咬まれて死亡している．",
+      "control": "輸入資材に混入していないかの確認，日本への持込の禁止等"
+    }
   },
   {
     "id": "latrodectus-geometricus",
@@ -2852,7 +3580,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70130.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70130.html",
+    "description": {
+      "morphology": "メス12-16mm，オス6-8mm．白から黒まで体色には変異がある．卵嚢は薄黄色で表面に多数の突起物があり，他のゴケグモ属の白くスムーズな卵嚢と区別できる．",
+      "habitat": "侵入先では建物の隙間等．",
+      "impact": "α-ラトロキシンという神経毒を持ち，咬傷被害のおそれあり．神経毒を持つが人の死亡例は報告されていない．セアカゴケグモよりも攻撃性は弱いと言われている（刺咬症の事例は米国南部等に限られている）．",
+      "control": "殺虫剤等"
+    }
   },
   {
     "id": "latrodectus-hasseltii",
@@ -2912,7 +3646,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70020.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70020.html",
+    "description": {
+      "morphology": "成熟した雌の体長は約0.7～1cm.全体が黒色で，腹部の背面に目立った赤色の縦条がある.雄の体長は約4～5mmで，腹部背面は灰白色で中央に縁取りのある白い斑紋があり，その両側に黒紋が2列に並ぶ．成熟した雄は，腹部が細く頭部の触肢が丸く膨らんでいて区別できる．卵嚢は直径1～1.5cmで乳白色である．外来種のハイイロゴケグモ，八重山諸島に生息する未記載種ヤエヤマゴケグモと同じゴケグモ属に属する．",
+      "habitat": "冬季の大阪府における調査では，成熟したメスが大量に枯れ草や紙屑などを網で絡め，卵のうと共に完全な閉鎖巣を作っていることが確認された．温度選好性：発育零点は15℃",
+      "impact": "神経毒を有する．",
+      "control": "ピレスロイド系の殺虫剤散布"
+    }
   },
   {
     "id": "latrodectus-mactans",
@@ -2928,7 +3668,13 @@
     "prefectures": [
       "山口"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70140.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70140.html",
+    "description": {
+      "morphology": "体長3-10mm，雌は8-10mm",
+      "habitat": "情報整理中",
+      "impact": "不明",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "latrodectus",
@@ -2944,7 +3690,12 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70150.html",
+    "description": {
+      "habitat": "情報整理中",
+      "impact": "不明",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "limnoperna-fortunei",
@@ -2975,7 +3726,13 @@
       "滋賀",
       "大阪"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70200.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70200.html",
+    "description": {
+      "morphology": "最大殻長約40mm，固着性二枚貝で，殻は薄い．殻の内側には真珠光沢がある．",
+      "habitat": "淡水域の岩などの裏に固着している．",
+      "impact": "大量に付着するため，利水施設を詰まらせるなど．また，吸虫類の第一中間宿主になっている．2000年以降には，京都府の宇治川ではオイカワやコウライモロコなどが腹口類吸虫のメタセルカリア幼生に大量寄生され，パラブセファロプシスParabucephalopsis parasiluriとプロソリンコイデスProsorhynchoides ozakiiが原因寄生虫であり，ビワコオオナマズが終宿主となっていた．影響を受ける在来生物：魚類など水生生物",
+      "control": "3～6日ほど日に当てて乾燥させると死亡する．"
+    }
   },
   {
     "id": "limnoperna",
@@ -3004,7 +3761,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70210.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70210.html",
+    "description": {
+      "morphology": "殻長3cm程度の固着性二枚貝．ふつうDの字型の殻を持つが，高く平らな殻の表層型（“epilimnetic”）と低く膨らんだ殻の底層型（“profunda”）の，形態・ハビタットの2型が知られる．ふつう明褐色・暗褐色のやや不明瞭な縞模様も持つが，色彩には変異があり，全体が明褐色～暗褐色の場合もある．基質に付着・群生するための足糸を分泌する．同属のカワホトトギスガイ（ゼブラガイ）より少し大きく，殻はより丸みを帯び，色はより白っぽく縞模様は明瞭ではない．",
+      "habitat": "足糸により基質に付着して群生．主に淡水域だが汽水域にも生息できる．表層型（epilimnetic）は硬基質に付着．底層型（profunda）は泥質など軟基質にもぐって群生することもある．温度選好性：亜熱帯～温帯まで",
+      "impact": "大量の養分を一年中濾し取り続けるため，湖沼の食物連鎖を崩壊させる．在来の二枚貝などの上に群生して窒息・成長阻害を引き起こす．汚染物質の生体蓄積により，本種を捕食した動物に影響を及ぼす．浅い水辺から水深130mの深さまで生息でき，大量の燐が排泄物として排出される．繁殖速度が速く，群生して取水パイプを詰まらせる等の被害がある影響を受ける在来生物：在来の水生生物全般．",
+      "control": "船舶を移動させる前に表面をよく洗浄する，汚染されている可能性のある釣り餌を水中に放棄しない，"
+    }
   },
   {
     "id": "dreissena-polymorpha",
@@ -3020,7 +3783,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70220.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70220.html",
+    "description": {
+      "morphology": "殻長約3cm程度（最大5cm程度）の固着性二枚貝．三角形（高さは底辺の40～60％程度）に近い形で，殻頂は尖り，腹面および背面が角張る．表面は滑らかで光沢があり，明瞭な黒褐色と黄白色の縞模様がある．縞模様は滑らかな曲線の場合もあればジグザグになる場合もある．",
+      "habitat": "湖沼，河川．硬水を好む．足糸で硬い表面に付着して群生する．温度選好性：水温28℃以下が適温．",
+      "impact": "大発生により，在来二枚貝の成長阻害・窒息，ろ過により湖水の透明度を上げて沈水植物を増加させて群集構造を変化させる，船舶の汚損，発電所などの取水施設の通水障害など．影響を受ける在来生物：種々の淡水生物",
+      "control": "レジャーや水運の際，他の水系の水を持ち込まない，取水管の中は直接駆除が必要．"
+    }
   },
   {
     "id": "euglandina-rosea",
@@ -3039,7 +3808,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70230.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70230.html",
+    "description": {
+      "morphology": "殻高約6cm，殻幅約2cm．軟体部は黒灰色．細長い体型をしている．",
+      "habitat": "温暖な地域の森林～草原",
+      "impact": "在来の陸産貝を捕食．影響を受ける在来生物：陸産貝類",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "platydemus-manokwari",
@@ -3059,7 +3834,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70240.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/70240.html",
+    "description": {
+      "morphology": "体長40～65mmの陸生プラナリア．背面は黒褐色で，細い白い線が縦に入る．腹面は淡灰色．頭部が後部よりも細い．",
+      "habitat": "温暖な地域の森林・草原．",
+      "impact": "地上・樹上のカタツムリ類を捕食．広東住血線虫のL3中間待機宿主であり，ヒトも経口感染する．影響を受ける在来生物：在来の陸産貝類，ヒト",
+      "control": "土壌の移動を制限する．海水に弱いため土壌に接する靴底などは塩水で洗う．"
+    }
   },
   {
     "id": "alternanthera-philoxeroides",
@@ -3109,7 +3890,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81140.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81140.html",
+    "description": {
+      "morphology": "多年生．茎は長さ0.5～1m，中空で太さ4mmに達する．基部は横に這いながら枝分かれし発根．葉は対生，無柄または1～6mmの短柄を持ち，倒卵形～倒広披針形，長さ2.5～5cm，幅0.7～2cm，細かい鋸歯を持つ．花は白色～灰白色，球状で12～16mm，1～4cmの柄があり，1～2個の花序が葉の腋につく．",
+      "habitat": "水路，河川，湿地等温度選好性：温帯～亜熱帯",
+      "impact": "在来植物との競合，船の運航の阻害など影響を受ける在来生物：在来の水生植物",
+      "control": "個体の完全除去．米国では1960年代から天敵導入（Agasicles hygrophila, Amynothrips andersoni, Arcola malloi）による駆除が行われている．"
+    }
   },
   {
     "id": "hydrocotyle-ranunculoides",
@@ -3132,7 +3919,13 @@
       "熊本",
       "大分"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81150.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81150.html",
+    "description": {
+      "morphology": "多年生の抽水植物．茎の長さは1m以上になり，直径2～3mm，無毛．節から1～数枚の葉と多数の根を出す．葉身は3～7cm，多肉質，円心形で掌状に5浅裂し，無毛，上面に光沢．葉柄は7～35cm．根は水中では30cm近く伸びる．花序は節に1～3個，目立たず直径3mm程．",
+      "habitat": "水路，河川，水辺温度選好性：温帯～亜熱帯",
+      "impact": "大繁茂し，在来種の生育を妨げる影響を受ける在来生物：水生植物",
+      "control": "茎が絡み合うため，除去の前に切断の必要あり．切断した茎から栄養繁殖するため，注意が必要．"
+    }
   },
   {
     "id": "pistia-stratiotes",
@@ -3152,7 +3945,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80790.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80790.html",
+    "description": {
+      "morphology": "多年生の浮葉植物．茎は短縮して広卵形～扇形の葉を重ねてつける．水中に根をのばして浮遊．葉身はビロード状で水をはじき，水面に伏すか斜上して葉ボタン状になる．水中に枝を出して多数の子株を生じて水面に広がる．夏～秋に葉笨に花序をつけるが，目立たない．",
+      "habitat": "池沼，河川，水田温度選好性：亜熱帯～熱帯",
+      "impact": "在来種やイネとの競合．過繁茂による湖沼の水温や水質の低下．水路の水流阻害．アレロパシー作用～．虫，カタツムリ，菌の寄主．影響を受ける在来生物：在来水生植物，イネなど",
+      "control": "物理的な除去"
+    }
   },
   {
     "id": "azolla-cristata",
@@ -3191,7 +3990,13 @@
       "福岡",
       "佐賀"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81070.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81070.html",
+    "description": {
+      "morphology": "小型の浮遊植物．一～二年草．全体は円形～やや五角形で，直径5～30mm．ヒノキの葉のように見える．葉は楕円形で無柄．水面で覆瓦状に2列に互生．葉は秋に赤色になる．",
+      "habitat": "水田，休耕田，ため池等止水域．必ずしも水面とは限らない．温度選好性：温帯",
+      "impact": "被陰，富栄養化，近縁種との競合，遺伝的撹乱等．影響を受ける在来生物：在来のアカウキクサ類（アカウキクサ A. imbricate，オオアカウキクサ A. japonica）（競合・交雑）淡水生物群集（被陰・富栄養化）",
+      "control": "導入を避ける，浮遊個体の水田からの流出を防ぐ．合ガモに食べつくさせる．ハス田などにも広がっており，観賞用水草，園芸植物等も含め移動の際には付着に注意する．"
+    }
   },
   {
     "id": "coreopsis-lanceolata",
@@ -3257,7 +4062,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80490.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80490.html",
+    "description": {
+      "morphology": "多年草．茎は束生し高さ30～70cm．根生葉は長柄があり，3～5小葉に分裂．茎上の葉は茎の下半部に集まり，上方のものは分裂せず，両面ともあらい毛がある．頭花は径5～7cm，総包外片は8～10個あって1列に並び厚質，総包内片はやや薄く大きい．舌状花は橙黄色，花冠の先は4～5裂，筒状花も同色で花床には長さ5～8mmの鱗片．果実（痩果）は扁平，黒色で光沢を欠き，へりは褐色のひれ（翼）にとりまかれる．染色体数n=10．ホソバオオキンケイギク，オラゲオオキンケイギクを区別することもある．",
+      "habitat": "路傍，河川敷，線路際などの荒地，海岸温度選好性：温帯",
+      "impact": "在来種と競合影響を受ける在来生物：在来の草本植物",
+      "control": "抜き取り，刈り取り"
+    }
   },
   {
     "id": "gymnocoronis-spilanthoides",
@@ -3289,7 +4100,13 @@
       "福岡",
       "大分"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81120.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81120.html",
+    "description": {
+      "morphology": "多年生の抽水植物．高さ0.5～2m．葉は対生し，披針形～卵形，鋭尖頭，基部は楔形～やや円形．水中葉では鋸歯は目立たないが水上葉には低い鋸歯．白い花をつける．多年草．",
+      "habitat": "水路，河川など水辺温度選好性：亜熱帯～温帯",
+      "impact": "在来水生植物との競合，水路の水流阻害．海外では，魚類の生育阻害も．東京，大阪，福岡の用水路では駆除が行われている．影響を受ける在来生物：在来の水生植物，水棲動物など．",
+      "control": "江戸川，淀川水系等で除去事業が行われている．わずかな部位からクローン成長するため，ちぎれないように慎重に引き抜いて除去するか底の土壌を深く掘り取り除去する必要がある．"
+    }
   },
   {
     "id": "mikania-micrantha",
@@ -3309,7 +4126,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81530.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81530.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来種と競合",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "rudbeckia-laciniata",
@@ -3375,7 +4198,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80580.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80580.html",
+    "description": {
+      "morphology": "多年草．茎は高さ0.5～3m，無毛で白っぽい．葉は互生，下部では長柄があって羽状に5～7裂，上部では無柄で3～5裂ないし単葉．上面無毛，下面には短毛．頭状花序，径5～6cm，舌状花は黄色で10～14個，筒状花は緑黄色，花床は半球形，総苞片は葉状で2列．果実（痩果）は4稜あり，長さ5～6mm，扁平，冠毛は癒着して冠状になり，小数の歯状の突起になる．染色体数2n=36,76．種間交配などで育成された園芸品種が多い．",
+      "habitat": "路傍，荒地，畑地，湿原，河川敷温度選好性：温帯",
+      "impact": "在来の草本・低木との競合．栃木の戦場ヶ原・青森の奥入瀬渓流では急速に繁殖．影響を受ける在来生物：在来の草本・低木．ホザキシモツケ，イヌコリヤナギ，オノエヤナギ，ズミなど（日光戦場ヶ原）",
+      "control": "抜き取り，刈り取り，戦場ヶ原で夏期に駆除作業を実施"
+    }
   },
   {
     "id": "senecio-madagascariensis",
@@ -3409,7 +4238,13 @@
       "福岡",
       "佐賀"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81060.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81060.html",
+    "description": {
+      "morphology": "一～多年草．高さ20～50cm．茎は多数分岐して大きな株になり直立．葉は先の尖った線状披針形～披針形で羽状に分裂し，不揃いの鋸歯を持ち，やや茎を抱いて互生．茎・葉とも無毛．茎の頂部は分岐し，直径2～2.5cm程度の鮮黄色の頭状花序を上向きに多数つける．舌状花は通常13枚，筒状花は舌状花と同色で短い冠毛がある．痩果は長さ1mmほど．",
+      "habitat": "空地，道端，造成地，埋立地等．海外では牧草地に侵入している．温度選好性：亜熱帯～温帯",
+      "impact": "強度の撹乱耐性，在来種との競合，牧草へのアレロパシー作用，アルカロイド毒性による草食動物・家畜の中毒等．影響を受ける在来生物：在来の草本植物，草食動物など",
+      "control": "抜き取り，刈り取り"
+    }
   },
   {
     "id": "sicyos-angulatus",
@@ -3475,7 +4310,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80220.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80220.html",
+    "description": {
+      "morphology": "一年草．茎はつる性で長さ数m～十数m，3～4岐したまきひげで他物にからまる．葉は3～7裂，長柄があり，表面はざらつく．雌雄同株．雌花は，短い枝の先に頭状に多数集まり，淡緑色，径6mmほど，雌ずいは1個で子房下位．雄花は長い枝の先に総状につき，黄白色，径1cmほど，雄ずいはやくで合着して一塊になり，花柄には立った腺毛がまばらにある．果実は長卵形～楕円形，扁平，表面に軟毛と鋭いがやわらかい棘を密生，種子を1つ入れる．種子は卵形，扁平，長さ1cm．染色体数2n=24．棘の欠如したものをトゲナシアレチウリとして区別する文献がある．",
+      "habitat": "林縁，荒地，河岸，河川敷，路傍，原野，畑地，樹園地，造林地温度選好性：温帯～熱帯",
+      "impact": "河川敷などの在来種，畑作物，イネ，造林木との競合影響を受ける在来生物：河川敷などの在来種，畑作物，イネ，造林木",
+      "control": "土壌処理剤のみの防除は難しく，茎葉処理剤や，結実前の刈り取りといった機械的防除法の併用が必要．河岸を掘削して地盤を低くし，増水時に冠水する場所を創出するなどの予防策も提案されている．"
+    }
   },
   {
     "id": "drosera-intermedia",
@@ -3495,7 +4336,13 @@
       "千葉",
       "岡山"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81540.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81540.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来植物との競合・交雑",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "myriophyllum-aquaticum",
@@ -3560,7 +4407,13 @@
       "鹿児島",
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80250.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/80250.html",
+    "description": {
+      "morphology": "多年生の抽水植物．茎は円柱状で太さ4～6mm，泥中または水中で分岐しながらほふくして1m以上に達する．茎には多数の節があり，節から白色の糸状根を出し，10～30cmの水上茎を直立させて水面を覆う．水上茎には2～5cmで粉白色を帯びた緑青色の羽状葉が各節に3～7枚輪生．小葉片は長さ3～5mm，幅1mmで10～20対．葉の基部左右に白色短小の毛状托葉があり，若葉には微毛が粗生．水上茎の輪生葉の葉笨ごとに1個ずつ花をつける．雌花は円筒状，高さ2mmの白緑色の子房，柱頭周囲に角状の4がく片を持つが花弁は無い．雌雄異株で日本国内に定着しているのは雌株のみ．",
+      "habitat": "池沼，溜池，河川，水路など温度選好性：暖温帯～熱帯",
+      "impact": "在来種との競合．水質の悪化．水流の阻害．影響を受ける在来生物：在来水生植物",
+      "control": "抜き取り，刈り取り．水槽中で育成する場合は，二酸化炭素の添加が有効．"
+    }
   },
   {
     "id": "utricularia-inflata",
@@ -3579,7 +4432,13 @@
       "大阪",
       "兵庫"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81100.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81100.html",
+    "description": {
+      "morphology": "多年草，抽水性の食虫植物．葉は放射状に輪生し，茎は水中で分岐して長さ2m以上になる．植物体のまま越冬し，水中を浮遊して広く占有する．花期に4～9枚の葉が変形した浮袋を放射状に輪生し，花茎を水上に伸ばす．花茎は長さ4～20cmで花冠は鮮黄色，長さ1.5～2.5cm，距は長さ8mmほど．",
+      "habitat": "池，湿地，水路等温度選好性：温帯～暖温帯",
+      "impact": "在来種との競合，交雑の危険性．影響を受ける在来生物：在来水生・湿生植物",
+      "control": "啓発により意図的導入を避ける，すくい取り等．"
+    }
   },
   {
     "id": "utricularia-inflata-2",
@@ -3623,7 +4482,13 @@
       "兵庫",
       "和歌山"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81560.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81560.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来植物との競合・交雑",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "ammophila-arenaria",
@@ -3639,7 +4504,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81550.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81550.html",
+    "description": {
+      "morphology": "情報整理中",
+      "habitat": "情報整理中",
+      "impact": "在来植物との競合",
+      "control": "情報整理中"
+    }
   },
   {
     "id": "spartina-alterniflora",
@@ -3662,7 +4533,13 @@
       "愛知",
       "熊本"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81490.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81490.html",
+    "description": {
+      "morphology": "多年草．葉は丈夫で長さ20～55cm，幅2～2.5cm，灰緑色．茎は高さ60～250cm，根元は直径7～12mm．根元の葉鞘は淡褐色．円錐花序は長さ10～40cm，淡色の花を密につける．",
+      "habitat": "河口域，入り江などの沿岸部温度選好性：温帯～暖温帯",
+      "impact": "在来生物との競合，湿地環境の破壊影響を受ける在来生物：河川沿岸域湿地・干潟などの在来生物",
+      "control": "手作業による抜取り，刈取り．根茎から栄養繁殖するため，長期間にわたり根茎を残さず繰り返し駆除するとともに，完全駆除までのモニタリングを継続することが必要．除草剤を用いた駆除法も検討されている．"
+    }
   },
   {
     "id": "spartina-anglica",
@@ -3678,7 +4555,13 @@
     "prefectures": [
       "沖縄"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81160.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81160.html",
+    "description": {
+      "morphology": "多年草．葉は緑色～灰緑色，葉身は革質で無毛，長さ10～45cm，幅6～15mm，先端に行くほど狭くなり，先端部は固い．円錐花序は長さ10～45cm，幅5～22mm．2～12個の穂状花序が葉より上に直立またはやや広がってつき，5～35個の小穂がつく．小穂は扁平な楕円形で，長さ8～15mm，幅2.5～3mm，軟毛があり，1個の花が成熟する．尚，本種は英国に自生するSpartina maritimaと北米東部に自生するS. alternifloraとの雑種から生まれたS. townsendiiの倍数体．",
+      "habitat": "河口域，入り江などの沿岸部温度選好性：温帯～暖温帯",
+      "impact": "干潟など河口部の在来生態系の改変，競合，駆逐．シルトをトラップすることにより地形も改変する．クローンが一斉に枯死した場合は堆積土砂の流出が起き，水路を塞ぐなど自然改変・災害を引き起こす．影響を受ける在来生物：国内に近縁種はいないが，干潮帯を生息地にする多くの生き物に影響を及ぼす．",
+      "control": "抜き取り"
+    }
   },
   {
     "id": "species-166",
@@ -3718,6 +4601,12 @@
       "佐賀",
       "大分"
     ],
-    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81130.html"
+    "niesUrl": "https://www.nies.go.jp/biodiversity/invasive/DB/detail/81130.html",
+    "description": {
+      "morphology": "多年草．全体が無毛．地中を横走する根茎から茎を直立し，高さ1mほどになる．葉は長楕円形～被針形，へりに細かい鋸歯があるが不明瞭で全緑のようにも見える．無柄で対生．茎上部の葉では基部が心臓形で茎を抱く．花期に葉笨に穂状花序を出し，径5mmほどの淡紫色～白色の4深裂した花を多数つける．果実は球形，先端が凹み，長さ3mmほどの渦中が残る．果柄は上を向く．染色体数2n=36等．茎上部に腺毛のあるものをヒメカワヂシャV. a. f. anagalliformis という．鋸歯が不明瞭で全緑に近いこと，花が鮮やかな青紫色であることなどで，在来種カワヂシャと区別可能．",
+      "habitat": "水路，河川，湿地の水際温度選好性：温帯～暖温帯",
+      "impact": "在来種との競合，遺伝的撹乱等影響を受ける在来生物：在来種のカワヂシャ V. undulata と交雑．西日本では雑種ホナガカワヂシャ V. × myriantha に置き換わりつつある．",
+      "control": "抜き取り，洪水撹乱体制の復元等"
+    }
   }
 ]

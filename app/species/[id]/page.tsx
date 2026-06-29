@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
+import DescriptionSection from '@/components/species/DescriptionSection';
 import DesignationBadge from '@/components/species/DesignationBadge';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
@@ -56,6 +57,7 @@ export default async function SpeciesPage({ params }: Props) {
           </section>
         )}
         <SpeciesInfoTable species={s} />
+        {s.description && <DescriptionSection description={s.description} />}
         <PrefectureList prefectures={s.prefectures} />
       </div>
     </main>
