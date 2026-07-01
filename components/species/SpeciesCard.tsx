@@ -3,7 +3,20 @@
 import { Badge, Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
-import type { Species } from '@/lib/types';
+import type { Category, Species } from '@/lib/types';
+
+const CATEGORY_EMOJI: Record<Category, string> = {
+  哺乳類: '🦊',
+  鳥類: '🐦',
+  爬虫類: '🦎',
+  両生類: '🐸',
+  魚類: '🐟',
+  昆虫類: '🪲',
+  甲殻類: '🦀',
+  'クモ・サソリ類': '🕷️',
+  軟体動物等: '🐌',
+  植物: '🌿',
+};
 
 interface Props {
   species: Species;
@@ -36,10 +49,9 @@ export default function SpeciesCard({ species: s }: Props) {
             alignItems="center"
             justifyContent="center"
             h="full"
-            color="gray.300"
-            fontSize="3xl"
+            fontSize="4xl"
           >
-            ?
+            {CATEGORY_EMOJI[s.category as Category] ?? '?'}
           </Box>
         )}
         {s.isConditional && (
