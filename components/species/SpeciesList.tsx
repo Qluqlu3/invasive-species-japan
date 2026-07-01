@@ -2,7 +2,7 @@
 
 import { Box, Button, Flex, Grid, Text } from '@chakra-ui/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
   CATEGORIES,
   type Category,
@@ -25,6 +25,18 @@ export default function SpeciesList({ species }: Props) {
   const searchParams = useSearchParams();
 
   const query = searchParams.get('q') ?? '';
+  const [inputQuery, setInputQuery] = useState(query);
+
+  const setParamRef = useRef(setParam);
+  setParamRef.current = setParam;
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setParamRef.current('q', inputQuery);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [inputQuery]);
+
   const category = searchParams.get('category') ?? '';
   const conditional = (searchParams.get('conditional') ?? 'all') as
     | 'all'
@@ -103,14 +115,14 @@ export default function SpeciesList({ species }: Props) {
   return (
     <Box>
       <SpeciesFilterBar
-        query={query}
+        query={inputQuery}
         category={category}
         conditional={conditional}
         status={status}
         prefecture={prefecture}
         sort={sort}
         count={totalCount}
-        onQueryChange={(v) => setParam('q', v)}
+        onQueryChange={(v) => setInputQuery(v)}
         onCategoryChange={(v) => setParam('category', v)}
         onConditionalChange={(v) => setParam('conditional', v)}
         onStatusChange={(v) => setParam('status', v)}
