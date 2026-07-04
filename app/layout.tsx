@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Footer from '@/components/layout/Footer';
 import { Providers } from './providers';
 import './globals.css';
 
@@ -16,7 +17,18 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              minHeight: '100vh',
+            }}
+          >
+            <div style={{ flex: 1 }}>{children}</div>
+            <Footer />
+          </div>
+        </Providers>
       </body>
     </html>
   );
