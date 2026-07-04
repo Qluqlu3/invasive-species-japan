@@ -71,17 +71,17 @@ export default function SpeciesInfoTable({ species: s }: Props) {
             >
               NIESリンク
             </Text>
-            <Link
-              as="dd"
-              href={s.niesUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              fontSize="sm"
-              color="green.700"
-              _hover={{ textDecoration: 'underline' }}
-            >
-              NIES詳細ページ ↗
-            </Link>
+            <Text as="dd" fontSize="sm">
+              <Link
+                href={s.niesUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                color="green.700"
+                _hover={{ textDecoration: 'underline' }}
+              >
+                NIES詳細ページ ↗
+              </Link>
+            </Text>
           </Flex>
         </Box>
       )}
