@@ -1,7 +1,7 @@
 'use client';
 
 import { Badge, Box, Flex, Heading, Link, Text } from '@chakra-ui/react';
-import NextLink from 'next/link';
+import { useRouter } from 'next/navigation';
 
 interface Props {
   title: string;
@@ -20,42 +20,64 @@ export default function PageHeader({
   badge,
   badgeColorPalette = 'orange',
 }: Props) {
+  const router = useRouter();
+
+  const handleBack = () => {
+    if (typeof window !== 'undefined' && window.history.length > 1) {
+      router.back();
+    } else if (backHref) {
+      router.push(backHref);
+    }
+  };
+
   return (
-    <Box as="header" bg="green.700" color="white" px={6} py={4}>
-      <Flex align="center" gap={4}>
-        {backHref && (
-          <Link
-            asChild
-            color="green.200"
-            fontSize="sm"
-            flexShrink={0}
-            _hover={{ color: 'white' }}
-          >
-            <NextLink href={backHref}>{backLabel ?? '← 戻る'}</NextLink>
-          </Link>
-        )}
-        <Box py={backHref ? 0 : 1}>
-          <Heading size="xl" fontWeight="bold" letterSpacing="tight">
-            {title}
-          </Heading>
-          {subtitle && (
-            <Text fontSize="sm" color="green.200" mt={1}>
-              {subtitle}
-            </Text>
-          )}
-        </Box>
+    <Box
+      as="header"
+      bg="green.700"
+      color="white"
+      px={{ base: 4, md: 6 }}
+      py={4}
+    >
+      {backHref && (
+        <Link
+          as="button"
+          onClick={handleBack}
+          display="inline-block"
+          color="green.50"
+          fontSize="sm"
+          mb={2}
+          cursor="pointer"
+          _hover={{ color: 'white' }}
+        >
+          {backLabel ?? '← 戻る'}
+        </Link>
+      )}
+      <Flex align="center" gap={3} wrap="wrap">
+        <Heading
+          size={{ base: 'lg', md: 'xl' }}
+          fontWeight="bold"
+          letterSpacing="tight"
+        >
+          {title}
+        </Heading>
         {badge && (
           <Badge
-            ml="auto"
             colorPalette={badgeColorPalette}
+            variant="solid"
+            fontWeight="bold"
             flexShrink={0}
             px={2}
             py={1}
           >
-            {badge}
+            ⚠ {badge}
           </Badge>
         )}
       </Flex>
+      {subtitle && (
+        <Text fontSize="sm" color="green.50" mt={1}>
+          {subtitle}
+        </Text>
+      )}
     </Box>
   );
 }
