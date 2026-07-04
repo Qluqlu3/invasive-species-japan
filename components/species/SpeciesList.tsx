@@ -1,6 +1,6 @@
 'use client';
 
-import { Box, Button, Flex, Grid, Text } from '@chakra-ui/react';
+import { Box, Grid, Text } from '@chakra-ui/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import {
@@ -27,6 +27,29 @@ export default function SpeciesList({ species }: Props) {
   const query = searchParams.get('q') ?? '';
   const [inputQuery, setInputQuery] = useState(query);
 
+  const category = searchParams.get('category') ?? '';
+  const conditional = (searchParams.get('conditional') ?? 'all') as
+    | 'all'
+    | 'yes'
+    | 'no';
+  const status = searchParams.get('status') ?? '';
+  const prefecture = searchParams.get('prefecture') ?? '';
+  const sort = searchParams.get('sort') ?? '';
+
+  const setParam = useCallback(
+    (key: string, value: string) => {
+      const params = new URLSearchParams(searchParams.toString());
+      if (value && value !== 'all') {
+        params.set(key, value);
+      } else {
+        params.delete(key);
+      }
+      const qs = params.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    },
+    [router, pathname, searchParams],
+  );
+
   const setParamRef = useRef(setParam);
   setParamRef.current = setParam;
 
@@ -37,35 +60,7 @@ export default function SpeciesList({ species }: Props) {
     return () => clearTimeout(timer);
   }, [inputQuery]);
 
-  const category = searchParams.get('category') ?? '';
-  const conditional = (searchParams.get('conditional') ?? 'all') as
-    | 'all'
-    | 'yes'
-    | 'no';
-  const status = searchParams.get('status') ?? '';
-  const prefecture = searchParams.get('prefecture') ?? '';
-  const sort = searchParams.get('sort') ?? '';
-  const page = Math.max(1, parseInt(searchParams.get('page') ?? '1', 10));
-
-  const setParam = useCallback(
-    (key: string, value: string) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (value && value !== 'all') {
-        params.set(key, value);
-      } else {
-        params.delete(key);
-      }
-      // フィルター・ソート変更時はページを先頭にリセット
-      if (key !== 'page') {
-        params.delete('page');
-      }
-      const qs = params.toString();
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-    },
-    [router, pathname, searchParams],
-  );
-
-  const { paginated, totalPages, totalCount } = useMemo(() => {
+  const filtered = useMemo(() => {
     const result = species.filter((s) => {
       if (category && s.category !== category) return false;
       if (conditional === 'yes' && !s.isConditional) return false;
@@ -101,16 +96,37 @@ export default function SpeciesList({ species }: Props) {
       );
     }
 
-    const totalCount = result.length;
-    const totalPages = Math.max(1, Math.ceil(totalCount / PAGE_SIZE));
-    const clampedPage = Math.min(page, totalPages);
-    const paginated = result.slice(
-      (clampedPage - 1) * PAGE_SIZE,
-      clampedPage * PAGE_SIZE,
-    );
+    return result;
+  }, [species, query, category, conditional, status, prefecture, sort]);
 
-    return { paginated, totalPages, totalCount };
-  }, [species, query, category, conditional, status, prefecture, sort, page]);
+  const totalCount = filtered.length;
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+
+  // biome-ignore lint/correctness/useExhaustiveDependencies: reset visible count whenever the filtered set changes
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [query, category, conditional, status, prefecture, sort]);
+
+  const paginated = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < totalCount;
+
+  const sentinelRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!hasMore) return;
+    const el = sentinelRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((c) => Math.min(c + PAGE_SIZE, totalCount));
+        }
+      },
+      { rootMargin: '600px' },
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [hasMore, totalCount]);
 
   return (
     <Box>
@@ -145,33 +161,11 @@ export default function SpeciesList({ species }: Props) {
         ))}
       </Grid>
       {totalCount === 0 && (
-        <Text textAlign="center" py={20} color="gray.400">
+        <Text textAlign="center" py={20} color="gray.600">
           該当する種が見つかりません
         </Text>
       )}
-      {totalPages > 1 && (
-        <Flex justify="center" align="center" gap={3} py={6}>
-          <Button
-            size="sm"
-            variant="outline"
-            disabled={page <= 1}
-            onClick={() => setParam('page', String(page - 1))}
-          >
-            ← 前へ
-          </Button>
-          <Text fontSize="sm" color="gray.600">
-            {page} / {totalPages} ページ
-          </Text>
-          <Button
-            size="sm"
-            variant="outline"
-            disabled={page >= totalPages}
-            onClick={() => setParam('page', String(page + 1))}
-          >
-            次へ →
-          </Button>
-        </Flex>
-      )}
+      {hasMore && <Box ref={sentinelRef} h={1} />}
     </Box>
   );
 }
