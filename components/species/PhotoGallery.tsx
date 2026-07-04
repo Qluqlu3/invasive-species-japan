@@ -44,6 +44,7 @@ export default function PhotoGallery({ photos, name }: Props) {
               h={16}
               rounded="lg"
               overflow="hidden"
+              cursor="pointer"
               borderWidth="2px"
               borderColor={i === selected ? 'green.600' : 'transparent'}
               transition="border-color 0.15s"

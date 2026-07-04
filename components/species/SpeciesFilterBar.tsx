@@ -42,7 +42,7 @@ export default function SpeciesFilterBar({
       bg="gray.100/90"
       backdropFilter="blur(8px)"
       borderBottomWidth="1px"
-      borderColor="gray.200"
+      borderColor="gray.300"
       px={4}
       py={3}
     >
@@ -61,6 +61,7 @@ export default function SpeciesFilterBar({
             value={category}
             onChange={(e) => onCategoryChange(e.target.value)}
             rounded="lg"
+            cursor="pointer"
           >
             <option value="">分類群: すべて</option>
             {CATEGORIES.map((c) => (
@@ -78,6 +79,7 @@ export default function SpeciesFilterBar({
               onConditionalChange(e.target.value as 'all' | 'yes' | 'no')
             }
             rounded="lg"
+            cursor="pointer"
           >
             <option value="all">指定区分: すべて</option>
             <option value="no">特定外来生物のみ</option>
@@ -90,6 +92,7 @@ export default function SpeciesFilterBar({
             value={status}
             onChange={(e) => onStatusChange(e.target.value)}
             rounded="lg"
+            cursor="pointer"
           >
             <option value="">定着状況: すべて</option>
             {STATUSES.map((s) => (
@@ -105,6 +108,7 @@ export default function SpeciesFilterBar({
             value={prefecture}
             onChange={(e) => onPrefectureChange(e.target.value)}
             rounded="lg"
+            cursor="pointer"
           >
             <option value="">都道府県: すべて</option>
             {ALL_PREFECTURES.map((p) => (
@@ -120,6 +124,7 @@ export default function SpeciesFilterBar({
             value={sort}
             onChange={(e) => onSortChange(e.target.value)}
             rounded="lg"
+            cursor="pointer"
           >
             <option value="">並び順: デフォルト</option>
             <option value="name">名前順</option>
@@ -128,7 +133,7 @@ export default function SpeciesFilterBar({
           </NativeSelect.Field>
           <NativeSelect.Indicator />
         </NativeSelect.Root>
-        <Text fontSize="sm" color="gray.500" ml="auto">
+        <Text fontSize="sm" fontWeight="medium" color="gray.800" ml="auto">
           {count} 件
         </Text>
       </Flex>

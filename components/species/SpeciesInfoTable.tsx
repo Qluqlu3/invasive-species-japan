@@ -21,19 +21,19 @@ export default function SpeciesInfoTable({ species: s }: Props) {
       bg="white"
       rounded="xl"
       borderWidth="1px"
-      borderColor="gray.200"
+      borderColor="gray.300"
       overflow="hidden"
     >
       <Heading
         size="xs"
         fontWeight="semibold"
-        color="gray.500"
+        color="gray.700"
         textTransform="uppercase"
         letterSpacing="wide"
         px={5}
         py={3}
         borderBottomWidth="1px"
-        borderColor="gray.100"
+        borderColor="gray.200"
       >
         基本情報
       </Heading>
@@ -41,7 +41,14 @@ export default function SpeciesInfoTable({ species: s }: Props) {
         <Box key={label}>
           {i > 0 && <Separator />}
           <Flex px={5} py={3} gap={4}>
-            <Text as="dt" w={24} fontSize="sm" color="gray.500" flexShrink={0}>
+            <Text
+              as="dt"
+              w={24}
+              fontSize="sm"
+              fontWeight="medium"
+              color="gray.700"
+              flexShrink={0}
+            >
               {label}
             </Text>
             <Text as="dd" fontSize="sm" color="gray.900">
@@ -54,7 +61,14 @@ export default function SpeciesInfoTable({ species: s }: Props) {
         <Box>
           <Separator />
           <Flex px={5} py={3} gap={4}>
-            <Text as="dt" w={24} fontSize="sm" color="gray.500" flexShrink={0}>
+            <Text
+              as="dt"
+              w={24}
+              fontSize="sm"
+              fontWeight="medium"
+              color="gray.700"
+              flexShrink={0}
+            >
               NIESリンク
             </Text>
             <Link
