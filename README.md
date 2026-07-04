@@ -2,6 +2,27 @@
 
 環境省が指定する特定外来生物・条件付特定外来生物（168種）を閲覧できる Next.js 製の Web アプリです。
 
+## クイックスタート
+
+**前提条件**: Node.js 22 以上、pnpm（`corepack enable` で有効化可能）
+
+```bash
+pnpm install
+pnpm dev
+```
+
+[http://localhost:3000](http://localhost:3000) を開き、特定外来生物の一覧が表示されれば起動成功です。データは `data/species.json` に同梱済みなので、この2コマンドだけで確認できます（データの再取得は任意・後述）。
+
+### Docker で起動する場合
+
+Node.js のセットアップ不要で、Docker だけで起動できます。
+
+```bash
+docker compose up
+```
+
+同じく [http://localhost:3000](http://localhost:3000) で確認できます。
+
 ## 画面構成
 
 - **一覧画面**: カテゴリ・和名・学名・科・目でフィルタ＆検索
@@ -24,15 +45,6 @@ invasive/
 ├── components/            # React コンポーネント
 └── lib/                   # データアクセス・型定義
 ```
-
-## 開発サーバーの起動
-
-```bash
-pnpm install
-pnpm dev
-```
-
-[http://localhost:3000](http://localhost:3000) で確認できます。
 
 ## データの再取得
 
@@ -63,14 +75,6 @@ pip install Pillow
 | [環境省 特定外来生物等一覧](https://www.env.go.jp/nature/intro/2outline/list.html) | 基本情報 |
 | [環境省 外来種写真集](https://www.env.go.jp/nature/intro/4document/asimg.html) | 写真（クレジット: 環境省提供） |
 | [NIES 侵入生物データベース](https://www.nies.go.jp/biodiversity/invasive/DB/) | 国内分布 |
-
-## Docker での起動
-
-```bash
-docker compose up
-```
-
-`compose.yml` に従って Web アプリが起動します。
 
 ## データの品質について
 
