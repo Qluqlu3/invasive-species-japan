@@ -34,6 +34,16 @@ const TARGET_LABELS: Record<string, keyof SpeciesDescription> = {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+// NIES のページは学術論文調の全角句点（，．）を使っているため、
+// 一般向け表示に合わせて日本語の句読点（、。）に正規化する。
+function normalizePunctuation(text: string): string {
+  let t = text.replace(/，/g, '、').replace(/．/g, '。');
+  t = t.replace(/。{2,}/g, '。').replace(/、{2,}/g, '、');
+  t = t.trim();
+  if (t.endsWith('、')) t = `${t.slice(0, -1)}。`;
+  return t;
+}
+
 async function fetchDescription(url: string): Promise<SpeciesDescription> {
   const res = await fetch(url, {
     headers: {
@@ -52,7 +62,7 @@ async function fetchDescription(url: string): Promise<SpeciesDescription> {
     const key = TARGET_LABELS[label];
     if (!key) return;
     const content = $el.next('td').text().replace(/\s+/g, ' ').trim();
-    if (content) desc[key] = content;
+    if (content) desc[key] = normalizePunctuation(content);
   });
 
   return desc;
