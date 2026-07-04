@@ -1,7 +1,7 @@
 'use client';
 
 import { Badge, Box, Flex, Heading, Text } from '@chakra-ui/react';
-import { ALL_PREFECTURES } from '@/lib/types';
+import { prefectureUnitLabel, REGIONS } from '@/lib/types';
 import JapanMap from './JapanMap';
 
 interface Props {
@@ -14,29 +14,30 @@ export default function PrefectureList({ prefectures }: Props) {
       bg="white"
       rounded="xl"
       borderWidth="1px"
-      borderColor="gray.200"
+      borderColor="gray.300"
       overflow="hidden"
     >
       <Heading
         size="xs"
         fontWeight="semibold"
-        color="gray.500"
+        color="gray.700"
         textTransform="uppercase"
         letterSpacing="wide"
         px={5}
         py={3}
         borderBottomWidth="1px"
-        borderColor="gray.100"
+        borderColor="gray.200"
       >
-        国内分布 ({prefectures.length} 都道府県)
+        国内分布 ({prefectures.length}
+        {prefectureUnitLabel(prefectures)})
       </Heading>
 
-      <Box px={3} pt={3} pb={1}>
+      <Box px={1} pt={3} pb={1}>
         <JapanMap highlightedPrefectures={prefectures} />
         <Flex gap={4} px={2} py={2} align="center">
           <Flex align="center" gap={1.5}>
             <Box w={3} h={3} bg="#16a34a" rounded="sm" />
-            <Text fontSize="xs" color="gray.500">
+            <Text fontSize="xs" fontWeight="medium" color="gray.700">
               生息確認
             </Text>
           </Flex>
@@ -49,7 +50,7 @@ export default function PrefectureList({ prefectures }: Props) {
               borderWidth="1px"
               borderColor="gray.300"
             />
-            <Text fontSize="xs" color="gray.500">
+            <Text fontSize="xs" fontWeight="medium" color="gray.700">
               記録なし
             </Text>
           </Flex>
@@ -57,31 +58,54 @@ export default function PrefectureList({ prefectures }: Props) {
       </Box>
 
       {prefectures.length > 0 ? (
-        <Flex
+        <Box
           px={5}
           py={3}
-          wrap="wrap"
-          gap={1.5}
           borderTopWidth="1px"
-          borderColor="gray.100"
+          borderColor="gray.200"
+          display="flex"
+          flexDirection="column"
+          gap={3}
         >
-          {ALL_PREFECTURES.filter((p) => prefectures.includes(p)).map((p) => (
-            <Badge
-              key={p}
-              colorPalette="green"
-              variant="subtle"
-              size="sm"
-              px={2}
-              py={1}
-              rounded="full"
-              fontSize="xs"
-            >
-              {p}
-            </Badge>
-          ))}
-        </Flex>
+          {REGIONS.map((region) => {
+            const matched = region.prefectures.filter((p) =>
+              prefectures.includes(p),
+            );
+            if (matched.length === 0) return null;
+            return (
+              <Flex key={region.name} align="baseline" gap={3} wrap="wrap">
+                <Text
+                  fontSize="xs"
+                  fontWeight="bold"
+                  color="gray.600"
+                  w={16}
+                  flexShrink={0}
+                >
+                  {region.name}
+                </Text>
+                <Flex wrap="wrap" gap={2}>
+                  {matched.map((p) => (
+                    <Badge
+                      key={p}
+                      colorPalette="green"
+                      variant="subtle"
+                      size="lg"
+                      px={3}
+                      py={1.5}
+                      rounded="full"
+                      fontSize="sm"
+                      fontWeight="medium"
+                    >
+                      {p}
+                    </Badge>
+                  ))}
+                </Flex>
+              </Flex>
+            );
+          })}
+        </Box>
       ) : (
-        <Text px={5} py={4} fontSize="sm" color="gray.400">
+        <Text px={5} py={4} fontSize="sm" color="gray.600">
           分布データなし
         </Text>
       )}
