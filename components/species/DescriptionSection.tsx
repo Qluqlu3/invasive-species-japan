@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, Separator, Text } from '@chakra-ui/react';
-import { splitMorphology } from '@/lib/description';
+import { isMeaningful, splitMorphology } from '@/lib/description';
 import type { SpeciesDescription } from '@/lib/types';
 
 type DisplayKey = keyof SpeciesDescription | 'identification';
@@ -13,9 +13,14 @@ const SECTIONS: {
 }[] = [
   { key: 'morphology', label: '形態', icon: '📏' },
   { key: 'identification', label: '見分け方・特徴', icon: '🔍' },
+  { key: 'ecology', label: '生態的特性', icon: '🧬' },
+  { key: 'breeding', label: '繁殖生態', icon: '🥚' },
   { key: 'habitat', label: '生息環境', icon: '🌳' },
   { key: 'impact', label: '影響', icon: '⚠️' },
+  { key: 'legalNote', label: '法的扱い', icon: '⚖️' },
   { key: 'control', label: '防除方法', icon: '🛡️' },
+  { key: 'issues', label: '問題点等', icon: '❗' },
+  { key: 'remarks', label: '備考', icon: '📝' },
 ];
 
 interface Props {
@@ -31,7 +36,7 @@ export default function DescriptionSection({ description }: Props) {
     morphology,
     identification,
   };
-  const entries = SECTIONS.filter(({ key }) => display[key]);
+  const entries = SECTIONS.filter(({ key }) => isMeaningful(display[key]));
   if (entries.length === 0) return null;
 
   return (

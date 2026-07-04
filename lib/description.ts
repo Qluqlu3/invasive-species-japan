@@ -1,6 +1,18 @@
 import type { SpeciesDescription } from './types';
 
 const IDENTIFICATION_KEYWORDS = ['区別', '識別', '類似', '見分け', '判別'];
+const PLACEHOLDER_VALUES = ['情報整理中', '不明', '整理中', '-', '－', '−'];
+
+/**
+ * NIES のデータには「情報整理中」「不明」など実質的に空の値が入っていることが
+ * 多いため、表示する価値がある値かどうかを判定する。
+ */
+export function isMeaningful(text: string | undefined): text is string {
+  if (!text) return false;
+  const trimmed = text.trim();
+  if (!trimmed) return false;
+  return !PLACEHOLDER_VALUES.includes(trimmed);
+}
 
 interface SplitMorphology {
   morphology?: string;
