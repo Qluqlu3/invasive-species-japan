@@ -1,7 +1,7 @@
 /**
  * scrape-descriptions.ts
  * NIES 侵入生物データベースの各種詳細ページから
- * 形態・生息環境・影響・防除方法 を取得して data/species.json に書き込む
+ * 基本情報・生態・侵入情報・影響・対策など詳細項目を取得して data/species.json に書き込む
  */
 import * as cheerio from 'cheerio';
 import fs from 'fs';
@@ -11,10 +11,21 @@ const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 const DELAY_MS = 1200;
 
 interface SpeciesDescription {
+  englishName?: string;
+  nativeRange?: string;
   morphology?: string;
+  ecology?: string;
+  breeding?: string;
   habitat?: string;
+  sourceRegion?: string;
+  pathway?: string;
+  invasionEra?: string;
+  overseasRange?: string;
   impact?: string;
+  legalNote?: string;
   control?: string;
+  issues?: string;
+  remarks?: string;
 }
 
 interface Species {
@@ -26,10 +37,21 @@ interface Species {
 }
 
 const TARGET_LABELS: Record<string, keyof SpeciesDescription> = {
+  英名等: 'englishName',
+  自然分布: 'nativeRange',
   形態: 'morphology',
+  生態的特性: 'ecology',
+  繁殖生態: 'breeding',
   生息環境: 'habitat',
+  移入元: 'sourceRegion',
+  侵入経路: 'pathway',
+  侵入年代: 'invasionEra',
+  海外移入分布: 'overseasRange',
   影響: 'impact',
+  法的扱い: 'legalNote',
   防除方法: 'control',
+  問題点等: 'issues',
+  備考: 'remarks',
 };
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));

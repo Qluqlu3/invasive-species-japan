@@ -1,8 +1,19 @@
 export interface SpeciesDescription {
+  englishName?: string; // 英名等
+  nativeRange?: string; // 自然分布
   morphology?: string; // 形態
+  ecology?: string; // 生態的特性
+  breeding?: string; // 繁殖生態
   habitat?: string; // 生息環境
+  sourceRegion?: string; // 移入元
+  pathway?: string; // 侵入経路
+  invasionEra?: string; // 侵入年代
+  overseasRange?: string; // 海外移入分布
   impact?: string; // 影響
+  legalNote?: string; // 法的扱い
   control?: string; // 防除方法
+  issues?: string; // 問題点等
+  remarks?: string; // 備考
 }
 
 export interface Species {
