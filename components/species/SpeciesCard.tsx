@@ -3,6 +3,7 @@
 import { Badge, Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
+import { isHazardous } from '@/lib/description';
 import type { Category, Species } from '@/lib/types';
 
 const CATEGORY_EMOJI: Record<Category, string> = {
@@ -29,7 +30,7 @@ export default function SpeciesCard({ species: s }: Props) {
       rounded="xl"
       overflow="hidden"
       borderWidth="1px"
-      borderColor="gray.200"
+      borderColor="gray.300"
       bg="white"
       transition="all 0.2s"
       _hover={{ borderColor: 'green.400', shadow: 'md' }}
@@ -60,9 +61,25 @@ export default function SpeciesCard({ species: s }: Props) {
             top={1}
             right={1}
             colorPalette="orange"
+            variant="solid"
+            fontWeight="bold"
             size="sm"
           >
             条件付
+          </Badge>
+        )}
+        {isHazardous(s.description) && (
+          <Badge
+            position="absolute"
+            top={1}
+            left={1}
+            colorPalette="purple"
+            variant="solid"
+            fontWeight="bold"
+            size="sm"
+            title="人体に害のある毒性についての記載があります"
+          >
+            ☠ 毒
           </Badge>
         )}
       </Box>
@@ -74,10 +91,10 @@ export default function SpeciesCard({ species: s }: Props) {
             </Text>
           </NextLink>
         </LinkOverlay>
-        <Text fontSize="xs" color="gray.400" truncate fontStyle="italic">
+        <Text fontSize="xs" color="gray.600" truncate fontStyle="italic">
           {s.scientificName}
         </Text>
-        <Text fontSize="xs" color="gray.500" mt={0.5}>
+        <Text fontSize="xs" color="gray.700" mt={0.5}>
           {s.category}
         </Text>
       </Box>
