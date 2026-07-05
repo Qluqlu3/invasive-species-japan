@@ -5,8 +5,11 @@ import sharp from 'sharp';
 const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'images', 'species');
 
-// この幅未満の画像は 2x アップスケール
+// この幅未満の画像は 2x アップスケール（フルサイズ原本を使うようになった後は
+// ほぼ発生しないはずだが、稀に小さい原本しかない種のための保険）
 const UPSCALE_THRESHOLD = 400;
+// この幅を超える画像は縮小してリポジトリ容量を抑える（表示に必要な解像度は十分ある）
+const MAX_WIDTH = 1200;
 const WEBP_QUALITY = 85;
 // env.go.jp へのレート制限対策
 const DELAY_MS = 300;
@@ -42,6 +45,10 @@ async function processImage(buf: Buffer): Promise<Buffer> {
   // 幅が閾値未満なら Lanczos で 2x アップスケール
   if (w > 0 && w < UPSCALE_THRESHOLD) {
     pipeline = pipeline.resize(w * 2, h > 0 ? h * 2 : undefined, {
+      kernel: sharp.kernel.lanczos3,
+    });
+  } else if (w > MAX_WIDTH) {
+    pipeline = pipeline.resize(MAX_WIDTH, undefined, {
       kernel: sharp.kernel.lanczos3,
     });
   }
@@ -95,8 +102,13 @@ async function main() {
         total++;
 
         const meta = await sharp(raw).metadata();
+        const w = meta.width ?? 0;
         const label =
-          (meta.width ?? 0) < UPSCALE_THRESHOLD ? '↑2x+sharpen' : 'sharpen';
+          w < UPSCALE_THRESHOLD
+            ? '↑2x+sharpen'
+            : w > MAX_WIDTH
+              ? `縮小${w}→${MAX_WIDTH}+sharpen`
+              : 'sharpen';
         console.log(`[${total}] ${s.jaName} [${i}] ${label}`);
       } catch (e) {
         console.warn(`  ✗ ${s.jaName} [${i}]: ${e}`);
