@@ -48,7 +48,11 @@ export async function scrapePhotos(): Promise<Map<string, string[]>> {
     const photos: string[] = [];
     cells.slice(1).each((_, cell) => {
       $('img', cell).each((_, img) => {
-        const src = $(img).attr('src') ?? '';
+        const $img = $(img);
+        // <img> はサムネイル（例: xxxt.jpg）で、フルサイズ原本は
+        // それを包む <a href> 側にあることが多いのでそちらを優先する。
+        const anchorHref = $img.closest('a').attr('href');
+        const src = anchorHref || $img.attr('src') || '';
         if (!src) return;
         // URL クラスで相対パスを正しく解決する
         let fullUrl: string;
