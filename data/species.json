@@ -33,6 +33,28 @@
       "control": "輸入しない、逃がさない。",
       "issues": "情報整理中",
       "overseasRange": "ニュージーランドに移入。"
+    },
+    "photoCredits": {
+      "/images/species/trichosurus-vulpecula/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/trichosurus-vulpecula/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/trichosurus-vulpecula/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/trichosurus-vulpecula/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -46,7 +68,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "erinaceus",
@@ -58,8 +81,19 @@
     "genus": "ハリネズミ属Erinaceus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/erinaceus/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/erinaceus/0.webp": {
+        "source": "wikimedia",
+        "credit": "DarkAngel（Wikimedia Commons）",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erinaceus%20europeaus%20(DarkAn9el).jpg"
+      }
+    }
   },
   {
     "id": "macaca-cyclopis",
@@ -98,6 +132,28 @@
       "control": "和歌山では、避妊手術を施し発信機を装着した個体の追跡による行動圏の特定、大型オリによる捕獲が行われ、効果があがっている。",
       "issues": "情報整理中",
       "overseasRange": "特になし"
+    },
+    "photoCredits": {
+      "/images/species/macaca-cyclopis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -134,6 +190,23 @@
       "control": "逃がさない、捕獲等",
       "issues": "情報整理中",
       "overseasRange": "香港、アンガウル島（パラオ）、モーリシャス、ニューギニア。"
+    },
+    "photoCredits": {
+      "/images/species/macaca-fascicularis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-fascicularis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-fascicularis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -171,6 +244,23 @@
       "control": "房総では2001年から全頭捕獲が開始され、発信機を装着した個体の追跡により行動圏を特定し、ニホンザル生息域への侵入防止と捕獲オリによる駆除が行われている。",
       "issues": "情報整理中",
       "overseasRange": "米国、メキシコ、プエルトリコ、ブラジル、ラロトンガ島（クック諸島）、等"
+    },
+    "photoCredits": {
+      "/images/species/macaca-mulatta/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-mulatta/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-mulatta/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -210,6 +300,28 @@
       "control": "和歌山では、避妊手術を施し発信機を装着した個体の追跡による行動圏の特定、大型オリによる捕獲が行われ、効果があがっている。",
       "issues": "情報整理中",
       "overseasRange": "特になし"
+    },
+    "photoCredits": {
+      "/images/species/macaca-cyclopis-m-fuscata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis-m-fuscata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis-m-fuscata/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-cyclopis-m-fuscata/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -247,6 +359,23 @@
       "control": "房総では2001年から全頭捕獲が開始され、発信機を装着した個体の追跡により行動圏を特定し、ニホンザル生息域への侵入防止と捕獲オリによる駆除が行われている。",
       "issues": "情報整理中",
       "overseasRange": "米国、メキシコ、プエルトリコ、ブラジル、ラロトンガ島（クック諸島）、等"
+    },
+    "photoCredits": {
+      "/images/species/macaca-mulatta-m-fuscata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-mulatta-m-fuscata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/macaca-mulatta-m-fuscata/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -301,6 +430,23 @@
       "control": "田畑周辺・巣穴周辺の草の狩り払い。ネット・金網・電気柵による侵入防止。箱ワナ・銃器による捕獲。海外では、ワナによる計画的な捕獲で根絶に成功した事例もある。",
       "issues": "情報整理中",
       "overseasRange": "アゼルバイジャン、グルジア、イスラエル、ヨルダン、カザフスタン、タジキスタン、トルコ、トルクメニスタン、ヨーロッパ各地、ケニア、米国本土各地、カナダ、メキシコ北部など。"
+    },
+    "photoCredits": {
+      "/images/species/myocastor-coypus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/myocastor-coypus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/myocastor-coypus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -347,6 +493,18 @@
       "control": "箱ワナなどによる捕獲。神奈川県などで捕獲事業が行われている。",
       "issues": "情報整理中",
       "overseasRange": "アルゼンチン、フランス、ベルギー、イタリア、オランダ"
+    },
+    "photoCredits": {
+      "/images/species/callosciurus-erythraeus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/callosciurus-erythraeus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -383,6 +541,23 @@
       "control": "かごわな等、クリハラリスと同じ手法が利用できる。",
       "issues": "情報整理中",
       "overseasRange": "イタリア、シンガポール"
+    },
+    "photoCredits": {
+      "/images/species/callosciurus-finlaysonii/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/callosciurus-finlaysonii/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/callosciurus-finlaysonii/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -420,6 +595,23 @@
       "control": "逃がさない、捕獲等。",
       "issues": "情報整理中",
       "overseasRange": "特になし"
+    },
+    "photoCredits": {
+      "/images/species/pteromys-volans/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pteromys-volans/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pteromys-volans/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -455,6 +647,23 @@
       "control": "捕獲",
       "issues": "情報整理中",
       "overseasRange": "イギリス、イタリア、オーストラリア、南アフリカ、北米西部"
+    },
+    "photoCredits": {
+      "/images/species/sciurus-carolinensis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/sciurus-carolinensis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/sciurus-carolinensis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -467,7 +676,9 @@
     "genus": "リス属Sciurus",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/sciurus-vulgaris/0.webp"
+    ],
     "prefectures": [
       "北海道",
       "青森",
@@ -494,6 +705,15 @@
       "control": "ペットは逃がさない。捕獲。",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/sciurus-vulgaris/0.webp": {
+        "source": "wikimedia",
+        "credit": "Peter Trimming",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Squirrel%20posing.jpg"
+      }
     }
   },
   {
@@ -532,6 +752,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "中－北欧、ウクライナ、ロシア、モンゴル、中国、朝鮮半島北東部。"
+    },
+    "photoCredits": {
+      "/images/species/ondratra-zibethicus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/ondratra-zibethicus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -567,6 +799,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "特になし"
+    },
+    "photoCredits": {
+      "/images/species/procyon-cancrivorus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/procyon-cancrivorus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/procyon-cancrivorus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -649,6 +898,23 @@
       "control": "箱ワナ・エッグトラップによる捕獲。捕獲時期・対象個体の齢などによって実質的な効果が異なり、十分な事前調査と計画的な対策が必要。",
       "issues": "計画的な対策により低密度化・影響低減が見られる事例がある一方、農業被害防止を主目的とした対症療法的なアライグマ対策が行われ、あまり効果があがっていないケースもある。",
       "overseasRange": "ドイツ、フランス、デンマーク、オランダ、ベルギー、ルクセンブルグ、スイス、オーストリア、ハンガリー、ポーランド、チェコ、ベラルーシ、ロシア、アゼルバイジャン、ウズベキスタン、バハマ諸島 等。"
+    },
+    "photoCredits": {
+      "/images/species/procyon-lotor/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/procyon-lotor/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/procyon-lotor/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -688,6 +954,18 @@
       "control": "ワナ捕獲",
       "issues": "情報整理中",
       "overseasRange": "中国、欧州各地（ベラルーシ、ベルギー、チェコ、デンマーク、エストニア、ラトビア、リトアニア、オランダ、ノルウェー、ポーランド、ポルトガル、ロシア、スペイン、スウェーデン、フィンランド、フランス、ドイツ、英国、アイスランド、アイルランド、イタリア）など。"
+    },
+    "photoCredits": {
+      "/images/species/mustela-vison/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mustela-vison/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -725,6 +1003,23 @@
       "control": "ワナによる捕獲など。捕獲ワナ・捕殺ワナが使用されている。新たな防除技術開発も進められており、毒餌・誘引源などの検討、探索犬・ヘアトラップ・足跡トラップなど低密度化したマングースに対するモニタリング手段も研究されている。なお、奄美大島の定着集団については、2024年根絶が達成されたことが環境省から宣言された。",
       "issues": "情報整理中",
       "overseasRange": "ボスニア・ヘルツェゴビナ、クロアチア、キューバ、ドミニカ共和国、ジャマイカ、プエルトリコ、スリナム、フィジー、ハワイ、その他各地の熱帯地域"
+    },
+    "photoCredits": {
+      "/images/species/herpestes-auropunctatus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/herpestes-auropunctatus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/herpestes-auropunctatus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -737,7 +1032,9 @@
     "genus": "エジプトマングース属Herpestes",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/herpestes-javanicus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -755,6 +1052,15 @@
       "control": "箱わなや毒えさなど、フイリマングースの防除対策が利用できる。",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/herpestes-javanicus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Chung Bill Bill",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small%20asian%20mongoose.jpg"
+      }
     }
   },
   {
@@ -767,7 +1073,9 @@
     "genus": "シママングース属Mungos",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/mungos-mungo/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -785,6 +1093,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/mungos-mungo/0.webp": {
+        "source": "wikimedia",
+        "credit": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:168%20Banded%20mongoose%20in%20Etosha%20National%20Park%20Photo%20by%20Giles%20Laurent.jpg"
+      }
     }
   },
   {
@@ -819,6 +1136,18 @@
       "control": "捕獲、銃殺等",
       "issues": "情報整理中",
       "overseasRange": "パキスタン、アンダマン諸島、パプアニューギニア、アルメニア、クロアチア、モルドバ、ウクライナ、米国（フロリダ、テキサス、ハワイ）アルゼンチン、ブラジル、ウルグアイ"
+    },
+    "photoCredits": {
+      "/images/species/axis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/axis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -853,6 +1182,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/dama/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/dama/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -888,6 +1229,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/elaphurus-davidianus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/elaphurus-davidianus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/elaphurus-davidianus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -924,6 +1282,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/muntiacus-reevesi/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/muntiacus-reevesi/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/muntiacus-reevesi/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -964,6 +1339,18 @@
       "control": "池周辺の茂みを刈り払う（営巣場所をなくす）、池の上にワイヤー・テグスを張る、大きな風船を上げる、音で追い払うなどによる個体数管理が都市公園で行われている。米国では、避妊薬の投与が一定の効果をあげている。",
       "issues": "情報整理中",
       "overseasRange": "ニュージーランド、オーストラリア、欧州（英国、ノルウェー、フィンランド、エストニア、フランス、オランダ、ドイツ、ポーランド、チェコ、オーストリア、ハンガリー、ウクライナ、ブルガリアなど）"
+    },
+    "photoCredits": {
+      "/images/species/branta-canadensis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/branta-canadensis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -976,7 +1363,9 @@
     "genus": "シロガシラ属Pycnonotus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/pycnonotus-cafer/0.webp"
+    ],
     "prefectures": [
       "神奈川"
     ],
@@ -994,6 +1383,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "オーストラリア、フィジー、サモア、トンガ、ハワイ、クウェート、カタール、オマーンなど"
+    },
+    "photoCredits": {
+      "/images/species/pycnonotus-cafer/0.webp": {
+        "source": "wikimedia",
+        "credit": "K. Hari Krishnan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-vented%20Bulbul%20(Pycnonotus%20cafer)%20in%20Tirunelveli%2C%20India.jpg"
+      }
     }
   },
   {
@@ -1038,6 +1436,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "ハワイ"
+    },
+    "photoCredits": {
+      "/images/species/garrulax-canorus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/garrulax-canorus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1075,6 +1485,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/garrulax-cineraceus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/garrulax-cineraceus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1114,6 +1536,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "(中央太平洋海域/島嶼（ハワイ～ミッドウェー）)"
+    },
+    "photoCredits": {
+      "/images/species/garrulax-perspicillatus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/garrulax-perspicillatus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1150,6 +1584,23 @@
       "control": "在来種に配慮しながらの防鳥網使用等",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/garrulax-sannio/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/garrulax-sannio/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/garrulax-sannio/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1207,6 +1658,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "ハワイ、香港"
+    },
+    "photoCredits": {
+      "/images/species/leiothrix-lutea/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/leiothrix-lutea/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/leiothrix-lutea/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1268,6 +1736,23 @@
       "control": "トラップによく掛かるため、魚のアラなどをエサにした頑丈なトラップを多数設置することが現実的。水域を仕切るなどして、区画毎に根絶させる方法が効率的と思われる。",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/chelydra-serpentina/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/chelydra-serpentina/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/chelydra-serpentina/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1349,6 +1834,18 @@
       "control": "水域に広く分散して生息するため、効率よく駆除することは困難。魚のアラ等をエサとしたトラップを多数設置することである程度の捕獲が可能とみられる。また、淡水魚の捕獲に用いられるえりに入ることもある。",
       "issues": "カメ類のみならず、ペットとして流通している爬虫類の中で最も多数が輸入、流通している。年により数十万～百万個体近くの幼体がアメリカ合衆国から輸入され、ペットとして安価に販売されている。遺棄や逸走が頻繁に生じているとみられ、たとえ再生産が少なくても、都市近郊の水辺には本亜種が高密度でみられる。在来の淡水性カメ類に比べて産卵数が多く、水質汚濁の進んだ、より悪化した環境への耐性もある。",
       "overseasRange": "同種はハワイ、インドシナ、インド、ヨーロッパなどに移入されている。"
+    },
+    "photoCredits": {
+      "/images/species/trachemys-scripta/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/trachemys-scripta/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1384,6 +1881,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/mauremys-mutica/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mauremys-mutica/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mauremys-mutica/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1415,7 +1929,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "mauremys-sinensis-m-mutica",
@@ -1446,7 +1961,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "mauremys-sinensis-m-reevesii",
@@ -1480,6 +1996,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/mauremys-sinensis-m-reevesii/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mauremys-sinensis-m-reevesii/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1522,6 +2050,43 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/japalura-swinhonis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/4.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/5.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/japalura-swinhonis/6.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1534,7 +2099,9 @@
     "genus": "アノール属Anolis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/a-allogus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1552,6 +2119,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/a-allogus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Thomas Brown",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spanish%20flag%20anole.jpg"
+      }
     }
   },
   {
@@ -1564,7 +2140,9 @@
     "genus": "アノール属Anolis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/anolis-alutaceus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1582,6 +2160,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/anolis-alutaceus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Polaris Argo",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anolis%20Alutaceus%20female.JPG"
+      }
     }
   },
   {
@@ -1615,6 +2202,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/anolis-angusticeps/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1651,6 +2245,23 @@
       "control": "樹上に広く分散して生息するため、効率よく駆除することは困難。釣りやヌーズ(竿の先に取り付けたテグスで個体を縛って捕獲する方法)を組み合わせて見つけ捕りをくり返すことが現実的。根絶のためには、アノールが越えられないフェンス等で生息域を分断し、1区画ずつ根絶させていく方法が考えられる。たたし指下薄板を持ち登はん能力が高いため、特殊なフェンスを用いる必要がある。捕獲に際して粘着トラップが効率的と考えられるが、昆虫や鳥類、在来爬虫類などを錯誤捕獲する可能性が高いため、慎重に適用する必要がある。また、本種は夜間に物陰に潜んで休息するため、これを利用したネストトラップ(例えば切り揃えた竹筒を束ねて樹幹に設置する等)は有望である。",
       "issues": "小笠原諸島では、近年になって本種がきわめて侵略的な外来種であると認識され、多くの昆虫を絶滅から救うことが課題になっている。一方、国外では本種はハワイ諸島のハワイ島、オアフ島と北マリアナ諸島のグアム島、サイパン島、カロリン諸島のヤップ島などに導入され定着している。しかし、いずれの島でも小笠原諸島のように高密度にはなっておらず、侵略的外来種とは見なされていない。本種の対策については先行事例がなく、小笠原においても、属島への分布拡大防止と父島、母島における防除の両方を進める必要がある。保全生態学的な観点から、本種に関する基礎的、応用的な調査研究の必要性が高まっている。",
       "overseasRange": "ミクロネシア、ハワイ、ヤップ、パラオなど"
+    },
+    "photoCredits": {
+      "/images/species/anolis-carolinensis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/anolis-carolinensis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/anolis-carolinensis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1663,7 +2274,9 @@
     "genus": "アノール属Anolis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/anolis-equestris/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1683,6 +2296,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "フロリダ、ハワイ"
+    },
+    "photoCredits": {
+      "/images/species/anolis-equestris/0.webp": {
+        "source": "wikimedia",
+        "credit": "Ianaré Sévi",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anolis%20equestris.jpg"
+      }
     }
   },
   {
@@ -1715,7 +2336,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "フロリダ、台湾、西インド諸島"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "anolis-homolechis",
@@ -1727,7 +2349,9 @@
     "genus": "アノール属Anolis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/anolis-homolechis/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1745,6 +2369,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/anolis-homolechis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Thomas Brown",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuban%20White-fanned%20Anole%20(Anolis%20homolechis)%20(8591591365).jpg"
+      }
     }
   },
   {
@@ -1779,6 +2412,13 @@
       "control": "粘着トラップ等",
       "issues": "情報整理中",
       "overseasRange": "米国（フロリダ半島とその付近、ジョージア、テキサス、ハワイ）、ケイマン諸島（英国領）"
+    },
+    "photoCredits": {
+      "/images/species/anolis-sagrei/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1791,7 +2431,9 @@
     "genus": "オオガシラ属Boiga",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/boiga-cyanea/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1810,6 +2452,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/boiga-cyanea/0.webp": {
+        "source": "wikimedia",
+        "credit": "Sp.herp",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boiga%20cyanea.jpg"
+      }
     }
   },
   {
@@ -1822,7 +2473,9 @@
     "genus": "オオガシラ属Boiga",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/boiga-cynodon/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -1841,6 +2494,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/boiga-cynodon/0.webp": {
+        "source": "wikimedia",
+        "credit": "Bjørn Christian Tørrissen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boiga%20Cynodon%20Cameron%20Highlands.JPG"
+      }
     }
   },
   {
@@ -1874,6 +2536,13 @@
       "control": "ペットは逃がさない、輸入しない。",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/boiga-dendrophila/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1908,6 +2577,13 @@
       "control": "蛇用トラップ等",
       "issues": "情報整理中",
       "overseasRange": "グアムに定着。沖縄でも発見記録がある。また、世界各地（多数の島嶼を含む）でたびたび発見されている。"
+    },
+    "photoCredits": {
+      "/images/species/boiga-irregularis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1941,6 +2617,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/boiga-nigriceps/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -1977,6 +2660,23 @@
       "control": "無毒であるため、自治体による防除は最近まで行われていなかった。近年になって、環境省により、本種に合わせたトラップの実験・開発など防除法の検討が進められている。",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/elaphe-taeniura-friesi/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/elaphe-taeniura-friesi/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/elaphe-taeniura-friesi/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2014,6 +2714,28 @@
       "control": "ハブ捕獲器と拡散防止フェンスによる対策が取られているが、密度低下は認められていない。恩納村の小学校では防蛇フェンスを設置し、ヘビ類侵入低減が認められている。本種および交雑個体による咬傷には、既存のハブ用抗毒素が効くことが確認されている。",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/protobothrops-mucrosquamatus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/protobothrops-mucrosquamatus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/protobothrops-mucrosquamatus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/protobothrops-mucrosquamatus/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2026,7 +2748,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-cognatus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2043,6 +2767,14 @@
       "legalNote": "外来生物法で特定外来生物に2008年に指定された。",
       "control": "情報整理中",
       "issues": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/bufo-cognatus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20cognatus1.jpg"
+      }
     }
   },
   {
@@ -2055,7 +2787,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-guttatus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2074,6 +2808,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/bufo-guttatus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Andreas Schlüter",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20guttatus.jpg"
+      }
     }
   },
   {
@@ -2110,6 +2853,23 @@
       "control": "繁殖場を中心とした成体、卵、幼生の除去が現実的で効果の高い方法と見られる。海外ではウイルスや病原菌を用いた生物学的防除方法が検討されたことがある。",
       "issues": "情報整理中",
       "overseasRange": "ハワイ、フィリピン、ニューギニア、オーストラリア、太平洋の島嶼"
+    },
+    "photoCredits": {
+      "/images/species/bufo-marinus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bufo-marinus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bufo-marinus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2142,6 +2902,23 @@
       "impact": "捕食、競合、体表から分泌する毒による捕食者への影響が起こりうる。",
       "legalNote": "特定外来生物（外来生物法）",
       "overseasRange": "スラウェシ、パプアニューギニア"
+    },
+    "photoCredits": {
+      "/images/species/bufo-melanostictus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bufo-melanostictus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bufo-melanostictus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2154,7 +2931,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-punctatus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2173,6 +2952,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "不明。"
+    },
+    "photoCredits": {
+      "/images/species/bufo-punctatus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo.punctatus.web.jpg"
+      }
     }
   },
   {
@@ -2185,7 +2972,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-quercicus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2203,6 +2992,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/bufo-quercicus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%20quercicus%20USGS.jpg"
+      }
     }
   },
   {
@@ -2215,7 +3012,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-regularis/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2232,6 +3031,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アンダマン・ニコバル諸島（インド）、レユニオン島（フランス）、カーボベルデ共和国の各島。"
+    },
+    "photoCredits": {
+      "/images/species/bufo-regularis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pantherkroete-04.jpg"
+      }
     }
   },
   {
@@ -2244,7 +3052,9 @@
     "genus": "ヒキガエル属Bufo",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/bufo-speciosus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2262,6 +3072,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/bufo-speciosus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Dawson at en.wikipedia",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20speciosus.jpg"
+      }
     }
   },
   {
@@ -2295,6 +3114,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/bufo-typhonius/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2307,7 +3133,9 @@
     "genus": "ズツキガエル属Osteopilus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/osteopilus-septentrionalis/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2326,6 +3154,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "プエルトリコ北西部、小アンチル諸島の一部（シント・マールテン島、サバ島、キュラソー島、アンティグア島、バージン諸島、アンギラ島、トルトラ島）、オアフ島（ハワイ）、米国本土（フロリダ広域～ジョージア沿岸部）、プエルトリモン（コスタリカ）"
+    },
+    "photoCredits": {
+      "/images/species/osteopilus-septentrionalis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Munkel",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus%20septentrionalis%206.jpg"
+      }
     }
   },
   {
@@ -2338,7 +3174,9 @@
     "genus": "コヤスガエル属Eleutherodactylus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/eleutherodactylus-coqui/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2357,6 +3195,15 @@
       "control": "手で捕まえる等。ハワイでは甲状腺機能を阻害する薬剤による駆除も試みられている。",
       "issues": "情報整理中",
       "overseasRange": "小アンチル（セント・トーマス島、セント・ジョン島、バージン諸島）、フロリダ南部の一部、ハワイ（マウイ島、ハワイ島）、ガラパゴス諸島。"
+    },
+    "photoCredits": {
+      "/images/species/eleutherodactylus-coqui/0.webp": {
+        "source": "wikimedia",
+        "credit": "Casey H. Richart",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20coqui%20230762425.jpg"
+      }
     }
   },
   {
@@ -2369,7 +3216,9 @@
     "genus": "コヤスガエル属Eleutherodactylus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/eleutherodactylus-johnstonei/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2385,6 +3234,15 @@
       "impact": "在来の地表性無脊椎動物の捕食。在来カエル類との競合の可能性がある。",
       "legalNote": "特定外来生物（外来生物法）",
       "overseasRange": "バミューダ諸島、ベネズエラ、コロンビア、フランス領ギアナ、ドミニカ、ジャマイカ、グアドループ島など"
+    },
+    "photoCredits": {
+      "/images/species/eleutherodactylus-johnstonei/0.webp": {
+        "source": "wikimedia",
+        "credit": "Hugo Claessen",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20johnstonei.jpg"
+      }
     }
   },
   {
@@ -2397,7 +3255,9 @@
     "genus": "コヤスガエル属Eleutherodactylus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/eleutherodactylus-planirostris/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2413,6 +3273,15 @@
       "impact": "在来の地表性無脊椎動物の捕食、在来ヒキガエル類との競合の可能性がある。",
       "legalNote": "特定外来生物（外来生物法）",
       "overseasRange": "グアム、ジャマイカ、アメリカ合衆国フロリダ半島"
+    },
+    "photoCredits": {
+      "/images/species/eleutherodactylus-planirostris/0.webp": {
+        "source": "wikimedia",
+        "credit": "Pierre Fidenci",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20planirostris01.jpg"
+      }
     }
   },
   {
@@ -2448,6 +3317,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "台湾北部"
+    },
+    "photoCredits": {
+      "/images/species/kaloula-pulchra/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/kaloula-pulchra/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/kaloula-pulchra/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2485,6 +3371,23 @@
       "control": "個体を取り除く方法が現実的。成体は警戒心が強く捕獲しにくいが、夜間の方が効率よく捕獲できる。幼生や卵の除去も効果的である。幼生越冬し、変態までに約１年間を要するため、繁殖期が終わってから翌春までの間に池の干し上げを行えば幼生を全滅させうる。",
       "issues": "情報整理中",
       "overseasRange": "メキシコ、大アンチル諸島各地（キューバ、プエルトリコ、ジャマイカ、イスパニョラ島と周辺島嶼）、ヨーロッパ各地（本土およびクレタ島など）、マレーシア、ジャワ、バリ島、タイ、朝鮮半島、台湾"
+    },
+    "photoCredits": {
+      "/images/species/rana-catesbeiana/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/rana-catesbeiana/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/rana-catesbeiana/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2522,6 +3425,23 @@
       "control": "繁殖場所における卵塊や幼生の除去が考えられる。成体は目立たず、まとまって捕獲することが困難である。繁殖場所を頻繁に見回り、発見された成体、泡巣、幼生をこまめに除去する方法が現実的と思われる。",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/polypedates-leucomystax/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/polypedates-leucomystax/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/polypedates-leucomystax/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2534,8 +3454,19 @@
     "genus": "オオサンショウウオ属Andrias",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/andrias/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/andrias/0.webp": {
+        "source": "wikimedia",
+        "credit": "SMcCandlish, cropped from original by Opencage",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrias%20japonicus%20cropped.jpg"
+      }
+    }
   },
   {
     "id": "atractosteus-lepisosteus-lepisosteidae-spp",
@@ -2565,6 +3496,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/atractosteus-lepisosteus-lepisosteidae-spp/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2578,7 +3516,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "acheilognathus-macropterus",
@@ -2616,6 +3555,13 @@
       "control": "池干し",
       "issues": "情報整理中",
       "overseasRange": "なし。"
+    },
+    "photoCredits": {
+      "/images/species/acheilognathus-macropterus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2628,7 +3574,9 @@
     "genus": "ギバチ属Tachysurus",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/tachysurus-fulvidraco/0.webp"
+    ],
     "prefectures": [
       "茨城",
       "千葉",
@@ -2649,6 +3597,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/tachysurus-fulvidraco/0.webp": {
+        "source": "wikimedia",
+        "credit": "Andshel",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A0%D1%8B%D0%B1%D0%B0%20%D0%9A%D0%9E%D0%A1%D0%90%D0%A2%D0%9A%D0%90%20%D0%BF%D0%BE%D0%B9%D0%BC%D0%B0%D0%BD%D0%B0%20%D0%B2%20%D0%90%D0%BC%D1%83%D1%80%D0%B5%20%D1%844.JPG"
+      }
     }
   },
   {
@@ -2661,7 +3618,9 @@
     "genus": "アメイウルス属 Ameiurus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/ameiurus-nebulosus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2678,6 +3637,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アメリカやカナダの自然分布域外の他、ヨーロッパの各国、プエルトリコやメキシコ、チリ、イラン、ロシア、中国、ニュージーランドに定着。"
+    },
+    "photoCredits": {
+      "/images/species/ameiurus-nebulosus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameiurus%20nebulosus.jpg"
+      }
     }
   },
   {
@@ -2730,6 +3698,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "フィリピン、ウズベキスタン、アルメニア、ロシア、イタリア、ブルガリア、メキシコ、プエルトリコ、ハワイ等"
+    },
+    "photoCredits": {
+      "/images/species/ictalurus-punctatus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2742,7 +3717,9 @@
     "genus": "ピロディクティス属Pylodictis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/pylodictis-olivaris/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -2759,6 +3736,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アメリカ及びカナダの非分布域"
+    },
+    "photoCredits": {
+      "/images/species/pylodictis-olivaris/0.webp": {
+        "source": "wikimedia",
+        "credit": "Engbretson, Eric / U.S. Fish and Wildlife Service",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pylodictis%20olivaris.jpg"
+      }
     }
   },
   {
@@ -2771,7 +3756,9 @@
     "genus": "ナマズ属Silurus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/silurus-glanis/0.webp"
+    ],
     "prefectures": [
       "滋賀"
     ],
@@ -2790,6 +3777,15 @@
       "control": "一部の観賞魚店では、大型の水槽が必要であることの説明、大型個体の買取などを行っている。",
       "issues": "情報整理中",
       "overseasRange": "アルジェリア、チュニジア、ヨーロッパ各地（ボスニア～ヘルツェゴビナ、クロアチア、フランス、イタリア、オランダ、ポルトガル、スペイン、イギリス）、シリア、大陸中国。デンマーク・フィンランドでは根絶された。"
+    },
+    "photoCredits": {
+      "/images/species/silurus-glanis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Dieter Florian (To contact the author, ask the uploader or take a look at tauchshop-florian.de.)",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silurus%20glanis%2002.jpg"
+      }
     }
   },
   {
@@ -2818,7 +3814,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アメリカ21の州、カナダの1つの州"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "esox",
@@ -2830,8 +3827,19 @@
     "genus": "カワカマス（パイク）属Esox",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/esox/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/esox/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hecht.jpg"
+      }
+    }
   },
   {
     "id": "gambusia-affinis",
@@ -2868,6 +3876,23 @@
       "control": "情報整理中",
       "issues": "水田の水管理の在り方の変化がカダヤシに有利に働いている。極端な場合1尾のメスの侵入により個体群を確立することが可能である。メダカを駆逐しつつある水域もある。",
       "overseasRange": "太平洋の島嶼多数を含む世界各地"
+    },
+    "photoCredits": {
+      "/images/species/gambusia-affinis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/gambusia-affinis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/gambusia-affinis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2900,6 +3925,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アメリカの非分布域のほか、南米と東アジア、アフリカ南部を除く世界中に広く分布"
+    },
+    "photoCredits": {
+      "/images/species/gambusia-holbrooki/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -2982,6 +4014,23 @@
       "control": "特定の生活史段階や季節に集合する習性の利用、様々な種類の刺激など、捕獲対象を積極的におびき寄せる方法の開発が望まれる。モンドリでの捕獲も効果がある",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/lepomis-macrochirus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/lepomis-macrochirus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/lepomis-macrochirus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3021,6 +4070,18 @@
       "control": "ヤス、水中銃、延縄、刺し網などによる駆除。人工産卵床を設置して親魚を誘引して駆除を行うことも検討されている。",
       "issues": "バス釣り人口は300万とも言われバス釣りに依存した産業が形成されている。社会的側面を併せ持つ。",
       "overseasRange": "スロバキア、ベルギー、ドイツ、タンザニア、南ア、カナダ、メキシコ、ベリーズ、ハワイ"
+    },
+    "photoCredits": {
+      "/images/species/micropterus-dolomieu/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/micropterus-dolomieu/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3103,6 +4164,23 @@
       "control": "稚魚のすくい取り、産卵床の破壊、人工産卵床の設置、地引き網等",
       "issues": "バス釣り人口は300万とも言われバス釣りに依存した産業が形成されている。社会的側面を併せ持つ。",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/micropterus-salmoides/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/micropterus-salmoides/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/micropterus-salmoides/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3115,7 +4193,9 @@
     "genus": "ネオゴビウス属Neogobius",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/neogobius-melanostomus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3132,6 +4212,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "ヨーロッパや中央アジアの非分布域、バルト海、スウェーデン、オランダ、クロアチア、ウズベキスタン、五大湖"
+    },
+    "photoCredits": {
+      "/images/species/neogobius-melanostomus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Peter van der Sluijs",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A%20large%20neogobius%20melanostomus.jpg"
+      }
     }
   },
   {
@@ -3165,6 +4254,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アフリカ内で導入されている（コンゴ、ウガンダ、ケニア、ビクトリア湖など）。モロッコ、米国、キューバにも導入されたが定着していない。"
+    },
+    "photoCredits": {
+      "/images/species/lates-niloticus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3177,7 +4273,9 @@
     "genus": "モロネ属Morone",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/morone-americana/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3195,6 +4293,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アメリカ及びカナダの非分布域"
+    },
+    "photoCredits": {
+      "/images/species/morone-americana/0.webp": {
+        "source": "wikimedia",
+        "credit": "Cephas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morone%20americana%20PAQ.jpg"
+      }
     }
   },
   {
@@ -3207,7 +4314,9 @@
     "genus": "モロネ属Morone",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/morone-chrysops/0.webp"
+    ],
     "prefectures": [
       "東京"
     ],
@@ -3226,6 +4335,14 @@
       "control": "キャッチアンドリリースをせず釣り上げた場合は駆除する。",
       "issues": "情報整理中",
       "overseasRange": "メキシコ（米国から導入）、トルコ（導入元不明）"
+    },
+    "photoCredits": {
+      "/images/species/morone-chrysops/0.webp": {
+        "source": "wikimedia",
+        "credit": "Mahler1780 at English Wikipedia",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:White%20Bass.jpg"
+      }
     }
   },
   {
@@ -3260,6 +4377,13 @@
       "control": "逃がさない、釣った魚は食べる",
       "issues": "情報整理中",
       "overseasRange": "イラン、トルコ、ロシア、南アフリカ、カナダ（ブリティッシュコロンビア）、メキシコ、エクアドル、ハワイ"
+    },
+    "photoCredits": {
+      "/images/species/morone-saxatilis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3275,7 +4399,14 @@
     "photos": [
       "/images/species/morone-saxatilis-m-chrysops/0.webp"
     ],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/morone-saxatilis-m-chrysops/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
+    }
   },
   {
     "id": "gymnocephalus-cernua",
@@ -3287,7 +4418,9 @@
     "genus": "ギュムノケファルス属Gymnocephalus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/gymnocephalus-cernua/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3305,6 +4438,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "イタリアやフランスなどの非分布域、スコットランド、五大湖"
+    },
+    "photoCredits": {
+      "/images/species/gymnocephalus-cernua/0.webp": {
+        "source": "wikimedia",
+        "credit": "Tiit Hunt",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gymnocephalus%20cernuus%20P%C3%A4rnu%20River%20Estonia%202010-01-06.jpg"
+      }
     }
   },
   {
@@ -3317,7 +4459,9 @@
     "genus": "ペルカ属Perca",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/perca-fluviatilis/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3336,6 +4480,14 @@
       "control": "ニュージーランドでは、刺し網、カゴわな、定置網による防除が効果をあげ、在来魚個体群の回復も確認されている。",
       "issues": "情報整理中",
       "overseasRange": "中国 新疆、トルコ、アイルランド、ポルトガル、キプロス、イタリア、モロッコ、南アフリカ、ニュージーランド、オーストラリア、アゾレス諸島等"
+    },
+    "photoCredits": {
+      "/images/species/perca-fluviatilis/0.webp": {
+        "source": "wikimedia",
+        "credit": "George Chernilevsky",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perca%20fluviatilis%202008%20G1.jpg"
+      }
     }
   },
   {
@@ -3348,7 +4500,9 @@
     "genus": "サンデル属Sander（Stizostedion）",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/sander-lucioperca/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3367,6 +4521,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "中国、キルギスタン、旧チェコスロバキア、デンマーク、フランス、ドイツ、オランダ、ポルトガル、スイス、英国、イタリア、モロッコ、チュニジア、アゾレス諸島等"
+    },
+    "photoCredits": {
+      "/images/species/sander-lucioperca/0.webp": {
+        "source": "wikimedia",
+        "credit": "eLNuko",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sander%20lucioperca%201.jpg"
+      }
     }
   },
   {
@@ -3400,6 +4562,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "台湾"
+    },
+    "photoCredits": {
+      "/images/species/siniperca-chuatsi/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3433,6 +4602,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/siniperca-scherzeri/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3481,6 +4657,23 @@
       "control": "捕獲、啓蒙・啓発活動による移入・拡散防止",
       "issues": "―",
       "overseasRange": "なし"
+    },
+    "photoCredits": {
+      "/images/species/hestina-assimillis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/hestina-assimillis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/hestina-assimillis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3493,7 +4686,9 @@
     "genus": "ゴマダラカミキリ属Anoplophora",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/anoplophora-glabripennis/0.webp"
+    ],
     "prefectures": [
       "宮城",
       "福島",
@@ -3522,6 +4717,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "オーストリア、フランス、ドイツ、イタリア、ポーランド、スロバキア、米国（イリノイ、ニュージャージー、ニューヨークの各州）"
+    },
+    "photoCredits": {
+      "/images/species/anoplophora-glabripennis/0.webp": {
+        "source": "wikimedia",
+        "credit": "US gov",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asian%20longhorned%20beetle.jpg"
+      }
     }
   },
   {
@@ -3534,7 +4737,9 @@
     "genus": "クワカミキリ属Apriona",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/apriona-swainsoni/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -3553,6 +4758,15 @@
       "control": "工事中",
       "issues": "工事中",
       "overseasRange": "工事中"
+    },
+    "photoCredits": {
+      "/images/species/apriona-swainsoni/0.webp": {
+        "source": "wikimedia",
+        "credit": "Ben Sale from UK",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apriona%20swainsoni%20(15458453260).jpg"
+      }
     }
   },
   {
@@ -3605,6 +4819,23 @@
       "control": "宿主となった樹木の伐採。成虫には殺虫剤も効果的。原産地の中国では、昆虫病原性線虫を利用した生物的防除が行われている。",
       "issues": "生活史が長いため侵入後の防除は困難。",
       "overseasRange": "イタリア。ドイツは一時的に侵入していた。"
+    },
+    "photoCredits": {
+      "/images/species/aromia-bungii/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/aromia-bungii/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/aromia-bungii/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3634,7 +4865,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-baladeva",
@@ -3663,7 +4895,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-giganteus",
@@ -3692,7 +4925,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-katsuraorum",
@@ -3721,7 +4955,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-maedai",
@@ -3750,7 +4985,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-maximus",
@@ -3779,7 +5015,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-perarmatus",
@@ -3808,7 +5045,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-saundersii",
@@ -3837,7 +5075,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-tanakai",
@@ -3866,7 +5105,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "neolucanus-waterhousei",
@@ -3895,7 +5135,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "euchirus",
@@ -3928,6 +5169,13 @@
       "control": "放虫しない",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/euchirus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3961,6 +5209,13 @@
       "control": "逸出させない。",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/propomacrus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -3997,6 +5252,23 @@
       "control": "これまで本種の駆除に成功した例は海外ではない。国内では使用にあたってハウスにネットを展張すること、および使用済みの巣箱を適正に処分することによって逃亡防止が図られている。",
       "issues": "―",
       "overseasRange": "北米、オセアニア、イスラエルなど"
+    },
+    "photoCredits": {
+      "/images/species/bombus-terrestris/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bombus-terrestris/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/bombus-terrestris/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4037,6 +5309,23 @@
       "control": "殺虫剤",
       "issues": "―",
       "overseasRange": "東アジア、東南アジア、西アジア、アフリカ・インド洋、オセアニア、西太平洋海域/島嶼"
+    },
+    "photoCredits": {
+      "/images/species/lepisiota-frauenfeldi/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/lepisiota-frauenfeldi/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/lepisiota-frauenfeldi/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4086,6 +5375,23 @@
       "control": "殺アリ剤を利用した化学的防除",
       "issues": "情報整理中",
       "overseasRange": "ヨーロッパ（フランス、イタリア、ポルトガル、スペイン、イギリス、スイス等）、大西洋島嶼（アゾレス等）、アラブ首長国連邦、南アフリカ共和国、バミューダ、米国（本土、ハワイ）、メキシコ、チリ、ペルー、オーストラリア、ニュージーランド"
+    },
+    "photoCredits": {
+      "/images/species/linepithema-humile/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/linepithema-humile/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/linepithema-humile/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4121,6 +5427,18 @@
       "control": "殺虫剤",
       "issues": "情報整理中",
       "overseasRange": "世界各地の熱帯。フィリピン、台湾。"
+    },
+    "photoCredits": {
+      "/images/species/solenopsis-geminata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/solenopsis-geminata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4133,8 +5451,18 @@
     "genus": "トフシアリ属Solenopsis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/solenopsis/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/solenopsis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Stephen Ausmus",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
+      }
+    }
   },
   {
     "id": "solenopsis-2",
@@ -4146,7 +5474,9 @@
     "genus": "トフシアリ属Solenopsis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/solenopsis-2/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4165,6 +5495,14 @@
       "control": "殺虫剤",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/solenopsis-2/0.webp": {
+        "source": "wikimedia",
+        "credit": "Stephen Ausmus",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
+      }
     }
   },
   {
@@ -4177,8 +5515,18 @@
     "genus": "トフシアリ属Solenopsis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/solenopsis-3/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/solenopsis-3/0.webp": {
+        "source": "wikimedia",
+        "credit": "Stephen Ausmus",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
+      }
+    }
   },
   {
     "id": "solenopsis-4",
@@ -4190,8 +5538,18 @@
     "genus": "トフシアリ属Solenopsis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/solenopsis-4/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/solenopsis-4/0.webp": {
+        "source": "wikimedia",
+        "credit": "Stephen Ausmus",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
+      }
+    }
   },
   {
     "id": "solenopsis-5",
@@ -4203,8 +5561,18 @@
     "genus": "トフシアリ属Solenopsis",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/solenopsis-5/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/solenopsis-5/0.webp": {
+        "source": "wikimedia",
+        "credit": "Stephen Ausmus",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
+      }
+    }
   },
   {
     "id": "wasmannia-auropunctata",
@@ -4216,7 +5584,9 @@
     "genus": "ワスマンニア属Wasmannia",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/wasmannia-auropunctata/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4235,6 +5605,15 @@
       "control": "殺虫剤",
       "issues": "情報整理中",
       "overseasRange": "アフリカ、北アメリカ、中央アメリカ、東太平洋海域/島嶼、南太平洋海域/島嶼、中央太平洋海域/島嶼"
+    },
+    "photoCredits": {
+      "/images/species/wasmannia-auropunctata/0.webp": {
+        "source": "wikimedia",
+        "credit": "April Nobile",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wasmannia%20auropunctata%20casent0173249%20profile%201.jpg"
+      }
     }
   },
   {
@@ -4270,6 +5649,18 @@
       "control": "巣の撤去",
       "issues": "情報整理中",
       "overseasRange": "フランス（2004年以前）、韓国（2003年）、スペイン（2010年）に侵入。"
+    },
+    "photoCredits": {
+      "/images/species/vespa-v-velutina/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/vespa-v-velutina/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4282,8 +5673,19 @@
     "genus": "ディケロガンマルス属Dikerogammarus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/dikerogammarus-villosus/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/dikerogammarus-villosus/0.webp": {
+        "source": "wikimedia",
+        "credit": "NOAA Great Lakes Environmental Research Laboratory",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dikerogammarus%20villosus%20(8740859563).jpg"
+      }
+    }
   },
   {
     "id": "pacifastacus-leniusculus",
@@ -4324,6 +5726,23 @@
       "control": "カゴ罠（ドウ、カニカゴ）：一般的に用いられる駆除法だが、大型個体に捕獲が偏る。カゴ罠に用いる餌は生魚が効果的。欧州では性フェロモンを用いた誘引トラップの開発が進められている。素手による捕獲（個体サイズが偏らない）。世界的に本種の駆除に成功した例はない。",
       "issues": "―",
       "overseasRange": "ヨーロッパ等"
+    },
+    "photoCredits": {
+      "/images/species/pacifastacus-leniusculus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pacifastacus-leniusculus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pacifastacus-leniusculus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4337,7 +5756,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "procambarus-clarkii",
@@ -4417,6 +5837,13 @@
       "control": "トラップの設置による捕獲（大型・生体向き：アナゴカゴ、小型・幼体向き：しばづけ等）。",
       "issues": "トラップが在来種を巻き込む可能性がある。長期間の放置を避け、呼吸する隙間を確保するなどの工夫が必要。",
       "overseasRange": "メキシコ、ドミニカ、フランス、スペインなど。米国内の移入も起きている。"
+    },
+    "photoCredits": {
+      "/images/species/procambarus-clarkii/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4430,7 +5857,8 @@
     "status": "定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "species-129",
@@ -4443,7 +5871,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "species-130",
@@ -4474,7 +5903,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "なし"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "species-131",
@@ -4507,6 +5937,13 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/species-131/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4538,7 +5975,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "hadronyche",
@@ -4569,7 +6007,8 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "loxosceles-gaucho",
@@ -4581,7 +6020,9 @@
     "genus": "イトグモ属Loxosceles",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/loxosceles-gaucho/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4600,6 +6041,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/loxosceles-gaucho/0.webp": {
+        "source": "wikimedia",
+        "credit": "Philipe de Liz Pereira",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:LoxoscelesGaucho.jpg"
+      }
     }
   },
   {
@@ -4612,7 +6062,9 @@
     "genus": "イトグモ属Loxosceles",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/loxosceles-laeta/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4627,6 +6079,15 @@
       "invasionEra": "2002年にはフロリダに侵入",
       "impact": "イトグモ刺咬症、人の生命・身体に被害を及ぼし、毒はロクソセレス属中で最も致死的である。",
       "legalNote": "外来生物法で特定外来生物に1次指定された。"
+    },
+    "photoCredits": {
+      "/images/species/loxosceles-laeta/0.webp": {
+        "source": "wikimedia",
+        "credit": "User:Mampato",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxosceles.laeta.jpg"
+      }
     }
   },
   {
@@ -4639,7 +6100,9 @@
     "genus": "イトグモ属Loxosceles",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/loxosceles-reclusa/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4658,6 +6121,14 @@
       "control": "輸入資材に混入していないかの確認、日本への持込の禁止等",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/loxosceles-reclusa/0.webp": {
+        "source": "wikimedia",
+        "credit": "Br-recluse-guy",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown-recluse-2.jpg"
+      }
     }
   },
   {
@@ -4701,7 +6172,8 @@
       "control": "殺虫剤等",
       "issues": "情報整理中",
       "overseasRange": "不明"
-    }
+    },
+    "photoCredits": {}
   },
   {
     "id": "latrodectus-hasseltii",
@@ -4713,7 +6185,9 @@
     "genus": "ゴケグモ属Latrodectus",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/latrodectus-hasseltii/0.webp"
+    ],
     "prefectures": [
       "北海道",
       "岩手",
@@ -4777,6 +6251,15 @@
       "control": "ピレスロイド系の殺虫剤散布",
       "issues": "情報整理中",
       "overseasRange": "米国など"
+    },
+    "photoCredits": {
+      "/images/species/latrodectus-hasseltii/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wocky",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latrodectus%20hasselti%20male.png"
+      }
     }
   },
   {
@@ -4789,7 +6272,9 @@
     "genus": "ゴケグモ属Latrodectus",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/latrodectus-mactans/0.webp"
+    ],
     "prefectures": [
       "山口"
     ],
@@ -4808,6 +6293,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/latrodectus-mactans/0.webp": {
+        "source": "wikimedia",
+        "credit": "Kazvorpal",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black-widow-red-spots-yellow-legs.jpg"
+      }
     }
   },
   {
@@ -4820,7 +6314,9 @@
     "genus": "ゴケグモ属Latrodectus",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/latrodectus/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4838,6 +6334,14 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/latrodectus/0.webp": {
+        "source": "wikimedia",
+        "credit": "Alfried H., Germany",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Latrodectus%20tridecimguttatus.jpg"
+      }
     }
   },
   {
@@ -4885,6 +6389,23 @@
       "control": "3～6日ほど日に当てて乾燥させると死亡する。",
       "issues": "情報整理中",
       "overseasRange": "東アジア、南米"
+    },
+    "photoCredits": {
+      "/images/species/limnoperna-fortunei/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/limnoperna-fortunei/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/limnoperna-fortunei/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -4897,8 +6418,19 @@
     "genus": "カワヒバリガイ属Limnoperna",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/limnoperna/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/limnoperna/0.webp": {
+        "source": "wikimedia",
+        "credit": "IEAPM",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexilhao.gif"
+      }
+    }
   },
   {
     "id": "dreissena-bugensis",
@@ -4910,7 +6442,9 @@
     "genus": "ドレイセナ属Dreissena",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/dreissena-bugensis/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4930,6 +6464,14 @@
       "control": "船舶を移動させる前に表面をよく洗浄する、汚染されている可能性のある釣り餌を水中に放棄しない。",
       "issues": "情報整理中",
       "overseasRange": "北米（五大湖～セントローレンス川、ミシシッピ川、ネバダ州、アリゾナ州、カリフォルニア州）、カスピ海、ロシア（ボルガ川）、フィンランド、ドイツ、オランダ、ルーマニア。ウクライナ国内でも移入が生じている。"
+    },
+    "photoCredits": {
+      "/images/species/dreissena-bugensis/0.webp": {
+        "source": "wikimedia",
+        "credit": "Wikimedia Commons",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dreissena%20bugensis.jpg"
+      }
     }
   },
   {
@@ -4942,7 +6484,9 @@
     "genus": "ドレイセナ属Dreissena",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/dreissena-polymorpha/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -4962,6 +6506,15 @@
       "control": "レジャーや水運の際、他の水系の水を持ち込まない、取水管の中は直接駆除が必要。",
       "issues": "情報整理中",
       "overseasRange": "欧州各地、北米（五大湖～セントローレンス川、ミシシッピ川など）"
+    },
+    "photoCredits": {
+      "/images/species/dreissena-polymorpha/0.webp": {
+        "source": "wikimedia",
+        "credit": "GerardM",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dreissena%20polymorpha.jpg"
+      }
     }
   },
   {
@@ -4997,6 +6550,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "台湾、香港、インド、インドネシア、米国、太平洋各地の島嶼（ハワイ、米領サモア、仏領ポリネシア、グアム、キリバス、ニューカレドニア、北マリアナ、パラオ、バヌアツ、ワリー・エ・フトゥーナ）、パプアニューギニア、バハマ、バミューダ、スリランカ、マダガスカル、モーリシャス、マヨット、レユニオン、セーシェルなど"
+    },
+    "photoCredits": {
+      "/images/species/euglandina-rosea/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/euglandina-rosea/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5033,6 +6598,23 @@
       "control": "土壌の移動を制限する。海水に弱いため土壌に接する靴底などは塩水で洗う。",
       "issues": "情報整理中",
       "overseasRange": "オーストラリア、グアム、ハワイ、ミクロネシア、フィリピンなどの太平洋島嶼、モルジブなどのインド洋島嶼"
+    },
+    "photoCredits": {
+      "/images/species/platydemus-manokwari/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/platydemus-manokwari/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/platydemus-manokwari/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5099,6 +6681,23 @@
       "control": "個体の完全除去。米国では1960年代から天敵導入（Agasicles hygrophila, Amynothrips andersoni, Arcola malloi）による駆除が行われている。",
       "issues": "情報整理中",
       "overseasRange": "台湾、オーストラリア、リビア、米国"
+    },
+    "photoCredits": {
+      "/images/species/alternanthera-philoxeroides/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/alternanthera-philoxeroides/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/alternanthera-philoxeroides/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5138,6 +6737,23 @@
       "control": "茎が絡み合うため、除去の前に切断の必要あり。切断した茎から栄養繁殖するため、注意が必要。",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/hydrocotyle-ranunculoides/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/hydrocotyle-ranunculoides/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/hydrocotyle-ranunculoides/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5174,6 +6790,23 @@
       "control": "物理的な除去",
       "issues": "情報整理中",
       "overseasRange": "アジア、オーストラリア、南北アメリカに分布"
+    },
+    "photoCredits": {
+      "/images/species/pistia-stratiotes/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pistia-stratiotes/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/pistia-stratiotes/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5229,6 +6862,18 @@
       "control": "導入を避ける、浮遊個体の水田からの流出を防ぐ。合ガモに食べつくさせる。ハス田などにも広がっており、観賞用水草、園芸植物等も含め移動の際には付着に注意する。",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/azolla-cristata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/azolla-cristata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5311,6 +6956,23 @@
       "control": "抜き取り、刈り取り",
       "issues": "情報整理中",
       "overseasRange": "台湾、オーストラリア、ニュージーランド、サウジアラビア、南米など"
+    },
+    "photoCredits": {
+      "/images/species/coreopsis-lanceolata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/coreopsis-lanceolata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/coreopsis-lanceolata/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5359,6 +7021,18 @@
       "control": "江戸川、淀川水系等で除去事業が行われている。わずかな部位からクローン成長するため、ちぎれないように慎重に引き抜いて除去するか底の土壌を深く掘り取り除去する必要がある。",
       "issues": "情報整理中",
       "overseasRange": "台湾、オーストラリア、ニュージーランドなど"
+    },
+    "photoCredits": {
+      "/images/species/gymnocoronis-spilanthoides/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/gymnocoronis-spilanthoides/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5394,6 +7068,23 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "アジアの熱帯地域、北アメリカ、南アメリカ、オーストラリア、インド洋諸島、太平洋諸島"
+    },
+    "photoCredits": {
+      "/images/species/mikania-micrantha/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mikania-micrantha/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/mikania-micrantha/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5476,6 +7167,23 @@
       "control": "抜き取り、刈り取り、戦場ヶ原で夏期に駆除作業を実施",
       "issues": "情報整理中",
       "overseasRange": "中国など"
+    },
+    "photoCredits": {
+      "/images/species/rudbeckia-laciniata/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/rudbeckia-laciniata/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/rudbeckia-laciniata/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5526,6 +7234,23 @@
       "control": "抜き取り、刈り取り",
       "issues": "情報整理中",
       "overseasRange": "北米、南米、ハワイ、オーストラリア、南アフリカ、スワジランドなど。オーストラリア東部では牧草地への侵入が問題となっている。"
+    },
+    "photoCredits": {
+      "/images/species/senecio-madagascariensis/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/senecio-madagascariensis/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/senecio-madagascariensis/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5608,6 +7333,23 @@
       "control": "土壌処理剤のみの防除は難しく、茎葉処理剤や、結実前の刈り取りといった機械的防除法の併用が必要。河岸を掘削して地盤を低くし、増水時に冠水する場所を創出するなどの予防策も提案されている。",
       "issues": "情報整理中",
       "overseasRange": "南アメリカ、ヨーロッパ、アフリカ、アジア、オセアニアに分布"
+    },
+    "photoCredits": {
+      "/images/species/sicyos-angulatus/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/sicyos-angulatus/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/sicyos-angulatus/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5643,6 +7385,18 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "情報整理中"
+    },
+    "photoCredits": {
+      "/images/species/drosera-intermedia/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/drosera-intermedia/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5724,6 +7478,18 @@
       "control": "抜き取り、刈り取り。水槽中で育成する場合は、二酸化炭素の添加が有効。",
       "issues": "情報整理中",
       "overseasRange": "北アメリカ、南ヨーロッパ、アフリカ、アジア、オセアニアに分布"
+    },
+    "photoCredits": {
+      "/images/species/myriophyllum-aquaticum/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/myriophyllum-aquaticum/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5736,7 +7502,9 @@
     "genus": "エフクレタヌキモ（Utricularia cf. platensis）（茎を含む）",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/utricularia-inflata/0.webp"
+    ],
     "prefectures": [
       "静岡",
       "愛知",
@@ -5759,6 +7527,14 @@
       "control": "啓発により意図的導入を避ける、すくい取り等。",
       "issues": "情報整理中",
       "overseasRange": "不明"
+    },
+    "photoCredits": {
+      "/images/species/utricularia-inflata/0.webp": {
+        "source": "wikimedia",
+        "credit": "Britton, N.L., and A. Brown",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utricularia%20inflata%20illustration.jpg"
+      }
     }
   },
   {
@@ -5771,8 +7547,18 @@
     "genus": "ウトゥリクラリア・インフラタ（Utricularia inflata）（茎を含む）",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/utricularia-inflata-2/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/utricularia-inflata-2/0.webp": {
+        "source": "wikimedia",
+        "credit": "Britton, N.L., and A. Brown",
+        "license": "Public domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utricularia%20inflata%20illustration.jpg"
+      }
+    }
   },
   {
     "id": "utricularia-platensis",
@@ -5784,8 +7570,19 @@
     "genus": "ウトゥリクラリア・プラテンスィス（Utricularia platensis）（茎を含む）",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
-    "prefectures": []
+    "photos": [
+      "/images/species/utricularia-platensis/0.webp"
+    ],
+    "prefectures": [],
+    "photoCredits": {
+      "/images/species/utricularia-platensis/0.webp": {
+        "source": "wikimedia",
+        "credit": "DanelAranoa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flor%20utricularia%20platensis.jpg"
+      }
+    }
   },
   {
     "id": "ludwigia-grandiflora",
@@ -5797,7 +7594,9 @@
     "genus": "ルドウィギア・グランディフロラ（オオバナミズキンバイ等）（L. grandiflora） （茎・根を含む）",
     "status": "定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/ludwigia-grandiflora/0.webp"
+    ],
     "prefectures": [
       "滋賀",
       "兵庫",
@@ -5819,6 +7618,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "ヨーロッパや北アメリカ北部"
+    },
+    "photoCredits": {
+      "/images/species/ludwigia-grandiflora/0.webp": {
+        "source": "wikimedia",
+        "credit": "Bouba at French Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jussiaea%20grandiflora.jpg"
+      }
     }
   },
   {
@@ -5831,7 +7639,9 @@
     "genus": "ビーチグラス（A. arenaria） （根を含む）",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/ammophila-arenaria/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -5848,6 +7658,15 @@
       "control": "情報整理中",
       "issues": "情報整理中",
       "overseasRange": "北アメリカ東部、オーストラリア南部、ニュージーランド、南アフリカ、チリ"
+    },
+    "photoCredits": {
+      "/images/species/ammophila-arenaria/0.webp": {
+        "source": "wikimedia",
+        "credit": "Malene Thyssen (User Malene)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hvid%20klit.jpg"
+      }
     }
   },
   {
@@ -5887,6 +7706,33 @@
       "control": "手作業による抜取り、刈取り。根茎から栄養繁殖するため、長期間にわたり根茎を残さず繰り返し駆除するとともに、完全駆除までのモニタリングを継続することが必要。除草剤を用いた駆除法も検討されている。",
       "issues": "情報整理中",
       "overseasRange": "大陸中国（上海など）、インド、オーストラリア、ニュージーランド、英国、オランダ、フランス、スペイン、米国（ワシントン州、カリフォルニア州）"
+    },
+    "photoCredits": {
+      "/images/species/spartina-alterniflora/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/spartina-alterniflora/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/spartina-alterniflora/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/spartina-alterniflora/3.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/spartina-alterniflora/4.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   },
   {
@@ -5899,7 +7745,9 @@
     "genus": "スパルティナ属全種（茎・根を含む）",
     "status": "未定着",
     "isConditional": false,
-    "photos": [],
+    "photos": [
+      "/images/species/spartina-anglica/0.webp"
+    ],
     "prefectures": [
       "沖縄"
     ],
@@ -5918,6 +7766,15 @@
       "control": "抜き取り",
       "issues": "情報整理中",
       "overseasRange": "上海、ヨーロッパ、ニュージーランド、オーストラリア、北米"
+    },
+    "photoCredits": {
+      "/images/species/spartina-anglica/0.webp": {
+        "source": "wikimedia",
+        "credit": "Jürgen Howaldt",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spartina%20anglica.jpg"
+      }
     }
   },
   {
@@ -5931,7 +7788,8 @@
     "status": "未定着",
     "isConditional": false,
     "photos": [],
-    "prefectures": []
+    "prefectures": [],
+    "photoCredits": {}
   },
   {
     "id": "veronica-anagallis-aquatica",
@@ -5974,6 +7832,23 @@
       "control": "抜き取り、洪水撹乱体制の復元等",
       "issues": "情報整理中",
       "overseasRange": "南北アメリカ、アフリカ、オーストラリア"
+    },
+    "photoCredits": {
+      "/images/species/veronica-anagallis-aquatica/0.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/veronica-anagallis-aquatica/1.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      },
+      "/images/species/veronica-anagallis-aquatica/2.webp": {
+        "source": "env",
+        "credit": "環境省提供",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
+      }
     }
   }
 ]

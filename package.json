@@ -15,7 +15,9 @@
     "scrape:photos": "ts-node --project tsconfig.scripts.json scripts/scrape-photos.ts",
     "scrape:nies": "ts-node --project tsconfig.scripts.json scripts/scrape-nies.ts",
     "download:images": "ts-node --project tsconfig.scripts.json scripts/download-images.ts",
-    "scrape:descriptions": "ts-node --project tsconfig.scripts.json scripts/scrape-descriptions.ts"
+    "scrape:descriptions": "ts-node --project tsconfig.scripts.json scripts/scrape-descriptions.ts",
+    "scrape:wikimedia": "ts-node --project tsconfig.scripts.json scripts/scrape-wikimedia.ts",
+    "backfill:env-credits": "ts-node --project tsconfig.scripts.json scripts/backfill-env-credits.ts"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.0",

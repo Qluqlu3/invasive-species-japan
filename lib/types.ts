@@ -16,6 +16,14 @@ export interface SpeciesDescription {
   remarks?: string; // 備考
 }
 
+export interface PhotoCredit {
+  source: 'env' | 'wikimedia';
+  credit: string; // 表示テキスト（例: "環境省提供" / "Andrew Mercer"）
+  license?: string; // 例: "CC BY-SA 4.0"
+  licenseUrl?: string;
+  sourceUrl?: string; // 出典ページ（Commonsファイル説明ページ等）
+}
+
 export interface Species {
   id: string;
   jaName: string;
@@ -27,6 +35,7 @@ export interface Species {
   status: string;
   isConditional: boolean;
   photos: string[];
+  photoCredits?: Record<string, PhotoCredit>;
   prefectures: string[];
   description?: SpeciesDescription;
   niesUrl?: string;

@@ -57,7 +57,11 @@ export default async function SpeciesPage({ params }: Props) {
             >
               写真
             </h2>
-            <PhotoGallery photos={s.photos} name={s.jaName} />
+            <PhotoGallery
+              photos={s.photos}
+              name={s.jaName}
+              credits={s.photoCredits}
+            />
           </section>
         )}
         <SpeciesInfoTable species={s} />
