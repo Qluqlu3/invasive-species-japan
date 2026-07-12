@@ -24,6 +24,10 @@ export interface PhotoCredit {
   sourceUrl?: string; // 出典ページ（Commonsファイル説明ページ等）
 }
 
+export interface DataMeta {
+  lastUpdated: string; // YYYY-MM-DD（データ収集パイプラインの最終実行日）
+}
+
 export interface Species {
   id: string;
   jaName: string;

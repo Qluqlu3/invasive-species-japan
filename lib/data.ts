@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
-import type { Species } from './types';
+import type { DataMeta, Species } from './types';
 
 let _cache: Species[] | null = null;
+let _metaCache: DataMeta | null | undefined;
 
 const REQUIRED_STRING_FIELDS = [
   'id',
@@ -79,6 +80,28 @@ export function getAllSpecies(): Species[] {
   assertIsSpeciesArray(parsed, filePath);
   _cache = parsed;
   return _cache;
+}
+
+/** データ収集パイプラインの最終実行日を返す。meta.json が無い場合は null */
+export function getDataMeta(): DataMeta | null {
+  if (_metaCache !== undefined) return _metaCache;
+
+  const dataDir = process.env.DATA_DIR ?? path.join(process.cwd(), 'data');
+  const filePath = path.join(dataDir, 'meta.json');
+
+  try {
+    const raw = fs.readFileSync(filePath, 'utf-8');
+    const parsed = JSON.parse(raw);
+    if (typeof parsed?.lastUpdated === 'string') {
+      _metaCache = parsed as DataMeta;
+      return _metaCache;
+    }
+  } catch {
+    // meta.json が無い/壊れていてもアプリ本体は動かせるようにする
+  }
+
+  _metaCache = null;
+  return null;
 }
 
 export function getSpeciesById(id: string): Species | undefined {

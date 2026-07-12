@@ -13,6 +13,7 @@ import { scrapePhotos } from './scrape-photos';
 import type { Species } from './types';
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'species.json');
+const META_PATH = path.join(__dirname, '..', 'data', 'meta.json');
 
 /** スクレイパーで正確に抽出できない学名を手動で補正するマップ */
 const SCIENTIFIC_NAME_CORRECTIONS: Record<string, string> = {
@@ -216,8 +217,17 @@ async function main() {
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(species, null, 2), 'utf-8');
 
+  const now = new Date();
+  const lastUpdated = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+  fs.writeFileSync(
+    META_PATH,
+    `${JSON.stringify({ lastUpdated }, null, 2)}\n`,
+    'utf-8',
+  );
+
   console.log(`\n=== 完了 ===`);
   console.log(`出力: ${OUTPUT_PATH}`);
+  console.log(`出力: ${META_PATH} (lastUpdated: ${lastUpdated})`);
   console.log(`総種数: ${species.length}`);
   console.log(`写真あり: ${species.filter((s) => s.photos.length > 0).length}`);
   console.log(

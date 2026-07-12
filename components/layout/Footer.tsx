@@ -1,4 +1,5 @@
 import { Box, Flex, Link, Text } from '@chakra-ui/react';
+import { getDataMeta } from '@/lib/data';
 
 const SOURCES = [
   {
@@ -11,7 +12,15 @@ const SOURCES = [
   },
 ];
 
+/** "YYYY-MM-DD" を日本語表記に変換する（タイムゾーン変換を避けるため文字列のまま処理） */
+function formatJaDate(iso: string): string {
+  const [y, m, d] = iso.split('-');
+  return `${y}年${Number(m)}月${Number(d)}日`;
+}
+
 export default function Footer() {
+  const meta = getDataMeta();
+
   return (
     <Box
       as="footer"
@@ -45,6 +54,11 @@ export default function Footer() {
             </Text>
           ))}
         </Flex>
+        {meta && (
+          <Text color="gray.400">
+            データ最終更新日: {formatJaDate(meta.lastUpdated)}
+          </Text>
+        )}
         <Text color="gray.500">
           本サイトは公開データを基にした非公式のビューアです。最新の指定状況は環境省の公式情報をご確認ください。
         </Text>

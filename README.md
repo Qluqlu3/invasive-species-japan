@@ -33,7 +33,8 @@ docker compose up
 ```text
 invasive/
 ├── data/
-│   └── species.json       # 収集済みデータ（168種）
+│   ├── species.json       # 収集済みデータ（168種）
+│   └── meta.json          # データ最終更新日（build:data 実行時に自動生成）
 ├── scripts/               # データ収集スクリプト（Node.js / TypeScript）
 │   ├── build-data.ts      # メインビルダー（全スクレイパーを統合実行）
 │   ├── scrape-list.ts     # 環境省リストページから基本情報を取得
