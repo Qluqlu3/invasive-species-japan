@@ -6,6 +6,7 @@
  */
 import * as fs from 'fs';
 import * as path from 'path';
+import { LOOKALIKES } from './lookalikes-data';
 import { scrapeList } from './scrape-list';
 import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
@@ -213,7 +214,18 @@ async function main() {
     console.log(`\n✓ GIF補完: ${gifImproved} 種が改善\n`);
   }
 
-  // 7. 出力
+  // 7. 似ている在来種との判別ポイントを付与（手動キュレーションデータ）
+  let lookalikesAdded = 0;
+  for (const s of species) {
+    const lookalikes = LOOKALIKES[s.id];
+    if (lookalikes) {
+      s.lookalikes = lookalikes;
+      lookalikesAdded++;
+    }
+  }
+  console.log(`\n✓ 判別ポイント付与: ${lookalikesAdded} 種\n`);
+
+  // 8. 出力
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(species, null, 2), 'utf-8');
 

@@ -26,7 +26,7 @@ docker compose up
 ## 画面構成
 
 - **一覧画面**: カテゴリ・和名・学名・科・目でフィルタ＆検索
-- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク
+- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、似ている在来種との判別ポイント（対象種のみ）
 
 ## ディレクトリ構成
 
@@ -41,6 +41,8 @@ invasive/
 │   ├── scrape-photos.ts   # 環境省写真集から画像 URL を取得
 │   ├── scrape-nies.ts     # NIES 侵入生物 DB から分布データを取得
 │   ├── scrape-nies-map.ts # NIES GIF 分布マップをピクセル解析して分布を補完
+│   ├── lookalikes-data.ts # 似ている在来種との判別ポイント（手動キュレーション、出典付き）
+│   ├── apply-lookalikes.ts # lookalikes-data.ts の内容だけを再スクレイピングなしで反映
 │   └── types.ts           # 型定義・定数
 ├── app/                   # App Router ページ
 ├── components/            # React コンポーネント
@@ -69,6 +71,15 @@ GIF マップ解析には Python 3 と Pillow が必要です:
 pip install Pillow
 ```
 
+### 似ている在来種との判別ポイントだけを更新する場合
+
+`scripts/lookalikes-data.ts` は環境省「特定外来生物 同定マニュアル」等から手動で転記したデータです。
+再スクレイピングせずにこのデータだけを `data/species.json` に反映したい場合は以下を実行します:
+
+```bash
+pnpm apply:lookalikes
+```
+
 ## データソース
 
 | ソース | 利用内容 |
@@ -76,6 +87,7 @@ pip install Pillow
 | [環境省 特定外来生物等一覧](https://www.env.go.jp/nature/intro/2outline/list.html) | 基本情報 |
 | [環境省 外来種写真集](https://www.env.go.jp/nature/intro/4document/asimg.html) | 写真（クレジット: 環境省提供） |
 | [NIES 侵入生物データベース](https://www.nies.go.jp/biodiversity/invasive/DB/) | 国内分布 |
+| [環境省 特定外来生物 同定マニュアル](https://www.env.go.jp/nature/intro/2outline/manual.html) / [ヒアリ特設サイト](https://www.env.go.jp/nature/intro/2outline/attention/hiari.html) | 似ている在来種との判別ポイント |
 
 ## データの品質について
 
@@ -83,3 +95,4 @@ pip install Pillow
 - **学名が空のエントリ**: 「その他の〇〇科」「〇〇全種」のようなグループ指定のエントリで、単一の学名が存在しないものです
 - **都道府県データ**: NIES DB のテキストおよび GIF 分布マップから自動抽出。データなし（18種）はグループエントリまたは国内未定着種です
 - **写真**: 環境省提供の写真のみ（87/168種）。写真なしの種は `?` プレースホルダーを表示します
+- **似ている在来種との判別ポイント**: 環境省の同定マニュアル等に「在来種」と明記された比較のみを掲載（60種）。網羅的なものではなく、実際の同定・駆除の判断には専門家・自治体への確認を案内しています

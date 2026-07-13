@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
 import DescriptionSection from '@/components/species/DescriptionSection';
 import DesignationBadge from '@/components/species/DesignationBadge';
+import LookalikesSection from '@/components/species/LookalikesSection';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
 import SpeciesInfoTable from '@/components/species/SpeciesInfoTable';
@@ -66,6 +67,9 @@ export default async function SpeciesPage({ params }: Props) {
         )}
         <SpeciesInfoTable species={s} />
         {s.description && <DescriptionSection description={s.description} />}
+        {s.lookalikes && s.lookalikes.length > 0 && (
+          <LookalikesSection lookalikes={s.lookalikes} />
+        )}
         <PrefectureList prefectures={s.prefectures} />
       </div>
     </main>

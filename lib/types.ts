@@ -28,6 +28,13 @@ export interface DataMeta {
   lastUpdated: string; // YYYY-MM-DD（データ収集パイプラインの最終実行日）
 }
 
+export interface Lookalike {
+  nativeName: string; // 似ている在来種の和名
+  nativeScientificName?: string; // 学名（判明している場合）
+  point: string; // 判別ポイント（出典の記述に基づく）
+  sourceUrl: string; // 出典URL（環境省 同定マニュアル等）
+}
+
 export interface Species {
   id: string;
   jaName: string;
@@ -43,6 +50,7 @@ export interface Species {
   prefectures: string[];
   description?: SpeciesDescription;
   niesUrl?: string;
+  lookalikes?: Lookalike[];
 }
 
 export const CATEGORIES = [

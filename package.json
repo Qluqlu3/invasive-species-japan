@@ -17,7 +17,8 @@
     "download:images": "ts-node --project tsconfig.scripts.json scripts/download-images.ts",
     "scrape:descriptions": "ts-node --project tsconfig.scripts.json scripts/scrape-descriptions.ts",
     "scrape:wikimedia": "ts-node --project tsconfig.scripts.json scripts/scrape-wikimedia.ts",
-    "backfill:env-credits": "ts-node --project tsconfig.scripts.json scripts/backfill-env-credits.ts"
+    "backfill:env-credits": "ts-node --project tsconfig.scripts.json scripts/backfill-env-credits.ts",
+    "apply:lookalikes": "ts-node --project tsconfig.scripts.json scripts/apply-lookalikes.ts"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.0",

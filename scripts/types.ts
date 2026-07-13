@@ -6,6 +6,13 @@ export interface PhotoCredit {
   sourceUrl?: string; // 出典ページ（Commonsファイル説明ページ等）
 }
 
+export interface Lookalike {
+  nativeName: string; // 似ている在来種の和名
+  nativeScientificName?: string; // 学名（判明している場合）
+  point: string; // 判別ポイント（出典の記述に基づく）
+  sourceUrl: string; // 出典URL（環境省 同定マニュアル等）
+}
+
 /** 特定外来生物の型定義 */
 export interface Species {
   id: string;
@@ -21,6 +28,7 @@ export interface Species {
   photoCredits?: Record<string, PhotoCredit>; // 画像の出典情報（key: photos内のパス）
   prefectures: string[]; // 分布都道府県
   niesUrl?: string; // NIES詳細ページURL
+  lookalikes?: Lookalike[]; // 誤同定しやすい在来種と判別ポイント
 }
 
 export const CATEGORIES = [
