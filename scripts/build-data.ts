@@ -11,6 +11,7 @@ import { scrapeList } from './scrape-list';
 import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
 import { scrapePhotos } from './scrape-photos';
+import { makeId, matchNiesEntry, matchPhotos } from './species-matching';
 import type { Species } from './types';
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'species.json');
@@ -58,44 +59,6 @@ const SCIENTIFIC_NAME_CORRECTIONS: Record<string, string> = {
   オオカワヂシャ: 'Veronica anagallis-aquatica',
 };
 
-/** 和名を正規化してマッチング精度を上げる（括弧・スペース除去） */
-function normalize(name: string): string {
-  return name
-    .replace(/（[^）]*）/g, '')
-    .replace(/\([^)]*\)/g, '')
-    .replace(/\s+/g, '')
-    .replace(/　/g, '')
-    .trim();
-}
-
-/** 和名からURL-safe なスラッグを生成 */
-function makeId(
-  jaName: string,
-  scientificName: string,
-  index: number,
-  usedIds: Set<string>,
-): string {
-  const base = scientificName
-    ? scientificName
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-')
-        .replace(/^-|-$/g, '')
-    : `species-${index}`;
-
-  if (!usedIds.has(base)) {
-    usedIds.add(base);
-    return base;
-  }
-
-  let n = 2;
-  let candidate = `${base}-${n}`;
-  while (usedIds.has(candidate)) {
-    candidate = `${base}-${++n}`;
-  }
-  usedIds.add(candidate);
-  return candidate;
-}
-
 async function main() {
   console.log('=== データ収集を開始 ===\n');
 
@@ -125,22 +88,11 @@ async function main() {
     if (seen.has(item.jaName)) continue;
     seen.add(item.jaName);
 
-    // 写真マッチング（完全一致 → 正規化一致）
-    let photos =
-      photoMap.get(item.jaName) ?? photoMap.get(normalize(item.jaName)) ?? [];
-    // 部分マッチ（キョン, アライグマ など短い名前のため）
-    if (photos.length === 0) {
-      for (const [key, urls] of photoMap) {
-        if (key.includes(item.jaName) || item.jaName.includes(key)) {
-          photos = urls;
-          break;
-        }
-      }
-    }
+    // 写真マッチング（完全一致 → 正規化一致 → 部分マッチ）
+    const photos = matchPhotos(item.jaName, photoMap);
 
-    // NIES マッチング
-    const niesEntry =
-      niesMap.get(item.jaName) ?? niesMap.get(normalize(item.jaName)) ?? null;
+    // NIES マッチング（完全一致 → 正規化一致）
+    const niesEntry = matchNiesEntry(item.jaName, niesMap);
 
     const prefectures = niesEntry?.prefectures ?? [];
     const niesUrl = item.niesUrl ?? niesEntry?.niesDetailUrl;
@@ -148,7 +100,7 @@ async function main() {
       SCIENTIFIC_NAME_CORRECTIONS[item.jaName] ?? item.scientificName;
 
     species.push({
-      id: makeId(item.jaName, scientificName, i, usedIds),
+      id: makeId(scientificName, i, usedIds),
       jaName: item.jaName,
       scientificName,
       category: item.category,
