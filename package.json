@@ -10,6 +10,8 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "format": "biome format --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "build:data": "ts-node --project tsconfig.scripts.json scripts/build-data.ts",
     "scrape:list": "ts-node --project tsconfig.scripts.json scripts/scrape-list.ts",
     "scrape:photos": "ts-node --project tsconfig.scripts.json scripts/scrape-photos.ts",
@@ -36,6 +38,7 @@
     "jimp": "^1.6.1",
     "sharp": "^0.35.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.10"
   }
 }

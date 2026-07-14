@@ -3,13 +3,8 @@
 import { Box, Grid, Text } from '@chakra-ui/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import {
-  CATEGORIES,
-  type Category,
-  type Species,
-  STATUSES,
-  type Status,
-} from '@/lib/types';
+import { filterAndSortSpecies, paginate } from '@/lib/species-filter';
+import type { Species } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
 
@@ -60,44 +55,18 @@ export default function SpeciesList({ species }: Props) {
     return () => clearTimeout(timer);
   }, [inputQuery]);
 
-  const filtered = useMemo(() => {
-    const result = species.filter((s) => {
-      if (category && s.category !== category) return false;
-      if (conditional === 'yes' && !s.isConditional) return false;
-      if (conditional === 'no' && s.isConditional) return false;
-      if (status && s.status !== status) return false;
-      if (prefecture && !s.prefectures.includes(prefecture)) return false;
-      if (query) {
-        const q = query.toLowerCase();
-        return (
-          s.jaName.includes(q) ||
-          s.scientificName.toLowerCase().includes(q) ||
-          s.family.includes(q) ||
-          s.order.includes(q) ||
-          s.genus.includes(q)
-        );
-      }
-      return true;
-    });
-
-    if (sort === 'name') {
-      result.sort((a, b) => a.jaName.localeCompare(b.jaName, 'ja'));
-    } else if (sort === 'category') {
-      result.sort(
-        (a, b) =>
-          CATEGORIES.indexOf(a.category as Category) -
-          CATEGORIES.indexOf(b.category as Category),
-      );
-    } else if (sort === 'status') {
-      result.sort(
-        (a, b) =>
-          STATUSES.indexOf(a.status as Status) -
-          STATUSES.indexOf(b.status as Status),
-      );
-    }
-
-    return result;
-  }, [species, query, category, conditional, status, prefecture, sort]);
+  const filtered = useMemo(
+    () =>
+      filterAndSortSpecies(species, {
+        query,
+        category,
+        conditional,
+        status,
+        prefecture,
+        sort,
+      }),
+    [species, query, category, conditional, status, prefecture, sort],
+  );
 
   const totalCount = filtered.length;
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -107,8 +76,7 @@ export default function SpeciesList({ species }: Props) {
     setVisibleCount(PAGE_SIZE);
   }, [query, category, conditional, status, prefecture, sort]);
 
-  const paginated = filtered.slice(0, visibleCount);
-  const hasMore = visibleCount < totalCount;
+  const { visible: paginated, hasMore } = paginate(filtered, visibleCount);
 
   const sentinelRef = useRef<HTMLDivElement>(null);
 
