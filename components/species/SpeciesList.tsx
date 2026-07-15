@@ -1,8 +1,9 @@
 'use client';
 
 import { Box, Grid, Text } from '@chakra-ui/react';
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
+import { useSpeciesListParams } from '@/hooks/useSpeciesListParams';
 import { filterAndSortSpecies, paginate } from '@/lib/species-filter';
 import type { Species } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
@@ -15,45 +16,17 @@ interface Props {
 }
 
 export default function SpeciesList({ species }: Props) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const query = searchParams.get('q') ?? '';
-  const [inputQuery, setInputQuery] = useState(query);
-
-  const category = searchParams.get('category') ?? '';
-  const conditional = (searchParams.get('conditional') ?? 'all') as
-    | 'all'
-    | 'yes'
-    | 'no';
-  const status = searchParams.get('status') ?? '';
-  const prefecture = searchParams.get('prefecture') ?? '';
-  const sort = searchParams.get('sort') ?? '';
-
-  const setParam = useCallback(
-    (key: string, value: string) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (value && value !== 'all') {
-        params.set(key, value);
-      } else {
-        params.delete(key);
-      }
-      const qs = params.toString();
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-    },
-    [router, pathname, searchParams],
-  );
-
-  const setParamRef = useRef(setParam);
-  setParamRef.current = setParam;
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setParamRef.current('q', inputQuery);
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [inputQuery]);
+  const {
+    query,
+    inputQuery,
+    setInputQuery,
+    category,
+    conditional,
+    status,
+    prefecture,
+    sort,
+    setParam,
+  } = useSpeciesListParams();
 
   const filtered = useMemo(
     () =>
@@ -78,23 +51,9 @@ export default function SpeciesList({ species }: Props) {
 
   const { visible: paginated, hasMore } = paginate(filtered, visibleCount);
 
-  const sentinelRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (!hasMore) return;
-    const el = sentinelRef.current;
-    if (!el) return;
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setVisibleCount((c) => Math.min(c + PAGE_SIZE, totalCount));
-        }
-      },
-      { rootMargin: '600px' },
-    );
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, [hasMore, totalCount]);
+  const sentinelRef = useInfiniteScroll(hasMore, () =>
+    setVisibleCount((c) => Math.min(c + PAGE_SIZE, totalCount)),
+  );
 
   return (
     <Box>
