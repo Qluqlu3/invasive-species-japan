@@ -24,19 +24,17 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^3.36.0",
-    "next": "16.2.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.0",
-    "@types/jimp": "^0.2.1",
+    "@biomejs/biome": "^2.5.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "cheerio": "^1.0.0",
-    "jimp": "^1.6.1",
-    "sharp": "^0.35.1",
+    "sharp": "^0.35.3",
     "ts-node": "^10.9.2",
     "typescript": "^5",
     "vitest": "^4.1.10"
