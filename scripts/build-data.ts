@@ -7,6 +7,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { LOOKALIKES } from './lookalikes-data';
+import { matchKoujiEntries, scrapeKouji } from './scrape-kouji';
 import { scrapeList } from './scrape-list';
 import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
@@ -177,7 +178,21 @@ async function main() {
   }
   console.log(`\n✓ 判別ポイント付与: ${lookalikesAdded} 種\n`);
 
-  // 8. 出力
+  // 8. 防除の公示・確認・認定情報を取得して付与
+  console.log('\n=== 防除の公示・確認・認定情報を取得中 ===\n');
+  const koujiEntries = await scrapeKouji();
+  const koujiMap = matchKoujiEntries(koujiEntries, species);
+  let koujiAdded = 0;
+  for (const s of species) {
+    const authorizations = koujiMap.get(s.id);
+    if (authorizations) {
+      s.controlAuthorizations = authorizations;
+      koujiAdded++;
+    }
+  }
+  console.log(`\n✓ 防除情報付与: ${koujiAdded} 種\n`);
+
+  // 9. 出力
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(species, null, 2), 'utf-8');
 

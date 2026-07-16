@@ -35,6 +35,16 @@ export interface Lookalike {
   sourceUrl: string; // 出典URL（環境省 同定マニュアル等）
 }
 
+export interface ControlAuthorization {
+  type: string; // 公示 | 確認 | 認定
+  organization: string; // 主体名（自治体・省庁・NPO等）
+  region: string; // 地方区分
+  area: string; // 区域
+  period: string; // 期間
+  objective: string; // 防除の目標
+  sourceUrl: string; // 出典（環境省 防除の公示一覧）
+}
+
 export interface Species {
   id: string;
   jaName: string;
@@ -51,6 +61,7 @@ export interface Species {
   description?: SpeciesDescription;
   niesUrl?: string;
   lookalikes?: Lookalike[];
+  controlAuthorizations?: ControlAuthorization[];
 }
 
 export const CATEGORIES = [

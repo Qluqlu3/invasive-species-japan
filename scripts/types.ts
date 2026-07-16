@@ -13,6 +13,16 @@ export interface Lookalike {
   sourceUrl: string; // 出典URL（環境省 同定マニュアル等）
 }
 
+export interface ControlAuthorization {
+  type: string; // 公示 | 確認 | 認定
+  organization: string; // 主体名（自治体・省庁・NPO等）
+  region: string; // 地方区分
+  area: string; // 区域
+  period: string; // 期間
+  objective: string; // 防除の目標
+  sourceUrl: string; // 出典（環境省 防除の公示一覧）
+}
+
 /** 特定外来生物の型定義 */
 export interface Species {
   id: string;
@@ -29,6 +39,7 @@ export interface Species {
   prefectures: string[]; // 分布都道府県
   niesUrl?: string; // NIES詳細ページURL
   lookalikes?: Lookalike[]; // 誤同定しやすい在来種と判別ポイント
+  controlAuthorizations?: ControlAuthorization[]; // 防除の公示・確認・認定を受けた主体
 }
 
 export const CATEGORIES = [

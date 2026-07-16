@@ -285,6 +285,17 @@
         "point": "体の大きさはほぼ同じだが、尾の長さと毛色で見分けられる。ニホンザルはアカゲザルよりもやや大型で尾が短く10cm程度、毛色は褐色から灰色。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "千葉県",
+        "region": "関東地方",
+        "area": "千葉県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "県内の野外からの完全排除。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      }
     ]
   },
   {
@@ -416,6 +427,17 @@
         "point": "アカゲザルとニホンザルの交雑個体はニホンザルより尾が長く、下半身の黄色味（赤み）が強い。ニホンザルの座高に対する尾長の割合は約15%。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "千葉県",
+        "region": "関東地方",
+        "area": "千葉県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "県内の野外からの完全排除。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      }
     ]
   },
   {
@@ -487,7 +509,117 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "各務原市",
+        "region": "中部地方",
+        "area": "各務原市内全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、本防除期間の目標としては、防除を行う区域における被害の低減化を図ることとする。なお、希少な動植物に被害が生じるおそれがある場合その他の緊急時には、そのおそれを取り除くため緊急的な防除を実施することとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "豊橋市",
+        "region": "中部地方",
+        "area": "豊橋市全域",
+        "period": "R6.10.9～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "扶桑町",
+        "region": "中部地方",
+        "area": "扶桑町全域",
+        "period": "R7.3.17～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "京都市",
+        "region": "近畿地方",
+        "area": "京都市全域（ただし、国及び京都府の管理地は除く。）",
+        "period": "R6.2.16～ R16.2.15",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "堺市",
+        "region": "近畿地方",
+        "area": "堺市全域",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "生態系被害の低減及び生息頭数の減少",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "能勢町",
+        "region": "近畿地方",
+        "area": "能勢町全域",
+        "period": "R7.6.25～ R17.3.31",
+        "objective": "防除を行う区域の農業および自然環境を保全するため、ヌートリアの完全排除を目標とし、当面は農作物や生活環境、生態系への被害の低減に努める。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "大阪府のイタセンパラ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "奈良県（県内38市町村）",
+        "region": "近畿地方",
+        "area": "奈良県全域",
+        "period": "R5.5.30～ R15.5.29",
+        "objective": "防除を行う区域から完全排除することを最終的な目標とするが、当面の目標として、新たな定着や生息分布域の拡大を防ぎ、防除対象によって引き起こされる各種被害の低減を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "丹波篠山市",
+        "region": "近畿地方",
+        "area": "兵庫県丹波篠山市全域",
+        "period": "R7.7.1～ R13.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "岡山県",
+        "region": "中国・四国地方",
+        "area": "岡山県立都市公園 後楽園の区域",
+        "period": "R7.2.1～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面の目標としては、新たな定着や生息分布域の拡大を防止し、被害の低減化を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "愛媛県 (県内全市町)",
+        "region": "中国・四国地方",
+        "area": "愛媛県全域",
+        "period": "R5.4.1～ R15.3.31",
+        "objective": "ヌートリア：未侵入段階ではあるものの、防除の必要性の認識や識別能力（誤認防止）の向上等のため、普及啓発を行い、認識強化を図るものとする。また、地域住民等から提供のあった生息・被害情報の集約に努めるものとし、それらの情報を共有するとともに、県境付近を中心とした監視等の徹底により侵入の防止を図るものとする。カニクイアライグマ・アライグマ：侵入初期段階として、生息数が少なく、分布が限定されているため、生息が疑われる地域の生息状況について調査及び確認作業を進めるとともに、速やかに捕獲体制を整備し、目撃・捕獲地点及びその周辺区域において防除を行うものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "岩美町",
+        "region": "中国・四国地方",
+        "area": "鳥取県岩美町全域",
+        "period": "R8.6.9～ R18.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
+    ]
   },
   {
     "id": "callosciurus-erythraeus",
@@ -552,6 +684,26 @@
         "nativeScientificName": "Sciurus lis",
         "point": "ニホンリスの腹部は夏毛・冬毛とも白色で、冬毛になると耳先に毛が生え先端が尖って見える。クリハラリスは全体的に黒っぽい個体が多い。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "神奈川県（県内33市町村）",
+        "region": "関東地方",
+        "area": "神奈川県全域",
+        "period": "R6.4.1～ R11.3.31",
+        "objective": "分布拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "大分県",
+        "region": "九州・沖縄地方",
+        "area": "大分県別府市を中心とする大分県全域",
+        "period": "R7.4.1～ R14.3.31",
+        "objective": "他地域に分布が拡大する前に防除を行い、封じ込みを図るとともに、最終的には地域根絶を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   },
@@ -841,7 +993,18 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "葛飾区",
+        "region": "関東地方",
+        "area": "水元小合溜及び水元公園",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "水元小合溜及び水元公園の在来の水生植物など生態系に被害を及ぼす特定外来生物を、防除を行う区域から完全排除することを目標とし、当面5 年間の目標としては、在来の水生植物など生態系への被害の低減を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      }
+    ]
   },
   {
     "id": "procyon-cancrivorus",
@@ -893,7 +1056,486 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R6.4.1～ R13.3.31",
+        "objective": "生態系等に係る被害の防止を図るため、道内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "興部町",
+        "region": "北海道地方",
+        "area": "興部町内全域",
+        "period": "R6.4.4～ R16.3.31",
+        "objective": "・生態系等にかかる被害の防止及び被害の低減化及び生息域の拡大の防止 ・興部町内への侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "美深町",
+        "region": "北海道地方",
+        "area": "美深町全域",
+        "period": "R6.4.16～ R13.3.31",
+        "objective": "生態系に係る被害の防止を図るため、美深町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "新十津川町",
+        "region": "北海道地方",
+        "area": "新十津川町内全域",
+        "period": "R6.6.27～ R13.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、新十津川町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "小樽市",
+        "region": "北海道地方",
+        "area": "小樽市全域",
+        "period": "R7.3.18～ R13.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、小樽市内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北見市",
+        "region": "北海道地方",
+        "area": "北見市内全域",
+        "period": "R7.4.23～ R17.3.31",
+        "objective": "生態系等に係る被害の防止を図るため、北見市内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "森町",
+        "region": "北海道地方",
+        "area": "森町内全域",
+        "period": "R7.12.3～ R15.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、森町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "七飯町",
+        "region": "北海道地方",
+        "area": "七飯町全域",
+        "period": "R8.2.19～ R16.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、七飯町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大を防止し、七飯町内の侵入・定着の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北広島市",
+        "region": "北海道地方",
+        "area": "北広島市内全域",
+        "period": "R8.7.7～ R18.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマ、カニクイアライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "アライグマ調査防除研究会",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R5.8.10～ R13.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "猿別環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町猿別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "駒畠を守る会",
+        "region": "北海道地方",
+        "area": "幕別町駒畠地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "古舞水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町古舞地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "糠内環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町糠内地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "新和水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町新和地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "相川水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町相川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "大豊緑愛会",
+        "region": "北海道地方",
+        "area": "幕別町大豊地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "中里美しい里の会",
+        "region": "北海道地方",
+        "area": "幕別町中里地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "途別水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町途別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "南勢水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町南勢地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "美川みどりの会",
+        "region": "北海道地方",
+        "area": "幕別町美川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明新緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明新地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明倫緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明倫地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "軍岡緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町軍岡地区",
+        "period": "R6.4.22～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人ファーミングサポート北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R6.5.24～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県内（全35市町村）",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "農作物や生活環境、生態系への被害軽減と分布拡大の防止を当面の目標とし、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "確認",
+        "organization": "藤崎町",
+        "region": "東北地方",
+        "area": "藤崎町全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "長期目標：区域からの完全排除 当面の目標：被害の低減化及び生息地域の拡大防止、定着阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "栃木県（県内25市町）",
+        "region": "関東地方",
+        "area": "栃木県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系、生活環境、農業への被害軽減及び生息分布域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "群馬県（県内33市町村）",
+        "region": "関東地方",
+        "area": "群馬県全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "当面は農作物や生活環境、生態系への被害軽減及び生息分布域の縮小に努める とともに、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "富士市",
+        "region": "関東地方",
+        "area": "富士市全域",
+        "period": "R7.12.1～ R11.3.31",
+        "objective": "防除を行う区域からの完全排除を長期的な目標とし、当面3年間の目標として在来種等への被害の低減化を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "茨城県（県内44市町村）",
+        "region": "関東地方",
+        "area": "茨城県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生息個体数の増加抑制及び分布域の拡大防止による被害の低減化を目標とし、最終的には本県における野外からの完全排除を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "千葉県（県内54市町村）",
+        "region": "関東地方",
+        "area": "千葉県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "計画期間内：捕獲圧の強化を図ることで生息数の増加を阻止、生息密度を低減させ、アライグマによる農作物・生活環境及び生態系被害を防止する。 最終目標：県内の野外からの完全排除。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都（都内50区市町）",
+        "region": "関東地方",
+        "area": "東京都全域（ただし島しょ部を除く）",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系、農業、生活環境等に関する被害の軽減を目標とし、最終的には野外からの根絶に努める。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "神奈川県（県内33市町村）",
+        "region": "関東地方",
+        "area": "神奈川県全域",
+        "period": "R6.4.1～ R11.3.31",
+        "objective": "生息分布域の縮小 個体数の減少",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "新潟県 （県内28市町村）",
+        "region": "関東地方",
+        "area": "新潟県全域",
+        "period": "R5.6.1～ R10.3.31",
+        "objective": "農作物や生活環境、生態系への被害軽減と分布拡大の防止を当面の目標とし、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "山梨県（県内27市町村）",
+        "region": "関東地方",
+        "area": "山梨県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "アライグマの野外からの完全排除を最終目標とするとともに、短期目標として個体数の増加や分布拡大をそしし、アライグマにより引き起こされる諸被害の低減を図り、また、長期目標として分布域の縮小、個体数の減少を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "伊勢市",
+        "region": "中部地方",
+        "area": "伊勢市全域",
+        "period": "R5.9.4～ R15.3.31",
+        "objective": "被害の低減及び生息頭数の減少",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "各務原市",
+        "region": "中部地方",
+        "area": "各務原市内全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、本防除期間の目標としては、防除を行う区域における被害の低減化を図ることとする。なお、希少な動植物に被害が生じるおそれがある場合その他の緊急時には、そのおそれを取り除くため緊急的な防除を実施することとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "豊橋市",
+        "region": "中部地方",
+        "area": "豊橋市全域",
+        "period": "R6.10.9～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "扶桑町",
+        "region": "中部地方",
+        "area": "扶桑町全域",
+        "period": "R7.3.17～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "珠洲市",
+        "region": "中部地方",
+        "area": "市全域",
+        "period": "R8.4.30～ R18.3.31",
+        "objective": "市内からの排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "京都府及び兵庫県のアベサンショウウオ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "精華町",
+        "region": "近畿地方",
+        "area": "精華町全域",
+        "period": "R6.10.7～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面は農産物や生活環境、生態系への被害の低減に努める。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "大阪府のイタセンパラ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "大阪府",
+        "region": "近畿地方",
+        "area": "大阪府内全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生息密度及び生態調査結果を参考に、より効率的な捕獲を推進することで捕獲頭数の増加を短期目標とする。 増加した捕獲頭数が複数年に渡り減少傾向となったとしても、短期目標同様に捕獲圧を弱めることなく、生息密度及び生態調査などの科学的、計画的防除の継続実施により、更なる捕獲頭数の減少を長期目標とする。 最終目標は、アライグマの野外からの完全排除とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "奈良県（県内38市町村）",
+        "region": "近畿地方",
+        "area": "奈良県全域",
+        "period": "R5.5.30～ R15.5.29",
+        "objective": "防除を行う区域から完全排除することを最終的な目標とするが、当面の目標として、新たな定着や生息分布域の拡大を防ぎ、防除対象によって引き起こされる各種被害の低減を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "丹波篠山市",
+        "region": "近畿地方",
+        "area": "兵庫県丹波篠山市全域",
+        "period": "R7.7.1～ R13.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "愛媛県 (県内全市町)",
+        "region": "中国・四国地方",
+        "area": "愛媛県全域",
+        "period": "R5.4.1～ R15.3.31",
+        "objective": "ヌートリア：未侵入段階ではあるものの、防除の必要性の認識や識別能力（誤認防止）の向上等のため、普及啓発を行い、認識強化を図るものとする。また、地域住民等から提供のあった生息・被害情報の集約に努めるものとし、それらの情報を共有するとともに、県境付近を中心とした監視等の徹底により侵入の防止を図るものとする。カニクイアライグマ・アライグマ：侵入初期段階として、生息数が少なく、分布が限定されているため、生息が疑われる地域の生息状況について調査及び確認作業を進めるとともに、速やかに捕獲体制を整備し、目撃・捕獲地点及びその周辺区域において防除を行うものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "岩美町",
+        "region": "中国・四国地方",
+        "area": "鳥取県岩美町全域",
+        "period": "R8.6.9～ R18.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "福岡県（県内4４市町村）",
+        "region": "九州・沖縄地方",
+        "area": "福岡県全域",
+        "period": "R6.3.25～ R11.3.31",
+        "objective": "本県におけるアライグマによる生態系、農作物及び生活環境に係る被害の軽減と分布域の拡大防止を目的とし、最終的には本県における野外からの完全排除を目標とする。ただし、防除従事者が不足している現状を踏まえ、本計画期間中は捕獲体制の確立と生息数の低下を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "熊本県",
+        "region": "九州・沖縄地方",
+        "area": "熊本県全域",
+        "period": "R6.5.1～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "久留米市",
+        "region": "九州・沖縄地方",
+        "area": "久留米市全域",
+        "period": "R6.5.1～ R16.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "procyon-lotor",
@@ -1004,6 +1646,485 @@
         "point": "四肢は短く褐色か黒色。耳は小さく先端が丸い。鼻が大きい。指は5本で湾曲した長い爪がある。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R6.4.1～ R13.3.31",
+        "objective": "生態系等に係る被害の防止を図るため、道内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "興部町",
+        "region": "北海道地方",
+        "area": "興部町内全域",
+        "period": "R6.4.4～ R16.3.31",
+        "objective": "・生態系等にかかる被害の防止及び被害の低減化及び生息域の拡大の防止 ・興部町内への侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "美深町",
+        "region": "北海道地方",
+        "area": "美深町全域",
+        "period": "R6.4.16～ R13.3.31",
+        "objective": "生態系に係る被害の防止を図るため、美深町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "新十津川町",
+        "region": "北海道地方",
+        "area": "新十津川町内全域",
+        "period": "R6.6.27～ R13.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、新十津川町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "小樽市",
+        "region": "北海道地方",
+        "area": "小樽市全域",
+        "period": "R7.3.18～ R13.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、小樽市内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北見市",
+        "region": "北海道地方",
+        "area": "北見市内全域",
+        "period": "R7.4.23～ R17.3.31",
+        "objective": "生態系等に係る被害の防止を図るため、北見市内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "森町",
+        "region": "北海道地方",
+        "area": "森町内全域",
+        "period": "R7.12.3～ R15.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、森町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "七飯町",
+        "region": "北海道地方",
+        "area": "七飯町全域",
+        "period": "R8.2.19～ R16.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、七飯町内のアライグマの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大を防止し、七飯町内の侵入・定着の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北広島市",
+        "region": "北海道地方",
+        "area": "北広島市内全域",
+        "period": "R8.7.7～ R18.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマ、カニクイアライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "アライグマ調査防除研究会",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R5.8.10～ R13.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "猿別環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町猿別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "駒畠を守る会",
+        "region": "北海道地方",
+        "area": "幕別町駒畠地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "古舞水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町古舞地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "糠内環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町糠内地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "新和水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町新和地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "相川水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町相川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "大豊緑愛会",
+        "region": "北海道地方",
+        "area": "幕別町大豊地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "中里美しい里の会",
+        "region": "北海道地方",
+        "area": "幕別町中里地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "途別水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町途別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "南勢水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町南勢地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "美川みどりの会",
+        "region": "北海道地方",
+        "area": "幕別町美川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明新緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明新地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明倫緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明倫地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "軍岡緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町軍岡地区",
+        "period": "R6.4.22～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人ファーミングサポート北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R6.5.24～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アライグマの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県内（全35市町村）",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "農作物や生活環境、生態系への被害軽減と分布拡大の防止を当面の目標とし、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "確認",
+        "organization": "藤崎町",
+        "region": "東北地方",
+        "area": "藤崎町全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "長期目標：区域からの完全排除 当面の目標：被害の低減化及び生息地域の拡大防止、定着阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "栃木県（県内25市町）",
+        "region": "関東地方",
+        "area": "栃木県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系、生活環境、農業への被害軽減及び生息分布域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "群馬県（県内33市町村）",
+        "region": "関東地方",
+        "area": "群馬県全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "当面は農作物や生活環境、生態系への被害軽減及び生息分布域の縮小に努める とともに、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "富士市",
+        "region": "関東地方",
+        "area": "富士市全域",
+        "period": "R7.12.1～ R11.3.31",
+        "objective": "防除を行う区域からの完全排除を長期的な目標とし、当面3年間の目標として在来種等への被害の低減化を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "茨城県（県内44市町村）",
+        "region": "関東地方",
+        "area": "茨城県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生息個体数の増加抑制及び分布域の拡大防止による被害の低減化を目標とし、最終的には本県における野外からの完全排除を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "千葉県（県内54市町村）",
+        "region": "関東地方",
+        "area": "千葉県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "計画期間内：捕獲圧の強化を図ることで生息数の増加を阻止、生息密度を低減させ、アライグマによる農作物・生活環境及び生態系被害を防止する。 最終目標：県内の野外からの完全排除。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都（都内50区市町）",
+        "region": "関東地方",
+        "area": "東京都全域（ただし島しょ部を除く）",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系、農業、生活環境等に関する被害の軽減を目標とし、最終的には野外からの根絶に努める。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "神奈川県（県内33市町村）",
+        "region": "関東地方",
+        "area": "神奈川県全域",
+        "period": "R6.4.1～ R11.3.31",
+        "objective": "生息分布域の縮小 個体数の減少",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "新潟県 （県内28市町村）",
+        "region": "関東地方",
+        "area": "新潟県全域",
+        "period": "R5.6.1～ R10.3.31",
+        "objective": "農作物や生活環境、生態系への被害軽減と分布拡大の防止を当面の目標とし、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "山梨県（県内27市町村）",
+        "region": "関東地方",
+        "area": "山梨県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "アライグマの野外からの完全排除を最終目標とするとともに、短期目標として個体数の増加や分布拡大をそしし、アライグマにより引き起こされる諸被害の低減を図り、また、長期目標として分布域の縮小、個体数の減少を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "伊勢市",
+        "region": "中部地方",
+        "area": "伊勢市全域",
+        "period": "R5.9.4～ R15.3.31",
+        "objective": "被害の低減及び生息頭数の減少",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "各務原市",
+        "region": "中部地方",
+        "area": "各務原市内全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、本防除期間の目標としては、防除を行う区域における被害の低減化を図ることとする。なお、希少な動植物に被害が生じるおそれがある場合その他の緊急時には、そのおそれを取り除くため緊急的な防除を実施することとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "豊橋市",
+        "region": "中部地方",
+        "area": "豊橋市全域",
+        "period": "R6.10.9～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "扶桑町",
+        "region": "中部地方",
+        "area": "扶桑町全域",
+        "period": "R7.3.17～ R15.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "珠洲市",
+        "region": "中部地方",
+        "area": "市全域",
+        "period": "R8.4.30～ R18.3.31",
+        "objective": "市内からの排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "京都府及び兵庫県のアベサンショウウオ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "精華町",
+        "region": "近畿地方",
+        "area": "精華町全域",
+        "period": "R6.10.7～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面は農産物や生活環境、生態系への被害の低減に努める。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "大阪府のイタセンパラ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "大阪府",
+        "region": "近畿地方",
+        "area": "大阪府内全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生息密度及び生態調査結果を参考に、より効率的な捕獲を推進することで捕獲頭数の増加を短期目標とする。 増加した捕獲頭数が複数年に渡り減少傾向となったとしても、短期目標同様に捕獲圧を弱めることなく、生息密度及び生態調査などの科学的、計画的防除の継続実施により、更なる捕獲頭数の減少を長期目標とする。 最終目標は、アライグマの野外からの完全排除とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "奈良県（県内38市町村）",
+        "region": "近畿地方",
+        "area": "奈良県全域",
+        "period": "R5.5.30～ R15.5.29",
+        "objective": "防除を行う区域から完全排除することを最終的な目標とするが、当面の目標として、新たな定着や生息分布域の拡大を防ぎ、防除対象によって引き起こされる各種被害の低減を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "丹波篠山市",
+        "region": "近畿地方",
+        "area": "兵庫県丹波篠山市全域",
+        "period": "R7.7.1～ R13.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "愛媛県 (県内全市町)",
+        "region": "中国・四国地方",
+        "area": "愛媛県全域",
+        "period": "R5.4.1～ R15.3.31",
+        "objective": "ヌートリア：未侵入段階ではあるものの、防除の必要性の認識や識別能力（誤認防止）の向上等のため、普及啓発を行い、認識強化を図るものとする。また、地域住民等から提供のあった生息・被害情報の集約に努めるものとし、それらの情報を共有するとともに、県境付近を中心とした監視等の徹底により侵入の防止を図るものとする。カニクイアライグマ・アライグマ：侵入初期段階として、生息数が少なく、分布が限定されているため、生息が疑われる地域の生息状況について調査及び確認作業を進めるとともに、速やかに捕獲体制を整備し、目撃・捕獲地点及びその周辺区域において防除を行うものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "岩美町",
+        "region": "中国・四国地方",
+        "area": "鳥取県岩美町全域",
+        "period": "R8.6.9～ R18.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "福岡県（県内4４市町村）",
+        "region": "九州・沖縄地方",
+        "area": "福岡県全域",
+        "period": "R6.3.25～ R11.3.31",
+        "objective": "本県におけるアライグマによる生態系、農作物及び生活環境に係る被害の軽減と分布域の拡大防止を目的とし、最終的には本県における野外からの完全排除を目標とする。ただし、防除従事者が不足している現状を踏まえ、本計画期間中は捕獲体制の確立と生息数の低下を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "熊本県",
+        "region": "九州・沖縄地方",
+        "area": "熊本県全域",
+        "period": "R6.5.1～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "久留米市",
+        "region": "九州・沖縄地方",
+        "area": "久留米市全域",
+        "period": "R6.5.1～ R16.3.31",
+        "objective": "防除を行う区域からの完全排除を目標とし、当面は新たな個体の侵入・定着の阻止及び当該地域における個体数の低減を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -1066,6 +2187,233 @@
         "nativeName": "ニホンイタチ",
         "point": "頭胴長は雄27～37cm、雌16～25cmでアメリカミンクよりも小型。鼻から顎、首にかけて白い斑がある。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "北海道地方",
+        "area": "釧路湿原国立公園およびその周辺",
+        "period": "R8.5.1～ R9.3.31",
+        "objective": "生態系被害の防止、国立公園内での生息域拡大防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "興部町",
+        "region": "北海道地方",
+        "area": "興部町内全域",
+        "period": "R6.4.4～ R16.3.31",
+        "objective": "・生態系等にかかる被害の防止及び被害の低減化及び生息域の拡大の防止 ・興部町内への侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "美深町",
+        "region": "北海道地方",
+        "area": "美深町全域",
+        "period": "R6.4.16～ R13.3.31",
+        "objective": "生態系に係る被害の防止を図るため、美深町内のアメリカミンクの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "小樽市",
+        "region": "北海道地方",
+        "area": "小樽市全域",
+        "period": "R7.3.18～ R13.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、小樽市内のアメリカミンクの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北見市",
+        "region": "北海道地方",
+        "area": "北見市内全域",
+        "period": "R7.4.10～ R17.3.31",
+        "objective": "生態系等に係る被害の防止を図るため、北見市内のアメリカミンクの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "森町",
+        "region": "北海道地方",
+        "area": "森町内全域",
+        "period": "R7.12.3～ R15.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、森町内のアメリカミンクの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に被害の低減化及び生息域の拡大の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "七飯町",
+        "region": "北海道地方",
+        "area": "七飯町全域",
+        "period": "R8.2.19～ R16.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、七飯町内のアメリカミンクの生息状況、被害状況等を把握し、その状況に応じて野外からの完全排除を長期的な目標に、被害の低減化及び生息域の拡大を防止し、七飯町内の侵入・定着の阻止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "北広島市",
+        "region": "北海道地方",
+        "area": "北広島市内全域",
+        "period": "R8.7.7～ R18.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "アライグマ調査防除研究会",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R5.8.10～ R13.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "猿別環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町猿別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "駒畠を守る会",
+        "region": "北海道地方",
+        "area": "幕別町駒畠地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "軍岡緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町軍岡地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "古舞水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町古舞地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "糠内環境保全会",
+        "region": "北海道地方",
+        "area": "幕別町糠内地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "新和水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町新和地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "相川水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町相川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "大豊緑愛会",
+        "region": "北海道地方",
+        "area": "幕別町大豊地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "中里美しい里の会",
+        "region": "北海道地方",
+        "area": "幕別町中里地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "途別水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町途別地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "南勢水と緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町南勢地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "美川みどりの会",
+        "region": "北海道地方",
+        "area": "幕別町美川地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明新緑と水を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明新地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "明倫緑を守る会",
+        "region": "北海道地方",
+        "area": "幕別町明倫地区",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人ファーミングサポート北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R6.5.24～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。アメリカミンクの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "被害の防止及び生息域の拡大防止、並びに侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
       }
     ]
   },
@@ -1132,6 +2480,35 @@
         "nativeName": "ニホンイタチ",
         "point": "耳介は目より上に位置する。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省 （沖縄県）",
+        "region": "九州・沖縄地方",
+        "area": "沖縄島北部地域（国頭村、大宜味村、東村の全域及び名護市の一部）",
+        "period": "R5.4.1～ R9.3.31",
+        "objective": "●固有の生物相を有し、多くの希少種の生息地である沖縄島北部地域の生態系を回復させ、安定した状態で保全していくために、全域排除地域（第一北上防止柵以北）からマングースを将来にわたって排除する。 ●第一北上防止柵以南から第三北上防止柵以北（第一・第二バッファーゾーン）においてマングースの低密度化を進め、全域排除地域へのマングースの侵入を防ぐ。北上防止柵付近では再侵入の監視を行い、再侵入が確認された場合は速やかに防除を行う体制を構築・維持する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "名護市",
+        "region": "九州・沖縄地方",
+        "area": "名護市屋我地島一円",
+        "period": "R5.4.10～ R9.3.31",
+        "objective": "名護市をはじめとする沖縄島北部地域における生態系にかかる被害の防止のため、防除を行う区域における捕殺を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "在沖米軍北部訓練場（沖縄県国頭郡国頭村、東村）",
+        "period": "R7.2.6～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   },
@@ -1431,6 +2808,53 @@
         "nativeScientificName": "Cervus nippon",
         "point": "キョンの雄成獣は肩までの高さ50～60cm、体重12～14kg程度で、ニホンジカの雌成獣（肩までの高さ60～110cm、体重20～80kg）よりかなり小さい。額の黒い模様や、オスの短い角と発達した上顎犬歯からも見分けられる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/1hp_honyurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "茨城県",
+        "region": "関東地方",
+        "area": "茨城県全域",
+        "period": "R8.6.15～ R18.3.31",
+        "objective": "早期発見による定着防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "群馬県",
+        "region": "関東地方",
+        "area": "群馬県全域",
+        "period": "R6.7.1～ R15.6.30",
+        "objective": "（公示時点では県内未確認種）早期発見による定着防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "埼玉県",
+        "region": "関東地方",
+        "area": "埼玉県全域",
+        "period": "R7.1.6～ R16.3.31",
+        "objective": "早期発見による定着防止（公示時点では県内未確認種）",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "千葉県（県内54市町村）",
+        "region": "関東地方",
+        "area": "千葉県全域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "計画期間内：北部地域への分布拡大を防止することが最重要目標。 また、生息数の減少や農作物被害・生活環境被害を防止する。 最終目標：県内の野外からの完全排除。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "伊豆大島全域（東京都大島町）",
+        "period": "R8.4.1～ R12.3.31",
+        "objective": "伊豆大島における生態系の保全と農作物等の被害防止を目的として、当面は伊豆大島のキョン生息個体数の大幅な低減化を図り、最終的には根絶することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
       }
     ]
   },
@@ -1844,6 +3268,17 @@
         "point": "翼の黄色斑とM字形の尾がソウシチョウと似るが、嘴は淡い肉色で太く短い。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/2hp_chorui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "吉野熊野国立公園大台ケ原地域のうち、環境省所管の国有地及びその周辺区域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "吉野熊野国立公園大台ケ原地域における生態系被害の防止のため、ソウシチョウの分布拡大の防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
     ]
   },
   {
@@ -1922,7 +3357,63 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "千葉県",
+        "region": "関東地方",
+        "area": "千葉県全域（特に印旛沼水系）",
+        "period": "R7.4.1～ R12.3.31",
+        "objective": "本県における防除の最終的な目標は、カミツキガメの県全域からの排除とする。 ・生態系に係る被害の防止 ・人の生命及び身体に係る被害の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "野田市",
+        "region": "関東地方",
+        "area": "千葉県野田市江川地区",
+        "period": "R5.7.28～ R11.3.31",
+        "objective": "身体にかかる被害の防止のため、区域からの排除を目的とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人ワニガメ生態研究所",
+        "region": "関東地方",
+        "area": "埼玉県春日部市及びさいたま市岩槻区を流れる新方川とその接続水路",
+        "period": "R6.11.11～ R15.8.24",
+        "objective": "防除を行う区域から完全防除することを長期的な目標とし、当面の目標としては、生息状況を把握し、生息域の拡大を抑える。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "葛飾区",
+        "region": "関東地方",
+        "area": "水元小合溜及び水元公園",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "水元小合溜及び水元公園の在来の水生植物など生態系に被害を及ぼす特定外来生物を、防除を行う区域から完全排除することを目標とし、当面5 年間の目標としては、在来の水生植物など生態系への被害の低減を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "岐阜県",
+        "region": "中部地方",
+        "area": "岐阜県全域（特に長良川、伊自良川、板屋川流域）",
+        "period": "R7.9.1～ R17.3.31",
+        "objective": "生態系被害の防止のため、区域からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
+    ]
   },
   {
     "id": "trachemys-scripta",
@@ -2022,6 +3513,26 @@
         "point": "黒化したアカミミガメの雄はニホンイシガメ等に間違われることがあるが、アカミミガメの雄成体は前足の爪が細長く伸びる点で見分けられる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "旭川市",
+        "region": "北海道地方",
+        "area": "旭川市全域",
+        "period": "R6.5.24～ R16.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。 アカミミガメの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "沖縄県那覇市",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県那覇市天久地内(天久ちゅらまち公園)の区域",
+        "period": "R7.2.17～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -2081,6 +3592,26 @@
         "point": "クサガメは頸に黄色い模様があるが、ハナガメより太くて不規則。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
     ]
   },
   {
@@ -2120,6 +3651,26 @@
         "point": "ニホンイシガメは頸のしま模様がハナガメより太く、線の数が少ない。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
     ]
   },
   {
@@ -2152,7 +3703,27 @@
       "issues": "情報整理中",
       "overseasRange": "なし。"
     },
-    "photoCredits": {}
+    "photoCredits": {},
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
+    ]
   },
   {
     "id": "mauremys-sinensis-m-reevesii",
@@ -2204,6 +3775,26 @@
         "nativeName": "クサガメ",
         "point": "交雑個体はクサガメに似て黒っぽいが不明瞭な斑紋があり、頸のしま模様が粗い。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
       }
     ]
   },
@@ -2290,6 +3881,17 @@
         "nativeName": "オキナワキノボリトカゲ・サキシマキノボリトカゲ",
         "point": "在来種は体が緑色がかることが多く、喉に白斑がなく口の中は淡黄色。本種は喉に白斑があり、体に緑色味がなく、口の中（口蓋）が黒い。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "日向市",
+        "region": "九州・沖縄地方",
+        "area": "宮崎県日向市全域",
+        "period": "R7.10.1～ R17.3.31",
+        "objective": "スウィンホーキノボリトカゲの区域外への拡散防止と将来の根絶に向けた更なる研究調査を行うとともに、継続的な防除体制の構築により根絶を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   },
@@ -2466,7 +4068,36 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "関東地方",
+        "area": "小笠原国立公園",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止 長期：小笠原諸島からの完全排除 短期：局所的な低密度化",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "沖縄県",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県内全域（侵入が確認された場合）",
+        "period": "R6.7.6～ R16.3.31",
+        "objective": "沖縄島中南部域からの拡散防止 （生息地域での低密度化や普及啓発等を実施し、やんばる地域を含む他地域への拡散リスクを低減させる取組を行う。添付防除計画を参照。）",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "anolis-equestris",
@@ -2623,7 +4254,18 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "boiga-cyanea",
@@ -2895,6 +4537,35 @@
         "point": "サキシマスジオは全体的に茶色味が濃く、斑紋は淡くて黒くならずぼやける。舌は赤く縁取られる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省（沖縄県、県内6市町村）",
+        "region": "九州・沖縄地方",
+        "area": "本部半島を含む沖縄島北部地域を主とする沖縄島内",
+        "period": "R6.3.21～ R15.3.31",
+        "objective": "多くの希少種の生息地である沖縄島北部地域の生態系を安定した状態で保全していくため、また人の生命・身体に係る被害の防止のために、既侵入域においては拡散防止及び低密度化を目指すとともに、未侵入・未定着域においては早期発見・初期防除体制を確立し、定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "OYO Corporation, Pacific",
+        "region": "九州・沖縄地方",
+        "area": "在日米海軍キャンプ・シールズ施設内",
+        "period": "R7.12.25～ R9.7.27",
+        "objective": "基地内のタイワンハブ、タイワンスジオの増殖によって引き起こされる当該地の生態系への被害を低減させるための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -2961,6 +4632,35 @@
         "point": "サキシマハブはより太短い体型で色彩の変異が大きい。腹側の幅広い鱗が182～192枚、胴体中央部の鱗列も23～25列と、タイワンハブよりやや少ない。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/3hp_hachurui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省（沖縄県、県内6市町村）",
+        "region": "九州・沖縄地方",
+        "area": "本部半島を含む沖縄島北部地域を主とする沖縄島内",
+        "period": "R6.3.21～ R15.3.31",
+        "objective": "多くの希少種の生息地である沖縄島北部地域の生態系を安定した状態で保全していくため、また人の生命・身体に係る被害の防止のために、既侵入域においては拡散防止及び低密度化を目指すとともに、未侵入・未定着域においては早期発見・初期防除体制を確立し、定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "OYO Corporation, Pacific",
+        "region": "九州・沖縄地方",
+        "area": "在日米海軍キャンプ・シールズ施設内",
+        "period": "R7.12.25～ R9.7.27",
+        "objective": "基地内のタイワンハブ、タイワンスジオの増殖によって引き起こされる当該地の生態系への被害を低減させるための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -3000,7 +4700,27 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20cognatus1.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "bufo-guttatus",
@@ -3042,7 +4762,27 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20guttatus.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "bufo-marinus",
@@ -3102,6 +4842,62 @@
         "point": "在来のニホンヒキガエルやミヤコヒキガエルにやや似ているが、耳腺（目の後ろの毒を出す器官）が極端に大型で菱形をしている点で区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/4hp_ryoseirui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "関東地方",
+        "area": "小笠原国立公園",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、母島南崎における繁殖防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "沖縄県",
+        "region": "九州・沖縄地方",
+        "area": "石垣島、南大東島、北大東島、沖縄島",
+        "period": "R5.11.6～ R15.3.31",
+        "objective": "生息地域からの拡散防止（オオヒキガエルの生息地域である石垣島及び南北大東島から沖縄島への侵入の防止）",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "石垣市",
+        "region": "九州・沖縄地方",
+        "area": "新川川北側",
+        "period": "R8.6.26～ R8.8.31",
+        "objective": "特定外来生物オオヒキガエルの生物学的な特性、生態系の影響及び法的な規制等について、本イベントを通して、地元住民に日常生活の身近な問題として理解を深めてもらい、オオヒキガエル防除事業への理解と協力を得る事。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -3158,6 +4954,26 @@
         "point": "日本産のヒキガエルには、眼の周囲から吻端に至る黒い縁取りがない。ヘリグロヒキガエルは眼の周囲から吻端、上唇にかけて黒い隆条で縁取られ、背面のイボの先端も黒く着色する。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/4hp_ryoseirui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -3199,7 +5015,27 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo.punctatus.web.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "bufo-quercicus",
@@ -3239,7 +5075,27 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%20quercicus%20USGS.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "bufo-regularis",
@@ -3327,7 +5183,27 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo%20speciosus.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "bufo-typhonius",
@@ -3367,7 +5243,27 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "osteopilus-septentrionalis",
@@ -3408,7 +5304,27 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osteopilus%20septentrionalis%206.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "eleutherodactylus-coqui",
@@ -3450,7 +5366,27 @@
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20coqui%20230762425.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "eleutherodactylus-johnstonei",
@@ -3489,7 +5425,27 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20johnstonei.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "eleutherodactylus-planirostris",
@@ -3528,7 +5484,27 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleutherodactylus%20planirostris01.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "kaloula-pulchra",
@@ -3587,6 +5563,26 @@
         "point": "在来種のヒメアマガエルはやや似ているが、はるかに小型で頭部が小さく、指先に吸盤がない（本種は指先に吸盤がある）。奄美以南の森林や水田で普通に見られる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/4hp_ryoseirui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -3641,7 +5637,54 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "七飯町",
+        "region": "北海道地方",
+        "area": "七飯町全域",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "生態系等にかかる被害の防止を図るため、七飯町内のウシガエルの生息状況、被害状況等を把握し、その状況に応じ、被害の低減化及び生息域の拡大を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人淡水生態研究所",
+        "region": "近畿地方",
+        "area": "京都府、大阪府、兵庫県、滋賀県、奈良県、和歌山県の全域",
+        "period": "R5.7.31～ R10.3.31",
+        "objective": "防除の対象となる特定外来生物による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "polypedates-leucomystax",
@@ -3695,7 +5738,63 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "徳之島町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡徳之島町",
+        "period": "R5.10.10～ R10.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "鹿児島県伊仙町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡伊仙町（全域）",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人徳之島虹の会",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡徳之島町を中心をした徳之島全域",
+        "period": "R5.6.1～ R10.3.31",
+        "objective": "他地域への拡散防止、在来生態系への影響の軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、シロアゴガエル等外来カエル類の周辺地域からの侵入防止、監視体制構築",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県石垣市、八重山郡竹富町、与那国町",
+        "period": "R5.9.1～ R13.3.31",
+        "objective": "生態系被害の防止のため、次に掲げる島嶼毎の目標をもってオオヒキガエル及びシロアゴガエルの防除対策を推進することとし、ウシガエル等その他外来カエル類についても監視を行っていくことを目標とする。 （１）石垣島 石垣港周辺では完全排除もしくは定期的な監視による極低密度状態の維持を目標とする。 （２）西表島及び与那国島 オオヒキガエル及びシロアゴガエルの非定着状況を維持していく必要があるため、適切な監視体制を確立し予防的な防除を図るとともに、侵入が確認された場合は初期段階での徹底した防除を行う。（３）その他離島（竹富島、小浜島、黒島、新城島、鳩間島及び波照間島） 水場が豊富な小浜島・波照間島では、外来カエル類が識別できる人材の育成を含め、監視体制を強化していく。その他の離島に関しては繁殖できる水域が限定的であることから、個体が発見された場合にその情報を一元的に集約し、迅速で適切な対応がとれる連絡体制を確立する等により、予防的な防除を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "andrias",
@@ -3726,6 +5825,152 @@
         "nativeScientificName": "Andrias japonicus",
         "point": "交雑個体は褐色の地色に黒い斑紋と下地より淡色の斑紋を持つ（在来オオサンショウウオは褐色・黄色の地色に黒色の斑紋のみ）。頭部背面のイボは交雑個体・チュウゴクオオサンショウウオで小さく対になるものが多いが、在来種は大きく対にならない（Hara et al. 2023, Zootaxa 5369:42-56）。ただし交雑が進むにつれ外見での判別は難しくなり、確実な判別には遺伝子検査が必要。在来種は特別天然記念物・国際希少野生動植物種のため取り扱いに注意。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/4hp_ryoseirui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "全国／複数地方",
+        "area": "木津川上流河川事務所管内",
+        "period": "R6.12.1～ R16.3.31",
+        "objective": "生態系への影響軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "確認",
+        "organization": "名張市",
+        "region": "中部地方",
+        "area": "名張市全域",
+        "period": "R6.10.10～ R16.6.30",
+        "objective": "日本固有種（特別天然記念物）であるオオサンショウウオとの間に交雑が生じることにより、オオサンショウウオとの保全に影響を及ぼしていることから主に夜間に河川を踏査して生息状況を調査し、又は特定外来生物（交雑種）の捕獲を行う。 このことにより、防除区域内における特定外来生物の全数の減少及び繁殖による増加の抑制を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "中部地方",
+        "area": "木曽川上流河川事務所管内",
+        "period": "R6.10.21～ R16.3.31",
+        "objective": "生態系への影響軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "中部地方",
+        "area": "岐阜県（飛騨地域、東濃地域を除く）",
+        "period": "R7.11.1～ R17.3.31",
+        "objective": "生態系への影響軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "岐阜県（下呂市）",
+        "region": "中部地方",
+        "area": "岐阜県全域",
+        "period": "R6.7.1～ R15.3.31",
+        "objective": "特定外来生物の排除及び在来種の保護",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "瀬戸市",
+        "region": "中部地方",
+        "area": "瀬戸市全域",
+        "period": "R7.2.3～ R13.3.31",
+        "objective": "防除を行う区域における生態系被害の低減化",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "緊急保護や調査捕獲等により確保されたオオサンショウウオ類の個体は、遺伝的特徴を分析した結果、外来・交雑オオサンショウウオであった場合には駆除することにより、特別天然記念物である在来オオサンショウウオに対する交雑や競合等の生態的被害の低減を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "奈良県（宇陀市）",
+        "region": "近畿地方",
+        "area": "宇陀市、曽爾村、御杖村",
+        "period": "R6.9.1～ R16.8.31",
+        "objective": "在来種との交雑種は、強い攻撃性と在来種に対する優位性から、交雑種が急激に在来種に置き換わるといった生態系への被害が生じているため、交雑種を捕獲排除することにより在来種への被害を低減することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "京都市",
+        "region": "近畿地方",
+        "area": "京都市全域",
+        "period": "R8.5.14～ R18.5.14",
+        "objective": "オオサンショウウオが生息している地域にチュウゴクオオサンショウウオ等 が侵入することによって生じる生態系への被害の低減を目的に、低密度管理を 図ることを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人兵庫県自然保護協会",
+        "region": "近畿地方",
+        "area": "兵庫県、大阪府、京都府全域",
+        "period": "R7.1.8～ R16.3.31",
+        "objective": "オオサンショウウオ属交雑種等が侵入する事によって生じる生態系への被害の軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "京都大学 学長 湊 長博",
+        "region": "近畿地方",
+        "area": "京都市全域",
+        "period": "R7.8.8～ R17.6.24",
+        "objective": "生態系被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "中国・四国地方",
+        "area": "広島県庄原市高梁川水系",
+        "period": "R7.10.1～ R8.9.30",
+        "objective": "交雑種を捕獲排除することにより在来種への被害を低減することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "高知県",
+        "region": "中国・四国地方",
+        "area": "越知町（これまで在来のオオサンショウウオの生息が確認された仁淀川及びこれらの支流等）",
+        "period": "R7.11.1～ R9.3.31",
+        "objective": "オオサンショウウオの生息環境保全のため、特定外来生物チュウゴクオオサンショウウオ等の生息状況を調査し、DNA調査の結果、発見された場合は駆除する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "広島市",
+        "region": "中国・四国地方",
+        "area": "八幡川水系のうち広島市を流れる部分",
+        "period": "R7.5.21～ R17.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "岩国市",
+        "region": "中国・四国地方",
+        "area": "岩国市全域",
+        "period": "R8.5.1～ R18.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人 広島市みどり生き物協会 安佐動物公園",
+        "region": "中国・四国地方",
+        "area": "広島県全域の河川（特に八幡川水系）",
+        "period": "R7.1.28～ R16.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
       }
     ]
   },
@@ -3973,7 +6218,18 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県内の琵琶湖および内湖、河川その他の水域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系および水産業に係る被害の防止のため、オオクチバスバス等の生息量ゼロを目指し、令和12年度末時点の琵琶湖におけるオオクチバス等の生息量を「230トン」とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
+    ]
   },
   {
     "id": "pylodictis-olivaris",
@@ -4175,6 +6431,17 @@
         "point": "メダカを正面や上から見ると背中に1本の黒い線が見える点で識別できる。体色や鰭の位置にも注目すると比較的容易に識別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/5hp_gyorui.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "沖縄県那覇市",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県那覇市天久地内(天久ちゅらまち公園)の区域",
+        "period": "R7.2.17～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -4320,7 +6587,45 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "岐阜県",
+        "region": "中部地方",
+        "area": "岐阜県全域",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "オオクチバス、コクチバス、ブルーギルの生息が確認された水域において、当該地域の生態系への被害低減のための低密度管理。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "京都府のアユモドキ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県内の琵琶湖および内湖、河川その他の水域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系および水産業に係る被害の防止のため、オオクチバスバス等の生息量ゼロを目指し、令和12年度末時点の琵琶湖におけるオオクチバス等の生息量を「230トン」とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス",
+        "region": "九州・沖縄地方",
+        "area": "在沖米軍北部訓練場（沖縄県国頭郡国頭村、東村）",
+        "period": "R6.12.3～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "micropterus-dolomieu",
@@ -4371,7 +6676,36 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "全国／複数地方",
+        "area": "木津川上流河川事務所管内",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "生態系への影響軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "公示",
+        "organization": "岐阜県",
+        "region": "中部地方",
+        "area": "岐阜県全域",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "オオクチバス、コクチバス、ブルーギルの生息が確認された水域において、当該地域の生態系への被害低減のための低密度管理。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県内の琵琶湖および内湖、河川その他の水域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系および水産業に係る被害の防止のため、オオクチバスバス等の生息量ゼロを目指し、令和12年度末時点の琵琶湖におけるオオクチバス等の生息量を「230トン」とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
+    ]
   },
   {
     "id": "micropterus-salmoides",
@@ -4470,7 +6804,54 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "全国／複数地方",
+        "area": "木津川上流河川事務所管内",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "生態系への影響軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "公示",
+        "organization": "岐阜県",
+        "region": "中部地方",
+        "area": "岐阜県全域",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "オオクチバス、コクチバス、ブルーギルの生息が確認された水域において、当該地域の生態系への被害低減のための低密度管理。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "京都府のアユモドキ生息地及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "希少種の生息や繁殖への被害の低減化及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県内の琵琶湖および内湖、河川その他の水域",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "生態系および水産業に係る被害の防止のため、オオクチバスバス等の生息量ゼロを目指し、令和12年度末時点の琵琶湖におけるオオクチバス等の生息量を「230トン」とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス",
+        "region": "九州・沖縄地方",
+        "area": "在沖米軍北部訓練場（沖縄県国頭郡国頭村、東村）",
+        "period": "R6.12.3～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "neogobius-melanostomus",
@@ -4970,6 +7351,26 @@
         "point": "ゴマダラチョウは後翅に赤色斑がないことで区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人 生態工房",
+        "region": "関東地方",
+        "area": "都立光が丘公園、都立石神井公園",
+        "period": "R5.10.2～ R15.3.31",
+        "objective": "当面 5 年間で個体群成長の抑制と被害の低減化を図る。次の 5 年間で根絶と定着経路の排除を行う。将来的には対象区域での根絶または完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      }
     ]
   },
   {
@@ -5028,6 +7429,80 @@
         "point": "前胸の白斑の有無、小盾板の白色部の有無、上翅つけ根の顆粒状突起の有無で在来種と区別できる（在来種は前胸に白斑がない等）。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "林野庁",
+        "region": "全国／複数地方",
+        "area": "林野庁所管の国有地及び公有林野等官行造林地",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "被害の早期発見に努めるとともに、発生した被害木を速やかに処理することにより、ツヤハダゴマダラカミキリの定着や生息域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "（公示時点では県内未確認種）早期発見に努め、定着を防ぐ。被害樹木による倒木等の危険性の排除、生態系被害の防止並びに生息域拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "栃木県（県内25市町）",
+        "region": "関東地方",
+        "area": "栃木県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系、生活環境への被害軽減及び生息分布域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "中央区",
+        "region": "関東地方",
+        "area": "中央区全域",
+        "period": "R6.3.11～ R13.3.31",
+        "objective": "増殖・拡散防止、及び被害樹木の倒木や落枝による危険性の排除、将来的には対象区域での根絶又は完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "笠間市",
+        "region": "関東地方",
+        "area": "笠間市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "樹木への食害及び一部枯れる被害による倒木の危険性の排除、生態系被害の防止並びに生息域拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "土浦市",
+        "region": "関東地方",
+        "area": "土浦市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "生態系被害の防止と生息域拡大防止を図るとともに、樹木への食害、落ち枝や倒木による被害を未然に防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "兵庫県（神戸市、西宮市）",
+        "region": "近畿地方",
+        "area": "兵庫県全域",
+        "period": "R7.3.1～ R17.2.28",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "神戸市",
+        "region": "近畿地方",
+        "area": "兵庫県神戸市東灘区向洋町（六甲アイランド内）",
+        "period": "R6.6.1～ R16.5.31",
+        "objective": "生態系に係る被害を防止するため、ツヤハダゴマダラカミキリの根絶を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
     ]
   },
   {
@@ -5076,6 +7551,35 @@
         "nativeName": "クワカミキリ等の在来近縁種",
         "point": "サビイロクワカミキリは背面に霜降り状の白く細かい斑紋があるが、在来のクワカミキリにはこの斑紋がない。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "林野庁",
+        "region": "全国／複数地方",
+        "area": "林野庁所管の国有地及び公有林野等官行造林地",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "（公示時点では国有林内未確認種）被害の早期発見に努めるとともに、発生した被害木を速やかに処理することにより、サビイロクワカミキリ定着や生息域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "（公示時点では県内未確認種）早期発見に努め、定着を防ぐ。被害樹木による倒木等の危険性の排除、生態系被害の防止並びに生息域拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "確認",
+        "organization": "中央区",
+        "region": "関東地方",
+        "area": "中央区全域",
+        "period": "R6.3.12～ R13.3.31",
+        "objective": "増殖・拡散防止、及び被害樹木の倒木や落枝による危険性の排除、将来的には対象区域での根絶又は完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
       }
     ]
   },
@@ -5152,6 +7656,125 @@
         "nativeName": "ジャコウカミキリ",
         "point": "前胸部が赤色で体型も似るが、ジャコウカミキリは全体的な体色が黒みを帯びず青～緑青色をしている点で識別できる（北海道のみに分布）。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "林野庁",
+        "region": "全国／複数地方",
+        "area": "林野庁所管の国有地及び公有林野等官行造林地",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "（公示時点では国有林内未確認種）被害の早期発見に努めるとともに、発生した被害木を速やかに処理することにより、クビアカツヤカミキリの定着や生息域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R6.4.15～ R16.3.31",
+        "objective": "（公示時点では県内未確認種）早期発見に努め、定着を防ぐ。被害樹木による倒木等の危険性の排除、生態系被害の防止並びに生息域拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "栃木県（県内25市町）",
+        "region": "関東地方",
+        "area": "栃木県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系、生活環境、農業への被害軽減及び生息分布域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "群馬県（県内35市町村）",
+        "region": "関東地方",
+        "area": "群馬県全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "当面は生態系、生活環境、農業への被害軽減及び生息分布域の縮小に努めると ともに、最終的には県内からの完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "埼玉県（県内全63市町村）",
+        "region": "関東地方",
+        "area": "埼玉県全域",
+        "period": "R8.7.7～ R14.3.31",
+        "objective": "新規被害木の発生の抑制",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "中央区",
+        "region": "関東地方",
+        "area": "中央区全域",
+        "period": "R6.3.12～ R13.3.31",
+        "objective": "増殖・拡散防止、及び被害樹木の倒木や落枝による危険性の排除、将来的には対象区域での根絶又は完全排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "名古屋市",
+        "region": "中部地方",
+        "area": "名古屋市全域",
+        "period": "R7.12.25～ R10.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "瀬戸内海国立公園加太集団施設地区（和歌山県和歌山市深山、和歌山市大井、和歌山市加太）のうち、環境省所管の国有地",
+        "period": "R7.12.15～ R16.3.31",
+        "objective": "生態系被害の防止および瀬戸内海国立公園加太集団施設地区の風致景観を維持するため、クビアカツヤカミキリの拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "「地域で守るべき樹木(群)」を選出しクビアカツヤカミキリの被害を防止することにより、多くの動植物の移動経路や生息・生育場所としての機能を備えた樹木群の消失を防ぐとともに、クビアカツヤカミキリの発生・拡散を効果的に防ぐ維持・管理体制を確立する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "京都府",
+        "region": "近畿地方",
+        "area": "京都府全域",
+        "period": "R8.5.20～ R18.3.31",
+        "objective": "被害の早期発見に努めるとともに、発生した被害木を速やかに処理することにより、クビアカツヤカミキリの定着や生息域の拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "兵庫県（神戸市、明石市、西宮市、芦屋市、三田市、宝塚市、川西市、丹波篠山市、丹波市）",
+        "region": "近畿地方",
+        "area": "兵庫県全域",
+        "period": "R7.3.1～ R17.2.28",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "奈良県",
+        "region": "近畿地方",
+        "area": "奈良県全域",
+        "period": "R8.5.1～ R18.3.31",
+        "objective": "低密度化によりクビアカツヤカミキリによる生活環境・文化財、農業及び生態系への被害軽減と生息分布の拡大を阻止すること。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "徳島県",
+        "region": "中国・四国地方",
+        "area": "徳島県全域（主に鳴門市・板野町・上板町・阿波市 ・藍住町）",
+        "period": "R7.12.1～ R17.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
       }
     ]
   },
@@ -5598,6 +8221,17 @@
         "point": "働きバチの腹部末端が白くなる点が似るが、ノサップマルハナバチは第6節のみが白く、セイヨウオオマルハナバチは第5・6節が白い点で区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "北海道地方",
+        "area": "大雪山国立公園及びその周辺",
+        "period": "R6.7.3～ R16.3.31",
+        "objective": "生態系被害の防止、国立公園内での生息域拡大防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      }
     ]
   },
   {
@@ -5721,7 +8355,72 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "品川区",
+        "region": "関東地方",
+        "area": "品川区八潮周辺",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "地域への再侵入を監視し、生息が確認された場合には早期防除を行い、生態系や生活環境に係る被害の未然防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "横浜市",
+        "region": "関東地方",
+        "area": "横浜市全域",
+        "period": "R8.4.27～ R18.3.31",
+        "objective": "再侵入を早期に発見し、市内から根絶する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "可児市",
+        "region": "中部地方",
+        "area": "可児市内全域",
+        "period": "R8.4.14～ R13.3.31",
+        "objective": "生態系などへの被害の防止を図るため、アルゼンチンアリによる被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "滋賀県",
+        "region": "近畿地方",
+        "area": "滋賀県全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "アルゼンチンアリの低密度化や局所根絶を進めることで、アルゼンチンアリによる生態系被害を低減させるとともに、建物への大規模侵入等の生活環境被害や商業被害を緩和させる。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "確認",
+        "organization": "岸和田市",
+        "region": "近畿地方",
+        "area": "岸和田市全域",
+        "period": "R8.6.2～ R14.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "岡山県（岡山市）",
+        "region": "中国・四国地方",
+        "area": "岡山市の全域",
+        "period": "R8.4.1～ R11.3.31",
+        "objective": "防除を行う区域から完全排除することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "高知県（高知市、南国市）",
+        "region": "中国・四国地方",
+        "area": "高知県高知市及び南国市全域",
+        "period": "R8.6.8～ R10.3.31",
+        "objective": "生態系等に係る被害を防止するため、アルゼンチンアリによる影響の低減、分布拡大の防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
+    ]
   },
   {
     "id": "solenopsis-geminata",
@@ -5791,7 +8490,18 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "全国／複数地方",
+        "area": "全国",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系に係る被害及び人の生命・身体に係る被害の防止、完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      }
+    ]
   },
   {
     "id": "solenopsis-2",
@@ -5844,6 +8554,17 @@
         "point": "体長5～7mmの小型のクモ。脚は8本だが前脚を触角に似せているため、見慣れないアリと誤認されやすい（クモの一種でアリではない）。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/attention/02_general/index.html"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "全国／複数地方",
+        "area": "全国",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系に係る被害及び人の生命・身体に係る被害の防止、完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      }
     ]
   },
   {
@@ -5867,7 +8588,18 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "全国／複数地方",
+        "area": "全国",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系に係る被害及び人の生命・身体に係る被害の防止、完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      }
+    ]
   },
   {
     "id": "solenopsis-4",
@@ -5890,7 +8622,18 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire%20ants%2001.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "全国／複数地方",
+        "area": "全国",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系に係る被害及び人の生命・身体に係る被害の防止、完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      }
+    ]
   },
   {
     "id": "solenopsis-5",
@@ -5955,7 +8698,18 @@
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wasmannia%20auropunctata%20casent0173249%20profile%201.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "全国／複数地方",
+        "area": "全国",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系に係る被害及び人の生命・身体に係る被害の防止、完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#zenkoku"
+      }
+    ]
   },
   {
     "id": "vespa-v-velutina",
@@ -6023,6 +8777,17 @@
         "nativeName": "クロスズメバチ類・アシナガバチ類（フタモンアシナガバチ等）",
         "point": "ツマアカスズメバチに比べ体サイズが小さく（2cm以下）、体型も細い。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/6hp_konchurui2.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "九州全域",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系、農業等への被害を防ぐため、長崎県対馬島内においては分布域の縮小及び低密度化を図り、長期的には根絶を目指す。未侵入地域においては侵入の早期発見、侵入初期の防除を実施し、定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   },
@@ -6120,6 +8885,98 @@
         "nativeScientificName": "Cambaroides japonicus",
         "point": "ニホンザリガニは額角が短く幅広で、額角の後ろに棘がない。ウチダザリガニは額角が細長く幅が狭く、額角の後ろに棘がある。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/7hp_kokakurui.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "北海道地方",
+        "area": "釧路湿原国立公園、阿寒摩周国立公園、大雪山国立公園、支笏洞爺国立公園及びその周辺",
+        "period": "R6.7.3～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園内での生息域拡大防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "札幌市",
+        "region": "北海道地方",
+        "area": "札幌市全域",
+        "period": "R7.7.4～ R17.3.31",
+        "objective": "野外における個体数を減少させ、影響の低減化を長期的な目標とし、ウチダザリガニの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "釧路市",
+        "region": "北海道地方",
+        "area": "春採湖（北海道釧路市春採、春湖台、千歳および柏木町地内。別添1で示す区域。）",
+        "period": "R8.4.1～ R13.3.31",
+        "objective": "別添実施計画のとおり",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "北海道剣淵高等学校",
+        "region": "北海道地方",
+        "area": "桜岡湖全域",
+        "period": "R5.7.21～ R15.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。ウチダザリガニの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "中札内の自然を愛する会",
+        "region": "北海道地方",
+        "area": "中札内村西札内、西札内防災ダム及びダム下流ヌプカクシュナイ川（札内川との合流地点まで）",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "ウチダザリガニの駆除、影響の低減化、及び札内川への生息域拡大のを阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "北海道大学苫小牧研究林",
+        "region": "北海道地方",
+        "area": "苫小牧研究林敷地内の幌内川流域",
+        "period": "R7.7.4～ R17.3.31",
+        "objective": "苫小牧研究林敷地内の幌内川流域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "防除を行う区域において根絶させること。生息域の拡大防止。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "ウチダザリガニ、アメリカザリガニの野外からの完全排除を長期的な目標とし、ウチダザリガニ、アメリカザリガニの生息域の拡大阻止、侵入阻止、定着化阻止及びウチダザリガニ、アメリカザリガニによる陸水生態系被害を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "ポー川史跡自然公園外来生物対策会",
+        "region": "北海道地方",
+        "area": "（１）伊茶仁川及びその支流 （２）ポー川及びその支流 （３）標津川水系及び支流武佐川とその支流 （４）茶志骨川水系及びその支流 （５）忠類川水系及びその支流 （６）古多糖川水系及びその支流 （７）薫別川水系及びその支流 （８）崎無異川水系及びその支流 （９）元崎無異川及びその支流 （10）鬼尾内川及びその支流 （11）植別川水系及びその支流",
+        "period": "R8.6.19～ R13.3.31",
+        "objective": "標津町域にある全ての河川及び古川（旧河道）におけるウチダザリガニ及びアメリカザリガニの分布捕獲調査及び被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "東北地方",
+        "area": "磐梯朝日国立公園及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園内に点在する湖沼の風致景観を保護するため、湖沼や流入する沢等での防除を行い、景観を維持する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
       }
     ]
   },
@@ -6222,7 +9079,108 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "北海道剣淵高等学校",
+        "region": "北海道地方",
+        "area": "桜岡湖全域",
+        "period": "R5.7.21～ R15.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。 アメリカザリガニの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "防除を行う区域において根絶させること。生息域の拡大防止。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "ウチダザリガニ、アメリカザリガニの野外からの完全排除を長期的な目標とし、ウチダザリガニ、アメリカザリガニの生息域の拡大阻止、侵入阻止、定着化阻止及びウチダザリガニ、アメリカザリガニによる陸水生態系被害を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "ポー川史跡自然公園外来生物対策会",
+        "region": "北海道地方",
+        "area": "（１）伊茶仁川及びその支流 （２）ポー川及びその支流 （３）標津川水系及び支流武佐川とその支流 （４）茶志骨川水系及びその支流 （５）忠類川水系及びその支流 （６）古多糖川水系及びその支流 （７）薫別川水系及びその支流 （８）崎無異川水系及びその支流 （９）元崎無異川及びその支流 （10）鬼尾内川及びその支流 （11）植別川水系及びその支流",
+        "period": "R8.6.19～ R13.3.31",
+        "objective": "標津町域にある全ての河川及び古川（旧河道）におけるウチダザリガニ及びアメリカザリガニの分布捕獲調査及び被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人シナイモツゴ郷の会",
+        "region": "東北地方",
+        "area": "宮城県大崎市内の防除実施区域",
+        "period": "R8.6.11～ R11.3.31",
+        "objective": "アメリカザリガニの低密度管理及び分布調査",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美群島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のための侵入状況の確認及び発見時の防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "長崎県",
+        "region": "九州・沖縄地方",
+        "area": "夫婦ため池周辺地域のため池群（長崎県五島市）",
+        "period": "R7.10.1～ R11.3.31",
+        "objective": "生態系への被害防止に向けた侵入状況の確認及び発見時の防除による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "天城町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡天城町（全域）",
+        "period": "R6.6.10～ R16.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人徳之島虹の会",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡天城町西阿木名周辺",
+        "period": "R5.6.1～ R10.3.31",
+        "objective": "他地域への拡散防止、在来生態系への影響の軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "沖縄県那覇市",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県那覇市天久地内(天久ちゅらまち公園)の区域",
+        "period": "R7.2.17～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "species-128",
@@ -6258,7 +9216,108 @@
     "isConditional": false,
     "photos": [],
     "prefectures": [],
-    "photoCredits": {}
+    "photoCredits": {},
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "北海道剣淵高等学校",
+        "region": "北海道地方",
+        "area": "桜岡湖全域",
+        "period": "R5.7.21～ R15.3.31",
+        "objective": "野外からの完全排除、影響の低減化を長期的な目標とする。 アメリカザリガニの生息域の拡大、侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "北海道",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "防除を行う区域において根絶させること。生息域の拡大防止。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社外来種防除円卓会議",
+        "region": "北海道地方",
+        "area": "北海道全域",
+        "period": "R7.6.5～ R17.3.31",
+        "objective": "ウチダザリガニ、アメリカザリガニの野外からの完全排除を長期的な目標とし、ウチダザリガニ、アメリカザリガニの生息域の拡大阻止、侵入阻止、定着化阻止及びウチダザリガニ、アメリカザリガニによる陸水生態系被害を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "ポー川史跡自然公園外来生物対策会",
+        "region": "北海道地方",
+        "area": "（１）伊茶仁川及びその支流 （２）ポー川及びその支流 （３）標津川水系及び支流武佐川とその支流 （４）茶志骨川水系及びその支流 （５）忠類川水系及びその支流 （６）古多糖川水系及びその支流 （７）薫別川水系及びその支流 （８）崎無異川水系及びその支流 （９）元崎無異川及びその支流 （10）鬼尾内川及びその支流 （11）植別川水系及びその支流",
+        "period": "R8.6.19～ R13.3.31",
+        "objective": "標津町域にある全ての河川及び古川（旧河道）におけるウチダザリガニ及びアメリカザリガニの分布捕獲調査及び被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人シナイモツゴ郷の会",
+        "region": "東北地方",
+        "area": "宮城県大崎市内の防除実施区域",
+        "period": "R8.6.11～ R11.3.31",
+        "objective": "アメリカザリガニの低密度管理及び分布調査",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美群島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のための侵入状況の確認及び発見時の防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "長崎県",
+        "region": "九州・沖縄地方",
+        "area": "夫婦ため池周辺地域のため池群（長崎県五島市）",
+        "period": "R7.10.1～ R11.3.31",
+        "objective": "生態系への被害防止に向けた侵入状況の確認及び発見時の防除による被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "天城町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡天城町（全域）",
+        "period": "R6.6.10～ R16.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "特定非営利活動法人徳之島虹の会",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡天城町西阿木名周辺",
+        "period": "R5.6.1～ R10.3.31",
+        "objective": "他地域への拡散防止、在来生態系への影響の軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "沖縄県那覇市",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県那覇市天久地内(天久ちゅらまち公園)の区域",
+        "period": "R7.2.17～ R12.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "species-130",
@@ -6580,6 +9639,17 @@
         "point": "背面の斑紋が似た在来のヒメグモ科種がいるが、これらは腹面に斑紋がないことで区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/8hp_kumosasori.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -6673,6 +9743,17 @@
         "nativeName": "ムナグロヒメグモ・アシブトヒメグモ",
         "point": "背面の斑紋が似た在来のヒメグモ科種がいるが、これらは腹面に斑紋がないことで区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/8hp_kumosasori.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   },
@@ -6834,7 +9915,18 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "岡山市",
+        "region": "中国・四国地方",
+        "area": "岡山市東区管内",
+        "period": "R7.7.8～ R16.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
+    ]
   },
   {
     "id": "limnoperna",
@@ -7057,7 +10149,27 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "関東地方",
+        "area": "小笠原国立公園",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、未侵入地域（母島や属島）への拡散防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "環境サイエンス株式会社",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県国頭郡国頭村、東村（在沖米軍北部練習場）",
+        "period": "R6.4.17～ R12.12.31",
+        "objective": "本業務の目的は、北部訓練場調査区域における重要種、天然記念物種、外来種とその生息地の調査、監視、管理である。その際、外来種が捕獲された場合には、希少な在来種とその生息地に対する影響を軽減するため適法に処分する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "alternanthera-philoxeroides",
@@ -7152,6 +10264,179 @@
         "point": "花は黄色で5枚の花弁を持ち、葉に鋸歯はなく多肉質の長楕円形。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "千葉県",
+        "region": "関東地方",
+        "area": "千葉県全域の千葉県管理河川",
+        "period": "R5.5.19～ R15.3.31",
+        "objective": "防除を行う区域から完全排除することを長期目標とし、10年間の目標として、防除を行う区域における被害の低減化を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "荒川（東京都が含まれる範囲）",
+        "period": "R6.10.1～ R9.3.31",
+        "objective": "区市町村等の河川管理者や市民団体による継続的な本種の防除を実施容易にするため、本種の大規模群落の防除を実施し、低密度化を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "NPO行徳自然ほごくらぶ",
+        "region": "関東地方",
+        "area": "行徳鳥獣保護区",
+        "period": "R8.1.1～ R17.12.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面３年または５年間の目標として、防草シートによる防除方法の有効性を検討する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "船橋市",
+        "region": "関東地方",
+        "area": "船橋市全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "本申請においては在来種への生態系に係る被害の防止及び特定外来生物の生息域の拡大の防止を図ることとし、長期目標としては防除を行う区域から完全排除することとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "浜松市",
+        "region": "関東地方",
+        "area": "浜松市全域",
+        "period": "R8.6.17～ R13.3.31",
+        "objective": "生態系や農業、生活環境に係る被害の防止と市内からの完全排除を目指す",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "NPO法人水元ネイチャープロジェクト",
+        "region": "関東地方",
+        "area": "葛飾区内全域（都立水元公園を含む）",
+        "period": "R6.9.5～ R16.3.31",
+        "objective": "根絶及び早期発見による定着防止を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県（東浦町、半田市、大府市）",
+        "region": "中部地方",
+        "area": "愛知県全域",
+        "period": "R7.10.7～ R17.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "岡山県（備中県民局）",
+        "region": "中国・四国地方",
+        "area": "岡山県備中県民局が管理する一級河川小田川（倉敷市真備町妹３４２９付近）",
+        "period": "R7.10.1～ R11.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面の目標としては、防除を行う区域における生息域の拡大の阻止及び縮小を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "岡山県",
+        "region": "中国・四国地方",
+        "area": "矢掛町内の河川、用水路、ため池及び農地",
+        "period": "R7.10.26～ R11.3.31",
+        "objective": "防除を行う区域から完全排除することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "愛媛県",
+        "region": "中国・四国地方",
+        "area": "愛媛県全域",
+        "period": "R7.5.1～ R17.3.31",
+        "objective": "（１）未侵入段階「普及啓発と侵入の監視」（２）侵入初期段階「早期発見と迅速な完全排除」（３）定着・拡大段階：「総合的な防除」",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "認定",
+        "organization": "（公財）ホシザキグリーン財団",
+        "region": "中国・四国地方",
+        "area": "島根県が管理する一級河川、二級河川及び沿川 島根県内の市町村が管理する準用河川、普通河川及び沿川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "国指定名蔵アンパル鳥獣保護区特別保護地区及び西表石垣国立公園周辺",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、低密度管理及び区域別の根絶",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美大島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、奄美大島におけるナガエツルノゲイトウ等が生育している箇所において、地域住民や関係機関との連携しながら島から根絶させることを目指して防除を行い、再侵入に備えて地域に根ざした防除及び防除活動を通じた啓発に取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "沖縄県国頭村",
+        "region": "九州・沖縄地方",
+        "area": "国頭村全域",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "国頭村内に生息するツルヒヨドリ及びナガエツルノゲイトウについて、初期防除を徹底し、国頭村内からの根絶を目標に取り組む。なお、ツルヒヨドリの葉の部分については、商品の原材料として使用し、アップサイクルに取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "みやき町",
+        "region": "九州・沖縄地方",
+        "area": "みやき町全域",
+        "period": "R7.9.1～ R17.7.31",
+        "objective": "生態系に係る被害及び水路の維持管理施設等に係る被害の防止を図るためナガエツルノゲイトウ、オオフサモの生育状況及び被害状況を把握し区域からの完全排除及び影響の低減を図るとともに他の区域への侵入を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "龍郷町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県龍郷町全域",
+        "period": "R8.6.1～ R17.3.31",
+        "objective": "対象地域に生育するオオフサモ、ボタンウキクサ、ナガエツルノゲイトウ、オオキンケイギクの防除を行い、区域からの完全排除及び他地域への拡散防止、農業被害の低減、在来生態系への影響を軽減する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -7215,6 +10500,17 @@
         "point": "在来のチドメグサ属（6種、いずれも陸生）は花柄が葉柄より長く花序が葉より上に出ず、葉柄も太くない。ブラジルチドメグサは花柄が葉柄より短く花序が葉より上に出ず、葉柄が太い多肉質。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "宮崎県",
+        "region": "九州・沖縄地方",
+        "area": "岩瀬ダム貯水池及びその周辺河川（宮崎県都城市、小林市）",
+        "period": "R6.11.20～ R11.9.30",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -7268,7 +10564,81 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "沖縄県",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県総合運動公園敷地内 (沖縄県沖縄市比屋根)",
+        "period": "R7.8.1～ R17.7.31",
+        "objective": "区域からの完全防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美大島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、奄美大島におけるナガエツルノゲイトウ等が生育している箇所において、地域住民や関係機関との連携しながら島から根絶させることを目指して防除を行い、再侵入に備えて地域に根ざした防除及び防除活動を通じた啓発に取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省、竹富町",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県八重山郡竹富町西表島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、高那地区・白浜地区・大富地区でのツルヒヨドリ、祖納地区用水路等でのボタンウキクサの根絶",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "宮崎県",
+        "region": "九州・沖縄地方",
+        "area": "岩瀬ダム貯水池及びその周辺河川（宮崎県都城市、小林市）",
+        "period": "R6.11.20～ R11.9.30",
+        "objective": "被害低減のための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "鹿児島県大島郡瀬戸内町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡瀬戸内町全域",
+        "period": "R5.11.15～ R15.3.31",
+        "objective": "対象地域内の対象種の駆除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "龍郷町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県龍郷町全域",
+        "period": "R8.6.1～ R17.3.31",
+        "objective": "対象地域に生育するオオフサモ、ボタンウキクサ、ナガエツルノゲイトウ、オオキンケイギクの防除を行い、区域からの完全排除及び他地域への拡散防止、農業被害の低減、在来生態系への影響を軽減する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "azolla-cristata",
@@ -7341,6 +10711,17 @@
         "nativeName": "オオアカウキクサ・アカウキクサ・サンショウモ",
         "point": "在来のオオアカウキクサとは、葉表面のいぼ状突起が2～3個の細胞からなることと根に根毛があることで判別可能だが、肉眼での識別は困難とされる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "福井県",
+        "region": "中部地方",
+        "area": "若狭町三方地区",
+        "period": "R6.7.1～ R16.3.31",
+        "objective": "生息域の拡大を防止し、防除を行う区域から完全排除することを目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
       }
     ]
   },
@@ -7441,7 +10822,198 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "西興部村",
+        "region": "北海道地方",
+        "area": "西興部村内全域",
+        "period": "R8.7.3～ R18.3.31",
+        "objective": "・生態系等にかかる被害の防止及び完全排除又は影響の低減化 ・西興部村内での生育域の拡大及び侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "東北地方",
+        "area": "三陸復興国立公園及びその周辺、磐梯朝日国立公園及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園の風致景観を維持するため、国立公園内での拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県（山形市、尾花沢市、鶴岡市）",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R5.6.21～ R15.6.20",
+        "objective": "拡大防止のための防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "確認",
+        "organization": "土浦市",
+        "region": "関東地方",
+        "area": "土浦市全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防除を図るため，オオキンケイギクによる被害の状況に応じて影響の軽減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "船橋市",
+        "region": "関東地方",
+        "area": "船橋市全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "本申請においては在来種への生態系に係る被害の防止及び特定外来生物の生息域の拡大の防止を図ることとし、長期目標としては防除を行う区域から完全排除することとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "国土交通省",
+        "region": "中部地方",
+        "area": "三重河川国道事務所が管理する河川全域",
+        "period": "R8.6.15～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理道路",
+        "period": "R8.6.22～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "金沢市",
+        "region": "中部地方",
+        "area": "金沢市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "多様な生態系を有している本市においても、外来種の移入等により生物の多様性が失われつつある。特定外来生物の駆除を行って生物多様性の確保を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "可児市",
+        "region": "中部地方",
+        "area": "可児市内全域",
+        "period": "R8.4.14～ R13.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面５年間の目標としては、防除を行う区域における被害の低減化を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "宝塚市",
+        "region": "近畿地方",
+        "area": "逆瀬川全域",
+        "period": "R6.7.25～ R9.7.30",
+        "objective": "生態系への被害の防止を図るため、被害の状況に応じて区域からの完全排除を行う。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "公示",
+        "organization": "鳥取県知事 平井 伸治",
+        "region": "中国・四国地方",
+        "area": "山陰海岸国立公園のうち鳥取県鳥取市に位置する区域 大山隠岐国立公園のうち鳥取県西伯郡大山町並びに伯耆町に位置する区域及び同国立公園区域に隣接する西伯郡大山町赤松に位置する区域",
+        "period": "R6.5.1～ R16.4.30",
+        "objective": "区域内における分布範囲の縮小及び生態系への影響の低減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "世羅町",
+        "region": "中国・四国地方",
+        "area": "世羅町が管理する県道及び町道",
+        "period": "R6.9.4～ R16.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面の目標として、区域内において防除を進めるとともに、生息域の拡大の阻止及び縮小を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "東広島市",
+        "region": "中国・四国地方",
+        "area": "広島県東広島市が管理する道路及び河川全域",
+        "period": "R7.4.1～ R17.3.31",
+        "objective": "生態系に係る被害の防止を図るため、東広島市が管理する道路及び河川全域におけるオオキンケイギクの完全排除と影響の低減を長期目標とし、当面の目標として、生態系に係る被害の防止を図るため、東広島市内におけるオオキンケイギクの発生状況及び生態を把握するとともに、同種の新たな侵入を防止し、発生域を現時点よりも縮小させる。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "鹿児島県大島郡瀬戸内町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡瀬戸内町全域",
+        "period": "R5.11.15～ R15.3.31",
+        "objective": "対象地域内の対象種の駆除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "大和村",
+        "region": "九州・沖縄地方",
+        "area": "大島郡大和村全域",
+        "period": "R6.5.21～ R16.3.31",
+        "objective": "対象地域内の対象種の駆除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "徳之島町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡徳之島町（全域）",
+        "period": "R7.7.1～ R17.3.31",
+        "objective": "他地域への拡散防止、農業被害の低減、在来生態系への影響の軽減",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美大島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、奄美大島におけるナガエツルノゲイトウ等が生育している箇所において、地域住民や関係機関との連携しながら島から根絶させることを目指して防除を行い、再侵入に備えて地域に根ざした防除及び防除活動を通じた啓発に取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "龍郷町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県龍郷町全域",
+        "period": "R8.6.1～ R17.3.31",
+        "objective": "対象地域に生育するオオフサモ、ボタンウキクサ、ナガエツルノゲイトウ、オオキンケイギクの防除を行い、区域からの完全排除及び他地域への拡散防止、農業被害の低減、在来生態系への影響を軽減する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "gymnocoronis-spilanthoides",
@@ -7501,7 +11073,45 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
+    ]
   },
   {
     "id": "mikania-micrantha",
@@ -7553,7 +11163,108 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省（沖縄県、県内６市町村）",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県北部地域（国頭村、大宜味村、東村、名護市、今帰仁村、本部町の全域）",
+        "period": "R6.3.21～ R15.3.31",
+        "objective": "世界自然遺産地域を含む沖縄島北部の生態系保全等のため、生育規模及び生育状態に応じた適切な防除手法により、年次計画に基づき沖縄島北部及びその周辺地域からの根絶を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "沖縄県",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県北部土木事務所が管理する二級河川（計40河川）の河川区域内",
+        "period": "R7.12.5～ R13.3.31",
+        "objective": "適切な防除作業による分布範囲の拡大防止（河川緊急浚渫の一環として実施する河川区域内の除草作業及び雑木撤去作業に際し、ツルヒヨドリの適切な防除作業を行い、分布範囲を拡大させない。）",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "うるま市",
+        "region": "九州・沖縄地方",
+        "area": "うるま市勝連南風原地内「あまわりパーク」及び「ユビタ池」周辺の市有地 （別添区域図及び防除実施計画書参照）",
+        "period": "R6.12.1～ R11.11.30",
+        "objective": "外来生物法に基づいたツルヒヨドリの防除作業を実施し、区域から完全排除するとともに、拡散防止を目的とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "金武町",
+        "region": "九州・沖縄地方",
+        "area": "億首川とその周辺地域",
+        "period": "R8.1.28～ R9.2.27",
+        "objective": "現在、金武町に位置する二級河川の億首川及びその周辺地域ではマングローブ保全再生と活用のために必要な調査及び整備を進めているところである。令和４年度に実施した「令和４年度億首川マングローブ基礎調査業務」において特定外来生物ツルヒヨドリの生育が確認されたことから、当該地域における本種の段階的な防除に向けた対策を講じ、当該地域からの対象種の低密度管理を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社 NIPPO",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県中頭郡伊平在沖米国陸軍施設桑江タンクファーム１",
+        "period": "R7.4.21～ R9.10.31",
+        "objective": "既設のコンクリート側溝の修復作業の妨げになるため、工事区間内から完全排除を実施する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "OYO Corporation, Pacific",
+        "region": "九州・沖縄地方",
+        "area": "在日米海軍泡瀬通信施設内",
+        "period": "R7.8.26～ R9.6.17",
+        "objective": "当該地域の生態系への被害を低減させるための低密度管理",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社NIPPO",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県沖縄市泡瀬 在沖米国海軍泡瀬通信施設",
+        "period": "R7.10.10～ R9.9.30",
+        "objective": "既設道路拡幅工事の妨げになるため、工事区間内から完全排除を実施する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "認定",
+        "organization": "株式会社ウェブクルーリアルエステイト",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県恩納村山田・仲泊地内の工事区域",
+        "period": "R8.7.13～ R11.4.30",
+        "objective": "事業区域内の改変箇所に生育するツルヒヨドリの排除を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美大島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、奄美大島におけるナガエツルノゲイトウ等が生育している箇所において、地域住民や関係機関との連携しながら島から根絶させることを目指して防除を行い、再侵入に備えて地域に根ざした防除及び防除活動を通じた啓発に取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省、竹富町",
+        "region": "九州・沖縄地方",
+        "area": "沖縄県八重山郡竹富町西表島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、高那地区・白浜地区・大富地区でのツルヒヨドリ、祖納地区用水路等でのボタンウキクサの根絶",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "沖縄県国頭村",
+        "region": "九州・沖縄地方",
+        "area": "国頭村全域",
+        "period": "R6.9.19～ R16.3.31",
+        "objective": "国頭村内に生息するツルヒヨドリ及びナガエツルノゲイトウについて、初期防除を徹底し、国頭村内からの根絶を目標に取り組む。なお、ツルヒヨドリの葉の部分については、商品の原材料として使用し、アップサイクルに取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "rudbeckia-laciniata",
@@ -7652,7 +11363,117 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "北海道地方",
+        "area": "利尻礼文サロベツ国立公園、阿寒摩周国立公園、釧路湿原国立公園、大雪山国立公園、支笏洞爺国立公園及びその周辺",
+        "period": "R6.7.3～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園内での生育域拡大防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "環境コンサルタント株式会社",
+        "region": "北海道地方",
+        "area": "釧路総合振興局管内及び根室振興局管内",
+        "period": "R5.8.18～ R15.7.30",
+        "objective": "当該地域において、オオハンゴンソウが同地域に生息する在来生物への被害を及ぼすおそれがあるため、影響の低減化を長期的な目標に分布拡大及び侵入・定着を阻止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "認定",
+        "organization": "一般社団法人釧路市公園緑化協会",
+        "region": "北海道地方",
+        "area": "北海道釧路市阿寒町下仁々志別11周辺 山花公園幹線園路沿い",
+        "period": "R8.6.1～ R13.3.31",
+        "objective": "・区域内におけるオオハンゴンソウの根絶及び拡大防止 ・釧路市民へのオオハンゴンソウの普及啓発活動",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "確認",
+        "organization": "西興部村",
+        "region": "北海道地方",
+        "area": "西興部村内全域",
+        "period": "R8.7.3～ R18.3.31",
+        "objective": "・生態系等にかかる被害の防止及び完全排除又は影響の低減化 ・西興部村内での生育域の拡大及び侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省（大船渡市、雫石町）",
+        "region": "東北地方",
+        "area": "十和田八幡平国立公園及びその周辺、三陸復興国立公園及びその周辺、磐梯朝日国立公園及びその周辺",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園の風致景観を維持するため、国立公園内での拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "認定",
+        "organization": "東北自然エネルギー株式会社 雫石事業所",
+        "region": "東北地方",
+        "area": "八幡平市松尾寄木雫石町長山及び西根地区",
+        "period": "R7.4.1～ R9.3.31",
+        "objective": "野外へおける生態系への影響の低減化を長期的な目標に、生息域の拡大や侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県（山形市、尾花沢市、鶴岡市）",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R5.6.21～ R15.6.20",
+        "objective": "拡大防止のための防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "認定",
+        "organization": "谷川岳エコツーリズム推進協議会",
+        "region": "関東地方",
+        "area": "群馬県利根郡みなかみ町 上信越高原国立公園内谷川岳東面及び湯檜曾川中流・下流域付近",
+        "period": "R7.7.1～ R8.11.30",
+        "objective": "防除実施地域内での封じ込め",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "金沢市",
+        "region": "中部地方",
+        "area": "金沢市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "多様な生態系を有している本市においても、外来種の移入等により生物の多様性が失われつつある。特定外来生物の駆除を行って生物多様性の確保を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
+    ]
   },
   {
     "id": "senecio-madagascariensis",
@@ -7725,6 +11546,62 @@
         "nativeName": "サワギク・サワオグルマ・ハンゴンソウ・エゾオグルマ・コウリンカ等（約10種）",
         "point": "生育環境や花・葉の形状で区別できる（例：ハンゴンソウは山地の湿った草原に生育し、葉が羽状に深く裂ける）。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R6.7.26～ R15.6.20",
+        "objective": "拡大防止のための防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "認定",
+        "organization": "中部国際空港テクニカルコネクト株式会社",
+        "region": "中部地方",
+        "area": "中部国際空港 エアサイド緑地部",
+        "period": "R6.7.26～ R16.3.31",
+        "objective": "対象区域への定着の防止及び完全な排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "近畿地方",
+        "area": "瀬戸内海国立公園由良集団施設地区（兵庫県洲本市由良）",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "在来種の保護及び生息域の拡大の防止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
       }
     ]
   },
@@ -7837,6 +11714,98 @@
         "point": "果実に刺がなく、莢に入っている。河原などでアレチウリと混生していることがある。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "東北地方",
+        "area": "三陸復興国立公園",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系被害の防止、国立公園の風致景観を維持するため、国立公園内での拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "山形県",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R6.7.26～ R15.6.20",
+        "objective": "拡大防止のための防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "千葉県東葛飾土木事務所",
+        "region": "関東地方",
+        "area": "東葛飾土木事務所管内｛新坂川（横須賀橋～亀井下橋）、国分川（黎明橋～国分川分水路）、今上落（河口～新川第二排水機場）、富士川（全流域）｝",
+        "period": "R8.7.13～ R18.3.31",
+        "objective": "アレチウリの個体数の減少及び分布範囲の縮小を図ることにより、他の在来植物の生育環境を回復し、生態系に係る被害を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "確認",
+        "organization": "富士河口湖町",
+        "region": "関東地方",
+        "area": "山梨県南都留郡富士河口湖町全域",
+        "period": "R7.5.1～ R17.3.31",
+        "objective": "湖畔のヨシ群落の減少、消失、農作物被害、他地域へのアレチウリ分布拡大の助長が予想される為、アレチウリの根絶を目標とする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "金沢市",
+        "region": "中部地方",
+        "area": "金沢市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "多様な生態系を有している本市においても、外来種の移入等により生物の多様性が失われつつある。特定外来生物の駆除を行って生物多様性の確保を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "可児市",
+        "region": "中部地方",
+        "area": "可児市内全域",
+        "period": "R8.4.14～ R13.3.31",
+        "objective": "防除を行う区域から完全排除することを長期的な目標とし、当面５年間の目標としては、防除を行う区域における被害の低減化を図ることとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      }
     ]
   },
   {
@@ -7884,7 +11853,18 @@
         "credit": "環境省提供",
         "sourceUrl": "https://www.env.go.jp/nature/intro/4document/asimg.html"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      }
+    ]
   },
   {
     "id": "myriophyllum-aquaticum",
@@ -7984,6 +11964,98 @@
         "point": "日本には在来のフサモ属4種（タチモ・ホザキノフサモ・フサモ・オグラノフサモ）が生育する。似たキクモは羽状葉が4～10（時に12）輪生し、気中葉の羽片が幅広く水中葉の羽片はさらに分かれる点で区別できる。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
       }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "西興部村",
+        "region": "北海道地方",
+        "area": "西興部村内全域",
+        "period": "R8.7.3～ R18.3.31",
+        "objective": "・生態系等にかかる被害の防止及び完全排除又は影響の低減化 ・西興部村内での生育域の拡大及び侵入・定着の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#hokkaido"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "金沢市",
+        "region": "中部地方",
+        "area": "金沢市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "多様な生態系を有している本市においても、外来種の移入等により生物の多様性が失われつつある。特定外来生物の駆除を行って生物多様性の確保を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県奄美大島",
+        "period": "R5.9.1～ R10.3.31",
+        "objective": "生態系被害の防止のため、奄美大島におけるナガエツルノゲイトウ等が生育している箇所において、地域住民や関係機関との連携しながら島から根絶させることを目指して防除を行い、再侵入に備えて地域に根ざした防除及び防除活動を通じた啓発に取り組む。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "鹿児島県大島郡瀬戸内町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡瀬戸内町全域",
+        "period": "R5.11.15～ R15.3.31",
+        "objective": "対象地域内の対象種の駆除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "みやき町",
+        "region": "九州・沖縄地方",
+        "area": "みやき町全域",
+        "period": "R7.9.1～ R17.7.31",
+        "objective": "生態系に係る被害及び水路の維持管理施設等に係る被害の防止を図るためナガエツルノゲイトウ、オオフサモの生育状況及び被害状況を把握し区域からの完全排除及び影響の低減を図るとともに他の区域への侵入を防止する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      },
+      {
+        "type": "確認",
+        "organization": "龍郷町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県龍郷町全域",
+        "period": "R8.6.1～ R17.3.31",
+        "objective": "対象地域に生育するオオフサモ、ボタンウキクサ、ナガエツルノゲイトウ、オオキンケイギクの防除を行い、区域からの完全排除及び他地域への拡散防止、農業被害の低減、在来生態系への影響を軽減する。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
     ]
   },
   {
@@ -8029,7 +12101,18 @@
         "license": "Public domain",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utricularia%20inflata%20illustration.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      }
+    ]
   },
   {
     "id": "utricularia-inflata-2",
@@ -8121,7 +12204,45 @@
         "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jussiaea%20grandiflora.jpg"
       }
-    }
+    },
+    "controlAuthorizations": [
+      {
+        "type": "確認",
+        "organization": "浜松市",
+        "region": "関東地方",
+        "area": "浜松市全域",
+        "period": "R8.6.17～ R13.3.31",
+        "objective": "生態系や農業、生活環境に係る被害の防止と市内からの完全排除を目指す",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県（豊田市、豊橋市）",
+        "region": "中部地方",
+        "area": "豊田市全域",
+        "period": "R7.7.15～ R10.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      }
+    ]
   },
   {
     "id": "ammophila-arenaria",
@@ -8283,7 +12404,36 @@
     "isConditional": false,
     "photos": [],
     "prefectures": [],
-    "photoCredits": {}
+    "photoCredits": {},
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "中国・四国地方",
+        "area": "山口県下関市",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系保全、他の地域への拡散防止のため根絶を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "公示",
+        "organization": "環境省",
+        "region": "九州・沖縄地方",
+        "area": "熊本県宇城市大野川",
+        "period": "R5.9.1～ R15.3.31",
+        "objective": "生態系保全、他地域への拡散防止のため、対象河川での根絶を目指す。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
+      }
+    ]
   },
   {
     "id": "veronica-anagallis-aquatica",
@@ -8350,6 +12500,71 @@
         "nativeScientificName": "Veronica undulata",
         "point": "カワヂシャは花がより白く直径3～4mmと小さく、葉の鋸歯が目立つ（オオカワヂシャは花が淡い紫色または白色で直径5mm程度）。両種は交雑して雑種ホナガカワヂシャ（V.×myriantha）を形成し、発芽能力のある種子を作るため遺伝的攪乱のおそれがある。希少な在来種カワヂシャとの競合・駆逐も課題となっている。",
         "sourceUrl": "https://www.env.go.jp/nature/intro/2outline/manual/10hp_shokubutsu.pdf"
+      }
+    ],
+    "controlAuthorizations": [
+      {
+        "type": "公示",
+        "organization": "山形県（山形市、尾花沢市、鶴岡市）",
+        "region": "東北地方",
+        "area": "山形県全域",
+        "period": "R5.6.21～ R15.6.20",
+        "objective": "拡大防止のための防除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#tohoku"
+      },
+      {
+        "type": "公示",
+        "organization": "東京都",
+        "region": "関東地方",
+        "area": "東京都で管理する河川全域",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "生態系に係る被害の防止を図るため、河川に生育している特定外来生物による被害の状況に応じて影響の低減を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kantou"
+      },
+      {
+        "type": "公示",
+        "organization": "愛知県",
+        "region": "中部地方",
+        "area": "愛知県管理河川",
+        "period": "R8.4.1～ R18.3.31",
+        "objective": "区域からの排除及び分布拡大の阻止",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "金沢市",
+        "region": "中部地方",
+        "area": "金沢市全域",
+        "period": "R6.4.1～ R16.3.31",
+        "objective": "多様な生態系を有している本市においても、外来種の移入等により生物の多様性が失われつつある。特定外来生物の駆除を行って生物多様性の確保を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chubu"
+      },
+      {
+        "type": "確認",
+        "organization": "東近江市",
+        "region": "近畿地方",
+        "area": "東近江市全域",
+        "period": "R8.3.1～ R18.2.29",
+        "objective": "生態系に係る被害の防止を図るため、ナガエツルノゲイトウ等による被害の状況に応じて防除を実施し、低密度管理を図るものとする。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kinki"
+      },
+      {
+        "type": "認定",
+        "organization": "公益財団法人高知県牧野記念財団",
+        "region": "中国・四国地方",
+        "area": "高知県全域",
+        "period": "R6.4.1～ R9.3.31",
+        "objective": "生態系等に係る被害を防止するため、オオキンケイギク、ナルトサワギク、オオハンゴンソウ、ミズヒマワリ、オオカワヂシャ、アレチウリ、オオフサモ、ボタンウキクサによる影響の低減、分布拡大防止を図る。",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#chushikoku"
+      },
+      {
+        "type": "確認",
+        "organization": "徳之島町",
+        "region": "九州・沖縄地方",
+        "area": "鹿児島県大島郡徳之島町（全域）",
+        "period": "R6.6.10～ R16.3.31",
+        "objective": "区域からの完全排除",
+        "sourceUrl": "https://www.env.go.jp/nature/intro/3control/kouji.html#kyusyu"
       }
     ]
   }

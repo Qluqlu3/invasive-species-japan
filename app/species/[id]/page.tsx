@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import PageHeader from '@/components/layout/PageHeader';
+import ControlAuthorizationsSection from '@/components/species/ControlAuthorizationsSection';
 import DescriptionSection from '@/components/species/DescriptionSection';
 import DesignationBadge from '@/components/species/DesignationBadge';
 import LookalikesSection from '@/components/species/LookalikesSection';
@@ -71,6 +72,11 @@ export default async function SpeciesPage({ params }: Props) {
           <LookalikesSection lookalikes={s.lookalikes} />
         )}
         <PrefectureList prefectures={s.prefectures} />
+        {s.controlAuthorizations && s.controlAuthorizations.length > 0 && (
+          <ControlAuthorizationsSection
+            authorizations={s.controlAuthorizations}
+          />
+        )}
       </div>
     </main>
   );
