@@ -3,6 +3,9 @@ import PageHeader from '@/components/layout/PageHeader';
 import ControlAuthorizationsSection from '@/components/species/ControlAuthorizationsSection';
 import DescriptionSection from '@/components/species/DescriptionSection';
 import DesignationBadge from '@/components/species/DesignationBadge';
+import HiariHotlineNotice, {
+  shouldShowHiariHotline,
+} from '@/components/species/HiariHotlineNotice';
 import LookalikesSection from '@/components/species/LookalikesSection';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
@@ -45,6 +48,7 @@ export default async function SpeciesPage({ params }: Props) {
           isConditional={s.isConditional}
           hazardous={isHazardous(s.description)}
         />
+        {shouldShowHiariHotline(s.id) && <HiariHotlineNotice />}
         {s.photos.length > 0 && (
           <section>
             <h2
