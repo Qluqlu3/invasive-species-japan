@@ -102,6 +102,7 @@ pnpm apply:kouji
 | [環境省 特定外来生物 同定マニュアル](https://www.env.go.jp/nature/intro/2outline/manual.html) / [ヒアリ特設サイト](https://www.env.go.jp/nature/intro/2outline/attention/hiari.html) | 似ている在来種との判別ポイント |
 | [環境省 新法に基づく防除の公示一覧](https://www.env.go.jp/nature/intro/3control/kouji.html) | 防除の公示・確認・認定を受けた主体 |
 | [いきものログ](https://ikilog.biodic.go.jp/LifeSearch/) | 目撃情報検索（外部リンクのみ、深いリンクなし） |
+| [環境省 地方環境事務所等連絡先一覧](https://www.env.go.jp/nature/intro/reo.html) | 相談・通報窓口（フッターに掲載） |
 
 ## データの品質について
 
