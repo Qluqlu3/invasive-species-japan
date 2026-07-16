@@ -100,6 +100,32 @@ export default function SpeciesInfoTable({ species: s }: Props) {
           </Flex>
         </Box>
       )}
+      <Box>
+        <Separator />
+        <Flex px={5} py={3} gap={4}>
+          <Text
+            as="dt"
+            w={24}
+            fontSize="sm"
+            fontWeight="medium"
+            color="gray.700"
+            flexShrink={0}
+          >
+            目撃情報
+          </Text>
+          <Text as="dd" fontSize="sm">
+            <Link
+              href="https://ikilog.biodic.go.jp/LifeSearch/"
+              target="_blank"
+              rel="noopener noreferrer"
+              color="green.700"
+              _hover={{ textDecoration: 'underline' }}
+            >
+              いきものログで「{s.jaName}」を検索 ↗
+            </Link>
+          </Text>
+        </Flex>
+      </Box>
     </Box>
   );
 }

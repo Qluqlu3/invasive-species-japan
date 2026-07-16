@@ -26,7 +26,7 @@ docker compose up
 ## 画面構成
 
 - **一覧画面**: カテゴリ・和名・学名・科・目でフィルタ＆検索
-- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、似ている在来種との判別ポイント（対象種のみ）、防除の公示・確認・認定を受けた主体（対象種のみ）
+- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、いきものログ検索リンク、似ている在来種との判別ポイント（対象種のみ）、防除の公示・確認・認定を受けた主体（対象種のみ）
 
 ## ディレクトリ構成
 
@@ -101,6 +101,7 @@ pnpm apply:kouji
 | [NIES 侵入生物データベース](https://www.nies.go.jp/biodiversity/invasive/DB/) | 国内分布 |
 | [環境省 特定外来生物 同定マニュアル](https://www.env.go.jp/nature/intro/2outline/manual.html) / [ヒアリ特設サイト](https://www.env.go.jp/nature/intro/2outline/attention/hiari.html) | 似ている在来種との判別ポイント |
 | [環境省 新法に基づく防除の公示一覧](https://www.env.go.jp/nature/intro/3control/kouji.html) | 防除の公示・確認・認定を受けた主体 |
+| [いきものログ](https://ikilog.biodic.go.jp/LifeSearch/) | 目撃情報検索（外部リンクのみ、深いリンクなし） |
 
 ## データの品質について
 
