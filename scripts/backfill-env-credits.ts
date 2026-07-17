@@ -5,7 +5,7 @@
  */
 import fs from 'fs';
 import path from 'path';
-import type { PhotoCredit, Species } from './types';
+import type { PhotoCredit, Species } from '../lib/types';
 
 const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 

@@ -5,7 +5,7 @@
  */
 import * as cheerio from 'cheerio';
 import type { AnyNode, Element } from 'domhandler';
-import { CATEGORIES, type Category } from './types';
+import { CATEGORIES, type Category } from '../lib/types';
 
 const LIST_URL = 'https://www.env.go.jp/nature/intro/2outline/list.html';
 const BASE_URL = 'https://www.env.go.jp';

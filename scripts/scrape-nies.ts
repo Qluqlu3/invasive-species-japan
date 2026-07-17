@@ -5,7 +5,7 @@
  * https://www.nies.go.jp/biodiversity/invasive/DB/
  */
 import * as cheerio from 'cheerio';
-import { ALL_PREFECTURES } from './types';
+import { ALL_PREFECTURES } from '../lib/types';
 
 const NIES_BASE = 'https://www.nies.go.jp/biodiversity/invasive/DB/';
 const TOC_PAGES: { path: string; category: string }[] = [

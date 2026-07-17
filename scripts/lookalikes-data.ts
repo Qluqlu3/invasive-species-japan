@@ -1,4 +1,4 @@
-import type { Lookalike } from './types';
+import type { Lookalike } from '../lib/types';
 
 /**
  * 誤同定を防ぐための「似ている在来種との判別ポイント」データ。

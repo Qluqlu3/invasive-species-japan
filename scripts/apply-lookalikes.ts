@@ -8,8 +8,8 @@
  */
 import * as fs from 'fs';
 import * as path from 'path';
+import type { Species } from '../lib/types';
 import { LOOKALIKES } from './lookalikes-data';
-import type { Species } from './types';
 
 const DATA_PATH = path.join(__dirname, '..', 'data', 'species.json');
 

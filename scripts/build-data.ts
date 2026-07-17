@@ -6,6 +6,7 @@
  */
 import * as fs from 'fs';
 import * as path from 'path';
+import type { Species } from '../lib/types';
 import { LOOKALIKES } from './lookalikes-data';
 import { matchKoujiEntries, scrapeKouji } from './scrape-kouji';
 import { scrapeList } from './scrape-list';
@@ -13,7 +14,6 @@ import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
 import { scrapePhotos } from './scrape-photos';
 import { makeId, matchNiesEntry, matchPhotos } from './species-matching';
-import type { Species } from './types';
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'species.json');
 const META_PATH = path.join(__dirname, '..', 'data', 'meta.json');

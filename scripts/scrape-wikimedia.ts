@@ -8,7 +8,7 @@
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
-import type { PhotoCredit, Species } from './types';
+import type { PhotoCredit, Species } from '../lib/types';
 
 const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 const PUBLIC_DIR = path.join(process.cwd(), 'public', 'images', 'species');

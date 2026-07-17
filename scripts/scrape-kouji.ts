@@ -6,8 +6,8 @@
  */
 import * as cheerio from 'cheerio';
 import type { Element } from 'domhandler';
+import type { ControlAuthorization } from '../lib/types';
 import { normalize } from './species-matching';
-import type { ControlAuthorization } from './types';
 
 const KOUJI_URL = 'https://www.env.go.jp/nature/intro/3control/kouji.html';
 
