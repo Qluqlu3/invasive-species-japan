@@ -6,6 +6,7 @@
 import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
+import { fetchText, sleep } from './http';
 
 const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 const DELAY_MS = 1200;
@@ -54,8 +55,6 @@ const TARGET_LABELS: Record<string, keyof SpeciesDescription> = {
   備考: 'remarks',
 };
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
 // NIES のページは学術論文調の全角句点（，．）を使っているため、
 // 一般向け表示に合わせて日本語の句読点（、。）に正規化する。
 function normalizePunctuation(text: string): string {
@@ -67,14 +66,7 @@ function normalizePunctuation(text: string): string {
 }
 
 async function fetchDescription(url: string): Promise<SpeciesDescription> {
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-    },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-  const html = await res.text();
+  const html = await fetchText(url);
   const $ = cheerio.load(html);
   const desc: SpeciesDescription = {};
 

@@ -6,6 +6,7 @@
 import * as cheerio from 'cheerio';
 import type { AnyNode, Element } from 'domhandler';
 import { CATEGORIES, type Category } from '../lib/types';
+import { fetchText } from './http';
 
 const LIST_URL = 'https://www.env.go.jp/nature/intro/2outline/list.html';
 const BASE_URL = 'https://www.env.go.jp';
@@ -129,13 +130,7 @@ function buildScientificName(sciAbbrev: string, latinGenus: string): string {
 
 export async function scrapeList(): Promise<SpeciesBasic[]> {
   console.log('[scrape-list] フェッチ中:', LIST_URL);
-  const res = await fetch(LIST_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-    },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(LIST_URL);
   const $ = cheerio.load(html);
 
   const results: SpeciesBasic[] = [];

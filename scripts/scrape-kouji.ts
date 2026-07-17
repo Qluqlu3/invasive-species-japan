@@ -7,6 +7,7 @@
 import * as cheerio from 'cheerio';
 import type { Element } from 'domhandler';
 import type { ControlAuthorization } from '../lib/types';
+import { fetchText } from './http';
 import { normalize } from './species-matching';
 
 const KOUJI_URL = 'https://www.env.go.jp/nature/intro/3control/kouji.html';
@@ -35,16 +36,13 @@ function cellText($: cheerio.CheerioAPI, td: Element): string {
 export async function scrapeKouji(): Promise<KoujiEntry[]> {
   console.log(`[scrape-kouji] フェッチ中: ${KOUJI_URL}`);
 
-  const res = await fetch(KOUJI_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-    },
-  });
-  if (!res.ok) {
-    console.warn(`  → HTTP ${res.status}, スキップ`);
+  let html: string;
+  try {
+    html = await fetchText(KOUJI_URL);
+  } catch (err) {
+    console.warn(`  → ${(err as Error).message}, スキップ`);
     return [];
   }
-  const html = await res.text();
   const $ = cheerio.load(html);
 
   const entries: KoujiEntry[] = [];

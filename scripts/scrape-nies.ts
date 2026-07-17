@@ -6,6 +6,7 @@
  */
 import * as cheerio from 'cheerio';
 import { ALL_PREFECTURES } from '../lib/types';
+import { fetchText, sleep } from './http';
 
 const NIES_BASE = 'https://www.nies.go.jp/biodiversity/invasive/DB/';
 const TOC_PAGES: { path: string; category: string }[] = [
@@ -28,8 +29,6 @@ export interface NiesEntry {
   prefectures: string[]; // 抽出された都道府県
   niesDetailUrl?: string;
 }
-
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** 分布テキストから都道府県名を抽出する */
 export function extractPrefectures(text: string): string[] {
@@ -54,16 +53,13 @@ async function scrapeTocPage(path: string): Promise<NiesEntry[]> {
   const url = NIES_BASE + path;
   console.log(`[scrape-nies] フェッチ中: ${url}`);
 
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-    },
-  });
-  if (!res.ok) {
-    console.warn(`  → HTTP ${res.status}, スキップ`);
+  let html: string;
+  try {
+    html = await fetchText(url);
+  } catch (err) {
+    console.warn(`  → ${(err as Error).message}, スキップ`);
     return [];
   }
-  const html = await res.text();
   const $ = cheerio.load(html);
 
   const entries: NiesEntry[] = [];
@@ -152,17 +148,7 @@ export async function scrapeNiesDetails(
     console.log(`[scrape-nies-detail] (${i + 1}/${total}) ${url}`);
 
     try {
-      const res = await fetch(url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-        },
-      });
-      if (!res.ok) {
-        console.warn(`  → HTTP ${res.status}`);
-        continue;
-      }
-
-      const html = await res.text();
+      const html = await fetchText(url);
       const $ = cheerio.load(html);
 
       // 「国内移入分布」ラベルの次の td からテキストを取得

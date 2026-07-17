@@ -6,19 +6,14 @@
  * 注意: 写真利用時は「環境省提供」とクレジットの表示が必要
  */
 import * as cheerio from 'cheerio';
+import { fetchText } from './http';
 
 const PHOTO_URL = 'https://www.env.go.jp/nature/intro/4document/asimg.html';
 
 /** 環境省写真集から 和名 → 画像URL配列 のマップを返す */
 export async function scrapePhotos(): Promise<Map<string, string[]>> {
   console.log('[scrape-photos] フェッチ中:', PHOTO_URL);
-  const res = await fetch(PHOTO_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (invasive-species-viewer/1.0; research)',
-    },
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const html = await res.text();
+  const html = await fetchText(PHOTO_URL);
   const $ = cheerio.load(html);
 
   const photoMap = new Map<string, string[]>();
