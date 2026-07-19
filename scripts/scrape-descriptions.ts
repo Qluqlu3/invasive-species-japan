@@ -57,7 +57,7 @@ const TARGET_LABELS: Record<string, keyof SpeciesDescription> = {
 
 // NIES のページは学術論文調の全角句点（，．）を使っているため、
 // 一般向け表示に合わせて日本語の句読点（、。）に正規化する。
-function normalizePunctuation(text: string): string {
+export function normalizePunctuation(text: string): string {
   let t = text.replace(/，/g, '、').replace(/．/g, '。');
   t = t.replace(/。{2,}/g, '。').replace(/、{2,}/g, '、');
   t = t.trim();
@@ -65,7 +65,9 @@ function normalizePunctuation(text: string): string {
   return t;
 }
 
-async function fetchDescription(url: string): Promise<SpeciesDescription> {
+export async function fetchDescription(
+  url: string,
+): Promise<SpeciesDescription> {
   const html = await fetchText(url);
   const $ = cheerio.load(html);
   const desc: SpeciesDescription = {};
@@ -114,7 +116,10 @@ async function main() {
   console.log(`\n完了: ${done} 件処理, ${errors} 件エラー`);
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+// 単体実行
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}
