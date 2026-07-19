@@ -1,10 +1,4 @@
-import {
-  CATEGORIES,
-  type Category,
-  type Species,
-  STATUSES,
-  type Status,
-} from './types';
+import { CATEGORIES, type Category, STATUSES, type Status } from './types';
 
 export interface SpeciesFilters {
   query?: string;
@@ -14,11 +8,24 @@ export interface SpeciesFilters {
   prefecture?: string;
 }
 
+/** フィルタ・ソートに必要な最小限のフィールド（一覧画面のフルデータ/軽量DTOのどちらでも使える） */
+export interface FilterableSpecies {
+  jaName: string;
+  scientificName: string;
+  category: string;
+  order: string;
+  family: string;
+  genus: string;
+  status: string;
+  isConditional: boolean;
+  prefectures: string[];
+}
+
 /** 一覧画面のフィルタ条件（カテゴリ・条件付き・定着状況・都道府県・検索語）を適用する */
-export function filterSpecies(
-  species: Species[],
+export function filterSpecies<T extends FilterableSpecies>(
+  species: T[],
   filters: SpeciesFilters,
-): Species[] {
+): T[] {
   const { query, category, conditional, status, prefecture } = filters;
 
   return species.filter((s) => {
@@ -42,7 +49,10 @@ export function filterSpecies(
 }
 
 /** 一覧画面のソート条件を適用する（元の配列は変更しない） */
-export function sortSpecies(species: Species[], sort: string): Species[] {
+export function sortSpecies<T extends FilterableSpecies>(
+  species: T[],
+  sort: string,
+): T[] {
   const result = [...species];
 
   if (sort === 'name') {
@@ -64,10 +74,10 @@ export function sortSpecies(species: Species[], sort: string): Species[] {
   return result;
 }
 
-export function filterAndSortSpecies(
-  species: Species[],
+export function filterAndSortSpecies<T extends FilterableSpecies>(
+  species: T[],
   filters: SpeciesFilters & { sort?: string },
-): Species[] {
+): T[] {
   return sortSpecies(filterSpecies(species, filters), filters.sort ?? '');
 }
 

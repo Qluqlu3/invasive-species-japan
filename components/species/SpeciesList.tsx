@@ -5,14 +5,14 @@ import { useEffect, useMemo, useState } from 'react';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 import { useSpeciesListParams } from '@/hooks/useSpeciesListParams';
 import { filterAndSortSpecies, paginate } from '@/lib/species-filter';
-import type { Species } from '@/lib/types';
+import type { SpeciesListItem } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
 
 const PAGE_SIZE = 48;
 
 interface Props {
-  species: Species[];
+  species: SpeciesListItem[];
 }
 
 export default function SpeciesList({ species }: Props) {

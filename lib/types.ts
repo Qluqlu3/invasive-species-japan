@@ -64,6 +64,27 @@ export interface Species {
   controlAuthorizations?: ControlAuthorization[];
 }
 
+/**
+ * 一覧画面用の軽量DTO。description・lookalikes・controlAuthorizations等の
+ * 詳細画面専用フィールドを持たず、代わりに毒性有無だけを事前計算して含む。
+ */
+export type SpeciesListItem = Pick<
+  Species,
+  | 'id'
+  | 'jaName'
+  | 'scientificName'
+  | 'category'
+  | 'order'
+  | 'family'
+  | 'genus'
+  | 'status'
+  | 'isConditional'
+  | 'photos'
+  | 'prefectures'
+> & {
+  hazardous: boolean;
+};
+
 export const CATEGORIES = [
   '哺乳類',
   '鳥類',

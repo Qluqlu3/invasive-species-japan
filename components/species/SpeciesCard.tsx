@@ -3,8 +3,7 @@
 import { Badge, Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
-import { isHazardous } from '@/lib/description';
-import type { Category, Species } from '@/lib/types';
+import type { Category, SpeciesListItem } from '@/lib/types';
 
 const CATEGORY_EMOJI: Record<Category, string> = {
   哺乳類: '🦊',
@@ -20,7 +19,7 @@ const CATEGORY_EMOJI: Record<Category, string> = {
 };
 
 interface Props {
-  species: Species;
+  species: SpeciesListItem;
 }
 
 export default function SpeciesCard({ species: s }: Props) {
@@ -68,7 +67,7 @@ export default function SpeciesCard({ species: s }: Props) {
             条件付
           </Badge>
         )}
-        {isHazardous(s.description) && (
+        {s.hazardous && (
           <Badge
             position="absolute"
             top={1}

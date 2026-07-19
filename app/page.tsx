@@ -1,10 +1,10 @@
 import { Suspense } from 'react';
 import PageHeader from '@/components/layout/PageHeader';
 import SpeciesList from '@/components/species/SpeciesList';
-import { getAllSpecies } from '@/lib/data';
+import { getSpeciesListItems } from '@/lib/data';
 
 export default function HomePage() {
-  const species = getAllSpecies();
+  const species = getSpeciesListItems();
 
   return (
     <main>

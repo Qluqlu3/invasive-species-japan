@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import type { DataMeta, Species } from './types';
+import { isHazardous } from './description';
+import type { DataMeta, Species, SpeciesListItem } from './types';
 
 let _cache: Species[] | null = null;
+let _listCache: SpeciesListItem[] | null = null;
 let _metaCache: DataMeta | null | undefined;
 
 const REQUIRED_STRING_FIELDS = [
@@ -106,4 +108,27 @@ export function getDataMeta(): DataMeta | null {
 
 export function getSpeciesById(id: string): Species | undefined {
   return getAllSpecies().find((s) => s.id === id);
+}
+
+/**
+ * 一覧画面用の軽量DTOを返す。description・lookalikes・controlAuthorizations
+ * 等の詳細画面専用フィールドをクライアントに送らないことでペイロードを削減する。
+ */
+export function getSpeciesListItems(): SpeciesListItem[] {
+  if (_listCache) return _listCache;
+  _listCache = getAllSpecies().map((s) => ({
+    id: s.id,
+    jaName: s.jaName,
+    scientificName: s.scientificName,
+    category: s.category,
+    order: s.order,
+    family: s.family,
+    genus: s.genus,
+    status: s.status,
+    isConditional: s.isConditional,
+    photos: s.photos.slice(0, 1),
+    prefectures: s.prefectures,
+    hazardous: isHazardous(s.description),
+  }));
+  return _listCache;
 }
