@@ -1,5 +1,6 @@
 import { Box, Flex, Link, Text } from '@chakra-ui/react';
 import { getDataMeta } from '@/lib/data';
+import { formatJaDate } from '@/lib/format';
 
 const SOURCES = [
   {
@@ -11,12 +12,6 @@ const SOURCES = [
     url: 'https://www.nies.go.jp/biodiversity/invasive/DB/',
   },
 ];
-
-/** "YYYY-MM-DD" を日本語表記に変換する（タイムゾーン変換を避けるため文字列のまま処理） */
-function formatJaDate(iso: string): string {
-  const [y, m, d] = iso.split('-');
-  return `${y}年${Number(m)}月${Number(d)}日`;
-}
 
 export default function Footer() {
   const meta = getDataMeta();
