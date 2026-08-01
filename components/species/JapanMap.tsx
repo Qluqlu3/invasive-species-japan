@@ -4,18 +4,27 @@ import { useMemo, useRef, useState } from 'react';
 import prefecturePaths from '@/data/prefecture-paths.json';
 
 interface Props {
-  highlightedPrefectures: string[];
+  /** 単一種の分布表示用（二値: 生息確認あり/なし）。prefectureColors指定時は無視される */
+  highlightedPrefectures?: string[];
+  /** 複数色での塗り分け用（都道府県名 → 色）。一覧画面の地図フィルタ等で使用 */
+  prefectureColors?: Record<string, string>;
+  /** 現在選択中の都道府県（枠線で強調表示する） */
+  selectedPrefecture?: string | null;
+  /** ホバー時にツールチップへ表示する補足テキスト（都道府県名 → テキスト） */
+  hoverLabels?: Record<string, string>;
   onPrefectureClick?: (prefecture: string) => void;
 }
 
 const PATHS = prefecturePaths as Record<string, string>;
 const FOUND = '#16a34a';
-const FOUND_HOVER = '#15803d';
 const EMPTY = '#e5e7eb';
-const EMPTY_HOVER = '#d1d5db';
+const SELECTED_STROKE = '#111827';
 
 export default function JapanMap({
   highlightedPrefectures,
+  prefectureColors,
+  selectedPrefecture,
+  hoverLabels,
   onPrefectureClick,
 }: Props) {
   const [hovered, setHovered] = useState<string | null>(null);
@@ -23,7 +32,7 @@ export default function JapanMap({
   const containerRef = useRef<HTMLDivElement>(null);
 
   const foundSet = useMemo(
-    () => new Set(highlightedPrefectures),
+    () => new Set(highlightedPrefectures ?? []),
     [highlightedPrefectures],
   );
 
@@ -33,7 +42,10 @@ export default function JapanMap({
     setMouse({ x: e.clientX - rect.left, y: e.clientY - rect.top });
   };
 
-  const isFound = (name: string) => foundSet.has(name);
+  const getColor = (name: string) => {
+    if (prefectureColors) return prefectureColors[name] ?? EMPTY;
+    return foundSet.has(name) ? FOUND : EMPTY;
+  };
 
   return (
     <div ref={containerRef} style={{ position: 'relative', lineHeight: 0 }}>
@@ -46,24 +58,23 @@ export default function JapanMap({
         aria-label="日本地図 — 種の分布"
       >
         {Object.entries(PATHS).map(([name, d]) => {
-          const found = isFound(name);
           const hov = hovered === name;
+          const selected = selectedPrefecture === name;
           return (
             <path
               key={name}
               d={d}
-              fill={
-                found ? (hov ? FOUND_HOVER : FOUND) : hov ? EMPTY_HOVER : EMPTY
-              }
-              stroke="white"
-              strokeWidth={0.8}
+              fill={getColor(name)}
+              stroke={selected ? SELECTED_STROKE : 'white'}
+              strokeWidth={selected ? 2.2 : 0.8}
               strokeLinejoin="round"
               aria-label={name}
               onMouseEnter={() => setHovered(name)}
               onClick={() => onPrefectureClick?.(name)}
               style={{
                 cursor: onPrefectureClick ? 'pointer' : 'default',
-                transition: 'fill 80ms',
+                filter: hov ? 'brightness(0.88)' : undefined,
+                transition: 'fill 80ms, filter 80ms',
               }}
             />
           );
@@ -99,14 +110,17 @@ export default function JapanMap({
               width: 9,
               height: 9,
               borderRadius: '50%',
-              background: isFound(hovered) ? FOUND : '#9ca3af',
+              background: getColor(hovered),
               flexShrink: 0,
             }}
           />
           <span>{hovered}</span>
-          {isFound(hovered) && (
+          {(hoverLabels?.[hovered] ??
+            (!prefectureColors && foundSet.has(hovered)
+              ? '生息確認'
+              : undefined)) && (
             <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: 11 }}>
-              生息確認
+              {hoverLabels?.[hovered] ?? '生息確認'}
             </span>
           )}
         </div>

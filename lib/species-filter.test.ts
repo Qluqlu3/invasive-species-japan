@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import {
+  aggregatePrefectureStatus,
   filterAndSortSpecies,
   filterSpecies,
   paginate,
@@ -142,6 +143,56 @@ describe('filterAndSortSpecies', () => {
       sort: 'name',
     }).map((s) => s.jaName);
     expect(result).toEqual(['アライグマ', 'オオクチバス']);
+  });
+});
+
+describe('aggregatePrefectureStatus', () => {
+  const PREFECTURES = ['東京', '大阪', '沖縄', '北海道'];
+
+  it('都道府県ごとに該当種数を集計する', () => {
+    const result = aggregatePrefectureStatus(ALL, PREFECTURES);
+    expect(result['東京'].count).toBe(2); // RACCOON, BASS
+    expect(result['大阪'].count).toBe(1); // RACCOON
+    expect(result['沖縄'].count).toBe(1); // BULLFROG
+    expect(result['北海道'].count).toBe(0);
+  });
+
+  it('該当種が無い都道府県はdominantStatusがundefinedになる', () => {
+    const result = aggregatePrefectureStatus(ALL, PREFECTURES);
+    expect(result['北海道'].dominantStatus).toBeUndefined();
+  });
+
+  it('該当種が1種のみならその種のstatusがdominantStatusになる', () => {
+    const result = aggregatePrefectureStatus(ALL, PREFECTURES);
+    expect(result['大阪'].dominantStatus).toBe('定着');
+    expect(result['沖縄'].dominantStatus).toBe('未定着');
+  });
+
+  it('複数statusが混在する場合はSTATUS_PRIORITY順で最も懸念度が高いものを選ぶ', () => {
+    // 東京には定着(RACCOON, BASS)のみだが、未定着種も追加すると定着が優先される
+    const tokyoBullfrog = makeSpecies({
+      status: '未定着',
+      prefectures: ['東京'],
+    });
+    const result = aggregatePrefectureStatus(
+      [...ALL, tokyoBullfrog],
+      PREFECTURES,
+    );
+    expect(result['東京'].dominantStatus).toBe('定着');
+  });
+
+  it('未知のstatus値は集計対象から除外される（countには含まれる）', () => {
+    const unknown = makeSpecies({ status: '謎', prefectures: ['北海道'] });
+    const result = aggregatePrefectureStatus([unknown], PREFECTURES);
+    expect(result['北海道'].count).toBe(1);
+    expect(result['北海道'].dominantStatus).toBeUndefined();
+  });
+
+  it('speciesが空でも全都道府県のエントリを返す', () => {
+    const result = aggregatePrefectureStatus([], PREFECTURES);
+    for (const p of PREFECTURES) {
+      expect(result[p]).toEqual({ count: 0 });
+    }
   });
 });
 

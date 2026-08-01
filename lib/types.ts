@@ -103,6 +103,25 @@ export type Category = (typeof CATEGORIES)[number];
 export const STATUSES = ['定着', '未定着', '根絶', '近年生息情報なし'] as const;
 export type Status = (typeof STATUSES)[number];
 
+/** 定着状況ごとの表示色。一覧の地図フィルタで使用する */
+export const STATUS_COLORS: Record<Status, string> = {
+  定着: '#dc2626',
+  未定着: '#f59e0b',
+  根絶: '#3b82f6',
+  近年生息情報なし: '#9ca3af',
+};
+
+/**
+ * 1つの都道府県に複数の定着状況の種が存在する場合に、どの色を優先して
+ * 表示するかの順序（懸念度が高いものを優先）
+ */
+export const STATUS_PRIORITY: Status[] = [
+  '定着',
+  '未定着',
+  '根絶',
+  '近年生息情報なし',
+];
+
 export const REGIONS = [
   { name: '北海道', prefectures: ['北海道'] },
   {

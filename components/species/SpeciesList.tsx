@@ -4,10 +4,15 @@ import { Box, Grid, Text } from '@chakra-ui/react';
 import { useEffect, useMemo, useState } from 'react';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 import { useSpeciesListParams } from '@/hooks/useSpeciesListParams';
-import { filterAndSortSpecies, paginate } from '@/lib/species-filter';
+import {
+  filterAndSortSpecies,
+  filterSpecies,
+  paginate,
+} from '@/lib/species-filter';
 import type { SpeciesListItem } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
+import SpeciesMapFilter from './SpeciesMapFilter';
 
 const PAGE_SIZE = 48;
 
@@ -41,6 +46,13 @@ export default function SpeciesList({ species }: Props) {
     [species, query, category, conditional, status, prefecture, sort],
   );
 
+  // 都道府県以外の条件のみを適用したリスト。地図フィルタ上で都道府県を選択中でも
+  // 他の都道府県の状況を確認・切り替えできるようにするため、prefectureは含めない。
+  const mapSpecies = useMemo(
+    () => filterSpecies(species, { query, category, conditional, status }),
+    [species, query, category, conditional, status],
+  );
+
   const totalCount = filtered.length;
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
@@ -71,6 +83,11 @@ export default function SpeciesList({ species }: Props) {
         onStatusChange={(v) => setParam('status', v)}
         onPrefectureChange={(v) => setParam('prefecture', v)}
         onSortChange={(v) => setParam('sort', v)}
+      />
+      <SpeciesMapFilter
+        species={mapSpecies}
+        selectedPrefecture={prefecture}
+        onSelectPrefecture={(v) => setParam('prefecture', v)}
       />
       <Grid
         templateColumns={{
