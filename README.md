@@ -13,6 +13,8 @@ pnpm dev
 
 [http://localhost:3000](http://localhost:3000) を開き、特定外来生物の一覧が表示されれば起動成功です。データは `data/species.json` に同梱済みなので、この2コマンドだけで確認できます（データの再取得は任意・後述）。
 
+`sitemap.xml` / `robots.txt` に本番URLを反映したい場合は環境変数 `NEXT_PUBLIC_SITE_URL`（例: `https://example.com`）を設定してください。未設定時は `http://localhost:3000` になります。
+
 ### Docker で起動する場合
 
 Node.js のセットアップ不要で、Docker だけで起動できます。
