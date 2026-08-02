@@ -23,7 +23,14 @@ Node.js のセットアップ不要で、Docker だけで起動できます。
 docker compose up
 ```
 
-同じく [http://localhost:3000](http://localhost:3000) で確認できます。
+同じく [http://localhost:3000](http://localhost:3000) で確認できます。`docker compose up` は開発用（ホットリロード）の `dev` ステージを使います。
+
+本番相当のイメージ（Next.jsのstandalone出力を使った最小イメージ）をビルド・実行する場合は以下を実行します:
+
+```bash
+docker build --target prod -t invasive-app .
+docker run -p 3000:3000 invasive-app
+```
 
 ## 画面構成
 
