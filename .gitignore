@@ -39,6 +39,12 @@ __pycache__/
 # vercel
 .vercel
 
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
 # dist (scripts build output)
 dist/
 

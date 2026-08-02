@@ -37,6 +37,15 @@ docker run -p 3000:3000 invasive-app
 - **一覧画面**: カテゴリ・和名・学名・科・目でフィルタ＆検索
 - **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、いきものログ検索リンク、似ている在来種との判別ポイント（対象種のみ）、防除の公示・確認・認定を受けた主体（対象種のみ）、ヒアリ類の相談ダイヤル案内（対象種のみ）
 
+## テスト
+
+```bash
+pnpm test        # ユニットテスト・コンポーネントテスト（Vitest + Testing Library）
+pnpm test:e2e     # E2Eテスト（Playwright、初回は npx playwright install --with-deps chromium が必要）
+```
+
+E2Eテストは `pnpm build && pnpm start` でアプリを起動して実行します（`playwright.config.ts` が自動で行います）。
+
 ## ディレクトリ構成
 
 ```text
