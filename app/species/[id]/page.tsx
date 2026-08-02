@@ -3,6 +3,7 @@ import PageHeader from '@/components/layout/PageHeader';
 import ControlAuthorizationsSection from '@/components/species/ControlAuthorizationsSection';
 import DescriptionSection from '@/components/species/DescriptionSection';
 import DesignationBadge from '@/components/species/DesignationBadge';
+import FavoriteButton from '@/components/species/FavoriteButton';
 import HiariHotlineNotice, {
   shouldShowHiariHotline,
 } from '@/components/species/HiariHotlineNotice';
@@ -44,6 +45,7 @@ export default async function SpeciesPage({ params }: Props) {
         badgeColorPalette={s.isConditional ? 'orange' : 'red'}
       />
       <div className="page-content">
+        <FavoriteButton speciesId={s.id} />
         <DesignationBadge
           isConditional={s.isConditional}
           hazardous={isHazardous(s.description)}

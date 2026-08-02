@@ -2,6 +2,7 @@
 
 import { Box, Grid, Text } from '@chakra-ui/react';
 import { useEffect, useMemo, useState } from 'react';
+import { useFavorites } from '@/hooks/useFavorites';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
 import { useSpeciesListParams } from '@/hooks/useSpeciesListParams';
 import {
@@ -30,21 +31,33 @@ export default function SpeciesList({ species }: Props) {
     status,
     prefecture,
     sort,
+    favoriteOnly,
     setParam,
   } = useSpeciesListParams();
 
-  const filtered = useMemo(
-    () =>
-      filterAndSortSpecies(species, {
-        query,
-        category,
-        conditional,
-        status,
-        prefecture,
-        sort,
-      }),
-    [species, query, category, conditional, status, prefecture, sort],
-  );
+  const { favorites, toggleFavorite } = useFavorites();
+
+  const filtered = useMemo(() => {
+    const base = filterAndSortSpecies(species, {
+      query,
+      category,
+      conditional,
+      status,
+      prefecture,
+      sort,
+    });
+    return favoriteOnly ? base.filter((s) => favorites.has(s.id)) : base;
+  }, [
+    species,
+    query,
+    category,
+    conditional,
+    status,
+    prefecture,
+    sort,
+    favoriteOnly,
+    favorites,
+  ]);
 
   // 都道府県以外の条件のみを適用したリスト。地図フィルタ上で都道府県を選択中でも
   // 他の都道府県の状況を確認・切り替えできるようにするため、prefectureは含めない。
@@ -59,7 +72,7 @@ export default function SpeciesList({ species }: Props) {
   // biome-ignore lint/correctness/useExhaustiveDependencies: reset visible count whenever the filtered set changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [query, category, conditional, status, prefecture, sort]);
+  }, [query, category, conditional, status, prefecture, sort, favoriteOnly]);
 
   const { visible: paginated, hasMore } = paginate(filtered, visibleCount);
 
@@ -76,6 +89,7 @@ export default function SpeciesList({ species }: Props) {
         status={status}
         prefecture={prefecture}
         sort={sort}
+        favoriteOnly={favoriteOnly}
         count={totalCount}
         onQueryChange={(v) => setInputQuery(v)}
         onCategoryChange={(v) => setParam('category', v)}
@@ -83,6 +97,7 @@ export default function SpeciesList({ species }: Props) {
         onStatusChange={(v) => setParam('status', v)}
         onPrefectureChange={(v) => setParam('prefecture', v)}
         onSortChange={(v) => setParam('sort', v)}
+        onFavoriteOnlyChange={(v) => setParam('favorite', v ? '1' : '')}
       />
       <SpeciesMapFilter
         species={mapSpecies}
@@ -101,7 +116,12 @@ export default function SpeciesList({ species }: Props) {
         p={4}
       >
         {paginated.map((s) => (
-          <SpeciesCard key={s.id} species={s} />
+          <SpeciesCard
+            key={s.id}
+            species={s}
+            isFavorite={favorites.has(s.id)}
+            onToggleFavorite={toggleFavorite}
+          />
         ))}
       </Grid>
       {totalCount === 0 && (

@@ -12,6 +12,7 @@ export interface SpeciesListParams {
   status: string;
   prefecture: string;
   sort: string;
+  favoriteOnly: boolean;
   setParam: (key: string, value: string) => void;
 }
 
@@ -35,6 +36,7 @@ export function useSpeciesListParams(): SpeciesListParams {
   const status = searchParams.get('status') ?? '';
   const prefecture = searchParams.get('prefecture') ?? '';
   const sort = searchParams.get('sort') ?? '';
+  const favoriteOnly = searchParams.get('favorite') === '1';
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -69,6 +71,7 @@ export function useSpeciesListParams(): SpeciesListParams {
     status,
     prefecture,
     sort,
+    favoriteOnly,
     setParam,
   };
 }

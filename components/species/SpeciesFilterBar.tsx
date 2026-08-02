@@ -1,6 +1,13 @@
 'use client';
 
-import { Box, Flex, Input, NativeSelect, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Checkbox,
+  Flex,
+  Input,
+  NativeSelect,
+  Text,
+} from '@chakra-ui/react';
 import { ALL_PREFECTURES, CATEGORIES, STATUSES } from '@/lib/types';
 
 interface Props {
@@ -10,6 +17,7 @@ interface Props {
   status: string;
   prefecture: string;
   sort: string;
+  favoriteOnly: boolean;
   count: number;
   onQueryChange: (v: string) => void;
   onCategoryChange: (v: string) => void;
@@ -17,6 +25,7 @@ interface Props {
   onStatusChange: (v: string) => void;
   onPrefectureChange: (v: string) => void;
   onSortChange: (v: string) => void;
+  onFavoriteOnlyChange: (v: boolean) => void;
 }
 
 export default function SpeciesFilterBar({
@@ -26,6 +35,7 @@ export default function SpeciesFilterBar({
   status,
   prefecture,
   sort,
+  favoriteOnly,
   count,
   onQueryChange,
   onCategoryChange,
@@ -33,6 +43,7 @@ export default function SpeciesFilterBar({
   onStatusChange,
   onPrefectureChange,
   onSortChange,
+  onFavoriteOnlyChange,
 }: Props) {
   return (
     <Box
@@ -133,6 +144,17 @@ export default function SpeciesFilterBar({
           </NativeSelect.Field>
           <NativeSelect.Indicator />
         </NativeSelect.Root>
+        <Checkbox.Root
+          checked={favoriteOnly}
+          onCheckedChange={(d) => onFavoriteOnlyChange(!!d.checked)}
+          size="sm"
+        >
+          <Checkbox.HiddenInput />
+          <Checkbox.Control>
+            <Checkbox.Indicator />
+          </Checkbox.Control>
+          <Checkbox.Label>★ お気に入りのみ</Checkbox.Label>
+        </Checkbox.Root>
         <Text fontSize="sm" fontWeight="medium" color="gray.800" ml="auto">
           {count} 件
         </Text>

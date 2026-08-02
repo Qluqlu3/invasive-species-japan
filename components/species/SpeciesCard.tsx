@@ -1,6 +1,13 @@
 'use client';
 
-import { Badge, Box, LinkBox, LinkOverlay, Text } from '@chakra-ui/react';
+import {
+  Badge,
+  Box,
+  IconButton,
+  LinkBox,
+  LinkOverlay,
+  Text,
+} from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
 import type { Category, SpeciesListItem } from '@/lib/types';
@@ -20,9 +27,15 @@ const CATEGORY_EMOJI: Record<Category, string> = {
 
 interface Props {
   species: SpeciesListItem;
+  isFavorite: boolean;
+  onToggleFavorite: (id: string) => void;
 }
 
-export default function SpeciesCard({ species: s }: Props) {
+export default function SpeciesCard({
+  species: s,
+  isFavorite,
+  onToggleFavorite,
+}: Props) {
   return (
     <LinkBox
       as="article"
@@ -81,6 +94,25 @@ export default function SpeciesCard({ species: s }: Props) {
             ☠ 毒
           </Badge>
         )}
+        <IconButton
+          aria-label={isFavorite ? 'お気に入りから外す' : 'お気に入りに追加'}
+          onClick={(e) => {
+            e.preventDefault();
+            onToggleFavorite(s.id);
+          }}
+          position="absolute"
+          bottom={1}
+          right={1}
+          zIndex={1}
+          size="xs"
+          rounded="full"
+          variant="solid"
+          bg="whiteAlpha.900"
+          color={isFavorite ? 'yellow.500' : 'gray.500'}
+          _hover={{ bg: 'white', color: 'yellow.600' }}
+        >
+          {isFavorite ? '★' : '☆'}
+        </IconButton>
       </Box>
       <Box p={2}>
         <LinkOverlay asChild>
