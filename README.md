@@ -35,7 +35,7 @@ docker run -p 3000:3000 invasive-app
 ## 画面構成
 
 - **一覧画面**: カテゴリ・和名・学名・科・目でフィルタ＆検索
-- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、いきものログ検索リンク、似ている在来種との判別ポイント（対象種のみ）、防除の公示・確認・認定を受けた主体（対象種のみ）、ヒアリ類の相談ダイヤル案内（対象種のみ）
+- **詳細画面**: 写真ギャラリー、基本分類情報、国内分布都道府県、NIES リンク、いきものログ検索リンク、Google News関連ニュース検索リンク、似ている在来種との判別ポイント（対象種のみ）、防除の公示・確認・認定を受けた主体（対象種のみ）、ヒアリ類の相談ダイヤル案内（対象種のみ）
 
 ## テスト
 
@@ -130,6 +130,7 @@ pnpm apply:kouji
 | [環境省 特定外来生物 同定マニュアル](https://www.env.go.jp/nature/intro/2outline/manual.html) / [ヒアリ特設サイト](https://www.env.go.jp/nature/intro/2outline/attention/hiari.html) | 似ている在来種との判別ポイント |
 | [環境省 新法に基づく防除の公示一覧](https://www.env.go.jp/nature/intro/3control/kouji.html) | 防除の公示・確認・認定を受けた主体 |
 | [いきものログ](https://ikilog.biodic.go.jp/LifeSearch/) | 目撃情報検索（外部リンクのみ、深いリンクなし） |
+| [Google News](https://news.google.com/) | 関連ニュース検索（外部リンクのみ。記事の取得・保存は行わない。Google Newsの[RSSフィードの利用規約](https://news.google.com/rss)が個人のフィードリーダーでの非商用利用に限定しているため、検索結果ページへのリンクのみとしている） |
 | [環境省 地方環境事務所等連絡先一覧](https://www.env.go.jp/nature/intro/reo.html) | 相談・通報窓口（フッターに掲載） |
 
 ## データの品質について
