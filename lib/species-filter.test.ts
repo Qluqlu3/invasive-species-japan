@@ -107,6 +107,22 @@ describe('filterSpecies', () => {
   it('該当なしの場合は空配列を返す', () => {
     expect(filterSpecies(ALL, { query: '存在しない種名' })).toEqual([]);
   });
+
+  it('hazardousOnly=trueで毒性ありの種だけに絞り込める', () => {
+    const hazardousRaccoon = { ...RACCOON, hazardous: true };
+    const list = [hazardousRaccoon, BULLFROG, BASS];
+    expect(filterSpecies(list, { hazardousOnly: true })).toEqual([
+      hazardousRaccoon,
+    ]);
+  });
+
+  it('photoOnly=trueで写真ありの種だけに絞り込める', () => {
+    const raccoonWithPhoto = { ...RACCOON, photos: ['/photo.jpg'] };
+    const list = [raccoonWithPhoto, BULLFROG, BASS];
+    expect(filterSpecies(list, { photoOnly: true })).toEqual([
+      raccoonWithPhoto,
+    ]);
+  });
 });
 
 describe('sortSpecies', () => {

@@ -2,6 +2,7 @@
 
 import {
   Box,
+  Button,
   Checkbox,
   Flex,
   Input,
@@ -18,6 +19,8 @@ interface Props {
   prefecture: string;
   sort: string;
   favoriteOnly: boolean;
+  hazardousOnly: boolean;
+  photoOnly: boolean;
   count: number;
   onQueryChange: (v: string) => void;
   onCategoryChange: (v: string) => void;
@@ -26,6 +29,8 @@ interface Props {
   onPrefectureChange: (v: string) => void;
   onSortChange: (v: string) => void;
   onFavoriteOnlyChange: (v: boolean) => void;
+  onHazardousOnlyChange: (v: boolean) => void;
+  onPhotoOnlyChange: (v: boolean) => void;
 }
 
 export default function SpeciesFilterBar({
@@ -36,6 +41,8 @@ export default function SpeciesFilterBar({
   prefecture,
   sort,
   favoriteOnly,
+  hazardousOnly,
+  photoOnly,
   count,
   onQueryChange,
   onCategoryChange,
@@ -44,6 +51,8 @@ export default function SpeciesFilterBar({
   onPrefectureChange,
   onSortChange,
   onFavoriteOnlyChange,
+  onHazardousOnlyChange,
+  onPhotoOnlyChange,
 }: Props) {
   return (
     <Box
@@ -57,6 +66,40 @@ export default function SpeciesFilterBar({
       px={4}
       py={3}
     >
+      <Flex wrap="wrap" gap={2} align="center" mb={2}>
+        <Text fontSize="xs" color="gray.600" mr={1}>
+          クイックフィルタ:
+        </Text>
+        <Button
+          size="xs"
+          rounded="full"
+          variant={hazardousOnly ? 'solid' : 'outline'}
+          colorPalette="purple"
+          onClick={() => onHazardousOnlyChange(!hazardousOnly)}
+        >
+          ☠ 毒のある種だけ
+        </Button>
+        <Button
+          size="xs"
+          rounded="full"
+          variant={photoOnly ? 'solid' : 'outline'}
+          colorPalette="green"
+          onClick={() => onPhotoOnlyChange(!photoOnly)}
+        >
+          📷 写真ありのみ
+        </Button>
+        <Button
+          size="xs"
+          rounded="full"
+          variant={conditional === 'no' ? 'solid' : 'outline'}
+          colorPalette="orange"
+          onClick={() =>
+            onConditionalChange(conditional === 'no' ? 'all' : 'no')
+          }
+        >
+          特定外来生物のみ
+        </Button>
+      </Flex>
       <Flex wrap="wrap" gap={3} align="center">
         <Input
           type="search"

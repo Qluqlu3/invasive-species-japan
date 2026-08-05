@@ -12,6 +12,8 @@ export interface SpeciesFilters {
   conditional?: 'all' | 'yes' | 'no';
   status?: string;
   prefecture?: string;
+  hazardousOnly?: boolean;
+  photoOnly?: boolean;
 }
 
 /** フィルタ・ソートに必要な最小限のフィールド（一覧画面のフルデータ/軽量DTOのどちらでも使える） */
@@ -35,7 +37,15 @@ export function filterSpecies<T extends FilterableSpecies>(
   species: T[],
   filters: SpeciesFilters,
 ): T[] {
-  const { query, category, conditional, status, prefecture } = filters;
+  const {
+    query,
+    category,
+    conditional,
+    status,
+    prefecture,
+    hazardousOnly,
+    photoOnly,
+  } = filters;
 
   return species.filter((s) => {
     if (category && s.category !== category) return false;
@@ -43,6 +53,8 @@ export function filterSpecies<T extends FilterableSpecies>(
     if (conditional === 'no' && s.isConditional) return false;
     if (status && s.status !== status) return false;
     if (prefecture && !s.prefectures.includes(prefecture)) return false;
+    if (hazardousOnly && !s.hazardous) return false;
+    if (photoOnly && s.photos.length === 0) return false;
     if (query) {
       const q = query.toLowerCase();
       return (

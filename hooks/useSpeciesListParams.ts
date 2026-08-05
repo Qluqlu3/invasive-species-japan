@@ -13,6 +13,8 @@ export interface SpeciesListParams {
   prefecture: string;
   sort: string;
   favoriteOnly: boolean;
+  hazardousOnly: boolean;
+  photoOnly: boolean;
   setParam: (key: string, value: string) => void;
 }
 
@@ -37,6 +39,8 @@ export function useSpeciesListParams(): SpeciesListParams {
   const prefecture = searchParams.get('prefecture') ?? '';
   const sort = searchParams.get('sort') ?? '';
   const favoriteOnly = searchParams.get('favorite') === '1';
+  const hazardousOnly = searchParams.get('hazardous') === '1';
+  const photoOnly = searchParams.get('photo') === '1';
 
   const setParam = useCallback(
     (key: string, value: string) => {
@@ -72,6 +76,8 @@ export function useSpeciesListParams(): SpeciesListParams {
     prefecture,
     sort,
     favoriteOnly,
+    hazardousOnly,
+    photoOnly,
     setParam,
   };
 }

@@ -32,6 +32,8 @@ export default function SpeciesList({ species }: Props) {
     prefecture,
     sort,
     favoriteOnly,
+    hazardousOnly,
+    photoOnly,
     setParam,
   } = useSpeciesListParams();
 
@@ -44,6 +46,8 @@ export default function SpeciesList({ species }: Props) {
       conditional,
       status,
       prefecture,
+      hazardousOnly,
+      photoOnly,
       sort,
     });
     return favoriteOnly ? base.filter((s) => favorites.has(s.id)) : base;
@@ -54,6 +58,8 @@ export default function SpeciesList({ species }: Props) {
     conditional,
     status,
     prefecture,
+    hazardousOnly,
+    photoOnly,
     sort,
     favoriteOnly,
     favorites,
@@ -72,7 +78,17 @@ export default function SpeciesList({ species }: Props) {
   // biome-ignore lint/correctness/useExhaustiveDependencies: reset visible count whenever the filtered set changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [query, category, conditional, status, prefecture, sort, favoriteOnly]);
+  }, [
+    query,
+    category,
+    conditional,
+    status,
+    prefecture,
+    hazardousOnly,
+    photoOnly,
+    sort,
+    favoriteOnly,
+  ]);
 
   const { visible: paginated, hasMore } = paginate(filtered, visibleCount);
 
@@ -90,6 +106,8 @@ export default function SpeciesList({ species }: Props) {
         prefecture={prefecture}
         sort={sort}
         favoriteOnly={favoriteOnly}
+        hazardousOnly={hazardousOnly}
+        photoOnly={photoOnly}
         count={totalCount}
         onQueryChange={(v) => setInputQuery(v)}
         onCategoryChange={(v) => setParam('category', v)}
@@ -98,6 +116,8 @@ export default function SpeciesList({ species }: Props) {
         onPrefectureChange={(v) => setParam('prefecture', v)}
         onSortChange={(v) => setParam('sort', v)}
         onFavoriteOnlyChange={(v) => setParam('favorite', v ? '1' : '')}
+        onHazardousOnlyChange={(v) => setParam('hazardous', v ? '1' : '')}
+        onPhotoOnlyChange={(v) => setParam('photo', v ? '1' : '')}
       />
       <SpeciesMapFilter
         species={mapSpecies}
