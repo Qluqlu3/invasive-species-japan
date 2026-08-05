@@ -141,6 +141,8 @@ export default function SpeciesFilterBar({
             <option value="name">名前順</option>
             <option value="category">分類群順</option>
             <option value="status">定着状況順</option>
+            <option value="hazardous">毒性あり優先</option>
+            <option value="photos">写真あり優先</option>
           </NativeSelect.Field>
           <NativeSelect.Indicator />
         </NativeSelect.Root>

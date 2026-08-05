@@ -25,6 +25,9 @@ export interface FilterableSpecies {
   status: string;
   isConditional: boolean;
   prefectures: string[];
+  photos: string[];
+  /** 一覧の軽量DTOにのみ存在するため、フルデータ（Species型）では常にundefined扱い */
+  hazardous?: boolean;
 }
 
 /** 一覧画面のフィルタ条件（カテゴリ・条件付き・定着状況・都道府県・検索語）を適用する */
@@ -74,6 +77,12 @@ export function sortSpecies<T extends FilterableSpecies>(
       (a, b) =>
         STATUSES.indexOf(a.status as Status) -
         STATUSES.indexOf(b.status as Status),
+    );
+  } else if (sort === 'hazardous') {
+    result.sort((a, b) => Number(!!b.hazardous) - Number(!!a.hazardous));
+  } else if (sort === 'photos') {
+    result.sort(
+      (a, b) => Number(b.photos.length > 0) - Number(a.photos.length > 0),
     );
   }
 

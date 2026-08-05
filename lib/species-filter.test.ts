@@ -134,6 +134,24 @@ describe('sortSpecies', () => {
     sortSpecies(ALL, 'name');
     expect(ALL).toEqual(original);
   });
+
+  it('hazardous指定で毒性ありの種を先頭にソートする', () => {
+    const hazardousBullfrog = { ...BULLFROG, hazardous: true };
+    const result = sortSpecies(
+      [RACCOON, hazardousBullfrog, BASS],
+      'hazardous',
+    ).map((s) => s.id);
+    expect(result).toEqual([hazardousBullfrog.id, RACCOON.id, BASS.id]);
+  });
+
+  it('photos指定で写真ありの種を先頭にソートする', () => {
+    const raccoonWithPhoto = { ...RACCOON, photos: ['/photo.jpg'] };
+    const result = sortSpecies(
+      [BULLFROG, raccoonWithPhoto, BASS],
+      'photos',
+    ).map((s) => s.id);
+    expect(result).toEqual([raccoonWithPhoto.id, BULLFROG.id, BASS.id]);
+  });
 });
 
 describe('filterAndSortSpecies', () => {
