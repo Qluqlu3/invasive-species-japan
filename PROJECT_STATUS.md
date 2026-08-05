@@ -112,16 +112,46 @@ Playwright 等は導入されておらず、フィルタ→詳細遷移→戻る
 
 ### 優先度中
 4. **一覧画面に都道府県クリック→フィルタのインタラクティブ地図を追加**（既存 `JapanMap` を流用可能）
-5. **お気に入り機能**（localStorage、認証不要で実装できる）
+5. ~~**お気に入り機能**（localStorage、認証不要で実装できる）~~ → **対応済み**
 6. **Wikimedia 補完スクリプトを `build:data` の自動パイプラインに統合**、もしくは README に手動実行が必要な理由と頻度を明記
 7. **主要コンポーネント（PhotoGallery, SpeciesInfoTable, JapanMap）に最低限のレンダリングテストを追加**
 
 ### 優先度低（余力があれば）
-8. Docker本番ビルド用のマルチステージ Dockerfile
-9. Playwright 等での主要フローのE2Eテスト
+8. ~~Docker本番ビルド用のマルチステージ Dockerfile~~ → **対応済み**（`Dockerfile` に `prod` ステージ実装済み、README にも `--target prod` の手順記載あり。本セクション自体が古い情報だったため取り消し線で残す）
+9. ~~Playwright 等での主要フローのE2Eテスト~~ → **対応済み**（`e2e/` 追加、`ci.yml` に `e2e` job あり）
 10. 英語版（i18n）対応の検討
 11. 学名欠落6件・表記ゆれ突合漏れの手動補正
 
 ## 5. 総評
 
 コア機能（一覧・検索・フィルタ・詳細表示・データ収集パイプライン）は高い完成度で実装済み。直近の開発はリファクタリング（DTO導入によるペイロード削減、共通コンポーネント抽出、スクレイパーのfetch共通化）とテスト追加に向かっており、技術的負債の解消フェーズに入っている。次の一手としては、SEO対応（sitemap）とコンポーネントテストの拡充といった「地味だが効果の高い」項目から着手するのが良さそう。機能追加であれば、既存の `JapanMap` を活かしたインタラクティブ地図フィルタが最もUXへのインパクトが大きい。
+
+## 6. CI / GitHub 連携まわりの追加候補（2026-08-05 追記、未実装のアイデア出しのみ）
+
+`.github/workflows/ci.yml`（CI job・e2e job の2本）を起点に、GitHub 側で連携・強化できそうな項目を棚卸し。**下記はすべて未実装の候補であり、実装はしていない。**
+
+### 現状の確認事実
+- ワークフローは `ci.yml` の2 job のみ。Dependabot 設定ファイル・CodeQL・issue/PR テンプレート・CODEOWNERS はいずれも存在しない。
+- リポジトリは public。`gh api repos/.../vulnerability-alerts` → **Dependabot vulnerability alerts は無効**（`404 Vulnerability alerts are disabled`）。
+- `main` ブランチに **branch protection 未設定**（`404 Branch not protected`）。CI green を必須化するルールがなく、直push・force pushも制限されていない。
+- Docker の prod ステージ・E2E・お気に入り機能など、本ドキュメントの旧優先度リストで「未対応」としていた項目のうち複数が既に対応済みだった（上記セクション4に取り消し線で反映済み）。ドキュメントが実態より遅れやすいので、この種のメモは定期的に鮮度チェックが必要。
+
+### 追加候補（優先度目安）
+
+| 優先度 | 項目 | 内容 | 理由 |
+| --- | --- | --- | --- |
+| 高 | ~~Dependabot vulnerability alerts を有効化~~ | **対応済み（2026-08-05）**。`gh api -X PUT .../vulnerability-alerts` | 外部データ取得・画像処理系の依存（cheerio, sharp 等）はCVEが出やすい領域 |
+| 高 | ~~`main` の branch protection~~ | **対応済み（2026-08-05）**。`required_status_checks: [CI, e2e]` のみ設定。`required_pull_request_reviews`・`restrictions` は null のままなので **直push・force push は引き続き可能**（PRをマージする時だけCI green必須になる） | PRマージ時に壊れたコードが混入するのを防ぎつつ、個人開発の直push運用は変えない |
+| 中 | ~~`.github/dependabot.yml` 追加（npm + github-actions）~~ | **対応済み（2026-08-05）**。両エコシステムとも週次 | 依存更新が完全手動だった。Next.js/Reactのメジャー追従・Actionsのバージョン追従漏れ対策 |
+| 中 | ~~`permissions:` を workflow に明示（最小権限）~~ | **対応済み（2026-08-05）**。`ci.yml` トップレベルに `permissions: contents: read` を追加 | 特にPull Requestからの実行を将来受け付ける場合の事故防止（サプライチェーン対策） |
+| 中 | ~~`concurrency` グループ追加~~ | **対応済み（2026-08-05）**。`group: ${{ github.workflow }}-${{ github.ref }}` / `cancel-in-progress: true` | 同一ブランチ/PRへの連続pushで古い実行を自動cancelし、CI時間の無駄を削減 |
+| 中 | ~~Playwright ブラウザのキャッシュ~~ | **対応済み（2026-08-05）**。`actions/cache@v4` で `~/.cache/ms-playwright` をキャッシュ（キーは `pnpm-lock.yaml` のハッシュ） | e2e jobの時間短縮。バージョン変更時（lockfile差分）は自動的にキャッシュキーが変わり再ダウンロードされる |
+| 低 | カバレッジ計測（`vitest run --coverage`）をCIに追加 | 閾値は設けず可視化のみでも良い | 本ドキュメント3節の「コンポーネントテストが手薄」の裏付け・進捗トラッキングに使える |
+| 低 | Dockerイメージのビルド確認をCIに追加 | `docker build --target prod` をPRで検証 | Dockerfileの壊れに気付く手段が現状ない（README/compose経由の手動確認のみ） |
+| 低 | CodeQL（コードスキャン） | GitHub標準のセキュリティ機能 | 個人開発・小規模Next.jsアプリでは費用対効果は中程度だが無料でONにできる |
+| 低 | README にCIバッジ追加 | `ci.yml` のstatus badge | 実利は小さいが手間もほぼゼロ |
+
+### 見送ってよさそうなもの（この規模の個人開発では過剰と判断）
+- Renovate・semantic-release等の高度な自動化（Dependabotで足りる）
+- CODEOWNERS・PRテンプレート（単独開発者のため恩恵が薄い）
+- Lighthouse CI / axe-core 等の自動アクセシビリティ・パフォーマンス監査ワークフロー（Biomeのa11y lintで最低限はカバー済み。必要になったら再検討）
