@@ -1,6 +1,8 @@
 onlyBuiltDependencies:
+  - lefthook
   - sharp
 allowBuilds:
+  lefthook: true
   sharp: true
 
 overrides:
