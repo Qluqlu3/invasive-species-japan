@@ -27,7 +27,7 @@
     "apply:kouji": "ts-node --project tsconfig.scripts.json scripts/apply-kouji.ts"
   },
   "dependencies": {
-    "@chakra-ui/react": "^3.36.0",
+    "@chakra-ui/react": "^3.36.1",
     "next": "16.2.12",
     "react": "19.2.7",
     "react-dom": "19.2.7"
