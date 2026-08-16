@@ -4,6 +4,7 @@ import { Box, Grid, Text } from '@chakra-ui/react';
 import { useEffect, useMemo, useState } from 'react';
 import { useFavorites } from '@/hooks/useFavorites';
 import { useInfiniteScroll } from '@/hooks/useInfiniteScroll';
+import { useRecentlyViewed } from '@/hooks/useRecentlyViewed';
 import { useSpeciesListParams } from '@/hooks/useSpeciesListParams';
 import {
   filterAndSortSpecies,
@@ -11,6 +12,7 @@ import {
   paginate,
 } from '@/lib/species-filter';
 import type { SpeciesListItem } from '@/lib/types';
+import RecentlyViewedShelf from './RecentlyViewedShelf';
 import SpeciesCard from './SpeciesCard';
 import SpeciesFilterBar from './SpeciesFilterBar';
 import SpeciesMapFilter from './SpeciesMapFilter';
@@ -38,6 +40,14 @@ export default function SpeciesList({ species }: Props) {
   } = useSpeciesListParams();
 
   const { favorites, toggleFavorite } = useFavorites();
+  const { recentlyViewed } = useRecentlyViewed();
+
+  const recentlyViewedSpecies = useMemo(() => {
+    const byId = new Map(species.map((s) => [s.id, s]));
+    return recentlyViewed
+      .map((id) => byId.get(id))
+      .filter((s): s is SpeciesListItem => !!s);
+  }, [species, recentlyViewed]);
 
   const filtered = useMemo(() => {
     const base = filterAndSortSpecies(species, {
@@ -98,6 +108,7 @@ export default function SpeciesList({ species }: Props) {
 
   return (
     <Box>
+      <RecentlyViewedShelf species={recentlyViewedSpecies} />
       <SpeciesFilterBar
         query={inputQuery}
         category={category}
