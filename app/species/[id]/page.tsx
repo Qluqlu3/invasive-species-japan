@@ -11,6 +11,7 @@ import LookalikesSection from '@/components/species/LookalikesSection';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
 import RecentlyViewedTracker from '@/components/species/RecentlyViewedTracker';
+import SightingReportSection from '@/components/species/SightingReportSection';
 import SpeciesInfoTable from '@/components/species/SpeciesInfoTable';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
 import { isHazardous } from '@/lib/description';
@@ -53,6 +54,10 @@ export default async function SpeciesPage({ params }: Props) {
           hazardous={isHazardous(s.description)}
         />
         {shouldShowHiariHotline(s.id) && <HiariHotlineNotice />}
+        <SightingReportSection
+          jaName={s.jaName}
+          scientificName={s.scientificName}
+        />
         {s.photos.length > 0 && (
           <section>
             <h2
