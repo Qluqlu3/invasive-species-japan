@@ -1,9 +1,12 @@
 import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
-
-const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
-const PUBLIC_DIR = path.join(process.cwd(), 'public', 'images', 'species');
+import { sleep } from './http';
+import {
+  readSpeciesData,
+  SPECIES_IMAGES_DIR,
+  writeSpeciesData,
+} from './species-store';
 
 // この幅未満の画像は 2x アップスケール（フルサイズ原本を使うようになった後は
 // ほぼ発生しないはずだが、稀に小さい原本しかない種のための保険）
@@ -13,17 +16,6 @@ const MAX_WIDTH = 1200;
 const WEBP_QUALITY = 85;
 // env.go.jp へのレート制限対策
 const DELAY_MS = 300;
-
-interface Species {
-  id: string;
-  jaName: string;
-  photos: string[];
-  [key: string]: unknown;
-}
-
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 async function fetchImage(url: string): Promise<Buffer> {
   const res = await fetch(url, {
@@ -60,7 +52,7 @@ async function processImage(buf: Buffer): Promise<Buffer> {
 }
 
 async function main() {
-  const species: Species[] = JSON.parse(fs.readFileSync(DATA_PATH, 'utf-8'));
+  const species = readSpeciesData();
 
   let total = 0;
   let skipped = 0;
@@ -69,7 +61,7 @@ async function main() {
   for (const s of species) {
     if (s.photos.length === 0) continue;
 
-    const dir = path.join(PUBLIC_DIR, s.id);
+    const dir = path.join(SPECIES_IMAGES_DIR, s.id);
     fs.mkdirSync(dir, { recursive: true });
 
     const newPhotos: string[] = [];
@@ -77,7 +69,7 @@ async function main() {
     for (let i = 0; i < s.photos.length; i++) {
       const url = s.photos[i];
       const localPath = `/images/species/${s.id}/${i}.webp`;
-      const localFsPath = path.join(PUBLIC_DIR, s.id, `${i}.webp`);
+      const localFsPath = path.join(SPECIES_IMAGES_DIR, s.id, `${i}.webp`);
 
       // すでにローカルパスなら変換不要
       if (url.startsWith('/')) {
@@ -120,7 +112,7 @@ async function main() {
     s.photos = newPhotos;
   }
 
-  fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2));
+  writeSpeciesData(species);
 
   console.log(
     `\n完了: ${total} 件処理, ${skipped} 件スキップ, ${errors} 件エラー`,

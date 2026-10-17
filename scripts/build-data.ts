@@ -4,8 +4,6 @@
  *
  * 使い方: npx ts-node scripts/build-data.ts
  */
-import * as fs from 'fs';
-import * as path from 'path';
 import type { Species } from '../lib/types';
 import { LOOKALIKES } from './lookalikes-data';
 import { matchKoujiEntries, scrapeKouji } from './scrape-kouji';
@@ -14,9 +12,12 @@ import { scrapeNies, scrapeNiesDetails } from './scrape-nies';
 import { scrapeGifPrefectures } from './scrape-nies-map';
 import { scrapePhotos } from './scrape-photos';
 import { makeId, matchNiesEntry, matchPhotos } from './species-matching';
-
-const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'species.json');
-const META_PATH = path.join(__dirname, '..', 'data', 'meta.json');
+import {
+  META_DATA_PATH,
+  SPECIES_DATA_PATH,
+  writeDataMeta,
+  writeSpeciesData,
+} from './species-store';
 
 /** スクレイパーで正確に抽出できない学名を手動で補正するマップ */
 const SCIENTIFIC_NAME_CORRECTIONS: Record<string, string> = {
@@ -193,20 +194,15 @@ async function main() {
   console.log(`\n✓ 防除情報付与: ${koujiAdded} 種\n`);
 
   // 9. 出力
-  fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(species, null, 2), 'utf-8');
+  writeSpeciesData(species);
 
   const now = new Date();
   const lastUpdated = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
-  fs.writeFileSync(
-    META_PATH,
-    `${JSON.stringify({ lastUpdated }, null, 2)}\n`,
-    'utf-8',
-  );
+  writeDataMeta({ lastUpdated });
 
   console.log(`\n=== 完了 ===`);
-  console.log(`出力: ${OUTPUT_PATH}`);
-  console.log(`出力: ${META_PATH} (lastUpdated: ${lastUpdated})`);
+  console.log(`出力: ${SPECIES_DATA_PATH}`);
+  console.log(`出力: ${META_DATA_PATH} (lastUpdated: ${lastUpdated})`);
   console.log(`総種数: ${species.length}`);
   console.log(`写真あり: ${species.filter((s) => s.photos.length > 0).length}`);
   console.log(

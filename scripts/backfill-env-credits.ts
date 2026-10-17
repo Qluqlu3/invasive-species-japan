@@ -3,11 +3,8 @@
  * 環境省提供のクレジットを補完する一回限りの整備スクリプト。
  * （Wikimedia由来の写真は scrape-wikimedia.ts が既にクレジットを設定済み）
  */
-import fs from 'fs';
-import path from 'path';
-import type { PhotoCredit, Species } from '../lib/types';
-
-const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
+import type { PhotoCredit } from '../lib/types';
+import { readSpeciesData, writeSpeciesData } from './species-store';
 
 const ENV_CREDIT: PhotoCredit = {
   source: 'env',
@@ -16,7 +13,7 @@ const ENV_CREDIT: PhotoCredit = {
 };
 
 function main() {
-  const species: Species[] = JSON.parse(fs.readFileSync(DATA_PATH, 'utf-8'));
+  const species = readSpeciesData();
 
   let count = 0;
   for (const s of species) {
@@ -29,7 +26,7 @@ function main() {
     }
   }
 
-  fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2));
+  writeSpeciesData(species);
   console.log(`完了: ${count} 件の写真に環境省提供クレジットを補完`);
 }
 

@@ -4,38 +4,11 @@
  * 基本情報・生態・侵入情報・影響・対策など詳細項目を取得して data/species.json に書き込む
  */
 import * as cheerio from 'cheerio';
-import fs from 'fs';
-import path from 'path';
+import type { SpeciesDescription } from '../lib/types';
 import { fetchText, sleep } from './http';
+import { readSpeciesData, writeSpeciesData } from './species-store';
 
-const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
 const DELAY_MS = 1200;
-
-interface SpeciesDescription {
-  englishName?: string;
-  nativeRange?: string;
-  morphology?: string;
-  ecology?: string;
-  breeding?: string;
-  habitat?: string;
-  sourceRegion?: string;
-  pathway?: string;
-  invasionEra?: string;
-  overseasRange?: string;
-  impact?: string;
-  legalNote?: string;
-  control?: string;
-  issues?: string;
-  remarks?: string;
-}
-
-interface Species {
-  id: string;
-  jaName: string;
-  niesUrl?: string;
-  description?: SpeciesDescription;
-  [key: string]: unknown;
-}
 
 const TARGET_LABELS: Record<string, keyof SpeciesDescription> = {
   英名等: 'englishName',
@@ -85,7 +58,7 @@ export async function fetchDescription(
 }
 
 async function main() {
-  const species: Species[] = JSON.parse(fs.readFileSync(DATA_PATH, 'utf-8'));
+  const species = readSpeciesData();
   const targets = species.filter((s) => s.niesUrl);
 
   console.log(`対象: ${targets.length} 件 / 全 ${species.length} 件`);
@@ -112,7 +85,7 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2));
+  writeSpeciesData(species);
   console.log(`\n完了: ${done} 件処理, ${errors} 件エラー`);
 }
 

@@ -6,15 +6,15 @@
  *
  * 使い方: npx ts-node --project tsconfig.scripts.json scripts/apply-kouji.ts
  */
-import * as fs from 'fs';
-import * as path from 'path';
-import type { Species } from '../lib/types';
 import { matchKoujiEntries, scrapeKouji } from './scrape-kouji';
-
-const DATA_PATH = path.join(__dirname, '..', 'data', 'species.json');
+import {
+  readSpeciesData,
+  SPECIES_DATA_PATH,
+  writeSpeciesData,
+} from './species-store';
 
 async function main() {
-  const species: Species[] = JSON.parse(fs.readFileSync(DATA_PATH, 'utf-8'));
+  const species = readSpeciesData();
 
   const entries = await scrapeKouji();
   const koujiMap = matchKoujiEntries(entries, species);
@@ -30,8 +30,8 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2), 'utf-8');
-  console.log(`✓ 防除情報を ${updated} 種に反映しました: ${DATA_PATH}`);
+  writeSpeciesData(species);
+  console.log(`✓ 防除情報を ${updated} 種に反映しました: ${SPECIES_DATA_PATH}`);
 }
 
 main().catch((err) => {

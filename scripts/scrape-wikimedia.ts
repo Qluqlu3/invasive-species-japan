@@ -9,9 +9,11 @@ import fs from 'fs';
 import path from 'path';
 import sharp from 'sharp';
 import type { PhotoCredit, Species } from '../lib/types';
-
-const DATA_PATH = path.join(process.cwd(), 'data', 'species.json');
-const PUBLIC_DIR = path.join(process.cwd(), 'public', 'images', 'species');
+import {
+  readSpeciesData,
+  SPECIES_IMAGES_DIR,
+  writeSpeciesData,
+} from './species-store';
 
 const UA = {
   'User-Agent':
@@ -268,7 +270,7 @@ async function tryCandidate(
 }
 
 async function main() {
-  const species: Species[] = JSON.parse(fs.readFileSync(DATA_PATH, 'utf-8'));
+  const species = readSpeciesData();
 
   let filled = 0;
   let skipped = 0;
@@ -314,7 +316,7 @@ async function main() {
       }
 
       const { candidate, info } = matched;
-      const dir = path.join(PUBLIC_DIR, s.id);
+      const dir = path.join(SPECIES_IMAGES_DIR, s.id);
       fs.mkdirSync(dir, { recursive: true });
       const localFsPath = path.join(dir, '0.webp');
       const localPath = `/images/species/${s.id}/0.webp`;
@@ -348,7 +350,7 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(DATA_PATH, JSON.stringify(species, null, 2));
+  writeSpeciesData(species);
 
   console.log(`\n完了: ${filled} 件取得, ${skipped} 件スキップ`);
   if (skippedNames.length > 0) {
