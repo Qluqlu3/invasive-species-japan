@@ -9,51 +9,105 @@ import {
   NativeSelect,
   Text,
 } from '@chakra-ui/react';
+import type {
+  SetFilter,
+  SpeciesListFilters,
+} from '@/hooks/useSpeciesListParams';
 import { ALL_PREFECTURES, CATEGORIES, STATUSES } from '@/lib/types';
 
+interface SelectOption {
+  value: string;
+  label: string;
+}
+
+/** 先頭に「すべて」（空文字）を置いた選択肢を作る。値をそのまま表示ラベルにする */
+function withAllOption(
+  allLabel: string,
+  values: readonly string[],
+): SelectOption[] {
+  return [
+    { value: '', label: allLabel },
+    ...values.map((v) => ({ value: v, label: v })),
+  ];
+}
+
+const CATEGORY_OPTIONS = withAllOption('分類群: すべて', CATEGORIES);
+const STATUS_OPTIONS = withAllOption('定着状況: すべて', STATUSES);
+const PREFECTURE_OPTIONS = withAllOption('都道府県: すべて', ALL_PREFECTURES);
+
+const CONDITIONAL_OPTIONS: SelectOption[] = [
+  { value: 'all', label: '指定区分: すべて' },
+  { value: 'no', label: '特定外来生物のみ' },
+  { value: 'yes', label: '条件付特定外来生物のみ' },
+];
+
+const SORT_OPTIONS: SelectOption[] = [
+  { value: '', label: '並び順: デフォルト' },
+  { value: 'name', label: '名前順' },
+  { value: 'category', label: '分類群順' },
+  { value: 'status', label: '定着状況順' },
+  { value: 'hazardous', label: '毒性あり優先' },
+  { value: 'photos', label: '写真あり優先' },
+];
+
+interface FilterSelectProps<T extends string> {
+  value: T;
+  options: SelectOption[];
+  onChange: (value: T) => void;
+}
+
+function FilterSelect<T extends string>({
+  value,
+  options,
+  onChange,
+}: FilterSelectProps<T>) {
+  return (
+    <NativeSelect.Root size="sm" w="auto">
+      <NativeSelect.Field
+        value={value}
+        // optionsには型Tの値しか含めないため、選択値もTとして扱える
+        onChange={(e) => onChange(e.target.value as T)}
+        rounded="lg"
+        cursor="pointer"
+      >
+        {options.map((o) => (
+          <option key={o.value} value={o.value}>
+            {o.label}
+          </option>
+        ))}
+      </NativeSelect.Field>
+      <NativeSelect.Indicator />
+    </NativeSelect.Root>
+  );
+}
+
 interface Props {
+  filters: SpeciesListFilters;
+  /** 入力中の検索語（URLへの反映はデバウンスされるため filters.query とは別に持つ） */
   query: string;
-  category: string;
-  conditional: 'all' | 'yes' | 'no';
-  status: string;
-  prefecture: string;
-  sort: string;
-  favoriteOnly: boolean;
-  hazardousOnly: boolean;
-  photoOnly: boolean;
   count: number;
   onQueryChange: (v: string) => void;
-  onCategoryChange: (v: string) => void;
-  onConditionalChange: (v: 'all' | 'yes' | 'no') => void;
-  onStatusChange: (v: string) => void;
-  onPrefectureChange: (v: string) => void;
-  onSortChange: (v: string) => void;
-  onFavoriteOnlyChange: (v: boolean) => void;
-  onHazardousOnlyChange: (v: boolean) => void;
-  onPhotoOnlyChange: (v: boolean) => void;
+  onFilterChange: SetFilter;
 }
 
 export default function SpeciesFilterBar({
+  filters,
   query,
-  category,
-  conditional,
-  status,
-  prefecture,
-  sort,
-  favoriteOnly,
-  hazardousOnly,
-  photoOnly,
   count,
   onQueryChange,
-  onCategoryChange,
-  onConditionalChange,
-  onStatusChange,
-  onPrefectureChange,
-  onSortChange,
-  onFavoriteOnlyChange,
-  onHazardousOnlyChange,
-  onPhotoOnlyChange,
+  onFilterChange,
 }: Props) {
+  const {
+    category,
+    conditional,
+    status,
+    prefecture,
+    sort,
+    favoriteOnly,
+    hazardousOnly,
+    photoOnly,
+  } = filters;
+
   return (
     <Box
       position="sticky"
@@ -75,7 +129,7 @@ export default function SpeciesFilterBar({
           rounded="full"
           variant={hazardousOnly ? 'solid' : 'outline'}
           colorPalette="purple"
-          onClick={() => onHazardousOnlyChange(!hazardousOnly)}
+          onClick={() => onFilterChange('hazardousOnly', !hazardousOnly)}
         >
           ☠ 毒のある種だけ
         </Button>
@@ -84,7 +138,7 @@ export default function SpeciesFilterBar({
           rounded="full"
           variant={photoOnly ? 'solid' : 'outline'}
           colorPalette="green"
-          onClick={() => onPhotoOnlyChange(!photoOnly)}
+          onClick={() => onFilterChange('photoOnly', !photoOnly)}
         >
           📷 写真ありのみ
         </Button>
@@ -94,7 +148,7 @@ export default function SpeciesFilterBar({
           variant={conditional === 'no' ? 'solid' : 'outline'}
           colorPalette="orange"
           onClick={() =>
-            onConditionalChange(conditional === 'no' ? 'all' : 'no')
+            onFilterChange('conditional', conditional === 'no' ? 'all' : 'no')
           }
         >
           特定外来生物のみ
@@ -110,88 +164,34 @@ export default function SpeciesFilterBar({
           w={64}
           rounded="lg"
         />
-        <NativeSelect.Root size="sm" w="auto">
-          <NativeSelect.Field
-            value={category}
-            onChange={(e) => onCategoryChange(e.target.value)}
-            rounded="lg"
-            cursor="pointer"
-          >
-            <option value="">分類群: すべて</option>
-            {CATEGORIES.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </NativeSelect.Field>
-          <NativeSelect.Indicator />
-        </NativeSelect.Root>
-        <NativeSelect.Root size="sm" w="auto">
-          <NativeSelect.Field
-            value={conditional}
-            onChange={(e) =>
-              onConditionalChange(e.target.value as 'all' | 'yes' | 'no')
-            }
-            rounded="lg"
-            cursor="pointer"
-          >
-            <option value="all">指定区分: すべて</option>
-            <option value="no">特定外来生物のみ</option>
-            <option value="yes">条件付特定外来生物のみ</option>
-          </NativeSelect.Field>
-          <NativeSelect.Indicator />
-        </NativeSelect.Root>
-        <NativeSelect.Root size="sm" w="auto">
-          <NativeSelect.Field
-            value={status}
-            onChange={(e) => onStatusChange(e.target.value)}
-            rounded="lg"
-            cursor="pointer"
-          >
-            <option value="">定着状況: すべて</option>
-            {STATUSES.map((s) => (
-              <option key={s} value={s}>
-                {s}
-              </option>
-            ))}
-          </NativeSelect.Field>
-          <NativeSelect.Indicator />
-        </NativeSelect.Root>
-        <NativeSelect.Root size="sm" w="auto">
-          <NativeSelect.Field
-            value={prefecture}
-            onChange={(e) => onPrefectureChange(e.target.value)}
-            rounded="lg"
-            cursor="pointer"
-          >
-            <option value="">都道府県: すべて</option>
-            {ALL_PREFECTURES.map((p) => (
-              <option key={p} value={p}>
-                {p}
-              </option>
-            ))}
-          </NativeSelect.Field>
-          <NativeSelect.Indicator />
-        </NativeSelect.Root>
-        <NativeSelect.Root size="sm" w="auto">
-          <NativeSelect.Field
-            value={sort}
-            onChange={(e) => onSortChange(e.target.value)}
-            rounded="lg"
-            cursor="pointer"
-          >
-            <option value="">並び順: デフォルト</option>
-            <option value="name">名前順</option>
-            <option value="category">分類群順</option>
-            <option value="status">定着状況順</option>
-            <option value="hazardous">毒性あり優先</option>
-            <option value="photos">写真あり優先</option>
-          </NativeSelect.Field>
-          <NativeSelect.Indicator />
-        </NativeSelect.Root>
+        <FilterSelect
+          value={category}
+          options={CATEGORY_OPTIONS}
+          onChange={(v) => onFilterChange('category', v)}
+        />
+        <FilterSelect
+          value={conditional}
+          options={CONDITIONAL_OPTIONS}
+          onChange={(v) => onFilterChange('conditional', v)}
+        />
+        <FilterSelect
+          value={status}
+          options={STATUS_OPTIONS}
+          onChange={(v) => onFilterChange('status', v)}
+        />
+        <FilterSelect
+          value={prefecture}
+          options={PREFECTURE_OPTIONS}
+          onChange={(v) => onFilterChange('prefecture', v)}
+        />
+        <FilterSelect
+          value={sort}
+          options={SORT_OPTIONS}
+          onChange={(v) => onFilterChange('sort', v)}
+        />
         <Checkbox.Root
           checked={favoriteOnly}
-          onCheckedChange={(d) => onFavoriteOnlyChange(!!d.checked)}
+          onCheckedChange={(d) => onFilterChange('favoriteOnly', !!d.checked)}
           size="sm"
         >
           <Checkbox.HiddenInput />

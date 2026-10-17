@@ -24,20 +24,8 @@ interface Props {
 }
 
 export default function SpeciesList({ species }: Props) {
-  const {
-    query,
-    inputQuery,
-    setInputQuery,
-    category,
-    conditional,
-    status,
-    prefecture,
-    sort,
-    favoriteOnly,
-    hazardousOnly,
-    photoOnly,
-    setParam,
-  } = useSpeciesListParams();
+  const { filters, inputQuery, setInputQuery, setFilter } =
+    useSpeciesListParams();
 
   const { favorites, toggleFavorite } = useFavorites();
   const { recentlyViewed } = useRecentlyViewed();
@@ -50,33 +38,15 @@ export default function SpeciesList({ species }: Props) {
   }, [species, recentlyViewed]);
 
   const filtered = useMemo(() => {
-    const base = filterAndSortSpecies(species, {
-      query,
-      category,
-      conditional,
-      status,
-      prefecture,
-      hazardousOnly,
-      photoOnly,
-      sort,
-    });
-    return favoriteOnly ? base.filter((s) => favorites.has(s.id)) : base;
-  }, [
-    species,
-    query,
-    category,
-    conditional,
-    status,
-    prefecture,
-    hazardousOnly,
-    photoOnly,
-    sort,
-    favoriteOnly,
-    favorites,
-  ]);
+    const base = filterAndSortSpecies(species, filters);
+    return filters.favoriteOnly
+      ? base.filter((s) => favorites.has(s.id))
+      : base;
+  }, [species, filters, favorites]);
 
   // 都道府県以外の条件のみを適用したリスト。地図フィルタ上で都道府県を選択中でも
   // 他の都道府県の状況を確認・切り替えできるようにするため、prefectureは含めない。
+  const { query, category, conditional, status } = filters;
   const mapSpecies = useMemo(
     () => filterSpecies(species, { query, category, conditional, status }),
     [species, query, category, conditional, status],
@@ -85,20 +55,10 @@ export default function SpeciesList({ species }: Props) {
   const totalCount = filtered.length;
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  // biome-ignore lint/correctness/useExhaustiveDependencies: reset visible count whenever the filtered set changes
+  // biome-ignore lint/correctness/useExhaustiveDependencies: reset visible count whenever the filters change
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [
-    query,
-    category,
-    conditional,
-    status,
-    prefecture,
-    hazardousOnly,
-    photoOnly,
-    sort,
-    favoriteOnly,
-  ]);
+  }, [filters]);
 
   const { visible: paginated, hasMore } = paginate(filtered, visibleCount);
 
@@ -110,30 +70,16 @@ export default function SpeciesList({ species }: Props) {
     <Box>
       <RecentlyViewedShelf species={recentlyViewedSpecies} />
       <SpeciesFilterBar
+        filters={filters}
         query={inputQuery}
-        category={category}
-        conditional={conditional}
-        status={status}
-        prefecture={prefecture}
-        sort={sort}
-        favoriteOnly={favoriteOnly}
-        hazardousOnly={hazardousOnly}
-        photoOnly={photoOnly}
         count={totalCount}
-        onQueryChange={(v) => setInputQuery(v)}
-        onCategoryChange={(v) => setParam('category', v)}
-        onConditionalChange={(v) => setParam('conditional', v)}
-        onStatusChange={(v) => setParam('status', v)}
-        onPrefectureChange={(v) => setParam('prefecture', v)}
-        onSortChange={(v) => setParam('sort', v)}
-        onFavoriteOnlyChange={(v) => setParam('favorite', v ? '1' : '')}
-        onHazardousOnlyChange={(v) => setParam('hazardous', v ? '1' : '')}
-        onPhotoOnlyChange={(v) => setParam('photo', v ? '1' : '')}
+        onQueryChange={setInputQuery}
+        onFilterChange={setFilter}
       />
       <SpeciesMapFilter
         species={mapSpecies}
-        selectedPrefecture={prefecture}
-        onSelectPrefecture={(v) => setParam('prefecture', v)}
+        selectedPrefecture={filters.prefecture}
+        onSelectPrefecture={(v) => setFilter('prefecture', v)}
       />
       <Grid
         templateColumns={{

@@ -6,10 +6,19 @@ import {
   type Status,
 } from './types';
 
+/** 指定区分フィルタ（yes: 条件付特定外来生物のみ / no: 特定外来生物のみ） */
+export type ConditionalFilter = 'all' | 'yes' | 'no';
+
+export const CONDITIONAL_FILTERS: readonly ConditionalFilter[] = [
+  'all',
+  'yes',
+  'no',
+];
+
 export interface SpeciesFilters {
   query?: string;
   category?: string;
-  conditional?: 'all' | 'yes' | 'no';
+  conditional?: ConditionalFilter;
   status?: string;
   prefecture?: string;
   hazardousOnly?: boolean;
