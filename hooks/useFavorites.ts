@@ -1,44 +1,31 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useMemo } from 'react';
+import { parseStringArray, useLocalStorageState } from './useLocalStorageState';
 
 const STORAGE_KEY = 'invasive:favorites';
-
-function readFavorites(): Set<string> {
-  if (typeof window === 'undefined') return new Set();
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    const parsed: unknown = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? new Set(parsed) : new Set();
-  } catch {
-    return new Set();
-  }
-}
+const EMPTY: string[] = [];
 
 /**
  * お気に入り登録した種のIDをlocalStorageに保存するフック。
- * SSR/初回レンダリング時は空集合を返し、マウント後にlocalStorageの内容へ
- * 差し替える（サーバー・クライアントでの内容差異によるhydrationエラーを避けるため）。
+ * SSR/初回レンダリング時は空集合を返し、hydration後にlocalStorageの内容へ差し替わる。
  */
 export function useFavorites() {
-  const [favorites, setFavorites] = useState<Set<string>>(new Set());
+  const [ids, setIds] = useLocalStorageState(
+    STORAGE_KEY,
+    parseStringArray,
+    EMPTY,
+  );
+  const favorites = useMemo(() => new Set(ids), [ids]);
 
-  useEffect(() => {
-    setFavorites(readFavorites());
-  }, []);
-
-  const toggleFavorite = useCallback((id: string) => {
-    setFavorites((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify([...next]));
-      return next;
-    });
-  }, []);
+  const toggleFavorite = useCallback(
+    (id: string) => {
+      setIds((prev) =>
+        prev.includes(id) ? prev.filter((v) => v !== id) : [...prev, id],
+      );
+    },
+    [setIds],
+  );
 
   return { favorites, toggleFavorite };
 }
