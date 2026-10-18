@@ -27,25 +27,25 @@
     "apply:kouji": "ts-node --project tsconfig.scripts.json scripts/apply-kouji.ts"
   },
   "dependencies": {
-    "@chakra-ui/react": "^3.36.0",
-    "next": "16.2.12",
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "@chakra-ui/react": "^3.37.0",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.3",
-    "@playwright/test": "^1.62.1",
-    "@testing-library/jest-dom": "^7.0.0",
-    "@testing-library/react": "^16.3.2",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "cheerio": "^1.0.0",
-    "jsdom": "^30.0.1",
-    "lefthook": "^2.1.10",
-    "sharp": "^0.35.3",
+    "@biomejs/biome": "^2.5.15",
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "cheerio": "^1.2.0",
+    "jsdom": "^30.1.3",
+    "lefthook": "^2.2.2",
+    "sharp": "^0.35.5",
     "ts-node": "^10.9.2",
-    "typescript": "^5",
-    "vitest": "^4.1.10"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.12"
   }
 }

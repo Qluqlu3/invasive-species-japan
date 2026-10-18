@@ -11,16 +11,12 @@ describe('isMeaningful', () => {
     expect(isMeaningful('   ')).toBe(false);
   });
 
-  it.each([
-    '情報整理中',
-    '不明',
-    '整理中',
-    '-',
-    '－',
-    '−',
-  ])('プレースホルダー値 "%s" はfalse', (value) => {
-    expect(isMeaningful(value)).toBe(false);
-  });
+  it.each(['情報整理中', '不明', '整理中', '-', '－', '−'])(
+    'プレースホルダー値 "%s" はfalse',
+    (value) => {
+      expect(isMeaningful(value)).toBe(false);
+    },
+  );
 
   it('前後に空白があってもプレースホルダー値と一致すればfalse', () => {
     expect(isMeaningful('  不明  ')).toBe(false);
