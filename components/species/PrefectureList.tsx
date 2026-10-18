@@ -1,8 +1,9 @@
 'use client';
 
-import { Badge, Box, Flex, Heading, Text } from '@chakra-ui/react';
+import { Badge, Box, Flex, Text } from '@chakra-ui/react';
 import { prefectureUnitLabel, REGIONS } from '@/lib/types';
 import JapanMap from './JapanMap';
+import SectionCard from './SectionCard';
 
 interface Props {
   prefectures: string[];
@@ -10,28 +11,9 @@ interface Props {
 
 export default function PrefectureList({ prefectures }: Props) {
   return (
-    <Box
-      bg="white"
-      rounded="xl"
-      borderWidth="1px"
-      borderColor="gray.300"
-      overflow="hidden"
+    <SectionCard
+      title={`国内分布 (${prefectures.length}${prefectureUnitLabel(prefectures)})`}
     >
-      <Heading
-        size="xs"
-        fontWeight="semibold"
-        color="gray.700"
-        textTransform="uppercase"
-        letterSpacing="wide"
-        px={5}
-        py={3}
-        borderBottomWidth="1px"
-        borderColor="gray.200"
-      >
-        国内分布 ({prefectures.length}
-        {prefectureUnitLabel(prefectures)})
-      </Heading>
-
       <Box px={1} pt={3} pb={1}>
         <JapanMap highlightedPrefectures={prefectures} />
         <Flex gap={4} px={2} py={2} align="center">
@@ -109,6 +91,6 @@ export default function PrefectureList({ prefectures }: Props) {
           分布データなし
         </Text>
       )}
-    </Box>
+    </SectionCard>
   );
 }

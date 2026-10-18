@@ -11,6 +11,7 @@ import LookalikesSection from '@/components/species/LookalikesSection';
 import PhotoGallery from '@/components/species/PhotoGallery';
 import PrefectureList from '@/components/species/PrefectureList';
 import RecentlyViewedTracker from '@/components/species/RecentlyViewedTracker';
+import { SectionHeading } from '@/components/species/SectionCard';
 import SightingReportSection from '@/components/species/SightingReportSection';
 import SpeciesInfoTable from '@/components/species/SpeciesInfoTable';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
@@ -60,18 +61,7 @@ export default async function SpeciesPage({ params }: Props) {
         />
         {s.photos.length > 0 && (
           <section>
-            <h2
-              style={{
-                fontSize: '0.75rem',
-                fontWeight: 600,
-                color: '#374151',
-                textTransform: 'uppercase',
-                letterSpacing: '0.05em',
-                marginBottom: '0.75rem',
-              }}
-            >
-              写真
-            </h2>
+            <SectionHeading mb={3}>写真</SectionHeading>
             <PhotoGallery
               photos={s.photos}
               name={s.jaName}

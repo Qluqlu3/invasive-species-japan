@@ -57,4 +57,20 @@ describe('SpeciesInfoTable', () => {
     const link = screen.getByRole('link', { name: 'NIES詳細ページ ↗' });
     expect(link).toHaveAttribute('href', 'https://www.nies.go.jp/example');
   });
+
+  it('各行をdl直下のdt/ddペアとしてマークアップする', () => {
+    const { container } = renderWithChakra(
+      <SpeciesInfoTable species={makeSpecies({})} />,
+    );
+    const dl = container.querySelector('dl');
+    expect(dl).not.toBeNull();
+    const rows = Array.from(dl?.children ?? []);
+    expect(rows.length).toBeGreaterThan(0);
+    for (const row of rows) {
+      expect(
+        Array.from(row.children).map((el) => el.tagName.toLowerCase()),
+      ).toEqual(['dt', 'dd']);
+    }
+    expect(screen.getByRole('heading', { name: '基本情報' })).toBeVisible();
+  });
 });

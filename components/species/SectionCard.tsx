@@ -1,5 +1,20 @@
-import { Box, Heading } from '@chakra-ui/react';
+import { Box, Heading, type HeadingProps } from '@chakra-ui/react';
 import type { ReactNode } from 'react';
+
+/** 詳細画面の各セクション共通の見出し（小さめ・大文字・字間広め） */
+export function SectionHeading(props: HeadingProps) {
+  return (
+    <Heading
+      as="h2"
+      size="xs"
+      fontWeight="semibold"
+      color="gray.700"
+      textTransform="uppercase"
+      letterSpacing="wide"
+      {...props}
+    />
+  );
+}
 
 interface Props {
   title: ReactNode;
@@ -17,25 +32,21 @@ export default function SectionCard({
 }: Props) {
   return (
     <Box
+      as="section"
       bg="white"
       rounded="xl"
       borderWidth="1px"
       borderColor="gray.300"
       overflow="hidden"
     >
-      <Heading
-        size="xs"
-        fontWeight="semibold"
-        color="gray.700"
-        textTransform="uppercase"
-        letterSpacing="wide"
+      <SectionHeading
         px={5}
         py={3}
         borderBottomWidth="1px"
         borderColor="gray.200"
       >
         {title}
-      </Heading>
+      </SectionHeading>
       <Box maxH={maxBodyHeight} overflowY={maxBodyHeight ? 'auto' : undefined}>
         {children}
       </Box>
