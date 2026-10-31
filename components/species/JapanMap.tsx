@@ -16,8 +16,10 @@ interface Props {
 }
 
 const PATHS = prefecturePaths as Record<string, string>;
-const FOUND = '#16a34a';
-const EMPTY = '#e5e7eb';
+/** 単一種の分布表示で「生息確認」の都道府県を塗る色 */
+export const MAP_FOUND_COLOR = '#16a34a';
+/** 該当なし・記録なしの都道府県を塗る色 */
+export const MAP_EMPTY_COLOR = '#e5e7eb';
 const SELECTED_STROKE = '#111827';
 
 export default function JapanMap({
@@ -43,9 +45,16 @@ export default function JapanMap({
   };
 
   const getColor = (name: string) => {
-    if (prefectureColors) return prefectureColors[name] ?? EMPTY;
-    return foundSet.has(name) ? FOUND : EMPTY;
+    if (prefectureColors) return prefectureColors[name] ?? MAP_EMPTY_COLOR;
+    return foundSet.has(name) ? MAP_FOUND_COLOR : MAP_EMPTY_COLOR;
   };
+
+  /** ツールチップの補足テキスト。単一種の分布表示では生息確認のある都道府県に付ける */
+  const getHoverLabel = (name: string) =>
+    hoverLabels?.[name] ??
+    (!prefectureColors && foundSet.has(name) ? '生息確認' : undefined);
+
+  const hoveredLabel = hovered ? getHoverLabel(hovered) : undefined;
 
   return (
     <div ref={containerRef} style={{ position: 'relative', lineHeight: 0 }}>
@@ -115,12 +124,9 @@ export default function JapanMap({
             }}
           />
           <span>{hovered}</span>
-          {(hoverLabels?.[hovered] ??
-            (!prefectureColors && foundSet.has(hovered)
-              ? '生息確認'
-              : undefined)) && (
+          {hoveredLabel && (
             <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: 11 }}>
-              {hoverLabels?.[hovered] ?? '生息確認'}
+              {hoveredLabel}
             </span>
           )}
         </div>

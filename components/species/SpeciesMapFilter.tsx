@@ -1,17 +1,16 @@
 'use client';
 
-import { Box, Button, Flex, Text } from '@chakra-ui/react';
+import { Box, Button, Text } from '@chakra-ui/react';
 import { useMemo, useState } from 'react';
 import { aggregatePrefectureStatus } from '@/lib/species-filter';
-import {
-  ALL_PREFECTURES,
-  STATUS_COLORS,
-  STATUS_PRIORITY,
-  type Status,
-} from '@/lib/types';
-import JapanMap from './JapanMap';
+import { ALL_PREFECTURES, STATUS_COLORS, STATUS_PRIORITY } from '@/lib/types';
+import JapanMap, { MAP_EMPTY_COLOR } from './JapanMap';
+import MapLegend from './MapLegend';
 
-const EMPTY_COLOR = '#e5e7eb';
+const STATUS_LEGEND_ITEMS = STATUS_PRIORITY.map((st) => ({
+  label: st,
+  color: STATUS_COLORS[st],
+}));
 
 interface Props {
   species: { status: string; prefectures: string[] }[];
@@ -35,7 +34,7 @@ export default function SpeciesMapFilter({
     const result: Record<string, string> = {};
     for (const p of ALL_PREFECTURES) {
       const status = aggregation[p]?.dominantStatus;
-      result[p] = status ? STATUS_COLORS[status as Status] : EMPTY_COLOR;
+      result[p] = status ? STATUS_COLORS[status] : MAP_EMPTY_COLOR;
     }
     return result;
   }, [aggregation]);
@@ -80,29 +79,14 @@ export default function SpeciesMapFilter({
               }
             />
           </Box>
-          <Flex gap={3} wrap="wrap" justify="center" mt={3}>
-            {STATUS_PRIORITY.map((st) => (
-              <Flex key={st} align="center" gap={1.5}>
-                <Box w={3} h={3} bg={STATUS_COLORS[st]} rounded="sm" />
-                <Text fontSize="xs" fontWeight="medium" color="gray.700">
-                  {st}
-                </Text>
-              </Flex>
-            ))}
-            <Flex align="center" gap={1.5}>
-              <Box
-                w={3}
-                h={3}
-                bg={EMPTY_COLOR}
-                rounded="sm"
-                borderWidth="1px"
-                borderColor="gray.300"
-              />
-              <Text fontSize="xs" fontWeight="medium" color="gray.700">
-                該当なし
-              </Text>
-            </Flex>
-          </Flex>
+          <MapLegend
+            items={STATUS_LEGEND_ITEMS}
+            emptyLabel="該当なし"
+            gap={3}
+            wrap="wrap"
+            justify="center"
+            mt={3}
+          />
           {selectedPrefecture && (
             <Text textAlign="center" fontSize="xs" color="gray.500" mt={2}>
               {selectedPrefecture}

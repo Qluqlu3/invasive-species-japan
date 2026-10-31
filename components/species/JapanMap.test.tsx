@@ -1,10 +1,10 @@
 import { fireEvent } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import { render, screen } from '@/components/test-utils';
-import JapanMap from './JapanMap';
-
-const FOUND = '#16a34a';
-const EMPTY = '#e5e7eb';
+import JapanMap, {
+  MAP_EMPTY_COLOR as EMPTY,
+  MAP_FOUND_COLOR as FOUND,
+} from './JapanMap';
 
 describe('JapanMap', () => {
   it('highlightedPrefecturesに含まれる都道府県をFOUND色で塗る', () => {
@@ -44,5 +44,25 @@ describe('JapanMap', () => {
   it('47都道府県すべてのpathを描画する', () => {
     const { container } = render(<JapanMap highlightedPrefectures={[]} />);
     expect(container.querySelectorAll('path')).toHaveLength(47);
+  });
+
+  it('単一種の分布表示では生息確認のある都道府県のツールチップに「生息確認」を出す', () => {
+    render(<JapanMap highlightedPrefectures={['東京']} />);
+    fireEvent.mouseEnter(screen.getByLabelText('東京'));
+    expect(screen.getByText('生息確認')).toBeInTheDocument();
+
+    fireEvent.mouseEnter(screen.getByLabelText('大阪'));
+    expect(screen.queryByText('生息確認')).not.toBeInTheDocument();
+  });
+
+  it('hoverLabelsを指定するとツールチップにその補足テキストを出す', () => {
+    render(
+      <JapanMap
+        prefectureColors={{ 東京: '#f59e0b' }}
+        hoverLabels={{ 東京: '該当 3 種' }}
+      />,
+    );
+    fireEvent.mouseEnter(screen.getByLabelText('東京'));
+    expect(screen.getByText('該当 3 種')).toBeInTheDocument();
   });
 });
