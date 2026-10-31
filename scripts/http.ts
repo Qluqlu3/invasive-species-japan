@@ -20,3 +20,13 @@ export async function fetchText(url: string): Promise<string> {
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 }
+
+/** UAヘッダー付きでバイナリ（画像等）をフェッチし、レスポンスが失敗ならHTTPエラーを投げる */
+export async function fetchBuffer(
+  url: string,
+  userAgent = SCRAPER_USER_AGENT,
+): Promise<Buffer> {
+  const res = await fetch(url, { headers: { 'User-Agent': userAgent } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return Buffer.from(await res.arrayBuffer());
+}

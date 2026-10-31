@@ -7,8 +7,9 @@
  */
 import fs from 'fs';
 import path from 'path';
-import sharp from 'sharp';
 import type { PhotoCredit, Species } from '../lib/types';
+import { fetchBuffer, sleep } from './http';
+import { processImage } from './image-processing';
 import {
   readSpeciesData,
   SPECIES_IMAGES_DIR,
@@ -20,14 +21,7 @@ const UA = {
     'invasive-species-viewer/1.0 (research; contact keita.yokoyama@ai2-jp.com)',
 };
 
-const UPSCALE_THRESHOLD = 400;
-const MAX_WIDTH = 1200;
-const WEBP_QUALITY = 85;
 const DELAY_MS = 200;
-
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
 
 /** 学名が使い物にならない（空 / 複数属のグループ / 交雑種 / spp.）かどうか */
 function isGroupOrInvalid(name: string): boolean {
@@ -219,34 +213,6 @@ async function getCommonsImageInfo(
   };
 }
 
-async function fetchImage(url: string): Promise<Buffer> {
-  const res = await fetch(url, { headers: UA });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  return Buffer.from(await res.arrayBuffer());
-}
-
-async function processImage(buf: Buffer): Promise<Buffer> {
-  const meta = await sharp(buf).metadata();
-  const w = meta.width ?? 0;
-  const h = meta.height ?? 0;
-
-  let pipeline = sharp(buf);
-
-  if (w > 0 && w < UPSCALE_THRESHOLD) {
-    pipeline = pipeline.resize(w * 2, h > 0 ? h * 2 : undefined, {
-      kernel: sharp.kernel.lanczos3,
-    });
-  } else if (w > MAX_WIDTH) {
-    pipeline = pipeline.resize(MAX_WIDTH, undefined, {
-      kernel: sharp.kernel.lanczos3,
-    });
-  }
-
-  pipeline = pipeline.sharpen({ sigma: 1.2, m1: 0.5, m2: 2.5 });
-
-  return pipeline.webp({ quality: WEBP_QUALITY }).toBuffer();
-}
-
 async function tryCandidate(
   candidate: Candidate,
 ): Promise<{ info: CommonsImageInfo } | null> {
@@ -322,9 +288,9 @@ async function main() {
       const localPath = `/images/species/${s.id}/0.webp`;
 
       if (!fs.existsSync(localFsPath)) {
-        const raw = await fetchImage(info.downloadUrl);
-        const processed = await processImage(raw);
-        fs.writeFileSync(localFsPath, processed);
+        const raw = await fetchBuffer(info.downloadUrl, UA['User-Agent']);
+        const { buffer } = await processImage(raw);
+        fs.writeFileSync(localFsPath, buffer);
       }
 
       s.photos = [localPath];
