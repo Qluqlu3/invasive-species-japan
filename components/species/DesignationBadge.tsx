@@ -1,42 +1,23 @@
 'use client';
 
 import { Badge, Box, Flex, Link, Text } from '@chakra-ui/react';
+import { getDesignation } from '@/lib/designation';
+import HazardBadge from './HazardBadge';
 
 interface Props {
   isConditional: boolean;
   hazardous?: boolean;
 }
 
-const DESIGNATION = {
-  conditional: {
-    label: '⚠ 条件付特定外来生物',
-    colorPalette: 'orange',
-    bg: 'orange.100',
-    borderColor: 'orange.400',
-    description:
-      '学術研究・防除など特定の目的に限り、主務大臣の許可を得た場合のみ取り扱い可能な外来生物。無許可での飼養・運搬・輸入などは禁止。',
-    url: 'https://www.env.go.jp/nature/intro/1law/regulation.html',
-  },
-  designated: {
-    label: '⚠ 特定外来生物',
-    colorPalette: 'red',
-    bg: 'red.100',
-    borderColor: 'red.400',
-    description:
-      '生態系・人体・農林水産業への被害を防ぐため、飼養・栽培・保管・運搬・輸入・野外放出などが原則禁止される外来生物。',
-    url: 'https://www.env.go.jp/nature/intro/1law/regulation.html',
-  },
-};
-
 export default function DesignationBadge({ isConditional, hazardous }: Props) {
-  const d = isConditional ? DESIGNATION.conditional : DESIGNATION.designated;
+  const d = getDesignation(isConditional);
 
   return (
     <Box
       position="relative"
-      bg={d.bg}
+      bg={`${d.colorPalette}.100`}
       borderWidth="2px"
-      borderColor={d.borderColor}
+      borderColor={`${d.colorPalette}.400`}
       rounded="xl"
       px={5}
       py={4}
@@ -73,19 +54,9 @@ export default function DesignationBadge({ isConditional, hazardous }: Props) {
           size="lg"
           fontWeight="bold"
         >
-          {d.label}
+          ⚠ {d.label}
         </Badge>
-        {hazardous && (
-          <Badge
-            colorPalette="purple"
-            variant="solid"
-            size="lg"
-            fontWeight="bold"
-            title="人体に害のある毒性についての記載があります"
-          >
-            ☠ 毒あり
-          </Badge>
-        )}
+        {hazardous && <HazardBadge size="lg">☠ 毒あり</HazardBadge>}
       </Flex>
       <Box overflowX="auto" pr={{ base: 0, md: 8 }}>
         <Text

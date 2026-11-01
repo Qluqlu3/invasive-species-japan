@@ -16,6 +16,7 @@ import SightingReportSection from '@/components/species/SightingReportSection';
 import SpeciesInfoTable from '@/components/species/SpeciesInfoTable';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
 import { isHazardous } from '@/lib/description';
+import { getDesignation } from '@/lib/designation';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -36,6 +37,7 @@ export default async function SpeciesPage({ params }: Props) {
   const { id } = await params;
   const s = getSpeciesById(id);
   if (!s) notFound();
+  const designation = getDesignation(s.isConditional);
 
   return (
     <main>
@@ -44,8 +46,8 @@ export default async function SpeciesPage({ params }: Props) {
         subtitle={s.scientificName}
         backHref="/"
         backLabel="← 一覧に戻る"
-        badge={s.isConditional ? '条件付特定外来生物' : '特定外来生物'}
-        badgeColorPalette={s.isConditional ? 'orange' : 'red'}
+        badge={designation.label}
+        badgeColorPalette={designation.colorPalette}
       />
       <div className="page-content">
         <RecentlyViewedTracker speciesId={s.id} />

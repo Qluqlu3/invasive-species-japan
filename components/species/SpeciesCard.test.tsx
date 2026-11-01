@@ -1,6 +1,7 @@
 import { fireEvent } from '@testing-library/react';
 import { describe, expect, it, vi } from 'vitest';
 import { renderWithChakra, screen } from '@/components/test-utils';
+import { HAZARD_NOTE } from '@/lib/designation';
 import type { SpeciesListItem } from '@/lib/types';
 import SpeciesCard from './SpeciesCard';
 
@@ -88,5 +89,37 @@ describe('SpeciesCard', () => {
       />,
     );
     expect(screen.getByText('🦊')).toBeInTheDocument();
+  });
+
+  it('条件付特定外来生物の場合だけ「条件付」バッジを表示する', () => {
+    const { unmount } = renderWithChakra(
+      <SpeciesCard
+        species={makeItem({ isConditional: true })}
+        isFavorite={false}
+        onToggleFavorite={vi.fn()}
+      />,
+    );
+    expect(screen.getByText('条件付')).toBeInTheDocument();
+    unmount();
+
+    renderWithChakra(
+      <SpeciesCard
+        species={makeItem({ isConditional: false })}
+        isFavorite={false}
+        onToggleFavorite={vi.fn()}
+      />,
+    );
+    expect(screen.queryByText('条件付')).not.toBeInTheDocument();
+  });
+
+  it('毒性の記載がある種には補足付きの毒バッジを表示する', () => {
+    renderWithChakra(
+      <SpeciesCard
+        species={makeItem({ hazardous: true })}
+        isFavorite={false}
+        onToggleFavorite={vi.fn()}
+      />,
+    );
+    expect(screen.getByText('☠ 毒')).toHaveAttribute('title', HAZARD_NOTE);
   });
 });

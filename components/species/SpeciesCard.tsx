@@ -10,7 +10,12 @@ import {
 } from '@chakra-ui/react';
 import Image from 'next/image';
 import NextLink from 'next/link';
+import { getDesignation } from '@/lib/designation';
 import type { Category, SpeciesListItem } from '@/lib/types';
+import HazardBadge from './HazardBadge';
+
+/** 条件付特定外来生物だけを一覧カード上でバッジ表示する（特定外来生物が大多数のため） */
+const conditional = getDesignation(true);
 
 const CATEGORY_EMOJI: Record<Category, string> = {
   哺乳類: '🦊',
@@ -72,27 +77,18 @@ export default function SpeciesCard({
             position="absolute"
             top={1}
             right={1}
-            colorPalette="orange"
+            colorPalette={conditional.colorPalette}
             variant="solid"
             fontWeight="bold"
             size="sm"
           >
-            条件付
+            {conditional.shortLabel}
           </Badge>
         )}
         {s.hazardous && (
-          <Badge
-            position="absolute"
-            top={1}
-            left={1}
-            colorPalette="purple"
-            variant="solid"
-            fontWeight="bold"
-            size="sm"
-            title="人体に害のある毒性についての記載があります"
-          >
+          <HazardBadge position="absolute" top={1} left={1} size="sm">
             ☠ 毒
-          </Badge>
+          </HazardBadge>
         )}
         <IconButton
           aria-label={isFavorite ? 'お気に入りから外す' : 'お気に入りに追加'}

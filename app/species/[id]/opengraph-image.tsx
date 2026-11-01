@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { getAllSpecies, getSpeciesById } from '@/lib/data';
+import { getDesignation } from '@/lib/designation';
 
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
@@ -30,8 +31,7 @@ export default async function Image({
     );
   }
 
-  const bg = s.isConditional ? '#9A3412' : '#166534';
-  const badgeText = s.isConditional ? '条件付特定外来生物' : '特定外来生物';
+  const designation = getDesignation(s.isConditional);
 
   return new ImageResponse(
     <div
@@ -40,7 +40,7 @@ export default async function Image({
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
-        backgroundColor: bg,
+        backgroundColor: designation.ogBackground,
         padding: '60px 80px',
         justifyContent: 'space-between',
         fontFamily: 'sans-serif',
@@ -104,7 +104,7 @@ export default async function Image({
             border: '1px solid rgba(255,255,255,0.3)',
           }}
         >
-          {badgeText}
+          {designation.label}
         </div>
       </div>
     </div>,
